@@ -1,0 +1,275 @@
+﻿<repository
+id="bf07f002-1dca-40f8-9a09-9ec476cedf81"
+name="TC10595"
+rxversion="8.2">
+	<codegen
+	classname="TC10595"
+	namespace="ADSAutomationPhaseII.TC_10595">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="48cf942e-fcd5-4812-b716-277744c0d89d"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="8745a962-587f-4e65-9182-ba36877e7d9c"
+		isrooted="True"
+		name="VisualAnalytics"
+		refpath="/form[@title='Visual Analytics - [Sample_Data_Source_Horizon_Chart.vizx]*']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			addcaps="container,javaelement"
+			capname="container"
+			id="72d324b0-5c84-4b6b-9fee-deb7e8cc836a"
+			isrooted="True"
+			name="ContainerContentPanel"
+			refpath="/form[@title='Visual Analytics - [Sample_Data_Source_Horizon_Chart.vizx]*']/container[@name='_mainPanel']/container[@name='_contentPanel']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="listitem"
+				capname="listitem"
+				id="2d1e2676-3db4-4938-94bd-400c899fc25f"
+				name="StockDate"
+				refimgid="d5fc1cde-88ce-4332-966e-da1388bd86c7"
+				refpath="/form[@title~'^Visual\ Analytics\ -\ \[Sampl']/container[@name='_mainPanel']/container/container/container[@name='_leftPanel']/container/container/container/container[@type='BIDimensionDataPane']/container/container[@type='JScrollPane']/container/list/listitem[@text='stock_date']"
+				searchtimeout="30000ms">
+					/form[@title~'^Visual\ Analytics\ -\ \[Sampl']/container[@name='_mainPanel']/container[@name='_contentPanel']/?/?/container[@name='_leftPanel']//container[@type='BIDimensionDataPane']//container[@name='viewport']/list[@type='BIDraggableList']/listitem[@text='stock_date']
+				</item>
+				<item
+				addcaps="listitem"
+				capname="listitem"
+				id="0b2d65c2-84fd-4832-91d5-2b5bd0314405"
+				name="StockSymbol"
+				refimgid="018a344a-256a-4f62-bc30-6e3b312425a7"
+				refpath="/form[@title~'^Visual\ Analytics\ -\ \[Sampl']/container[@name='_mainPanel']/container/container/container[@name='_leftPanel']/container/container/container/container[@type='BIDimensionDataPane']/container/container[@type='JScrollPane']/container/list/listitem[@text='stock_symbol']"
+				searchtimeout="30000ms">
+					/form[@title~'^Visual\ Analytics\ -\ \[Sampl']/container[@name='_mainPanel']/container[@name='_contentPanel']/?/?/container[@name='_leftPanel']//container[@type='BIDimensionDataPane']//container[@name='viewport']/list[@type='BIDraggableList']/listitem[@text='stock_symbol']
+				</item>
+				<item
+				addcaps="container,javaelement"
+				capname="container"
+				id="54c2c514-661b-4c74-bb3a-9c021a3bf1c0"
+				name="ColumnPanel"
+				refimgid="6d8cd880-7847-48ad-bef1-e89089a85355"
+				refpath="/form[@title~'^Visual\ Analytics\ -\ \[Sampl']/container[@name='_mainPanel']/container/container/container[@name='_sheetsPane']/container[@name='Worksheet 6']/container/container/container/container/container[@name='cols']/container[@type='JPanel']/container/container/container/container[@name='panel']"
+				searchtimeout="30000ms">
+					/form[@title~'^Visual\ Analytics\ -\ \[Sampl']/container[@name='_mainPanel']/container[@name='_contentPanel']/container[@name='_splitPane']/container[@name='_sheetsPane']/container[@name='Worksheet 6']/container[@name='_worksheetPanel']//container[@name='cols']//container[@name='panel']
+				</item>
+				<item
+				addcaps="text,javaelement"
+				capname="text"
+				id="c69a86b4-ddaf-444f-9e54-9b5a4a357ffd"
+				name="QUARTERStockDate"
+				refimgid="230e3beb-6cc5-45a3-8a9c-3efac6be9182"
+				refpath="/form[@title~'^Visual\ Analytics\ -\ \[Sampl']/container[@name='_mainPanel']/container/container/container[@name='_sheetsPane']/container[@name='Worksheet 6']/container/container/container/container/container[@name='cols']/container[@type='JPanel']/container/container/container/container/text[@caption='QUARTER(stock_date)']"
+				searchtimeout="30000ms">
+					/form[@title~'^Visual\ Analytics\ -\ \[Sampl']/container[@name='_mainPanel']/container[@name='_contentPanel']/container[@name='_splitPane']/container[@name='_sheetsPane']/container[@name='Worksheet 6']/container[@name='_worksheetPanel']//container[@name='cols']//text[@caption='QUARTER(stock_date)']
+				</item>
+				<item
+				addcaps="listitem"
+				capname="listitem"
+				id="2c829021-9103-4e7f-967b-46d1adc535af"
+				name="SUMStockClose"
+				refimgid="0c0f15da-7b45-43c0-8d6e-fa827825bb76"
+				refpath="/form[@title~'^Visual\ Analytics\ -\ \[Sampl']/container[@name='_mainPanel']/container/container/container[@name='_leftPanel']/container/container/container/container[@type='BIMeasureDataPane']/container/container[@type='JScrollPane']/container/list/listitem[@text='SUM(stock_close)']"
+				searchtimeout="30000ms">
+					/form[@title~'^Visual\ Analytics\ -\ \[Sampl']/container[@name='_mainPanel']/container[@name='_contentPanel']/?/?/container[@name='_leftPanel']//container[@type='BIMeasureDataPane']//container[@name='viewport']/list[@type='BIDraggableList']/listitem[@text='SUM(stock_close)']
+				</item>
+				<item
+				addcaps="container,javaelement"
+				capname="container"
+				id="282ba57b-4f6c-4c5d-8e60-b8f1120f89ae"
+				name="RowPanel"
+				refimgid="79b3918b-2883-4f14-b237-1e45d6fb6194"
+				refpath="/form[@title~'^Visual\ Analytics\ -\ \[Sampl']/container[@name='_mainPanel']/container/container/container[@name='_sheetsPane']/container[@name='Worksheet 6']/container/container/container/container/container[@name='rows']/container[@type='JPanel']/container/container/container/container[@name='panel']"
+				searchtimeout="30000ms">
+					/form[@title~'^Visual\ Analytics\ -\ \[Sampl']/container[@name='_mainPanel']/container[@name='_contentPanel']/container[@name='_splitPane']/container[@name='_sheetsPane']/container[@name='Worksheet 6']/container[@name='_worksheetPanel']//container[@name='rows']//container[@name='panel']
+				</item>
+				<item
+				addcaps="text,javaelement"
+				capname="text"
+				id="e57a8e09-13fb-4f32-bfb7-c1b61e0edabb"
+				name="Options"
+				refimgid="4ef06aa2-d716-4b67-b9f6-3e44733253e7"
+				refpath="/form[@title~'^Visual\ Analytics\ -\ \[Sampl']/container[@name='_mainPanel']/container/container/container[@name='_sheetsPane']/container[@name='Worksheet 6']/container/container/container/container/container[@name='marks']/container[@type='JPanel']/container/container/container/container/container[@type='MarksPanel$1']/text[@caption='Options']"
+				searchtimeout="30000ms">
+					/form[@title~'^Visual\ Analytics\ -\ \[Sampl']/container[@name='_mainPanel']/container[@name='_contentPanel']/container[@name='_splitPane']/container[@name='_sheetsPane']/container[@name='Worksheet 6']/container[@name='_worksheetPanel']/container[@name='_contentPanel']//container[@name='marks']//text[@caption='Options']
+				</item>
+				<item
+				addcaps="text,javaelement"
+				capname="text"
+				id="1e733da8-c5dc-439f-83ed-783eb21c7dc3"
+				name="Color"
+				refimgid="d73cc025-4a00-4ad6-910b-b844121ecf36"
+				refpath="/form[@title~'^Visual\ Analytics\ -\ \[Sampl']/container[@name='_mainPanel']/container/container/container[@name='_sheetsPane']/container[@name='Worksheet 6']/container/container/container/container/container[@name='marks']/container[@type='JPanel']/container/container/container/container/container[@type='MarksPanel$1']/text[@caption='Color']"
+				searchtimeout="30000ms">
+					/form[@title~'^Visual\ Analytics\ -\ \[Sampl']/container[@name='_mainPanel']/container[@name='_contentPanel']/container[@name='_splitPane']/container[@name='_sheetsPane']/container[@name='Worksheet 6']/container[@name='_worksheetPanel']/container[@name='_contentPanel']//container[@name='marks']//text[@caption='Color']
+				</item>
+				<basepath>
+					/form[@title~'^Visual\ Analytics\ -\ \[Sampl']/container[@name='_mainPanel']/container[@name='_contentPanel']
+				</basepath>
+			</folder>
+			<item
+			capname="button"
+			id="96f977b0-a729-414e-a602-3bf7266d5f2f"
+			name="HorizonMap"
+			searchtimeout="30000ms">
+				/form[@title~'^Visual\ Analytics\ -\ \[Sampl']//container[@type='PaletteState$4']/container[1]/button[16]
+			</item>
+			<basepath>
+				/form[@title~'^Visual\ Analytics\ -\ \[Sampl']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACYSURBVDhPYyAVfPr04T8yhgrjB+ia/m43AWMM
+A9AVQoXB4sia8BrQsq8FjIk2AEQgY2QDcGEMA5AF0DV/27n2/8ruPWAMYiPLgTCGATCMrvHNttVY
+DcLwAiEbQWJr+rfB5eEGENKI6bU1YLUM+DQiB2jlqZ9gjCwPwgy4NMJobAYgi+ONRmQ2XgOQYwFZ
+ITHsQWIA+fjDfwCHiQywSZu/VAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="93ab8c12-bf4c-4885-8d3f-8d2b3c8d3ba7"
+		isrooted="True"
+		name="SunAwtWindow"
+		refpath="/form[@processname='datastudio' and @class='SunAwtWindow']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="8b8f10b1-66ec-4cdc-9deb-96bc22038881"
+			name="WeekNumberWeek12013"
+			refimgid="0f41d543-89fb-4c9e-a1ff-950cbc33e512"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu/menuitem[@text~'^Week\ Number\ \(Week\ 1,\ 2013']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']/?/?/menuitem[@text~'^Week\ Number\ \(Week\ 1,\ 2013']
+			</item>
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="b0d5082f-fa2c-458a-aed6-49731cd31adf"
+			name="RedGreenDiverging"
+			refimgid="ff6693bd-7eb7-44a7-aaf5-e9d0c42b3e72"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu/container/container/list/listitem[@text='Red-Green Diverging']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='Red-Green Diverging']
+			</item>
+			<basepath>
+				/form[@class='SunAwtWindow']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIYSURBVDhPlZFJa5NRFIbvD3DnzrX0D7hxk4U7
+d+7EYqMIolkUqUULbW2poRojthSM7SI0VcEBLU2ERiWlCKXYRrIRkpCYoUmauZkgE5l4zXskwYAF
+u3j47hmec4dPrdmdOot937Vm38dJ+OM4dcr8adfl+RVGtVpFvV7/J5VKZSBmLx26ann9G/L5PNrt
+NjqdzgDMUS75d9FsNgfydOiqpXcO5HI5tFqtASiUy2Xkt54ht3hedv27ToeuMr6yI5PJoNFoDFAq
+lZD9asTRoyEUi0Uc/XTIkF6dDl2lN1uRSqVQq9X6cOf0tgmZ2TNSS2/qkZ0fknyvh3m6atr0HvF4
+XIo9uHtm6nT/21uTXg8duurewmtEo9F+A+H9Mk/PST59/5TE5PDwEMlkEoVCQWp01ajBjHA4LK/K
+e4VCIYG5uP4sIrY5WVOeWHoDo2UDsVgMwWAQdNXNOZME2WxWpg9PmaCdWYHu8SquTr+QmGvzuqNf
+f2Kxwufzga7STi7C7/fLo3AX8mXnBz7vOAXb9vcue/AFQiJdn13pnsIKj8cDuuryuAFer1cehUQi
+EdyeN+PK5HMMd+GXMfPXZpZhWN2QtdvtBl11afQhAoGAnODg4ECuwxMdRyKRkF46dNXFWw9ETKfT
++Li1B8PLTdxZeHssfCv+ETp01YUbE9EPNrsM4OT/gUPo0FUa7ZhOM3LXpRkZx8noOtox3W+2QEFu
+Et1VDAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="4711d9c2-e000-49bb-b47d-a14752fe4159"
+		isrooted="True"
+		name="Datastudio"
+		refpath="/form[@title='' and @processname='datastudio']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="radiobutton,javaelement"
+			capname="radiobutton"
+			id="cdd6234d-e86f-471b-8784-d8139f92cc36"
+			name="RadioButton2Bands"
+			refimgid="b5c971b5-29e8-489d-ab05-54d1daf31e51"
+			refpath="/form[@title='' and @processname='datastudio']/container/container/container/radiobutton[@text='2 Bands']"
+			searchtimeout="30000ms">
+				/form[@title='' and @processname='datastudio']/?/?/container[@accessiblename='Bands']/?/?/radiobutton[@text='2 Bands']
+			</item>
+			<item
+			addcaps="radiobutton,javaelement"
+			capname="radiobutton"
+			id="9ce52f77-7026-4c93-96f9-253cbb2b0973"
+			name="RadioButton3Bands"
+			refimgid="54cd9f4f-ca76-4845-8225-42c692e9483a"
+			refpath="/form[@title='' and @processname='datastudio']/container/container/container/radiobutton[@text='3 Bands']"
+			searchtimeout="30000ms">
+				/form[@title='' and @processname='datastudio']/?/?/container[@accessiblename='Bands']/?/?/radiobutton[@text='3 Bands']
+			</item>
+			<basepath>
+				/form[@title='' and @processname='datastudio']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIYSURBVDhPlZFJa5NRFIbvD3DnzrX0D7hxk4U7
+d+7EYqMIolkUqUULbW2poRojthSM7SI0VcEBLU2ERiWlCKXYRrIRkpCYoUmauZkgE5l4zXskwYAF
+u3j47hmec4dPrdmdOot937Vm38dJ+OM4dcr8adfl+RVGtVpFvV7/J5VKZSBmLx26ann9G/L5PNrt
+NjqdzgDMUS75d9FsNgfydOiqpXcO5HI5tFqtASiUy2Xkt54ht3hedv27ToeuMr6yI5PJoNFoDFAq
+lZD9asTRoyEUi0Uc/XTIkF6dDl2lN1uRSqVQq9X6cOf0tgmZ2TNSS2/qkZ0fknyvh3m6atr0HvF4
+XIo9uHtm6nT/21uTXg8duurewmtEo9F+A+H9Mk/PST59/5TE5PDwEMlkEoVCQWp01ajBjHA4LK/K
+e4VCIYG5uP4sIrY5WVOeWHoDo2UDsVgMwWAQdNXNOZME2WxWpg9PmaCdWYHu8SquTr+QmGvzuqNf
+f2Kxwufzga7STi7C7/fLo3AX8mXnBz7vOAXb9vcue/AFQiJdn13pnsIKj8cDuuryuAFer1cehUQi
+EdyeN+PK5HMMd+GXMfPXZpZhWN2QtdvtBl11afQhAoGAnODg4ECuwxMdRyKRkF46dNXFWw9ETKfT
++Li1B8PLTdxZeHssfCv+ETp01YUbE9EPNrsM4OT/gUPo0FUa7ZhOM3LXpRkZx8noOtox3W+2QEFu
+Et1VDAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="086a8cb2-8cba-4544-b61e-fd0b9b5d721d"
+		isrooted="True"
+		name="EditColor"
+		refpath="/form[@title='Edit Color']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="d5659012-c6cc-4198-bd97-03feffc52dfb"
+			name="WindowsComboBoxUIDollarXPComboBoxButton"
+			refimgid="ebee49ca-c125-4a21-a801-f84e2d18c325"
+			refpath="/form[@title='Edit Color']/container/container[@type='CPanel']/container/combobox/button[@text='']"
+			searchtimeout="30000ms">
+				/form[@title='Edit Color']/container[@type='CPanel']//combobox[@name='themeChooserComboBox']/button[@text='']
+			</item>
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="50590dd8-f188-4724-be0a-0a6b8b450695"
+			name="ButtonOK"
+			refimgid="6abb474b-ec70-4499-b150-b8e279fb3afc"
+			refpath="/form[@title='Edit Color']/container/container[@type='HorizontalLayoutPanel']/container/button[@name='defaultButton']"
+			searchtimeout="30000ms">
+				/form[@title='Edit Color']/container[@type='CPanel']//button[@name='defaultButton']
+			</item>
+			<basepath>
+				/form[@title='Edit Color']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACYSURBVDhPYyAVfPr04T8yhgrjB+ia/m43AWMM
+A9AVQoXB4sia8BrQsq8FjIk2AEQgY2QDcGEMA5AF0DV/27n2/8ruPWAMYiPLgTCGATCMrvHNttVY
+DcLwAiEbQWJr+rfB5eEGENKI6bU1YLUM+DQiB2jlqZ9gjCwPwgy4NMJobAYgi+ONRmQ2XgOQYwFZ
+ITHsQWIA+fjDfwCHiQywSZu/VAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

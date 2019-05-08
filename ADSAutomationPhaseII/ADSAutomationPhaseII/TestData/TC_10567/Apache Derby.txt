@@ -1,0 +1,7 @@
+DROP TRIGGER 'ADS_TRIGGER';
+
+CREATE TRIGGER 'ADS_TRIGGER'
+	NO CASCADE BEFORE UPDATE ON 'ADS_TABLE'
+	FOR EACH ROW  MODE DB2SQL
+	values('Jerry', 'Table x is about to be updated');
+

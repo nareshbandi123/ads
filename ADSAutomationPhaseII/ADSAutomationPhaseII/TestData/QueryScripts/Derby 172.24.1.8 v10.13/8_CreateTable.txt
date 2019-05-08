@@ -1,0 +1,1 @@
+create table ads_db.ads_table1 (id int, name varchar(50), project varchar(50), firstname varchar(50), lastname varchar(50))

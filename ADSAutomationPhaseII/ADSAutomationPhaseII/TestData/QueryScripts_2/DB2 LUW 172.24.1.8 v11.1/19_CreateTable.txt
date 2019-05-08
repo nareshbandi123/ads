@@ -1,0 +1,1 @@
+create table ads_table1 (id int, name varchar, firstname varchar, lastname varchar)

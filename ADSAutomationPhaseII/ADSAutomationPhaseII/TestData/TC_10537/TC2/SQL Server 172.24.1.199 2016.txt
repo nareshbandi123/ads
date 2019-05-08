@@ -1,0 +1,2 @@
+"CustomerID","CustomerName","City","PostalCode","Country","firstname","lastname"
+101,"Cardinal","Stavanger","4006","Norway","VOS","Marianne"

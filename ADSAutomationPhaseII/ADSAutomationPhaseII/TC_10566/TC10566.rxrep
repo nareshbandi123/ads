@@ -1,0 +1,39 @@
+﻿<repository
+id="261fcf99-be2a-4ffa-a102-cab9f7f0cb91"
+name="TC10566"
+rxversion="8.2">
+	<codegen
+	classname="TC10566"
+	namespace="ADSAutomationPhaseII.TC_10566">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="b19716f3-5b11-45ed-b705-9fcb48a570dc"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		capname="form"
+		id="5538c1fe-823f-4b9d-bdae-efb5851b299d"
+		isrooted="True"
+		name="Application"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="8c51c656-8da9-4c6e-a6db-04e04a99d42a"
+			name="ExecuteExplain"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio\ ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='QueryPanel']//container[@name='toolBar']/button[@name='executeExplainButton']
+			</item>
+			<basepath>
+				/form[@title~'^Aqua\ Data\ Studio\ ']
+			</basepath>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

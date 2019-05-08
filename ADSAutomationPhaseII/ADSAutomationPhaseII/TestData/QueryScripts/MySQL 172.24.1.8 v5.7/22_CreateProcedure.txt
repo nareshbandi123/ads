@@ -1,0 +1,4 @@
+CREATE PROCEDURE ads_procedure()
+   BEGIN
+   SELECT *  FROM ads_table;
+   END

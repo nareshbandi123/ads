@@ -1,0 +1,5 @@
+create  function ads_function( @firstname char(30), @lastname char(30))  
+returns char(61)  
+as  
+begin  return(@firstname|| ' ' ||@lastname)  
+end    

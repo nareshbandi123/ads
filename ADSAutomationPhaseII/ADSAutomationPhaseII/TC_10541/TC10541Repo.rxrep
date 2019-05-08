@@ -1,0 +1,440 @@
+﻿<repository
+id="1dd6dfc6-d9d2-4cd4-9bbe-6c4587a19b66"
+name="TC10541Repo"
+rxversion="8.2">
+	<codegen
+	classname="TC10541Repo"
+	namespace="ADSAutomationPhaseII.TC_10541">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="77274fc5-80e4-411b-b6d9-c94f93bde944"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		capname="form"
+		id="0180e73d-dd17-4737-b306-eb6258df0ed0"
+		isrooted="True"
+		name="Application"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="treeitem"
+			id="c8a5f45a-5cde-41de-9492-d9a7becaa217"
+			name="AmazonRedshift"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text='Amazon Redshift']
+			</item>
+			<item
+			capname="unknown"
+			id="79c92817-a3ff-4408-b3ff-0e90c589082c"
+			name="TextingBox"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='TerminalPanelView']//element[@name='screen']
+			</item>
+			<item
+			capname="unknown"
+			id="2332a95b-b2b9-4cc2-9c81-8f422bcad3b6"
+			name="QueryBox"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='QueryPanel']/container[@name='panel']/?/?/container[@name='splitPane']//container[@type='EditorImpl$MyScrollPane']/container[6]/element[@type='EditorComponentImpl']
+			</item>
+			<item
+			capname="menuitem"
+			id="b7425729-a793-4699-893f-f8c4c7b1efad"
+			name="Tools"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//menuitem[@text='Tools']
+			</item>
+			<basepath>
+				/form[@title~'^Aqua Data Studio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="8a8fe1b2-e2de-45f4-be2b-d2415191896e"
+		isrooted="True"
+		name="Datastudio"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="menuitem"
+			id="50d185e6-8f37-43e3-b66b-1bda620ca1da"
+			name="FluidShell"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='FluidShell']
+			</item>
+			<item
+			capname="menuitem"
+			id="b0f27b2e-fd3e-49d8-9f5a-e62cdfefc44f"
+			name="Tools"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Tools']
+			</item>
+			<item
+			capname="menuitem"
+			id="6ad282e3-8147-43cc-969f-be067032ada8"
+			name="ScriptGenerator"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Schema Script Generator']
+			</item>
+			<item
+			capname="menuitem"
+			id="d9014d84-dc6a-4e94-a1d2-9d4c73bb33ff"
+			name="CloseTab"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@name='TabDocumentPane.close']
+			</item>
+			<basepath>
+				/form[@processname='datastudio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="52f62914-64b8-4fa6-bd08-645f14f65786"
+		isrooted="True"
+		name="LocalServers"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="tree"
+			id="ee4e2e1f-5b29-4f55-9ee2-ecb3c66c7f07"
+			name="ServersTree"
+			searchtimeout="30000ms">
+				/form[@title='Choose Server or Database']//container[@type='JScrollPane']/container[@name='viewport']/tree[@name='tree']
+			</item>
+			<item
+			capname="treeitem"
+			id="79c3d3f9-264c-418e-b9d5-c293281c77b7"
+			name="AmazonRedshift"
+			searchtimeout="30000ms">
+				/form[@title='Choose Server or Database']//container[@type='JScrollPane']/container[@name='viewport']/tree[@name='tree']//treeitem[@text='Amazon Redshift']
+			</item>
+			<item
+			capname="button"
+			id="d8709116-83a0-4082-ba0d-8620bbb6205b"
+			name="OkayButton"
+			searchtimeout="30000ms">
+				/form[@title='Choose Server or Database']//button[@text='OK']
+			</item>
+			<item
+			capname="treeitem"
+			id="b6a85e5f-371f-43d7-901a-e463c253c4a2"
+			name="LocalServerNames"
+			searchtimeout="30000ms">
+				/form[@title='Choose Server or Database']//container[@type='JScrollPane']/container[@name='viewport']/tree[@name='tree']/?/?/treeitem[@text='Local Database Servers']
+			</item>
+			<basepath>
+				/form[@title='Choose Server or Database']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="95edd1ca-d5e6-4f78-a83b-bde2a583c5ea"
+		isrooted="True"
+		name="ScriprtGeneratorWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="acd62882-949f-4469-a37a-949d30621831"
+			name="DropdownICon"
+			searchtimeout="30000ms">
+				/form[@title~'^Script\ Generator\ -\ \[Amazo']//container[@type='JPanel']/container/container[2]//combobox[@name='databaseField']/button[@text='']
+			</item>
+			<item
+			capname="button"
+			id="a74801cb-1fad-42aa-bf71-211809370805"
+			name="NextButton"
+			searchtimeout="30000ms">
+				/form[@title~'^Script\ Generator\ -\ \[Amazo']//button[@name='nextButton']
+			</item>
+			<item
+			capname="button"
+			id="43b23703-e69b-4ae7-9a35-3eac35675079"
+			name="Browse"
+			searchtimeout="30000ms">
+				/form[@title~'^Script\ Generator\ -\ \[Amazo']//container[@type='JPanel']/container/container[3]/?/?/button[@name='btnBrowse']
+			</item>
+			<item
+			capname="button"
+			id="4e3eb582-88c7-47c0-82a5-bf2a7990dbc7"
+			name="CloseButton"
+			searchtimeout="30000ms">
+				/form[@title~'^Script\ Generator\ -\ \[Amazo']//button[@text='Close']
+			</item>
+			<folder
+			capname="container"
+			id="4bd30fd0-b927-44d8-8353-40d0a9a7d718"
+			isrooted="True"
+			name="LeftSide"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="button,javaelement"
+				capname="button"
+				id="d1f203d7-70da-45b4-bb0f-405f1d415bd2"
+				name="UnselectObjectType"
+				refimgid="cd7ada97-790f-4341-8561-b232005b1ecc"
+				searchtimeout="30000ms">
+					/form[@title~'^Script\ Generator\ -\ \[Amazo']//container[@name='tabbedPane']/container[2]/?/?/container[@name='typeSelector']/container[@name='buttonPanel']//button[@name='deselectButton']
+				</item>
+				<item
+				addcaps="cell"
+				capname="cell"
+				id="a3dd4d46-5eb3-4d7c-b5d9-c57ba6f0ce5e"
+				name="SelectObjectTypeTable"
+				refimgid="215a08fd-0e07-45fe-a37c-7ba337461d03"
+				searchtimeout="30000ms">
+					/form[@title~'^Script\ Generator\ -\ \[Amazo']//container[@name='tabbedPane']/container[2]/?/?/container[@name='typeSelector']/container[@name='buttonPanel']//container[@name='tabbedPane']/container[2]//container[@name='scroll']/container[5]/table[@name='table']/row[@index='0']/cell[@text='false']
+				</item>
+				<basepath>
+					/form[@title~'^Script\ Generator\ -\ \[Amazo']//container[@name='tabbedPane']/container[2]/?/?/container[@name='typeSelector']/container[@name='buttonPanel']
+				</basepath>
+			</folder>
+			<folder
+			capname="container"
+			id="5e3b3ed2-287f-4eae-8cd1-9a0092f46872"
+			isrooted="True"
+			name="RightSide"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="button,javaelement"
+				capname="button"
+				id="6509ac32-1aa7-47fd-a150-085844be908d"
+				name="UnselectObjects"
+				refimgid="6aa68c04-c3ed-44fe-8d65-a6bd2c81b7a3"
+				searchtimeout="30000ms">
+					/form[@title~'^Script\ Generator\ -\ \[Amazo']//container[@name='tabbedPane']/container[2]/?/?/container[@name='objectSelector']/container[@name='buttonPanel']//button[@name='deselectButton']
+				</item>
+				<basepath>
+					/form[@title~'^Script\ Generator\ -\ \[Amazo']//container[@name='tabbedPane']/container[2]/?/?/container[@name='objectSelector']/container[@name='buttonPanel']
+				</basepath>
+			</folder>
+			<item
+			capname="cell"
+			id="ad5e5115-b2b8-4191-af81-2599a69c6522"
+			name="SelectObjectTypeTable"
+			searchtimeout="30000ms">
+				/form[@title~'^Script\ Generator\ -\ \[Amazo']//container[@name='tabbedPane']/container[2]//container[@name='scroll']/container[5]/table[@name='table']/row[@index='0']/cell[@text='false']
+			</item>
+			<item
+			capname="cell"
+			id="18f7fb98-99da-4cb8-bc30-d1b7c2614bb1"
+			name="SelectObjectsTable"
+			searchtimeout="30000ms">
+				/form[@title~'^Script\ Generator\ -\ \[Amazo']//container[@name='tabbedPane']/container[2]/?/?/container[@name='objectSelector']/container[@name='scroll']/container[5]/table[@name='table']/row[@index='0']/cell[@text='false']
+			</item>
+			<folder
+			capname="unknown"
+			id="51a074ca-9c23-4aad-807f-bea99b239512"
+			isrooted="False"
+			name="Status"
+			searchtimeout="0ms">
+				<item
+				capname="button"
+				id="93c0f7e2-708a-41da-832e-08b5c2bab76e"
+				name="CloseButton"
+				searchtimeout="30000ms">
+					/form[@title~'^Script\ Generator\ -\ \[Amazo']//button[@text='Close']
+				</item>
+				<item
+				capname="text"
+				id="ab698517-536a-4e9a-aa7b-dc5b1f5b550b"
+				name="StatusofWindow"
+				searchtimeout="30000ms">
+					/form[@title~'^Script\ Generator\ -\ \[Amazo']//container[@type='JPanel']/container/container[4]/?/?/text[@name='statusField']
+				</item>
+			</folder>
+			<basepath>
+				/form[@title~'^Script\ Generator\ -\ \[Amazo']
+			</basepath>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="08f8d1a0-32ca-44bd-96c1-f31a05a64227"
+		isrooted="True"
+		name="SunAwtWindow"
+		refpath="/form[@processname='datastudio' and @class='SunAwtWindow']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="e4856e4f-f969-4944-9df8-69793cb80888"
+			name="ads_db"
+			refimgid="25c060f5-355e-4006-9afc-dea738867587"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='ads_db']
+			</item>
+			<item
+			capname="contextmenu"
+			id="34d8ec19-a1d4-4f24-9956-765c11b3db40"
+			name="ContextMenu"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//contextmenu
+			</item>
+			<basepath>
+				/form[@class='SunAwtWindow']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIYSURBVDhPlZFJa5NRFIbvD3DnzrX0D7hxk4U7
+d+7EYqMIolkUqUULbW2poRojthSM7SI0VcEBLU2ERiWlCKXYRrIRkpCYoUmauZkgE5l4zXskwYAF
+u3j47hmec4dPrdmdOot937Vm38dJ+OM4dcr8adfl+RVGtVpFvV7/J5VKZSBmLx26ann9G/L5PNrt
+NjqdzgDMUS75d9FsNgfydOiqpXcO5HI5tFqtASiUy2Xkt54ht3hedv27ToeuMr6yI5PJoNFoDFAq
+lZD9asTRoyEUi0Uc/XTIkF6dDl2lN1uRSqVQq9X6cOf0tgmZ2TNSS2/qkZ0fknyvh3m6atr0HvF4
+XIo9uHtm6nT/21uTXg8duurewmtEo9F+A+H9Mk/PST59/5TE5PDwEMlkEoVCQWp01ajBjHA4LK/K
+e4VCIYG5uP4sIrY5WVOeWHoDo2UDsVgMwWAQdNXNOZME2WxWpg9PmaCdWYHu8SquTr+QmGvzuqNf
+f2Kxwufzga7STi7C7/fLo3AX8mXnBz7vOAXb9vcue/AFQiJdn13pnsIKj8cDuuryuAFer1cehUQi
+EdyeN+PK5HMMd+GXMfPXZpZhWN2QtdvtBl11afQhAoGAnODg4ECuwxMdRyKRkF46dNXFWw9ETKfT
++Li1B8PLTdxZeHssfCv+ETp01YUbE9EPNrsM4OT/gUPo0FUa7ZhOM3LXpRkZx8noOtox3W+2QEFu
+Et1VDAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="5a020dea-40fb-4fb4-b277-33efa0a09786"
+		isrooted="True"
+		name="SelectWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="0dea8e1c-e90d-49a1-8d74-a68b7fe0ce49"
+			name="Select"
+			searchtimeout="30000ms">
+				/form[@title='Select']/element/container[@type='JPanel']/container[3]/container[3]/button[@text='Select']
+			</item>
+			<item
+			capname="text"
+			id="9d7924ee-6416-48fa-802b-1a495d439d2a"
+			name="PathtextBox"
+			searchtimeout="30000ms">
+				/form[@title='Select']/element/container[@type='JPanel']/container[3]/container[2]/text[@accessiblename='File name:']
+			</item>
+			<basepath>
+				/form[@title='Select']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="e0211b21-a7a3-4918-91ac-95710f94d53b"
+		isrooted="True"
+		name="OpenWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="e469bc2c-7358-4419-8902-d1b14e6d188a"
+			name="Open"
+			searchtimeout="30000ms">
+				/form[@title='Open']/element/container[@type='JPanel']/container[3]/container[3]/button[@text='Open']
+			</item>
+			<item
+			capname="text"
+			id="e08af1bd-49c2-440f-a518-57be7e90e596"
+			name="FileTextPath"
+			searchtimeout="30000ms">
+				/form[@title='Open']/element/container[@type='JPanel']/container[3]/container[2]/text[@accessiblename='File name:']
+			</item>
+			<basepath>
+				/form[@title='Open']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="a4cc4531-9ac5-421f-bdb0-1115581c2edf"
+		isrooted="True"
+		name="ChooseFromServer"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="tree"
+			id="ca7771c4-6627-4782-a5a0-3bdc5dd227a8"
+			name="ServerList"
+			searchtimeout="30000ms">
+				/form[@title~'^Choose Server or Database']//container[@type='JScrollPane']/container[@name='viewport']/tree[@name='tree']
+			</item>
+			<item
+			capname="button"
+			id="ea1a0a2a-64ad-4123-9dfa-e7f8c91e4fab"
+			name="OkButton"
+			searchtimeout="30000ms">
+				/form[@title~'^Choose Server or Database']//button[@text='OK']
+			</item>
+			<basepath>
+				/form[@title~'^Choose Server or Database']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="a1076eef-1e57-4b38-a17b-54b3aaae6a9b"
+		isrooted="True"
+		name="UntitledApplication"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="unknown"
+			id="a174dbe0-75ed-4f67-ba22-0a8bc69bd889"
+			name="QATextEditor"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='QueryPanel']/container[@name='panel']/?/?/container[@name='splitPane']//container[@type='EditorImpl$MyScrollPane']/container[6]/element[@type='EditorComponentImpl']
+			</item>
+			<item
+			capname="button"
+			id="248316fe-215b-4533-a001-159788c40cf2"
+			name="Execute"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='QueryPanel']//container[@name='toolBar']/button[@name='executeButton']
+			</item>
+			<basepath>
+				/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="92f7afb1-b6b1-4ab2-b0f0-0cf1523a77b6"
+		isrooted="True"
+		name="FileModified"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="586ec974-4089-4706-834e-8beb1fe6adca"
+			name="Discard"
+			searchtimeout="30000ms">
+				/form[@title='File Modified']//container[@name='OptionPane.buttonArea']/button[@text='Discard']
+			</item>
+			<basepath>
+				/form[@title='File Modified']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="39db488d-e587-4f23-b31f-cf075a4cec48"
+		isrooted="True"
+		name="CancelWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="39984a8a-1943-47b6-abdb-5bb2d48d55bc"
+			name="DeselectButton"
+			searchtimeout="30000ms">
+				/form[@title='Cancel']//container[@name='OptionPane.buttonArea']/button[@text='No']
+			</item>
+			<basepath>
+				/form[@title='Cancel']
+			</basepath>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

@@ -1,0 +1,5 @@
+INSERT INTO ads_db.ADS_TABLE(id, firstname, lastname) VALUES(10, 'john', 'tom')
+Go
+INSERT INTO ads_db.ADS_TABLE(id, firstname, lastname) VALUES(10, 'Tom', 'j')
+Go
+INSERT INTO ads_db.ADS_TABLE(id, firstname, lastname) VALUES(10, 'johmy', 'tom')

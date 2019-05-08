@@ -1,0 +1,5 @@
+INSERT INTO ads_table (ID, CustomerName, City, PostalCode, Country, firstname, lastname) VALUES (101, 'Cardinal', 'Stavanger', '4006', 'Norway','VOS','Marianne')
+Go
+INSERT INTO ads_table (ID, CustomerName, City, PostalCode, Country, firstname, lastname) VALUES (101, 'Cardinal', 'Stavanger', '4006', 'Norway','Tom','Marianne')
+Go
+INSERT INTO ads_table (ID, CustomerName, City, PostalCode, Country, firstname, lastname) VALUES (101, 'Cardinal', 'Stavanger', '4006', 'Norway','John','Marianne')

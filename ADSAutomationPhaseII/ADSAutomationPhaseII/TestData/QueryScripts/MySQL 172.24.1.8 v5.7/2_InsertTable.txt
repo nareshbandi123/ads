@@ -1,0 +1,5 @@
+INSERT INTO ads_table VALUES ('Puffball','Diane','hamster','f','1999-03-30',NULL,'VOS','Marianne')
+Go
+INSERT INTO ads_table VALUES ('Puffball','Diane','hamster','f','1999-03-30',NULL,'VOS1','Marianne1')
+Go
+INSERT INTO ads_table VALUES ('Puffball','Diane','hamster','f','1999-03-30',NULL,'Tom','Marianne2')

@@ -1,0 +1,4 @@
+ CREATE PROCEDURE ads_procedure
+AS
+SELECT * FROM ads_table
+ GO; 

@@ -1,0 +1,2 @@
+CREATE PROCEDURE ads_procedure( per_cent REAL )
+END PROCEDURE;

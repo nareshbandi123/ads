@@ -1,0 +1,371 @@
+﻿<repository
+id="2949f0fa-8e90-41c8-82c5-08ece33ab034"
+name="TC10542"
+rxversion="8.2">
+	<codegen
+	classname="TC10542"
+	namespace="ADSAutomationPhaseII.TC_10542">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="9a799745-5cfb-47eb-b594-4d279e3b6cf6"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		capname="form"
+		id="d559871d-9efe-47a7-ad60-5c401be3f359"
+		isrooted="True"
+		name="Application"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="unknown"
+			id="0a6a1d30-3832-43f2-992a-0d44038b6208"
+			name="QATextEditor"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='QueryPanel']/container[@name='panel']/?/?/container[@name='splitPane']//container[@type='EditorImpl$MyScrollPane']/container[6]/element[@type='EditorComponentImpl']
+			</item>
+			<item
+			capname="menuitem"
+			id="4aa49a67-c365-4c5e-83eb-446a21c53e88"
+			name="Automate"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio']//menuitem[@text='Automate']
+			</item>
+			<item
+			capname="menuitem"
+			id="77a7ef8a-c68e-4b7c-a7d8-4d4a82631459"
+			name="Tools"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio']//menuitem[@text='Tools']
+			</item>
+			<item
+			capname="menuitem"
+			id="01fbf464-2942-46de-85ac-307254813e52"
+			name="FileMenu"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio']//menuitem[@text='File']
+			</item>
+			<item
+			capname="button"
+			id="04c54ad8-002c-4acc-becf-839c8a9f223b"
+			name="ShowText"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio']//container[@type='JPanel']/container[3]/container[2]/button[2]
+			</item>
+			<item
+			capname="tabpage"
+			id="144a334a-68a2-4599-a4bd-d2151787d781"
+			name="TextTab"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='QueryPanel']//container[@name='splitPane']//tabpage[@title='Text   ']
+			</item>
+			<item
+			capname="tabpage"
+			id="1eccbdc9-3c4b-4af2-b3b1-573aad99ee40"
+			name="TextHistoryTab"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='QueryPanel']//container[@name='splitPane']//tabpage[@title='Text History   ']
+			</item>
+			<item
+			capname="tabpage"
+			id="6404ffbf-fdb7-4ea6-b9d3-bbf0492949d1"
+			name="GridTab"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='QueryPanel']//container[@name='splitPane']//tabpage[@title='Grid   ']
+			</item>
+			<item
+			capname="tabpage"
+			id="aa51628d-e7d3-4c10-b96c-83c8efd4f3de"
+			name="PivotGridTab"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='QueryPanel']//container[@name='splitPane']//tabpage[@title='Pivot Grid   ']
+			</item>
+			<item
+			capname="tabpage"
+			id="9a9d3f33-47de-4374-830c-992f72db13a4"
+			name="FormTab"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='QueryPanel']//container[@name='splitPane']//tabpage[@title='Form   ']
+			</item>
+			<item
+			capname="tabpage"
+			id="4fcbaadb-31c1-4f59-b70b-506c99ab368f"
+			name="ExecutionPlanTab"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='QueryPanel']//container[@name='splitPane']//tabpage[@title='Execution Plan   ']
+			</item>
+			<item
+			capname="tabpage"
+			id="1bd7a4a7-2ffc-491c-8402-04adae713a9d"
+			name="ClientStatisticsTab"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='QueryPanel']//container[@name='splitPane']//tabpage[@title='Client Statistics   ']
+			</item>
+			<item
+			capname="button"
+			id="89838c89-f3e9-40a3-ab96-c1379a9e214a"
+			name="ShowTextHistory"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio']//container[@type='JPanel']/container[3]/container[2]/button[3]
+			</item>
+			<item
+			capname="button"
+			id="9b94dde1-7dad-4990-a897-e40530c507a6"
+			name="ShowGrid"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio']//container[@type='JPanel']/container[3]/container[2]/button[5]
+			</item>
+			<item
+			capname="button"
+			id="c6fbf41f-7922-46f3-b2ad-e0c064c67b19"
+			name="PivotGrid"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio']//container[@type='JPanel']/container[3]/container[2]/button[6]
+			</item>
+			<item
+			capname="button"
+			id="9674d656-cb1e-46ce-93c3-4c5f075de9dc"
+			name="Form"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio']//container[@type='JPanel']/container[3]/container[2]/button[7]
+			</item>
+			<item
+			capname="button"
+			id="d56bc9e5-6446-4489-94e0-b33f3b10437a"
+			name="ExecutionPlan"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio']//container[@type='JPanel']/container[3]/container[2]/button[8]
+			</item>
+			<item
+			capname="button"
+			id="2af6a705-3415-4791-8a12-b1b5cec782b3"
+			name="ClientStatistics"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio']//container[@type='JPanel']/container[3]/container[2]/button[9]
+			</item>
+			<basepath>
+				/form[@title~'^Aqua\ Data\ Studio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="2ce52394-48f6-4753-ae61-7401555064e1"
+		isrooted="True"
+		name="Datastudio"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="menuitem"
+			id="2a435cda-4b9e-4f5c-89f0-2e45d4735ed2"
+			name="ServerScriptGenerator"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Server Script Generator']
+			</item>
+			<item
+			capname="menuitem"
+			id="b32a7d9a-bf99-4e6d-97a2-764a2a7023e7"
+			name="OpenMenu"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Open']
+			</item>
+			<item
+			capname="menuitem"
+			id="452209d7-73c6-436e-9d54-a8d855d9e818"
+			name="ToggleStatement"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Toggle Statement Comment']
+			</item>
+			<item
+			capname="menuitem"
+			id="a582b407-7c25-4e39-9fd7-cd7917ce58d4"
+			name="ToggleLineStatement"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Toggle // Line Comment']
+			</item>
+			<item
+			capname="menuitem"
+			id="03a095a0-f0e2-4ce3-b348-d3259ad8a272"
+			name="ToggleLineComment"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Toggle -- Line Comment']
+			</item>
+			<item
+			capname="menuitem"
+			id="cab910ff-92d3-45bb-9984-294133a9c950"
+			name="BlockComment"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Toggle /* Block Comment']
+			</item>
+			<basepath>
+				/form[@processname='datastudio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="5dc1c99a-81a8-4621-9fbe-6100a12a8326"
+		isrooted="True"
+		name="ServerScriptGenerator"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="2179f9b9-9d62-4ef5-9c3d-f24af4a6c3a9"
+			name="DeselectObjectTypes"
+			searchtimeout="30000ms">
+				/form[@title~'^Server\ Script\ Generator\ -']//container[3]/container/container[2]/?/?/container[@name='typeSelector']/?/?/button[@name='deselectButton']
+			</item>
+			<item
+			capname="table"
+			id="ffb7542d-5d48-4c21-941d-7b4c1eb89bd8"
+			name="SelectObjectTypeTable"
+			searchtimeout="30000ms">
+				/form[@title~'^Server\ Script\ Generator\ -']//container[@name='tab']/container[2]//container[@name='scroll']/container[5]/table[@name='table']
+			</item>
+			<item
+			capname="button"
+			id="0d2708a2-c194-4fab-a78c-d91ea729eebb"
+			name="NextButton"
+			searchtimeout="30000ms">
+				/form[@title~'^Server\ Script\ Generator\ -']//button[@name='btnNext']
+			</item>
+			<item
+			capname="button"
+			id="30f44f7a-c65b-4aa5-abd1-41a3a740f930"
+			name="DeselectObject"
+			searchtimeout="30000ms">
+				/form[@title~'^Server\ Script\ Generator\ -']//container[@name='tab']/container[2]/?/?/container[@name='objectSelector']/container[@name='buttonPanel']/button[@name='deselectButton']
+			</item>
+			<item
+			capname="button"
+			id="a41e79a0-0b47-45e0-9674-200a9fd6a555"
+			name="BrowseSqlfile"
+			searchtimeout="30000ms">
+				/form[@title~'^Server\ Script\ Generator\ -']//container[@type='JPanel']/container/container[3]/?/?/button[@name='btnBrowse']
+			</item>
+			<item
+			capname="table"
+			id="b214d0e3-0cc7-4b6f-a199-2d716c1db9b2"
+			name="SelectObjectTable"
+			searchtimeout="30000ms">
+				/form[@title~'^Server\ Script\ Generator\ -']//container[@name='tab']/container[2]/?/?/container[@name='objectSelector']/container[@name='scroll']/container[5]/table[@name='table']
+			</item>
+			<item
+			capname="button"
+			id="b16efdb3-e667-412d-a619-1188a40e7ed0"
+			name="CloseButton"
+			searchtimeout="30000ms">
+				/form[@title~'^Server\ Script\ Generator\ -']//button[@text='Close']
+			</item>
+			<item
+			capname="tabpage"
+			id="2b547ba5-0f39-44b2-b8e9-48fd7e44e1c5"
+			name="GeneralTab"
+			searchtimeout="30000ms">
+				/form[@title~'^Server\ Script\ Generator\ -']//container[@type='JPanel']/?/?/tabpage[@title='General   ']
+			</item>
+			<basepath>
+				/form[@title~'^Server\ Script\ Generator\ -']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="2efb6682-5a7e-4ece-9d59-11a21adc9193"
+		isrooted="True"
+		name="FileLocation"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="text"
+			id="590038be-60b8-45e2-9bda-05906b084cd0"
+			name="Textbox"
+			searchtimeout="30000ms">
+				/form[@title='Select']//element/container[@type='JPanel']/container[3]/container[2]/text[@accessiblename='File name:']
+			</item>
+			<item
+			capname="button"
+			id="6088fe22-af5b-461f-b251-ee3859a76a1b"
+			name="SelectButton"
+			searchtimeout="30000ms">
+				/form[@title='Select']//element/container[@type='JPanel']/container[3]/container[3]/button[@text='Select']
+			</item>
+			<basepath>
+				/form[@title='Select']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="dec9a44d-81c9-468a-b6f3-6aae6fe5ad27"
+		isrooted="True"
+		name="Open"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="text"
+			id="6f856ef7-a822-492e-ab7e-ede881bd4d7f"
+			name="OpenTextbox"
+			searchtimeout="30000ms">
+				/form[@title='Open']//element/container[@type='JPanel']/container[3]/container[2]/text[@accessiblename='File name:']
+			</item>
+			<item
+			capname="button"
+			id="6f3c6696-0d03-4f15-84f6-04628a70647b"
+			name="OpenButton"
+			searchtimeout="30000ms">
+				/form[@title='Open']//element/container[@type='JPanel']/container[3]/container[3]/button[@name='defaultButton']
+			</item>
+			<basepath>
+				/form[@title='Open']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="430f9992-c755-4eba-aeb1-e05d136949df"
+		isrooted="True"
+		name="ChooseServer"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="68a52114-ea97-4867-87dc-a1d2b8da7da5"
+			name="OpenQueryAnalyser"
+			searchtimeout="30000ms">
+				/form[@title='Choose Server or Database']//button[@text='Open in Query Analyzer']
+			</item>
+			<item
+			capname="treeitem"
+			id="b1ecc835-064f-40c4-98d6-7cfc20dc725b"
+			name="SelectServer"
+			searchtimeout="30000ms">
+				/form[@title='Choose Server or Database']//container[@type='JScrollPane']/container[@name='viewport']/tree[@name='tree']/?/?/treeitem[@text='Local Database Servers']
+			</item>
+			<basepath>
+				/form[@title='Choose Server or Database']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="b6fda72a-87d5-47d5-a5b3-1779f78f9ddb"
+		isrooted="True"
+		name="FileModified"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="3eab4597-87a6-40b2-8fc7-f803721e71a6"
+			name="Discard"
+			searchtimeout="30000ms">
+				/form[@title='File Modified']//container[@name='OptionPane.buttonArea']/button[@text='Discard']
+			</item>
+			<basepath>
+				/form[@title='File Modified']
+			</basepath>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

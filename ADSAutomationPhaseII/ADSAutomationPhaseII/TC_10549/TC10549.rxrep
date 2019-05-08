@@ -1,0 +1,205 @@
+﻿<repository
+id="c265d551-fd7d-450b-9d47-641e24ba89a2"
+name="TC10549"
+rxversion="8.2">
+	<codegen
+	classname="TC10549"
+	namespace="ADSAutomationPhaseII.TC_10549">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="42421d86-bf32-40ac-94a1-a0adef058856"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		capname="form"
+		id="fe4cc6c8-43f2-4d44-9d58-3cc9da97bbad"
+		isrooted="True"
+		name="Application"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="menuitem"
+			id="c6ecc789-9b20-44f7-9502-3182883ccd6b"
+			name="Tools"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//menuitem[@text='Tools']
+			</item>
+			<basepath>
+				/form[@title~'^Aqua Data Studio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="ca79fddc-29a3-49de-94c8-f54238d1e7ba"
+		isrooted="True"
+		name="DataStudio"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="menuitem"
+			id="dd526bf8-f7d0-4428-bbad-bccf8e736bd2"
+			name="ObjectSearch"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Object Search']
+			</item>
+			<basepath>
+				/form[@processname='datastudio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="a5c5c828-30e2-4264-aa05-7f3821817f1d"
+		isrooted="True"
+		name="ChooseServer"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="f30e4adc-688f-4102-8e28-6030ed331257"
+			name="OkButton"
+			searchtimeout="30000ms">
+				/form[@title='Choose Server or Database']//button[@text='OK']
+			</item>
+			<item
+			capname="tree"
+			id="b0aaaa8d-2594-42e4-98b3-4fad8a76d087"
+			name="ServerList"
+			searchtimeout="30000ms">
+				/form[@title='Choose Server or Database']//container[@type='JScrollPane']/container[@name='viewport']/tree[@name='tree']
+			</item>
+			<basepath>
+				/form[@title='Choose Server or Database']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="c4bb506f-ec69-4e16-8bda-bedde83a647e"
+		isrooted="True"
+		name="ObjectSearchWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="7c410d91-1e5b-463f-89a9-dda65c7f099a"
+			name="UnselectDatabase"
+			searchtimeout="30000ms">
+				/form[@title~'^Object\ Search\ \[']//container[@name='databaseSelector']/?/?/button[@name='deselectButton']
+			</item>
+			<item
+			capname="button"
+			id="8b95495d-55a1-41d7-904f-f51b42041e60"
+			name="UnselectSchema"
+			searchtimeout="30000ms">
+				/form[@title~'^Object\ Search\ \[']//container[@name='schemaSelector']/?/?/button[@name='deselectButton']
+			</item>
+			<item
+			capname="button"
+			id="4b5464d2-f82c-4cae-bce5-301c7b4559cf"
+			name="UnselectObject"
+			searchtimeout="30000ms">
+				/form[@title~'^Object\ Search\ \[']//container[@name='typeSelector']/?/?/button[@name='deselectButton']
+			</item>
+			<item
+			capname="cell"
+			id="d2f84380-13f0-46e9-98de-1067c6b430ad"
+			name="SelectDatabase"
+			searchtimeout="30000ms">
+				/form[@title~'^Object\ Search\ \[']//container[@name='databaseSelector']//table[@name='table']/row[@index='0']/cell[1]
+			</item>
+			<item
+			capname="cell"
+			id="25f63419-5edd-4da1-aebe-ea269500abbe"
+			name="SelectSchema"
+			searchtimeout="30000ms">
+				/form[@title~'^Object\ Search\ \[']//container[@name='schemaSelector']//table[@name='table']/row[@index='0']/cell[@text='public']
+			</item>
+			<item
+			capname="table"
+			id="5d341ec1-b393-4dfd-927d-6409c1353af0"
+			name="SelectObjectType"
+			searchtimeout="30000ms">
+				/form[@title~'^Object\ Search\ \[']//container[@name='typeSelector']//table[@name='table']
+			</item>
+			<item
+			capname="checkbox"
+			id="8eda8560-2017-4844-8421-92549b4c3ec6"
+			name="ColumnName"
+			searchtimeout="30000ms">
+				/form[@title~'^Object\ Search\ \[']//container[@type='EasyPanel']/container[4]//checkbox[@name='_chkColumnNames']
+			</item>
+			<item
+			capname="checkbox"
+			id="54f85399-b188-4794-8da8-b49703eee61a"
+			name="ViewSource"
+			searchtimeout="30000ms">
+				/form[@title~'^Object\ Search\ \[']//container[@type='EasyPanel']/container[4]//checkbox[@name='_chkViewSource']
+			</item>
+			<item
+			capname="text"
+			id="781c8c66-3332-4ddf-9522-cfdd01cf35a3"
+			name="SearchText"
+			searchtimeout="30000ms">
+				/form[@title~'^Object\ Search\ \[']//container[@type='EasyPanel']/container[4]/?/?/text[@name='_txtSearch']
+			</item>
+			<item
+			capname="button"
+			id="699ccc26-f869-4124-9607-c35cca8029cf"
+			name="SearchButton"
+			searchtimeout="30000ms">
+				/form[@title~'^Object\ Search\ \[']//container[@type='EasyPanel']/container[4]/?/?/button[@name='_btnSearch']
+			</item>
+			<item
+			capname="table"
+			id="442e5cb3-6954-4f45-9b2e-c68c95fc013b"
+			name="ObjectSearchResultTable"
+			searchtimeout="30000ms">
+				/form[@title~'^Object\ Search\ \[']//container[@name='_tableScrollPane']/container[5]/table[@type='BaseTableScrollPaneTable']
+			</item>
+			<item
+			capname="button"
+			id="833efa31-f670-4d43-8755-76c04f9fe46a"
+			name="AppendButton"
+			searchtimeout="30000ms">
+				/form[@title~'^Object\ Search\ \[']//container[@type='EasyPanel']/container[4]/?/?/button[@name='_btnSearchAppend']
+			</item>
+			<item
+			capname="cell"
+			id="5d4ef353-baf7-40fe-9614-014ee869aa1c"
+			name="ObjectName"
+			searchtimeout="30000ms">
+				/form[@title~'^Object\ Search\ \[']//container[@type='EasyPanel']/container[5]/container[@name='_tableScrollPane']/container[6]/?/?/cell[@text='Object Name/Source']
+			</item>
+			<item
+			capname="text"
+			id="067c09ee-b65b-4833-a15e-63f1c1322c84"
+			name="QuickFilter"
+			searchtimeout="30000ms">
+				/form[@title~'^Object\ Search\ \[']//container[@type='EasyPanel']/container[5]//container[@caption='']/container[@type='DefaultOverlayable']/text[@name='_actualComponent']
+			</item>
+			<item
+			capname="button"
+			id="7faca6cc-9bce-4edd-9222-b36ed533843d"
+			name="Close"
+			searchtimeout="30000ms">
+				/form[@title~'^Object\ Search\ \[']//button[@text='Close']
+			</item>
+			<item
+			capname="cell"
+			id="c1c99576-5b63-4245-9d2c-b8693a442e13"
+			name="UnSelectViews"
+			searchtimeout="30000ms">
+				/form[@title~'^Object\ Search\ \[']//container[@name='typeSelector']/container[@name='scroll']/container[5]/table[@name='table']/?/?/cell[@columnindex='1' and @rowindex='1']
+			</item>
+			<basepath>
+				/form[@title~'^Object\ Search\ \[']
+			</basepath>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

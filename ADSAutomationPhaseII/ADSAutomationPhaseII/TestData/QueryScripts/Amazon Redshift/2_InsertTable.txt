@@ -1,0 +1,2 @@
+insert into ads_table values (4563, 'Tom', 'ads', 'Tom', 'John' ),
+ (4564, 'Sam', 'hilton', 'Sam', 'Mule'), (4565, 'Charli', 'ads', 'Charli', 'Phil')

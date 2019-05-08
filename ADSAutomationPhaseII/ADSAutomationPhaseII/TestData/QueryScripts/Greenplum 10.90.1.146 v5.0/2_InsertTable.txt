@@ -1,0 +1,5 @@
+INSERT INTO ads_table VALUES (502,105, 1,'F', 12,'VOS','Marianne')
+Go
+INSERT INTO ads_table VALUES (502,105, 1,'F', 12,'Tom', 'John')
+Go
+INSERT INTO ads_table VALUES (502,105, 1,'F', 12,'VOS1','Marianne1')

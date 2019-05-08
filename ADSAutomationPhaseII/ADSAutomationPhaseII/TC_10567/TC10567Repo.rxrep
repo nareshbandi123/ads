@@ -1,0 +1,304 @@
+﻿<repository
+id="849de172-8bdd-4175-94e4-c86622e7e745"
+name="TC10567Repo"
+rxversion="8.2">
+	<codegen
+	classname="TC10567Repo"
+	namespace="ADSAutomationPhaseII.TC_10567">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="47597db9-5cb6-45dc-b0b2-90634804ff77"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		capname="form"
+		id="abadff79-3df9-4d41-869a-c4e0f15f0782"
+		isrooted="True"
+		name="DataStudio"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="menuitem"
+			id="a1bc582e-aecd-488f-b4d4-5ef8d260c7e4"
+			name="ToolsMenu"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Tools']
+			</item>
+			<item
+			capname="menuitem"
+			id="3a27cd9e-acdf-4e97-ae8b-b8d10d0d9bec"
+			name="SchemaScriptGenMenu"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Schema Script Generator']
+			</item>
+			<basepath>
+				/form[@processname='datastudio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="c013ae28-f230-46ab-a829-7a59128c26c7"
+		isrooted="True"
+		name="SchemaScriptGenWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="text"
+			id="4be642e8-a69d-4bdc-80a8-9f952f240b34"
+			name="SchemaTableNameCombobox"
+			searchtimeout="30000ms">
+				/form[@title~'^Script\ Generator']//container[@type='JPanel']/container/container[2]//combobox[@name='schemaField']/text[@type='BasicComboBoxEditor$BorderlessTextField']
+			</item>
+			<item
+			capname="button"
+			id="7bcd106e-f96c-4498-8aa8-4a206792f986"
+			name="UnselectLeft"
+			searchtimeout="30000ms">
+				/form[@title~'^Script\ Generator']//container[@name='tabbedPane']/container[2]/?/?/container[@name='typeSelector']/container[@name='buttonPanel']/button[@name='deselectButton']
+			</item>
+			<item
+			capname="button"
+			id="0b78d792-034f-441c-bf49-228dcef0de50"
+			name="UnselectRight"
+			searchtimeout="30000ms">
+				/form[@title~'^Script\ Generator']//container[@name='tabbedPane']/container[2]/?/?/container[@name='objectSelector']/container[@name='buttonPanel']/button[@name='deselectButton']
+			</item>
+			<item
+			capname="table"
+			id="9d9d01a0-161e-40e2-b97a-e2243acbc3b2"
+			name="LeftTable"
+			searchtimeout="30000ms">
+				/form[@title~'^Script\ Generator']//container[@name='tabbedPane']/container[2]//container[@name='scroll']/container[5]/table[@name='table']
+			</item>
+			<item
+			capname="table"
+			id="9f6539bd-ac62-4ecf-9ae2-a67bceb478e6"
+			name="RightTable"
+			searchtimeout="30000ms">
+				/form[@title~'^Script\ Generator']//container[@name='tabbedPane']/container[2]/?/?/container[@name='objectSelector']/container[@name='scroll']/container[5]/table[@name='table']
+			</item>
+			<item
+			capname="button"
+			id="c7bac1b2-71de-459e-9e44-809671513544"
+			name="NextButton"
+			searchtimeout="30000ms">
+				/form[@title~'^Script\ Generator']//button[@text='Next &gt;&gt;']
+			</item>
+			<item
+			capname="combobox"
+			id="c8da98da-c487-4978-958c-d8cb322d702b"
+			name="SaveAsCombobox"
+			searchtimeout="30000ms">
+				/form[@title~'^Script\ Generator']//container[@name='tabbedPane']/container[3]/?/?/combobox[@name='cmboSave']
+			</item>
+			<item
+			capname="text"
+			id="e27d7aeb-bed5-4b01-af71-a76fbfbcdc7b"
+			name="SaveFilePathTextbox"
+			searchtimeout="30000ms">
+				/form[@title~'^Script\ Generator']//container[@type='JPanel']/container/container[3]/?/?/text[@name='txtFile']
+			</item>
+			<item
+			capname="combobox"
+			id="faff3f37-0cc5-476d-9a52-42ee9bc9c314"
+			name="SeperatorCombobox"
+			searchtimeout="30000ms">
+				/form[@title~'^Script\ Generator']//container[@type='JPanel']/container/container[3]//combobox[@name='cmboStmtSeparator']
+			</item>
+			<item
+			capname="combobox"
+			id="81e5c0a9-eabe-4483-84c5-e259a3525a10"
+			name="QuotedCombobox"
+			searchtimeout="30000ms">
+				/form[@title~'^Script\ Generator']//container[@type='JPanel']/container/container[3]//combobox[@name='quotedObjectCombo']
+			</item>
+			<item
+			capname="container"
+			id="67316380-43e0-4ff0-b2fa-139bb8cecb36"
+			name="CheckBoxContainer"
+			searchtimeout="30000ms">
+				/form[@title~'^Script\ Generator']//container[@type='JPanel']/container/container[3]/container[@accessiblename=' Scripting Format ']/container[2]
+			</item>
+			<item
+			capname="button"
+			id="5267863b-f294-46d8-bfed-34bf734b5e47"
+			name="PreviousButton"
+			searchtimeout="30000ms">
+				/form[@title~'^Script\ Generator']//button[@text='&lt;&lt; Previous']
+			</item>
+			<item
+			capname="button"
+			id="1e4b41ba-82cc-403d-af96-0b8704fb146b"
+			name="CloseButton"
+			searchtimeout="30000ms">
+				/form[@title~'^Script\ Generator']//button[@name='cancelButton']
+			</item>
+			<basepath>
+				/form[@title~'^Script\ Generator']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="2889ffc4-36d9-48f4-8961-a216c5802e1d"
+		isrooted="True"
+		name="SunAwtWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="menuitem"
+			id="3ecab575-571e-4849-970f-42a60de0c5c2"
+			name="ServerScriptGenMenu"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @name='win0']//menuitem[@text='Server Script Generator']
+			</item>
+			<basepath>
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @name='win0']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="5cfcb24b-3258-40b2-b72e-a8561f2b011d"
+		isrooted="True"
+		name="Application"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="menuitem"
+			id="f6a3184c-3a21-4dc9-a3fb-ed7d48173bdd"
+			name="Tools"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//menuitem[@text='Tools']
+			</item>
+			<basepath>
+				/form[@title~'^Aqua Data Studio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="1248da03-1652-4a11-8280-8ff5f8e27051"
+		isrooted="True"
+		name="SunAwtWindowToolsMenu"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="menuitem"
+			id="4e1fd296-be36-4034-841b-df40bd08ae4d"
+			name="ServerScriptGen"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='Server Script Generator']
+			</item>
+			<basepath>
+				/form[@class='SunAwtWindow']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="ed8f919b-bd01-4718-9d4c-c2befe77c2f5"
+		isrooted="True"
+		name="ServerScriptGenWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="text"
+			id="ddfb27bd-6721-4d29-88ff-7c0f95010b1a"
+			name="SchemaTableNameCombobox"
+			searchtimeout="30000ms">
+				/form[@title~'^Server\ Script\ Generator\ -']//container[@type='JPanel']/container/container[2]//combobox[@name='schemaField']/text[@type='BasicComboBoxEditor$BorderlessTextField']
+			</item>
+			<item
+			capname="button"
+			id="3b0878d5-1452-4250-b4e3-9105dc298262"
+			name="UnselectLeft"
+			searchtimeout="30000ms">
+				/form[@title~'^Server\ Script\ Generator\ -']//container[@name='tab']/container[2]/?/?/container[@name='typeSelector']/container[@name='buttonPanel']/button[@name='deselectButton']
+			</item>
+			<item
+			capname="button"
+			id="76b4836e-4744-4892-bc88-4c51fcc6b4c6"
+			name="UnselectRight"
+			searchtimeout="30000ms">
+				/form[@title~'^Server\ Script\ Generator\ -']//container[@name='tab']/container[2]/?/?/container[@name='objectSelector']/container[@name='buttonPanel']/button[@name='deselectButton']
+			</item>
+			<item
+			capname="table"
+			id="4c00ed64-b82c-42d2-b195-ef7fb3cd5fd6"
+			name="LeftTable"
+			searchtimeout="30000ms">
+				/form[@title~'^Server\ Script\ Generator\ -']//container[@name='tab']/container[2]//container[@name='scroll']/container[5]/table[@name='table']
+			</item>
+			<item
+			capname="table"
+			id="9d762df6-e9cb-4a35-bc40-50cd42ef3fa7"
+			name="RightTable"
+			searchtimeout="30000ms">
+				/form[@title~'^Server\ Script\ Generator\ -']//container[@name='tab']/container[2]/?/?/container[@name='objectSelector']/container[@name='scroll']/container[5]/table[@name='table']
+			</item>
+			<item
+			capname="button"
+			id="c709da94-5194-462d-975f-20f74075cfc1"
+			name="NextButton"
+			searchtimeout="30000ms">
+				/form[@title~'^Server\ Script\ Generator\ -']//button[@text='Next &gt;&gt;']
+			</item>
+			<item
+			capname="combobox"
+			id="6ce53d8b-7acf-409b-864a-4baf732d2c9e"
+			name="SaveAsCombobox"
+			searchtimeout="30000ms">
+				/form[@title~'^Server\ Script\ Generator\ -']//container[@name='tab']/container[3]/?/?/combobox[@name='cmboSave']
+			</item>
+			<item
+			capname="text"
+			id="7ef13e0a-22a0-4df7-9c00-ba3b01f95aa2"
+			name="SaveFilePathTextbox"
+			searchtimeout="30000ms">
+				/form[@title~'^Server\ Script\ Generator\ -']//container[@type='JPanel']/container/container[3]/?/?/text[@name='txtFile']
+			</item>
+			<item
+			capname="combobox"
+			id="9c70e9f5-d630-48ca-b8e7-0b6dc79ec019"
+			name="SeperatorCombobox"
+			searchtimeout="30000ms">
+				/form[@title~'^Server\ Script\ Generator\ -']//container[@type='JPanel']/container/container[3]//combobox[@name='cmboStmtSeparator']
+			</item>
+			<item
+			capname="combobox"
+			id="3f33f016-a3ab-462f-b29d-75a7dc9f7de3"
+			name="QuotedCombobox"
+			searchtimeout="30000ms">
+				/form[@title~'^Server\ Script\ Generator\ -']//container[@type='JPanel']/container/container[3]//combobox[@name='quotedObjectCombo']
+			</item>
+			<item
+			capname="container"
+			id="b7136218-44d4-46ac-bb51-852fea6607d8"
+			name="CheckBoxContainer"
+			searchtimeout="30000ms">
+				/form[@title~'^Server\ Script\ Generator\ -']//container[@type='JPanel']/container/container[3]/container[@accessiblename=' Scripting Format ']/container[2]
+			</item>
+			<item
+			capname="button"
+			id="a7dd942c-518b-4e7f-a5ea-7080fe19b24f"
+			name="PreviousButton"
+			searchtimeout="30000ms">
+				/form[@title~'^Server\ Script\ Generator\ -']//button[@text='&lt;&lt; Previous']
+			</item>
+			<item
+			capname="button"
+			id="829e5860-3365-4bb6-8ea8-47ac5eb0dc0a"
+			name="CloseButton"
+			searchtimeout="30000ms">
+				/form[@title~'^Server\ Script\ Generator\ -']//button[@text='Close']
+			</item>
+			<basepath>
+				/form[@title~'^Server\ Script\ Generator\ -']
+			</basepath>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

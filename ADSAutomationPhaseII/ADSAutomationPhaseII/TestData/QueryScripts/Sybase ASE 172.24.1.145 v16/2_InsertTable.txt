@@ -1,0 +1,13 @@
+INSERT INTO ads_table
+(id, DepartmentName, DepartmentHeadID, firstname, lastname)
+VALUES (600, 'Eastern Sales', 500,'VOS','Marianne')
+
+Go
+INSERT INTO ads_table
+(id, DepartmentName, DepartmentHeadID, firstname, lastname)
+VALUES (600, 'Eastern Sales', 500,'Tom','Marianne1')
+
+Go
+INSERT INTO ads_table
+(id, DepartmentName, DepartmentHeadID, firstname, lastname)
+VALUES (600, 'Eastern Sales', 500,'John','Marianne')

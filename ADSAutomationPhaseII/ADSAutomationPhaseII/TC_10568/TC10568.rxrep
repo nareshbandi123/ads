@@ -1,0 +1,121 @@
+﻿<repository
+id="1646c43d-1542-4422-ac26-d2165c02f6b7"
+name="TC10568"
+rxversion="8.2">
+	<codegen
+	classname="TC10568"
+	namespace="ADSAutomationPhaseII.TC_10568">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="91623831-5c28-4f66-9b7e-a56269685aa6"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		capname="form"
+		id="5492682b-d918-4a14-ac17-280d173a98f4"
+		isrooted="True"
+		name="Application"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="treeitem"
+			id="3339f41a-8dd1-4875-9d72-96982f3f9d1f"
+			name="DatabaseTree"
+			searchtimeout="30000ms">
+				/form[@title='Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text='Amazon Redshift']/treeitem[@text='Databases']
+			</item>
+			<basepath>
+				/form[@title='Aqua Data Studio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="6b6fe566-cfa1-48cd-93a6-ac3a3058cc84"
+		isrooted="True"
+		name="Datastudio"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="menuitem"
+			id="c8b7a053-dbdf-4783-9f7f-dff850a12be8"
+			name="EditTable"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text~'^Edit\ Table\ Data\ \(Top\ 1000']
+			</item>
+			<basepath>
+				/form[@processname='datastudio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="338171eb-dab7-4f48-82d6-14e3294ebca2"
+		isrooted="True"
+		name="AmazonRedshift"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="tabpage"
+			id="d299a7c0-5efe-418c-845f-3b9c4ef30ec1"
+			name="TableData"
+			searchtimeout="30000ms">
+				/form[@title~'^Amazon\ Redshift\ ']//container[@name='contentPanel']//tabpage[@title='Table Data   ']
+			</item>
+			<item
+			capname="tabpage"
+			id="77952b3b-62d1-4334-865b-3b6efd31c982"
+			name="PrimaryKey"
+			searchtimeout="30000ms">
+				/form[@title~'^Amazon\ Redshift\ ']//container[@name='contentPanel']//tabpage[@title~'^Primary\ Key\ -\ ads_db\.publ']
+			</item>
+			<item
+			capname="tabpage"
+			id="a2b6b1c3-1e4f-4ba5-8b52-112841b5c3e5"
+			name="PreviewSQL"
+			searchtimeout="30000ms">
+				/form[@title~'^Amazon\ Redshift\ ']//container[@name='contentPanel']//tabpage[@title='Preview SQL   ']
+			</item>
+			<item
+			capname="tabpage"
+			id="1c867cb1-2886-4ddd-80fc-446eb2d8b0d6"
+			name="Messages"
+			searchtimeout="30000ms">
+				/form[@title~'^Amazon\ Redshift\ ']//container[@name='contentPanel']//tabpage[@title='Messages   ']
+			</item>
+			<item
+			capname="button"
+			id="2cb069bb-5649-4395-99b5-e5b11ce878ec"
+			name="Close"
+			searchtimeout="30000ms">
+				/form[@title~'^Amazon\ Redshift\ ']//button[@accessiblename='Close']
+			</item>
+			<basepath>
+				/form[@title~'^Amazon\ Redshift\ ']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="52c785d4-2758-4d09-b34e-e7b516728b4c"
+		isrooted="True"
+		name="UntiltledApplication"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="fe990cd2-a2bc-460e-8ec9-3fc53d26902c"
+			name="ExecuteEdit"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='QueryPanel']//container[@name='toolBar']/button[@name='executeEditButton']
+			</item>
+			<basepath>
+				/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']
+			</basepath>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

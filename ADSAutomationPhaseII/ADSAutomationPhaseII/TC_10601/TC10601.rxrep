@@ -1,0 +1,154 @@
+﻿<repository
+id="21a9ac3f-efb9-4dd2-a1a7-8b87e2921e76"
+name="TC10601"
+rxversion="8.2">
+	<codegen
+	classname="TC10601"
+	namespace="ADSAutomationPhaseII.TC_10601">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="27ef2f5e-0d2c-4114-a9ab-60791e26fd67"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="2fa84dd5-6c44-4441-a1af-474420f29730"
+		isrooted="True"
+		name="VisualAnalytics"
+		refpath="/form[@title='Visual Analytics - [Sample_Data_Source_Maps.vizx]*']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			addcaps="container,javaelement"
+			capname="container"
+			id="54e17b03-8175-4534-989c-1f86cdde6983"
+			isrooted="True"
+			name="ContainerMainPanel"
+			refpath="/form[@title='Visual Analytics - [Sample_Data_Source_Maps.vizx]*']/container[@name='_mainPanel']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="listitem"
+				capname="listitem"
+				id="d6d13803-6613-4db1-bbd0-1476a00b2d11"
+				name="SampleDataSourceSymbolMap"
+				refimgid="af793566-d409-426b-9bfc-868b81e31240"
+				refpath="/form[@title~'^Visual\ Analytics\ -\ \[Sampl']/container[@name='_mainPanel']/container/container/container[@name='_leftPanel']/container/container/container/container[@type='BIDataSourceDataPane']/container[@name='dataSourceScroll']/container/list/listitem[@text~'^Sample\ Data\ Source\ Symbol']"
+				searchtimeout="30000ms">
+					/form[@title~'^Visual\ Analytics\ -\ \[Sampl']/container[@name='_mainPanel']//container[@name='_leftPanel']//container[@type='BIDataSourceDataPane']/container[@name='dataSourceScroll']/?/?/list[@name='listComponent']/listitem[@text~'^Sample\ Data\ Source\ Symbol']
+				</item>
+				<item
+				addcaps="listitem"
+				capname="listitem"
+				id="8ff235d9-3343-4aeb-9dcb-20ecdd98a4f7"
+				name="OrderDate"
+				refimgid="e792442c-bb0a-49a7-b343-40b892cee988"
+				searchtimeout="30000ms">
+					/form[@title~'^Visual\ Analytics\ -\ \[Sampl']/container[@name='_mainPanel']//container[@name='_contentPanel']/?/?/container[@name='_leftPanel']//container[@type='BIDimensionDataPane']//container[@name='viewport']/list[@type='BIDraggableList']/listitem[@text='OrderDate']
+				</item>
+				<item
+				addcaps="button,javaelement"
+				capname="button"
+				id="979cd9d2-4d65-43bf-afdc-c352b24d53ff"
+				name="WindowsScrollBarUIDollarWindowsArrowButt"
+				refimgid="c55ef759-ea54-4d53-bdaa-eb2da3fc3dc8"
+				searchtimeout="30000ms">
+					/form[@title~'^Visual\ Analytics\ -\ \[Sampl']/container[@name='_mainPanel']//container[@name='_contentPanel']/?/?/container[@name='_leftPanel']//container[@type='BIDimensionDataPane']//scrollbar[@name='verticalScrollBar']/button[1]
+				</item>
+				<item
+				addcaps="container,javaelement"
+				capname="container"
+				id="41406ee8-45d1-4252-9e08-a375e2101aeb"
+				name="ColumnsPanel"
+				refimgid="9d99fd3b-1a71-4a1c-8442-a571f83a20e7"
+				searchtimeout="30000ms">
+					/form[@title~'^Visual\ Analytics\ -\ \[Sampl']/container[@name='_mainPanel']//container[@name='_contentPanel']/container[@name='_splitPane']/container[@name='_sheetsPane']/container[@name='Worksheet 11']/container[@name='_worksheetPanel']//container[@name='cols']//container[@name='panel']
+				</item>
+				<item
+				addcaps="text,javaelement"
+				capname="text"
+				id="030bf4ad-d5b7-4dc7-b664-37ffbaa00f66"
+				name="QUARTEROrderDate"
+				refimgid="f1944d6a-4747-4dbf-9cf9-17309640849d"
+				searchtimeout="30000ms">
+					/form[@title~'^Visual\ Analytics\ -\ \[Sampl']/container[@name='_mainPanel']//container[@name='_contentPanel']/container[@name='_splitPane']/container[@name='_sheetsPane']/container[@name='Worksheet 11']/container[@name='_worksheetPanel']//container[@name='cols']//text[@caption='QUARTER(OrderDate)']
+				</item>
+				<item
+				addcaps="container,javaelement"
+				capname="container"
+				id="2f582b40-79e5-4af2-8121-0651af7b03b7"
+				name="RowPanel"
+				refimgid="643fde5d-0463-4985-b404-7ea9b3fec8a4"
+				searchtimeout="30000ms">
+					/form[@title~'^Visual\ Analytics\ -\ \[Sampl']/container[@name='_mainPanel']//container[@name='_contentPanel']/container[@name='_splitPane']/container[@name='_sheetsPane']/container[@name='Worksheet 11']/container[@name='_worksheetPanel']//container[@name='rows']//container[@name='panel']
+				</item>
+				<item
+				addcaps="listitem"
+				capname="listitem"
+				id="e1e2120b-3433-478c-85b5-12c4014f3ecb"
+				name="SUMProfit"
+				refimgid="2f03b248-c71b-4ba5-95e3-e091da347538"
+				searchtimeout="30000ms">
+					/form[@title~'^Visual\ Analytics\ -\ \[Sampl']/container[@name='_mainPanel']//container[@name='_contentPanel']/?/?/container[@name='_leftPanel']//container[@type='BIMeasureDataPane']//container[@name='viewport']/list[@type='BIDraggableList']/listitem[@text='SUM(Profit)']
+				</item>
+				<item
+				addcaps="listitem"
+				capname="listitem"
+				id="a3630f18-4e8b-4a7b-95fd-b3b368768f52"
+				name="SUMFreight"
+				refimgid="9a736831-aa1e-402b-a403-3ec3c2935d42"
+				searchtimeout="30000ms">
+					/form[@title~'^Visual\ Analytics\ -\ \[Sampl']/container[@name='_mainPanel']//container[@name='_contentPanel']/?/?/container[@name='_leftPanel']//container[@type='BIMeasureDataPane']//container[@name='viewport']/list[@type='BIDraggableList']/listitem[@text='SUM(Freight)']
+				</item>
+				<item
+				addcaps="container,javaelement"
+				capname="container"
+				id="d69c1a3e-bbbf-4211-8b25-3b0019097b7b"
+				name="FilterPanel"
+				refimgid="88d17bb4-028d-46cf-9bf6-426a1e1ca67d"
+				searchtimeout="30000ms">
+					/form[@title~'^Visual\ Analytics\ -\ \[Sampl']/container[@name='_mainPanel']//container[@name='_contentPanel']/container[@name='_splitPane']/container[@name='_sheetsPane']/container[@name='Worksheet 11']/container[@name='_worksheetPanel']//container[@name='filter']//container[@name='panel']
+				</item>
+				<item
+				addcaps="listitem"
+				capname="listitem"
+				id="de4f7111-4de5-44e9-985b-bf6cf91bcd51"
+				name="ProductCategory"
+				refimgid="13754c9c-a9e6-49b5-a4bf-7fee6e0b1b22"
+				searchtimeout="30000ms">
+					/form[@title~'^Visual\ Analytics\ -\ \[Sampl']/container[@name='_mainPanel']//container[@name='_contentPanel']/?/?/container[@name='_leftPanel']//container[@type='BIDimensionDataPane']//container[@name='viewport']/list[@type='BIDraggableList']/listitem[@text='Product Category']
+				</item>
+				<basepath>
+					/form[@title~'^Visual\ Analytics\ -\ \[Sampl']/container[@name='_mainPanel']
+				</basepath>
+			</folder>
+			<item
+			addcaps="text,javaelement"
+			capname="text"
+			id="c7aaf4a4-24f5-4a99-be6f-f9dfe31cb206"
+			name="TextMessage"
+			refimgid="3d2b7327-e16e-40c2-8783-4fd5dfb5602b"
+			searchtimeout="30000ms">
+				/form[@title~'^Visual\ Analytics\ -\ \[Sampl']//container[@name='_statusBar']//text[@name='_message']
+			</item>
+			<basepath>
+				/form[@title~'^Visual\ Analytics\ -\ \[Sampl']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACYSURBVDhPYyAVfPr04T8yhgrjB+ia/m43AWMM
+A9AVQoXB4sia8BrQsq8FjIk2AEQgY2QDcGEMA5AF0DV/27n2/8ruPWAMYiPLgTCGATCMrvHNttVY
+DcLwAiEbQWJr+rfB5eEGENKI6bU1YLUM+DQiB2jlqZ9gjCwPwgy4NMJobAYgi+ONRmQ2XgOQYwFZ
+ITHsQWIA+fjDfwCHiQywSZu/VAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

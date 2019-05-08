@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><Diagram version="1.0" type="DB2" versionMajor="10" versionMinor="5" groupSchema="false" hide_inv="false">
+<Table id="0" name="ads_ParentTable" schema="" database="" background="16777165">
+<Column id="1" name="EMPID" type="INTEGER" length="25" nulls="false"/>
+<Column id="2" name="Name" type="VARCHAR" length="50" nulls="true"/>
+<Column id="3" name="DOB" type="DATE" length="25" nulls="true"/>
+<Column id="4" name="Active" type="BLOB" length="25" nulls="true"/>
+<Storage name="TempOnCommit" value=""/>
+<Storage name="ValueCompression" value="false"/>
+<Storage name="DistributeRandom" value="false"/>
+<Storage name="NoLogging" value="false"/>
+<Storage name="Tablespace" value=""/>
+<Storage name="WithCRCols" value="false"/>
+<Storage name="LongTablespace" value=""/>
+<Storage name="transferTable" value="false"/>
+<Storage name="db2zVolatile" value="false"/>
+<Storage name="db2zRestrictOnDrop" value="false"/>
+<Storage name="AppendMode" value="false"/>
+<Storage name="External" value="false"/>
+<Storage name="IndexTablespace" value=""/>
+</Table>
+<Table id="5" name="ads_ChildTable" schema="" database="" background="16777165">
+<Column id="6" name="ID" type="INTEGER" length="25" nulls="false"/>
+<Column id="7" name="Name" type="VARCHAR" length="50" nulls="true"/>
+<Column id="8" name="DOB" type="DATE" length="25" nulls="true"/>
+<Column id="9" name="Active" type="BLOB" length="25" nulls="true"/>
+<Storage name="TempOnCommit" value=""/>
+<Storage name="ValueCompression" value="false"/>
+<Storage name="DistributeRandom" value="false"/>
+<Storage name="NoLogging" value="false"/>
+<Storage name="Tablespace" value=""/>
+<Storage name="WithCRCols" value="false"/>
+<Storage name="LongTablespace" value=""/>
+<Storage name="transferTable" value="false"/>
+<Storage name="db2zVolatile" value="false"/>
+<Storage name="db2zRestrictOnDrop" value="false"/>
+<Storage name="AppendMode" value="false"/>
+<Storage name="External" value="false"/>
+<Storage name="IndexTablespace" value=""/>
+</Table>
+<Relation id="10" name="ads_relation" cardinality="-2" identifying="false" nulls="false">
+<FK>1</FK>
+<PK>6</PK>
+<Text/>
+</Relation>
+<Sheet name="Untitled 1" id="11" disp_at="true" disp_ph="true" disp_co="true" disp_rn="true">
+<Place id="10" visible="true">500,0,0,0</Place>
+<Place id="0" visible="true">10,10,120,60</Place>
+<Place id="5" visible="true">20,20,120,60</Place>
+</Sheet>
+<Settings sheet="11" zoom="1.0"/>
+</Diagram>

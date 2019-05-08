@@ -1,0 +1,2 @@
+"vendor_key","vendor_name","vendor_address","vendor_city","deal_size","firstname","lastname"
+10,"male","DPR","MA",35,"VOS","Marianne"

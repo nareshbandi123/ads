@@ -1,0 +1,5 @@
+INSERT INTO ads_table (id, name, city, firstname, lastname)  VALUES (50, 'Flipkart','Hyd', 'VOS','Marianne')
+Go
+INSERT INTO ads_table (id, name, city, firstname, lastname)  VALUES (50, 'Flipkart','Hyd', 'VOS1','Marianne1')
+Go
+INSERT INTO ads_table (id, name, city, firstname, lastname)  VALUES (50, 'Flipkart','Hyd', 'Tom','Marianne')

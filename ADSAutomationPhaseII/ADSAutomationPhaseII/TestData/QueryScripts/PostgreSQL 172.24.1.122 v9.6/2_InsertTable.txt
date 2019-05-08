@@ -1,0 +1,8 @@
+INSERT INTO ads_table (url, name, firstname, lastname)
+VALUES  ('http://www.facebook.com','Facebook','VOS','Marianne')
+Go
+INSERT INTO ads_table (url, name, firstname, lastname)
+VALUES  ('http://www.facebook.com','Facebook','Tom','Marianne')
+Go
+INSERT INTO ads_table (url, name, firstname, lastname)
+VALUES  ('http://www.facebook.com','Facebook','VOS','Marianne')

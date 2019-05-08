@@ -1,0 +1,1 @@
+insert into ads_table1 values (4563, 'meenakshi', 'meenakshi', 'bhima' ), (4564, 'swathi', 'swats', 'pend'),  (4565, 'triveni', 'veni', 'urgun')

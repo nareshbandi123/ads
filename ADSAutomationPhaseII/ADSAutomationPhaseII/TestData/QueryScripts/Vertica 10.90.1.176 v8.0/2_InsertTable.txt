@@ -1,0 +1,5 @@
+INSERT INTO ads_db.ads_table VALUES (10, 'male', 'DPR', 'MA', 35,'VOS','Marianne')
+Go
+INSERT INTO ads_db.ads_table VALUES (10, 'male', 'DPR', 'MA', 35,'Tom','Marianne1')
+Go
+INSERT INTO ads_db.ads_table VALUES (10, 'male', 'DPR', 'MA', 35,'John','Marianne2')

@@ -1,0 +1,7 @@
+CREATE FUNCTION ads_function ( p_order_num INT) RETURNING INT, INT;
+   DEFINE item_count INT;
+   SELECT count(*) INTO item_count FROM items
+      WHERE order_num = p_order_num;
+   DELETE FROM orders WHERE order_num = p_order_num;
+   RETURN p_order_num, item_count;
+END FUNCTION; 

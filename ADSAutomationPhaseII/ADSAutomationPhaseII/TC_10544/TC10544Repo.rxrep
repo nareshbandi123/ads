@@ -1,0 +1,2378 @@
+﻿<repository
+id="4e71949a-3a00-41cd-8007-67037de6a0a4"
+name="TC10544Repo"
+rxversion="8.2">
+	<codegen
+	classname="TC10544Repo"
+	namespace="ADSAutomationPhaseII.TC_10544">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="79b8bafa-db88-488c-b2cc-5233eb9d95ef"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="4e7064b1-4cfc-48da-b101-36d43213307f"
+		isrooted="True"
+		name="AquaDataStudio"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			addcaps="container,javaelement"
+			capname="container"
+			id="367dd0c6-87a9-4c1b-a020-b4342b014d7a"
+			isrooted="True"
+			name="MyFirstComponent"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="tree,javaelement"
+				capname="tree"
+				id="e7613a81-eacf-46db-aa18-c7e8c3cd3785"
+				name="SchemaTree"
+				refimgid="94611e2d-1e55-4c49-92d6-33fadc1f587f"
+				searchtimeout="30000ms">
+					/form[@title='Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='schemaTree']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="5d64e3d9-5a43-4802-a80a-5e143fa36328"
+				name="Databases"
+				refimgid="714133b4-a69b-4d78-b4e1-14b91ee673c6"
+				searchtimeout="30000ms">
+					/form[@title='Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text='Amazon Redshift']/treeitem[@text='Databases']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="4e74f88e-69ae-4a7b-9119-08022f7e11d6"
+				name="Tables"
+				refimgid="ca439296-22a9-4ad7-bd88-26d34a359702"
+				searchtimeout="30000ms">
+					/form[@title='Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='ContentManagerImpl$MyContentComponent']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text='Amazon Redshift']/?/?/treeitem[@text='ads_db1']/?/?/treeitem[@text='Tables']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="5b7ab767-2671-434a-8e28-2a40d672e39d"
+				name="AmazonRedshift"
+				refimgid="6edc6997-93ef-41ac-adad-dee567b77e34"
+				searchtimeout="30000ms">
+					/form[@title='Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text='Amazon Redshift']
+				</item>
+				<item
+				capname="treeitem"
+				id="0cb53dba-bd67-4805-b63a-802cbe87f3d8"
+				name="AdsDB"
+				searchtimeout="30000ms">
+					/form[@title='Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text='Amazon Redshift']/?/?/treeitem[@text='ads_db']
+				</item>
+				<item
+				capname="treeitem"
+				id="7f8dfe47-018f-44d0-a752-8156e4ad91e7"
+				name="Public"
+				searchtimeout="30000ms">
+					/form[@title='Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text='Amazon Redshift']/?/?/treeitem[@text='public']
+				</item>
+				<item
+				capname="treeitem"
+				id="e3615042-9aa6-4c8e-8724-445e605d09cf"
+				name="AdsDB1"
+				searchtimeout="30000ms">
+					/form[@title='Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text='Amazon Redshift']/?/?/treeitem[@text='ads_db1']
+				</item>
+				<basepath>
+					/form[@title='Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']
+				</basepath>
+			</folder>
+			<item
+			addcaps="treeitem"
+			capname="treeitem"
+			id="22fb3472-a4b3-4cd7-b251-a2f7da66ac93"
+			name="Tables"
+			refimgid="fe83aa0e-f585-4c92-b25a-4cd5afd97547"
+			searchtimeout="30000ms">
+				/form[@title='Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='ContentManagerImpl$MyContentComponent']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text='Amazon Redshift']/?/?/treeitem[@text='ads_db1']/?/?/treeitem[@text='Tables']
+			</item>
+			<item
+			capname="treeitem"
+			id="741eb30b-8be4-4ded-9ac9-db05990c18a2"
+			name="Databases"
+			searchtimeout="30000ms">
+				/form[@title='Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text='Amazon Redshift']/treeitem[@text='Databases']
+			</item>
+			<item
+			capname="menuitem"
+			id="7db4b471-d207-4703-8a5b-6ec3dcf1f472"
+			name="QueryBuilder"
+			searchtimeout="30000ms">
+				/form[@title='Aqua Data Studio']//menuitem[@text='Query Builder']
+			</item>
+			<basepath>
+				/form[@title='Aqua Data Studio']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAK7SURBVDhPhZNbSFNxHMf3FD320HOv9dBDD71F
+DHsIgiAi66mCIEN8KDBSulFD1wxHEOhMtznXMnVWlu7mZe7mtmZzbuou7Tg1184U3drmzu7w7X+O
+DKysfvDhHM4538/5HX6/w5OpVEf7B4bEesO40zht3rJYbbDaZjBjd8DucLKUzRZLUKszfFQoldfU
+avUB3t4yjE/Gkskk0uk0MpkMstksGIZBLpfjyOfzKBQKHOOeCC68MOlOt9vu85+YDnICrU6PWCzG
+BYvFIkqlEiqVCke5XOaCrHzSu4amdxSk/h00GDZx5qV7ihOMabQIhUKgaRqJRAKpVIqD7Soej4Oi
+KHg8HtTLnRDqomjxM2h2pnBJGiry203HeU1dk+iYpvBlJYaNzU0kSLAqYKWs3Opy46ZiFrcVYdz5
+RKNxhEbD62CZL3Yf5t0SG1EjieKyLon6OQaPQgwEy3k89GfR6PqB6/otnFNt4JSYwhWJF/cGI7g7
+EK7UiB1t3CdUBbXaJG64GNQvFdAQLKLOk8NVUxoXR7ZxtpcmgjWceBBEc+f7Pr7QdIwLs7WfoHF+
+G8N6IzfKfyFXKNv3FbROebC+vv5fzBYreG1SDc5LKNRqEr8IJjzL6DH/hmUZUksEMivBFoFx2gRu
+jP5AEI5AFJpwEuqVLFRmN/ew0pfFm0UGPfM03gYYDIZykJLzYSoPkTOxKxhSD8e8Ph+3TNU9cH52
+ode+wgXZQKuRLJCXhozQSkb+ilwT2GO7gm6l8oiqf0BMdn11huz+wuISJqaMUM2uYjRaxNj3EqQ+
+Gh1UAc+CeXSSsChcwOP51K5gbykUikMypfKkXNHX1z+3Brkvjm7yVgHpQEKOLALSQZc3DpE7/qeg
+WmQ8Twe939CylOZom4tDGMhAGMzguWcDoq87ECwk/y4gv20de/N/fBgZjf0E9QDs1GDdW0gAAAAA
+SUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="0880f8d0-a15c-4c77-a509-5cc1a9d40c98"
+		isrooted="True"
+		name="Datastudio"
+		refpath="/form[@processname='datastudio' and @class='SunAwtWindow']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="888c8137-4a3c-4ffb-a04e-060f6cb616dc"
+			name="QueryBuilder"
+			refimgid="0a0c34d4-fa24-453a-96b8-942e3f3bf2fb"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='Query Builder']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="4cd3e283-5ad1-49ff-9f69-78c041774446"
+			name="Save"
+			refimgid="68ba619a-553d-4063-adeb-117591ff6235"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='Save']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="c59dacc2-cde6-4455-b820-a2b3bbcf59ca"
+			name="Options"
+			refimgid="81f1a851-c958-4a3c-a5d5-67fb3453bd9b"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='Options']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="34fa0de0-9736-4fa1-9ab1-da9e0c4d216a"
+			name="New"
+			refimgid="9402da4f-2d5c-428c-b03c-de6b1541fb3f"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='New']
+			</item>
+			<item
+			capname="menuitem"
+			id="d9104b79-22b5-44ae-9d56-109150eed20f"
+			name="Open"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='Open']
+			</item>
+			<item
+			capname="menuitem"
+			id="e4b3f2b8-1632-478f-bc9a-53f33f7c154c"
+			name="Close"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='Close']
+			</item>
+			<item
+			capname="menuitem"
+			id="74a72113-6d2f-41de-91af-2e1fe5180365"
+			name="ExecuteEdit"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='Execute Edit']
+			</item>
+			<item
+			capname="menuitem"
+			id="28541f36-fea5-4815-856c-1f98d9913fae"
+			name="FormatSQL"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='Format SQL...']
+			</item>
+			<item
+			capname="menuitem"
+			id="f2bb703d-201a-486d-aa79-0b6e9fe38ad2"
+			name="Identifier"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='Quote Identifiers']
+			</item>
+			<item
+			capname="menuitem"
+			id="ff06b10b-077d-4238-a5bb-c52467337c47"
+			name="Ignored"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']///menuitem[@text~'^Ignore\ Unused\ Tables\ in\ D']
+			</item>
+			<item
+			capname="menuitem"
+			id="89cb603a-0fac-4347-b61c-293ed10719b8"
+			name="QuickTable"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='Quick Table Add...']
+			</item>
+			<item
+			capname="text"
+			id="eeb831f9-fbdb-4df1-bdc2-6270be4c6fe3"
+			name="EnterName"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//container[@name='null.layeredPane']/container[@name='contentPane']/?/?/text[@type='JTextField']
+			</item>
+			<item
+			capname="menuitem"
+			id="8ab38cb7-27c6-47e2-aac4-edcca8dcfe05"
+			name="AddSchema"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='Add Schema...']
+			</item>
+			<item
+			capname="menuitem"
+			id="f3746b3d-a489-42df-8216-bf018ddde86e"
+			name="EditConnection"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='Edit Connection...']
+			</item>
+			<item
+			capname="menuitem"
+			id="03e89c07-e460-4f0e-a408-c8e147dd30f8"
+			name="Properties"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='Properties']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="504d3dea-dd2b-4b7b-a5d2-9233b6fbf878"
+			name="CreateUnion"
+			refimgid="0ce77d97-2435-41eb-90d4-df1cbc06abb2"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu/menuitem[@text='Create Union']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']/?/?/menuitem[@text='Create Union']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="2a6883a9-d755-4621-91f9-18d81cce040c"
+			name="AddToFavorite"
+			refimgid="9e74fd37-33da-4508-a901-2c56f9651a44"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu/menuitem[@text='Add to Favorite']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']/?/?/menuitem[@text='Add to Favorite']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="85ab66b3-f8ce-4b1e-94cb-7145313dab73"
+			name="AddToSelectDeck"
+			refimgid="064bf189-25b0-4400-9372-cbdfc158cbe7"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu/menuitem[@text='Add to Select Deck']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']/?/?/menuitem[@text='Add to Select Deck']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="7f9448a9-50d5-4d6c-a35e-fb48d98a3cc1"
+			name="AddToDiagram"
+			refimgid="3eedf515-b2de-4d76-8e00-4bebaf7db905"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu/menuitem[@text='Add to Diagram']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']/?/?/menuitem[@text='Add to Diagram']
+			</item>
+			<item
+			capname="menuitem"
+			id="487a9664-4001-4ac2-a9eb-9f2923c7fdc1"
+			name="CopyToSQL"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='Copy SQL']
+			</item>
+			<item
+			capname="menuitem"
+			id="c6ca577b-376c-4b4b-8042-4700fcd28cc8"
+			name="QuoteIdentifier"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='Quote Identifiers']
+			</item>
+			<item
+			capname="menuitem"
+			id="8773ba60-207c-4c5e-af52-e29d0b948116"
+			name="AutoJoinForeignKey"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='Auto Join on Foreign Key']
+			</item>
+			<item
+			capname="menuitem"
+			id="a52309a7-6fb0-4e53-9247-f5069c385666"
+			name="SchemaQualifiedTables"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='Schema Qualified Tables']
+			</item>
+			<item
+			capname="menuitem"
+			id="aff8f97a-e826-410c-b1a1-2613d33dc50b"
+			name="IgnoreUnusedTable"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text~'^Ignore\ Unused\ Tables\ in\ D']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="579d5f01-0685-4052-b4e2-beaf1110c583"
+			name="AlwaysIncludeInSQL"
+			refimgid="89a6f3b0-eb6d-4134-b143-472c702a041e"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='Always Include in SQL']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="7b7b3a62-b490-4056-8e72-e8f686b4875f"
+			name="CreateUnion1"
+			refimgid="b6299932-a085-4e56-983b-ebe9c74656ac"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='Create Union']
+			</item>
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="e4b7ca53-f747-4f95-88cf-245d5b4422c3"
+			name="LIKE"
+			refimgid="f605f266-aa7a-40b6-87c0-14988875844b"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu/container/container/list/listitem[@text='LIKE']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='LIKE']
+			</item>
+			<basepath>
+				/form[@class='SunAwtWindow']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIYSURBVDhPlZFJa5NRFIbvD3DnzrX0D7hxk4U7
+d+7EYqMIolkUqUULbW2poRojthSM7SI0VcEBLU2ERiWlCKXYRrIRkpCYoUmauZkgE5l4zXskwYAF
+u3j47hmec4dPrdmdOot937Vm38dJ+OM4dcr8adfl+RVGtVpFvV7/J5VKZSBmLx26ann9G/L5PNrt
+NjqdzgDMUS75d9FsNgfydOiqpXcO5HI5tFqtASiUy2Xkt54ht3hedv27ToeuMr6yI5PJoNFoDFAq
+lZD9asTRoyEUi0Uc/XTIkF6dDl2lN1uRSqVQq9X6cOf0tgmZ2TNSS2/qkZ0fknyvh3m6atr0HvF4
+XIo9uHtm6nT/21uTXg8duurewmtEo9F+A+H9Mk/PST59/5TE5PDwEMlkEoVCQWp01ajBjHA4LK/K
+e4VCIYG5uP4sIrY5WVOeWHoDo2UDsVgMwWAQdNXNOZME2WxWpg9PmaCdWYHu8SquTr+QmGvzuqNf
+f2Kxwufzga7STi7C7/fLo3AX8mXnBz7vOAXb9vcue/AFQiJdn13pnsIKj8cDuuryuAFer1cehUQi
+EdyeN+PK5HMMd+GXMfPXZpZhWN2QtdvtBl11afQhAoGAnODg4ECuwxMdRyKRkF46dNXFWw9ETKfT
++Li1B8PLTdxZeHssfCv+ETp01YUbE9EPNrsM4OT/gUPo0FUa7ZhOM3LXpRkZx8noOtox3W+2QEFu
+Et1VDAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="c874b4af-b9b1-4202-80e2-bce50a72546f"
+		isrooted="True"
+		name="QueryBuilderWindow"
+		refpath="/form[@title='Query Builder - Amazon Redshift [Query4]*']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="9d3d1a1c-e9be-4809-a016-e270b6fbc9a2"
+			name="ExecuteButton"
+			refimgid="e9d3e95a-2f56-4dfb-b122-989075266053"
+			searchtimeout="30000ms">
+				/form[@title~'^Query\ Builder\ -\ Amazon\ Re']//button[@name='executeButton']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="04237677-0a59-43ad-9794-5e8e1cd56d2b"
+			name="File"
+			refimgid="a60a53b6-1b23-41a6-a55f-fa93f43add36"
+			searchtimeout="30000ms">
+				/form[@title~'^Query\ Builder\ -\ Amazon\ Re']//menuitem[@name='menuFile']
+			</item>
+			<folder
+			addcaps="container,javaelement"
+			capname="container"
+			id="3cf37121-dbcb-4c44-a574-12ca75d92a51"
+			isrooted="True"
+			name="QBContainerPanel"
+			refpath="/form[@title='Query Builder - Amazon Redshift [Query4]*']/container[@type='QBContainerPanel']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="container,javaelement"
+				capname="container"
+				id="49dd01c0-3498-41fa-994a-6a21e0d148ea"
+				name="WorksheetPanel"
+				refimgid="1f335bde-3690-4fc6-9965-66c259b8cca1"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']/container/container/container[@type='WorksheetPanel']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']//container[@accessiblename='Main']/container[@type='QBWorksheetPanel']//container[@type='WorksheetPanel']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="f0b9a482-6d73-4e56-bd40-909da3e0f976"
+				name="TableRootNode"
+				refimgid="fd3e37bc-5904-447b-87d7-083194f5ce5e"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='StackPane']/container[@type='QBTableDataPane']/container[@type='JTreeScrollPane']/container/tree/treeitem[@text='Table-Root-Node']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']//container[@type='QBTableDataPane']//tree[@name='tree']/treeitem[@text='Table-Root-Node']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="f16a3c3a-eb42-4721-8d39-2b063e257e37"
+				name="AdsTable"
+				refimgid="8b2685c3-109f-4432-8154-d6b286a793e4"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/?/?/container[@type='QBTableDataPane']//tree[@name='tree']/?/?/treeitem[@text='ads_table']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="0e83a3c9-e755-4755-8619-e37e7b2aee62"
+				name="AdsTableImport"
+				refimgid="7435f316-1274-4db6-87ea-500360e9e9c8"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='StackPane']/container[@type='QBTableDataPane']/container[@type='JTreeScrollPane']/container/tree/treeitem/treeitem[@text='ads_table_import']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/?/?/container[@type='QBTableDataPane']//tree[@name='tree']/?/?/treeitem[@text='ads_table_import']
+				</item>
+				<item
+				addcaps="container,javaelement"
+				capname="container"
+				id="e3edff60-ab02-412b-9adf-4ed5cf5402fc"
+				name="Panel"
+				refimgid="8d0da465-ecc0-4c98-9810-0b782c3802b2"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']/container/container/container/container[@name='Select']/container[@type='JPanel']/container/container/container/container[@name='panel']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']//container[@name='Select']//container[@name='panel']
+				</item>
+				<item
+				addcaps="container,javaelement"
+				capname="container"
+				id="931117b0-e2c6-437d-988a-9a81ad8bfc98"
+				name="JPanel"
+				refimgid="fa9a968d-4b98-45da-83b2-b24f8e4799d1"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Subquery_1']/container[4]/container/container/container/container[@name='Where']/container[@type='JPanel']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']//container[@accessiblename='Subquery_1']/container[4]//container[@name='Where']/container[@type='JPanel']
+				</item>
+				<item
+				addcaps="cell"
+				capname="cell"
+				id="776ba9e4-d37a-4db8-b30d-b197d4ca791a"
+				name="CellId"
+				refimgid="13ef7770-fad5-4a27-918d-ab5fe733c798"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Subquery_1']/container[4]/container/container/container/container[@name='main']/container/container/container/element/container[@type='JScrollPane']/container[@name='viewport']/table/row[@index='1']/cell[@text='id']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']//container[@accessiblename='Subquery_1']/container[4]//container[@name='main']/?/?/container[@name='viewport']//container[@type='JScrollPane']/container[@name='viewport']/table[@name='entityTable']/row[@index='1']/cell[@text='id']
+				</item>
+				<item
+				addcaps="text,javaelement"
+				capname="text"
+				id="76cc728f-4a88-466c-8c7d-221bff2e6b9a"
+				name="Where"
+				refimgid="98a15535-4fe6-48e9-bb40-cae9f60ee5bb"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Subquery_1']/container[4]/container/container/container/container[@name='Where']/container[@type='Shelf$TitlePanel']/text[@caption='Where']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/?/?/container[@accessiblename='Subquery_1']/container[4]//container[@name='Where']/?/?/text[@caption='Where']
+				</item>
+				<item
+				addcaps="container,javaelement"
+				capname="container"
+				id="47398b79-a00a-4f36-bde0-a74e9ce00ecd"
+				name="WherePanel"
+				refimgid="725fe75a-0e68-465e-beb0-fdba78c5d0d6"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Subquery_1']/container[4]/container/container/container/container[@name='Where']/container[@type='JPanel']/container[@type='WhiteDropPanel']/container/container/container[@name='panel']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/container[@type='CSplitPane']/container[@accessiblename='Subquery_1']/container[4]//container[@name='Where']//container[@name='panel']
+				</item>
+				<basepath>
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']
+				</basepath>
+			</folder>
+			<item
+			addcaps="treeitem"
+			capname="treeitem"
+			id="0fc93276-3085-4077-9a6d-131c41cf4edf"
+			name="AdsTable"
+			refimgid="892503b6-d6ce-4af9-9623-2dc64ac757ed"
+			searchtimeout="30000ms">
+				/form[@title~'^Query\ Builder\ -\ Amazon\ Re']//container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/?/?/container[@type='QBTableDataPane']//tree[@name='tree']/?/?/treeitem[@text='ads_table']
+			</item>
+			<item
+			addcaps="container,javaelement"
+			capname="container"
+			id="b6f96d5b-53d8-4c8d-8597-3425b324d69b"
+			name="GraphPane"
+			refimgid="be92d93d-a235-4da9-beea-19e380dd39f8"
+			refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']/container/container/container/container[@name='main']/container/container/container[@name='graphPane']"
+			searchtimeout="30000ms">
+				/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']//container[@accessiblename='Main']/container[@type='QBWorksheetPanel']//container[@name='main']/?/?/container[@name='viewport']/container[@name='graphPane']
+			</item>
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="02eab99b-c2ac-49a7-8c8d-7c9175ef00f0"
+			name="ExecuteButton1"
+			refimgid="5fcc713a-6c8e-4bd9-8c8f-0e9fc9ac5816"
+			refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBToolBar']/button[@name='executeButton']"
+			searchtimeout="30000ms">
+				/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/?/?/button[@name='executeButton']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="36351906-57de-412c-859a-f976952e469d"
+			name="Query"
+			refimgid="d7121789-675e-4624-8f1c-a4449e8107cf"
+			refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/menubar[@name='menuBar']/menuitem[@name='menuQuery']"
+			searchtimeout="30000ms">
+				/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/?/?/menuitem[@name='menuQuery']
+			</item>
+			<item
+			capname="menuitem"
+			id="a5e8e539-f806-4537-b3f4-d2d1f887d7a5"
+			name="Window"
+			searchtimeout="30000ms">
+				/form[@title~'^Query\ Builder\ -\ Amazon\ Re']//menuitem[@name='menuWindow']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="706d6f99-78ba-446b-91fb-00af8cbcbb76"
+			name="Worksheet"
+			refimgid="734f7cc7-6344-44b2-8923-13b5fca87101"
+			refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/menubar[@name='menuBar']/menuitem[@name='menuWorksheet']"
+			searchtimeout="30000ms">
+				/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/?/?/menuitem[@name='menuWorksheet']
+			</item>
+			<folder
+			addcaps="container,javaelement"
+			capname="container"
+			id="3a6c7fc8-3e4d-426a-880d-708489319e0c"
+			isrooted="True"
+			name="Viewport"
+			refpath="/form[@title='Query Builder - Amazon Redshift [Query9]*']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']/container[@type='JPanel']/container[@type='MultiSplitWorksheet$SizeAwareLayeredPane']/container[@type='WorksheetPanel']/container[@name='main']/container[@name='scrollPane']/container[@name='viewport']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="container,javaelement"
+				capname="container"
+				id="2e0949aa-69b1-4e1d-9e65-71741dc4083d"
+				name="GraphPane"
+				refimgid="fb3d2af7-598b-4be9-810e-35c418f7fadc"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Subquery_1']/container[4]/container/container/container/container[@name='main']/container/container/container[@name='graphPane']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']//container[@accessiblename='Subquery_1']/container[4]//container[@name='main']/?/?/container[@name='viewport']/container[@name='graphPane']
+				</item>
+				<basepath>
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']//container[@accessiblename='Subquery_1']/container[4]//container[@name='main']/?/?/container[@name='viewport']
+				</basepath>
+			</folder>
+			<folder
+			addcaps="container,javaelement"
+			capname="container"
+			id="6050222e-769f-4e70-bdec-0f99ee7c703d"
+			isrooted="True"
+			name="QBContainerPanel1"
+			refpath="/form[@title='Query Builder - Amazon Redshift [Query9]*']/container[@type='QBContainerPanel']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="1667f032-881a-4fac-897a-1c0634adcc6b"
+				name="AdsTable1"
+				refimgid="6e093e9a-e581-4cf7-a212-3be94d76a6e4"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='StackPane']/container[@type='QBTableDataPane']/container[@type='JTreeScrollPane']/container/tree/treeitem/treeitem[@text='ads_table1']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/?/?/container[@type='QBTableDataPane']//tree[@name='tree']/?/?/treeitem[@text='ads_table1']
+				</item>
+				<item
+				addcaps="container,javaelement"
+				capname="container"
+				id="1551b2cd-8a16-43ed-8bdd-b7d618a43ec4"
+				name="Panel"
+				refimgid="20d174a2-51bb-49b7-b5ab-ca7aede1a500"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Subquery_1']/container[4]/container/container/container/container[@name='Where']/container[@type='JPanel']/container[@type='WhiteDropPanel']/container/container/container[@name='panel']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/container[@type='CSplitPane']/container[@accessiblename='Subquery_1']/container[4]//container[@name='Where']//container[@name='panel']
+				</item>
+				<basepath>
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']
+				</basepath>
+			</folder>
+			<folder
+			addcaps="container,javaelement"
+			capname="container"
+			id="798f6b37-503b-441a-8c40-27fd2675a1d1"
+			isrooted="True"
+			name="DataPaneAndSheetSplitPane"
+			refpath="/form[@title='Query Builder - Amazon Redshift [Query9]*']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="container,javaelement"
+				capname="container"
+				id="15e9c1cc-6735-4a1c-b8de-5bfcdac86149"
+				name="JDropHint"
+				refimgid="5e972d85-cfb6-4cbb-bf7d-add057779e08"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Subquery_1']/container[4]/container/container/container/container[@name='Where']/container[@type='JPanel']/container[@type='WhiteDropPanel']/container/container/container/container[@type='JDropHint']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/container[@type='CSplitPane']/container[@accessiblename='Subquery_1']/container[4]//container[@name='Where']//container[@type='JViewport']/?/?/container[@type='JDropHint']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="3dad1b60-5d2f-488f-866a-667364f03116"
+				name="IdInt4"
+				refimgid="897c8ea9-5e24-419b-9250-daac6e22ef6b"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']//container[@type='StackPane']/container[@type='QBTableDataPane']//tree[@name='tree']//treeitem[@text='id : int4']
+				</item>
+				<item
+				addcaps="tree,javaelement"
+				capname="tree"
+				id="91e97523-1a0e-4ab0-ae2d-ed1b71922d5b"
+				name="Tree"
+				refimgid="9bb15979-c0f2-4997-b958-2f9aae818eef"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='StackPane']/container[@type='QBTableDataPane']/container[@type='JTreeScrollPane']/container/tree[@name='tree']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/?/?/container[@type='QBTableDataPane']//tree[@name='tree']
+				</item>
+				<item
+				addcaps="container,javaelement"
+				capname="container"
+				id="6165dca6-d388-4ba4-8727-a0cea8a05e85"
+				name="WherePanel"
+				refimgid="0e9dec8e-65e7-451e-a8e9-7264555a3ad8"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Subquery_1']/container[4]/container/container/container/container[@name='Where']/container[@type='JPanel']/container[@type='WhiteDropPanel']/container/container/container[@name='panel']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/container[@type='CSplitPane']/container[@accessiblename='Subquery_1']/container[4]//container[@name='Where']//container[@name='panel']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="121b8912-436a-4c8b-9e51-0a32140c5868"
+				name="NameVarchar50"
+				refimgid="64ef6530-f68c-4324-85ce-a9838fb3348d"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='StackPane']/container[@type='QBTableDataPane']/container[@type='JTreeScrollPane']/container/tree/treeitem/treeitem[@text='ads_table1']/treeitem[@text='Columns']/treeitem[@text='name : varchar(50)']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/container[@type='StackPane']/container[@type='QBTableDataPane']//tree[@name='tree']//treeitem[@text='name : varchar(50)']
+				</item>
+				<basepath>
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']
+				</basepath>
+			</folder>
+			<item
+			capname="button"
+			id="437a6635-9690-41f7-b73f-61c351ec329c"
+			name="Close"
+			searchtimeout="30000ms">
+				/form[@title~'^Query\ Builder\ -\ Amazon\ Re']//button[@text='Close']
+			</item>
+			<item
+			capname="menuitem"
+			id="67a545f2-bb66-492d-9479-5db769f6d69c"
+			name="ConnectionMenu"
+			searchtimeout="30000ms">
+				/form[@title~'^Query\ Builder\ -\ Amazon\ Re']//menuitem[@name='menuConnection']
+			</item>
+			<item
+			capname="button"
+			id="83071115-4b95-4aba-a9b9-4958385960c2"
+			name="Refresh"
+			searchtimeout="30000ms">
+				/form[@title~'^Query\ Builder\ -\ Amazon\ Re']//button[@name='refreshButton']
+			</item>
+			<item
+			capname="button"
+			id="30cfa36b-a89d-4210-859f-6745c1315dc3"
+			name="Reconnect"
+			searchtimeout="30000ms">
+				/form[@title~'^Query\ Builder\ -\ Amazon\ Re']//button[@name='reconnectButton']
+			</item>
+			<item
+			capname="tree"
+			id="eb59e80f-d247-4f9a-b3de-b947344d6c69"
+			name="TreeItemTable"
+			searchtimeout="30000ms">
+				/form[@title~'^Query\ Builder\ -\ Amazon\ Re']//container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/?/?/container[@type='QBTableDataPane']//tree[@name='tree']
+			</item>
+			<item
+			capname="button"
+			id="20f203f9-80f9-4c00-ab95-82e376500c19"
+			name="CloseButton"
+			searchtimeout="30000ms">
+				/form[@title~'^Query\ Builder\ -\ Amazon\ Re']//button[@accessiblename='Close']
+			</item>
+			<basepath>
+				/form[@title~'^Query\ Builder\ -\ Amazon\ Re']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAC7SURBVDhPzVHBEcIwDMuMdKH8swbs0QwADxgE
+FighwnLqtG6vd3zQnc6OE8l2G/4Dp/O1DJdbGb6ReY2trjnPyCkV4OL+egufU41TebRcYjtXrg26
+7nMnrUMwT+NMkFIqFuM4MhPknJkJ8J5SwdKgTeIQcA3QBZ1BnNs3MURd7ykVoGARY2TWQ+swoVSw
+Z+CtoaRcDOCqa1gD3G2tQ7k/gaUH1ClfG9jfdtjA43Idi85gD3i4RT75BSF8ACeCIhjSshVHAAAA
+AElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="9901ed9e-ac15-41d3-99a0-724c1f8efd17"
+		isrooted="True"
+		name="SaveWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="text"
+			id="70a3db79-422e-44b6-a4c5-3eb87e396576"
+			name="FilepathText"
+			searchtimeout="30000ms">
+				/form[@title='Save']//element/container[@type='JPanel']/container[3]/container[2]/text[@accessiblename='File name:']
+			</item>
+			<item
+			capname="button"
+			id="7112faa2-a06a-4a3f-b127-c802aa934660"
+			name="SaveButton"
+			searchtimeout="30000ms">
+				/form[@title='Save']//element/container[@type='JPanel']/container[3]/container[3]/button[@text='Save']
+			</item>
+			<basepath>
+				/form[@title='Save']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="60a35a2b-4b20-4880-a2f4-767113e6b077"
+		isrooted="True"
+		name="SaveResultWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="f8daeea8-19f0-43a3-a806-2f782dacb8de"
+			name="SAvetofile"
+			searchtimeout="30000ms">
+				/form[@title='Save Results']//container[@type='JPanel']/?/?/button[@text='Save to File']
+			</item>
+			<basepath>
+				/form[@title='Save Results']
+			</basepath>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="270cb161-1495-4777-b76f-71cece151163"
+		isrooted="True"
+		name="ChooseServerOrDatabase"
+		refpath="/form[@title='Choose Server or Database']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="treeitem"
+			capname="treeitem"
+			id="4c6b9b52-b15a-4e1a-8449-303351dbe4b9"
+			name="AmazonRedshift"
+			refimgid="cd58b2ab-b976-4eaa-a26c-a585f86432d0"
+			refpath="/form[@title='Choose Server or Database']/container[@type='CPanel']/container/container/container/tree/treeitem/treeitem/treeitem[@text='Amazon Redshift']"
+			searchtimeout="30000ms">
+				/form[@title='Choose Server or Database']//container[@type='JScrollPane']/container[@name='viewport']/tree[@type='CTree']//treeitem[@text='Amazon Redshift']
+			</item>
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="f640914b-ac3a-4686-971b-b4d90acc6b23"
+			name="ButtonOK"
+			refimgid="2c4beeea-0a28-46b6-bd74-eefd9eebeb26"
+			refpath="/form[@title='Choose Server or Database']/container[@type='CButtonPanel']/button[@name='defaultButton']"
+			searchtimeout="30000ms">
+				/form[@title='Choose Server or Database']/?/?/button[@name='defaultButton']
+			</item>
+			<item
+			capname="tree"
+			id="e4e16068-d49b-40ac-abbd-a74aca98333c"
+			name="ServerList"
+			searchtimeout="30000ms">
+				/form[@title='Choose Server or Database']//container[@type='JScrollPane']/container[@name='viewport']/tree[@type='CTree']
+			</item>
+			<basepath>
+				/form[@title='Choose Server or Database']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAC7SURBVDhPzVHBEcIwDMuMdKH8swbs0QwADxgE
+FighwnLqtG6vd3zQnc6OE8l2G/4Dp/O1DJdbGb6ReY2trjnPyCkV4OL+egufU41TebRcYjtXrg26
+7nMnrUMwT+NMkFIqFuM4MhPknJkJ8J5SwdKgTeIQcA3QBZ1BnNs3MURd7ykVoGARY2TWQ+swoVSw
+Z+CtoaRcDOCqa1gD3G2tQ7k/gaUH1ClfG9jfdtjA43Idi85gD3i4RT75BSF8ACeCIhjSshVHAAAA
+AElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="a7ce5d3b-68af-4e64-be57-44c38022e4c2"
+		isrooted="True"
+		name="ConnectServerWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="049fe7c6-ada3-4b55-b1a0-732905e663c8"
+			name="Connect"
+			searchtimeout="30000ms">
+				/form[@title~'^Query Builder ']//container[@type='QBContainerPanel']//container[@type='QBDataSourceDataPane']/?/?/button[@name='connectButton']
+			</item>
+			<basepath>
+				/form[@title~'^Query Builder ']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="b4e4b0a1-7142-4e4d-a669-1b980228b800"
+		isrooted="True"
+		name="FileOpenWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="2f4110bf-ff64-48e8-b5d8-bc172de0ba1e"
+			name="Open"
+			searchtimeout="30000ms">
+				/form[@title='Open']//element/container[@type='JPanel']/container[3]/container[3]/button[@text='Open']
+			</item>
+			<item
+			capname="text"
+			id="1c7fe6ef-d6c9-4769-b4f4-8f5e4d5f6640"
+			name="FileNameText"
+			searchtimeout="30000ms">
+				/form[@title='Open']//element/container[@type='JPanel']/container[3]/container[2]/text[@accessiblename='File name:']
+			</item>
+			<item
+			capname="button"
+			id="10a75a62-7fba-4643-b22e-7bc2c6e576ae"
+			name="CloseButton"
+			searchtimeout="30000ms">
+				/form[@title='Open']//element/container[@type='JPanel']/container[3]/container[3]/button[@text='Open']
+			</item>
+			<basepath>
+				/form[@title='Open']
+			</basepath>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="c2057ac4-e41a-4302-89a8-b11af9e5825a"
+		isrooted="True"
+		name="QueryBuilderQuery2"
+		refpath="/form[@title='Query Builder - Amazon Redshift [Query2]*']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="treeitem"
+			capname="treeitem"
+			id="b2fef35f-33c4-4b66-9b49-f98f43e8ad06"
+			name="AdsTable"
+			refimgid="b736b8f3-44b3-408e-8c93-07706e259504"
+			refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re' and @processname='datastudio' and @class='SunAwtFrame' and @accessiblename='Query Builder - Amazon Redshift [Query2]*']/container[@type='QBContainerPanel']/container/container[@type='StackPane']/container[@type='QBTableDataPane']/container[@type='JTreeScrollPane']/container/tree/treeitem/treeitem[@text='ads_table']"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio' and @class='SunAwtFrame' and @accessiblename='Query Builder - Amazon Redshift [Query2]*']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/?/?/container[@type='QBTableDataPane']//tree[@name='tree']/?/?/treeitem[@text='ads_table']
+			</item>
+			<item
+			addcaps="container,javaelement"
+			capname="container"
+			id="47f8ff4f-226a-4125-af00-f1f869005397"
+			name="Panel"
+			refimgid="881eeeb8-54cc-479c-ada0-1e5d7500f5ca"
+			refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re' and @processname='datastudio' and @class='SunAwtFrame' and @accessiblename='Query Builder - Amazon Redshift [Query2]*']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']/container/container/container/container[@name='Select']/container[@type='JPanel']/container/container/container/container[@name='panel']"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio' and @class='SunAwtFrame' and @accessiblename='Query Builder - Amazon Redshift [Query2]*']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']//container[@name='Select']//container[@name='panel']
+			</item>
+			<basepath>
+				/form[@processname='datastudio' and @class='SunAwtFrame' and @accessiblename='Query Builder - Amazon Redshift [Query2]*']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAC7SURBVDhPzVHBEcIwDMuMdKH8swbs0QwADxgE
+FighwnLqtG6vd3zQnc6OE8l2G/4Dp/O1DJdbGb6ReY2trjnPyCkV4OL+egufU41TebRcYjtXrg26
+7nMnrUMwT+NMkFIqFuM4MhPknJkJ8J5SwdKgTeIQcA3QBZ1BnNs3MURd7ykVoGARY2TWQ+swoVSw
+Z+CtoaRcDOCqa1gD3G2tQ7k/gaUH1ClfG9jfdtjA43Idi85gD3i4RT75BSF8ACeCIhjSshVHAAAA
+AElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="822072b9-2498-45c6-b0c1-c268323070b5"
+		isrooted="True"
+		name="OptionsWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="b38c4f2b-3571-4630-9bb2-0d9197130b37"
+			name="OkayOptionsButton"
+			searchtimeout="30000ms">
+				/form[@title='Options']//container[2]/container[@type='JPanel']//button[@text='OK']
+			</item>
+			<basepath>
+				/form[@title='Options']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="26a2c649-1dc7-492a-8f56-d65e18423bd6"
+		isrooted="True"
+		name="EditingWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="cell"
+			id="93d93112-02d8-4525-84df-d4de66e355d4"
+			name="Edit"
+			searchtimeout="30000ms">
+				/form[@title~'^Amazon\ Redshift\ :\ Editing']/container[@name='contentPanel']//container[@name='_splitpane']//table[@name='_dataTable']/row[@index='1']/cell[@text='4563']
+			</item>
+			<item
+			capname="button"
+			id="8c130c53-457a-4a9a-b8ca-314e43919fb3"
+			name="SaveButton"
+			searchtimeout="30000ms">
+				/form[@title~'^Amazon\ Redshift\ :\ Editing']//container[@name='contentPanel']//button[@name='saveChangesRefreshButton']
+			</item>
+			<item
+			capname="menuitem"
+			id="f1f16613-0025-4134-aaf3-27042e10765c"
+			name="File"
+			searchtimeout="30000ms">
+				/form[@title~'^Amazon\ Redshift\ :\ Editing']//menuitem[@text='File']
+			</item>
+			<item
+			capname="cell"
+			id="a66039b1-5381-432f-8d9f-2c17fdd09e1c"
+			name="CheckMark"
+			searchtimeout="30000ms">
+				/form[@title~'^Amazon\ Redshift\ :\ Editing']//container[@name='contentPanel']//container[@type='CTableScrollPane']/container[5]/table[@type='BaseTableScrollPaneTable']/?/?/cell[@text='false']
+			</item>
+			<item
+			capname="tabpage"
+			id="db2d03a2-15b7-4837-8386-38aeee4d9bc7"
+			name="ClickonNextTab"
+			searchtimeout="30000ms">
+				/form[@title~'^Amazon\ Redshift\ :\ Editing']//container[@name='contentPanel']//tabpage[@title~'^Primary\ Key\ -\ ads_db1\.pub']
+			</item>
+			<basepath>
+				/form[@title~'^Amazon\ Redshift\ :\ Editing']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="f11add03-01e7-48ea-9c93-25e2eba87566"
+		isrooted="True"
+		name="SaveChangesWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="774c6232-c34a-429f-935f-088f6763666a"
+			name="OkButton"
+			searchtimeout="30000ms">
+				/form[@title='Save Changes']//container[@name='OptionPane.buttonArea']/button[@text='OK']
+			</item>
+			<item
+			capname="button"
+			id="002c0043-6d3f-41f4-a9bc-9f42be15d9ff"
+			name="Discard"
+			searchtimeout="30000ms">
+				/form[@title='Save Changes']//container[@name='OptionPane.buttonArea']/button[@text='Discard']
+			</item>
+			<basepath>
+				/form[@title='Save Changes']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="74e164f5-fed8-4419-8d09-aaffc2671284"
+		isrooted="True"
+		name="TableModifiedWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="b6e46c67-8527-41d7-88c6-7101a036b6e0"
+			name="Save"
+			searchtimeout="30000ms">
+				/form[@title='Table Modified']//container[@name='OptionPane.buttonArea']/button[@text='Save']
+			</item>
+			<basepath>
+				/form[@title='Table Modified']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="0ff8d6a0-d274-48f1-bd06-661f7f129382"
+		isrooted="True"
+		name="BeautyOptionWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="checkbox"
+			id="1ecbab4d-4ba1-4e8a-858f-bacde8645c4b"
+			name="Check"
+			searchtimeout="30000ms">
+				/form[@title='Beautify Options']//container[@type='JPanel']/?/?/checkbox[@text='Before Comma']
+			</item>
+			<item
+			capname="button"
+			id="5ffad0a7-4bf1-42bd-8339-f220fd89d115"
+			name="Okay"
+			searchtimeout="30000ms">
+				/form[@title='Beautify Options']//button[@text='OK']
+			</item>
+			<item
+			capname="button"
+			id="38fb42bb-e700-4376-9ac2-efa8a729bd3f"
+			name="Cancel"
+			searchtimeout="30000ms">
+				/form[@title='Beautify Options']//button[@text='Cancel']
+			</item>
+			<basepath>
+				/form[@title='Beautify Options']
+			</basepath>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="1a15e626-8506-4f64-beea-7c86eead437b"
+		isrooted="True"
+		name="QueryBuilderQuery9"
+		refpath="/form[@title='Query Builder - Amazon Redshift [Query9]*']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="treeitem"
+			capname="treeitem"
+			id="4af23390-93f9-4971-b9b8-a10fcab62865"
+			name="AdsTable"
+			refimgid="631b3217-eaf7-4c3b-a956-82a149fbc16e"
+			refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re' and @processname='datastudio' and @class='SunAwtFrame' and @accessiblename='Query Builder - Amazon Redshift [Query9]*']/container[@type='QBContainerPanel']/container/container[@type='StackPane']/container[@type='QBTableDataPane']/container[@type='JTreeScrollPane']/container/tree/treeitem/treeitem[@text='ads_table']"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio' and @class='SunAwtFrame' and @accessiblename='Query Builder - Amazon Redshift [Query9]*']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/?/?/container[@type='QBTableDataPane']//tree[@name='tree']/?/?/treeitem[@text='ads_table']
+			</item>
+			<item
+			addcaps="container,javaelement"
+			capname="container"
+			id="97a1c140-4d7c-4506-ae25-3a0377dbd06a"
+			name="GraphPane"
+			refimgid="1a2e4f26-52ea-42b8-bd97-4da45e0e84f4"
+			refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re' and @processname='datastudio' and @class='SunAwtFrame' and @accessiblename='Query Builder - Amazon Redshift [Query9]*']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']/container/container/container/container[@name='main']/container/container/container[@name='graphPane']"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio' and @class='SunAwtFrame' and @accessiblename='Query Builder - Amazon Redshift [Query9]*']/container[@type='QBContainerPanel']//container[@accessiblename='Main']/container[@type='QBWorksheetPanel']//container[@name='main']/?/?/container[@name='viewport']/container[@name='graphPane']
+			</item>
+			<basepath>
+				/form[@processname='datastudio' and @class='SunAwtFrame' and @accessiblename='Query Builder - Amazon Redshift [Query9]*']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAC7SURBVDhPzVHBEcIwDMuMdKH8swbs0QwADxgE
+FighwnLqtG6vd3zQnc6OE8l2G/4Dp/O1DJdbGb6ReY2trjnPyCkV4OL+egufU41TebRcYjtXrg26
+7nMnrUMwT+NMkFIqFuM4MhPknJkJ8J5SwdKgTeIQcA3QBZ1BnNs3MURd7ykVoGARY2TWQ+swoVSw
+Z+CtoaRcDOCqa1gD3G2tQ7k/gaUH1ClfG9jfdtjA43Idi85gD3i4RT75BSF8ACeCIhjSshVHAAAA
+AElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="cb739508-dbbc-443b-badb-cf1950b63b4b"
+		isrooted="True"
+		name="CloseQB"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="65389655-3c62-4e49-afbd-7c371483a7df"
+			name="Close"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio' and @class='SunAwtFrame' and @accessiblename='Query Builder - Amazon Redshift [Test_Ads.qbw]']//button[@accessiblename='Close']
+			</item>
+			<basepath>
+				/form[@processname='datastudio' and @class='SunAwtFrame' and @accessiblename='Query Builder - Amazon Redshift [Test_Ads.qbw]']
+			</basepath>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="4a76fdf5-2444-40f0-90d1-70be13f7819e"
+		isrooted="True"
+		name="MenuBarWindow"
+		refpath="/form[@processname='datastudio' and @class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='0']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="aa292150-da5a-46ef-bfc6-bc19e29d50d5"
+			name="MenuItemNew"
+			refimgid="961daacb-fe7c-4865-973c-a44554de2564"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='0']/contextmenu/menuitem[@text='New']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='0']/?/?/menuitem[@text='New']
+			</item>
+			<basepath>
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='0']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIYSURBVDhPlZFJa5NRFIbvD3DnzrX0D7hxk4U7
+d+7EYqMIolkUqUULbW2poRojthSM7SI0VcEBLU2ERiWlCKXYRrIRkpCYoUmauZkgE5l4zXskwYAF
+u3j47hmec4dPrdmdOot937Vm38dJ+OM4dcr8adfl+RVGtVpFvV7/J5VKZSBmLx26ann9G/L5PNrt
+NjqdzgDMUS75d9FsNgfydOiqpXcO5HI5tFqtASiUy2Xkt54ht3hedv27ToeuMr6yI5PJoNFoDFAq
+lZD9asTRoyEUi0Uc/XTIkF6dDl2lN1uRSqVQq9X6cOf0tgmZ2TNSS2/qkZ0fknyvh3m6atr0HvF4
+XIo9uHtm6nT/21uTXg8duurewmtEo9F+A+H9Mk/PST59/5TE5PDwEMlkEoVCQWp01ajBjHA4LK/K
+e4VCIYG5uP4sIrY5WVOeWHoDo2UDsVgMwWAQdNXNOZME2WxWpg9PmaCdWYHu8SquTr+QmGvzuqNf
+f2Kxwufzga7STi7C7/fLo3AX8mXnBz7vOAXb9vcue/AFQiJdn13pnsIKj8cDuuryuAFer1cehUQi
+EdyeN+PK5HMMd+GXMfPXZpZhWN2QtdvtBl11afQhAoGAnODg4ECuwxMdRyKRkF46dNXFWw9ETKfT
++Li1B8PLTdxZeHssfCv+ETp01YUbE9EPNrsM4OT/gUPo0FUa7ZhOM3LXpRkZx8noOtox3W+2QEFu
+Et1VDAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="3014de23-e9dc-4df4-8287-e67cf5b5ed28"
+		isrooted="True"
+		name="WorksheetWindow"
+		refpath="/form[@processname='datastudio' and @class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='1']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="5dfa7253-8158-4c48-8362-27c2c1dde806"
+			name="SubqueryInSelectDeck"
+			refimgid="636d73a5-d299-444d-8695-4b06f7cfea29"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='1']/contextmenu/menuitem[@text='Subquery in Select Deck']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='1']/?/?/menuitem[@text='Subquery in Select Deck']
+			</item>
+			<basepath>
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='1']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIYSURBVDhPlZFJa5NRFIbvD3DnzrX0D7hxk4U7
+d+7EYqMIolkUqUULbW2poRojthSM7SI0VcEBLU2ERiWlCKXYRrIRkpCYoUmauZkgE5l4zXskwYAF
+u3j47hmec4dPrdmdOot937Vm38dJ+OM4dcr8adfl+RVGtVpFvV7/J5VKZSBmLx26ann9G/L5PNrt
+NjqdzgDMUS75d9FsNgfydOiqpXcO5HI5tFqtASiUy2Xkt54ht3hedv27ToeuMr6yI5PJoNFoDFAq
+lZD9asTRoyEUi0Uc/XTIkF6dDl2lN1uRSqVQq9X6cOf0tgmZ2TNSS2/qkZ0fknyvh3m6atr0HvF4
+XIo9uHtm6nT/21uTXg8duurewmtEo9F+A+H9Mk/PST59/5TE5PDwEMlkEoVCQWp01ajBjHA4LK/K
+e4VCIYG5uP4sIrY5WVOeWHoDo2UDsVgMwWAQdNXNOZME2WxWpg9PmaCdWYHu8SquTr+QmGvzuqNf
+f2Kxwufzga7STi7C7/fLo3AX8mXnBz7vOAXb9vcue/AFQiJdn13pnsIKj8cDuuryuAFer1cehUQi
+EdyeN+PK5HMMd+GXMfPXZpZhWN2QtdvtBl11afQhAoGAnODg4ECuwxMdRyKRkF46dNXFWw9ETKfT
++Li1B8PLTdxZeHssfCv+ETp01YUbE9EPNrsM4OT/gUPo0FUa7ZhOM3LXpRkZx8noOtox3W+2QEFu
+Et1VDAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="30006ad4-dd43-434e-92ef-12e685c840c0"
+		isrooted="True"
+		name="EditWhereCriteriaWindow"
+		refpath="/form[@title='Edit Where Criteria &quot;ads_db1&quot;.&quot;public&quot;.&quot;ads_table1&quot;.&quot;id&quot;']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="radiobutton,javaelement"
+			capname="radiobutton"
+			id="2f147898-398a-4959-b1b5-ed83fe259246"
+			name="Subquery"
+			refimgid="6aac8ec8-a1d9-4ce4-ab14-fb66364df680"
+			refpath="/form[@title~'^Edit\ Where\ Criteria\ &quot;ads_']/container/container[@type='CPanel']/container/container[@accessiblename=' Column Operator, Value &amp; Preview ']/container/radiobutton[@name='_radioSubQuery']"
+			searchtimeout="30000ms">
+				/form[@title~'^Edit\ Where\ Criteria\ &quot;ads_']/container[@type='CPanel']//container[@accessiblename=' Column Operator, Value &amp; Preview ']/?/?/radiobutton[@name='_radioSubQuery']
+			</item>
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="be88fa73-3bbf-41db-802b-140f91bebb8e"
+			name="Save"
+			refimgid="2abee146-f983-44a0-92f1-32791880b891"
+			refpath="/form[@title~'^Edit\ Where\ Criteria\ &quot;ads_']/container/container[@type='CButtonPanel']/button[@name='defaultButton']"
+			searchtimeout="30000ms">
+				/form[@title~'^Edit\ Where\ Criteria\ &quot;ads_']/container[@type='CPanel']/?/?/button[@name='defaultButton']
+			</item>
+			<item
+			capname="menuitem"
+			id="40cbada2-0bb1-4742-b8f0-8c3417a25b82"
+			name="Union"
+			searchtimeout="30000ms">
+				/form[@title~'^Edit\ Where\ Criteria\ &quot;ads_']//menuitem[@text='Union']
+			</item>
+			<item
+			capname="menuitem"
+			id="eaa651b1-350b-4000-b691-fb7c95090950"
+			name="DerivedClass"
+			searchtimeout="30000ms">
+				/form[@title~'^Edit\ Where\ Criteria\ &quot;ads_']//menuitem[@text='Derived Table']
+			</item>
+			<basepath>
+				/form[@title~'^Edit\ Where\ Criteria\ &quot;ads_']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAC7SURBVDhPzVHBEcIwDMuMdKH8swbs0QwADxgE
+FighwnLqtG6vd3zQnc6OE8l2G/4Dp/O1DJdbGb6ReY2trjnPyCkV4OL+egufU41TebRcYjtXrg26
+7nMnrUMwT+NMkFIqFuM4MhPknJkJ8J5SwdKgTeIQcA3QBZ1BnNs3MURd7ykVoGARY2TWQ+swoVSw
+Z+CtoaRcDOCqa1gD3G2tQ7k/gaUH1ClfG9jfdtjA43Idi85gD3i4RT75BSF8ACeCIhjSshVHAAAA
+AElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="04ad4e0a-f920-4bb3-b24f-01c58a13d6e5"
+		isrooted="True"
+		name="Overwrite"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="container"
+			id="dfaec2a7-b28e-4021-9c1d-389543947915"
+			name="OverwritePane"
+			searchtimeout="30000ms">
+				/form[@title='Overwrite']//container[@type='JOptionPane']
+			</item>
+			<basepath>
+				/form[@title='Overwrite']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="cf480e5e-4974-49f6-802f-b6e37bf65c33"
+		isrooted="True"
+		name="Open"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="text"
+			id="2fbdf3f1-453e-408a-addb-cd267362a988"
+			name="OpenTextbox"
+			searchtimeout="30000ms">
+				/form[@title='Open']//element/container[@type='JPanel']/container[3]/container[2]/text[@accessiblename='File name:']
+			</item>
+			<item
+			capname="button"
+			id="7d499359-da53-423a-9002-ee02762a2f5c"
+			name="OpenButton"
+			searchtimeout="30000ms">
+				/form[@title='Open']//element/container[@type='JPanel']/container[3]/container[3]/button[@text='Open']
+			</item>
+			<basepath>
+				/form[@title='Open']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="ade9de66-a0e9-4804-94f8-2502a0c95d66"
+		isrooted="True"
+		name="AddSchema"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="treeitem"
+			id="20501bc1-49b6-4dd5-baaf-d5a8f31f497b"
+			name="Public"
+			searchtimeout="30000ms">
+				/form[@title='Add Schema']//container[@type='CPanel']//container[@name='viewport']/tree[@type='DBContextTreeObject$DataTreeImpl']/?/?/treeitem[@text='public']
+			</item>
+			<item
+			capname="button"
+			id="2723b505-6bbd-474b-a3a3-136b7aec1b13"
+			name="OkButton"
+			searchtimeout="30000ms">
+				/form[@title='Add Schema']//container[@type='CPanel']/?/?/button[@text='OK']
+			</item>
+			<basepath>
+				/form[@title='Add Schema']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="7de0902e-04ac-4668-88ae-bcfb30b0eaad"
+		isrooted="True"
+		name="EditServerProperties"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="text"
+			id="668a0aef-9c77-4352-9f02-301a11d9be54"
+			name="RootTextbox"
+			searchtimeout="30000ms">
+				/form[@title~'^Edit\ Server\ Properties\ -\ ']//container[@accessiblename='General   ']/container[@type='CPanel']/?/?/container[@type='CPanel']//container[@name='authenticationConfigComponent']/?/?/text[@name='_txtLoginName']
+			</item>
+			<item
+			capname="button"
+			id="85e602a7-81ee-441a-a7c3-e18f255ad132"
+			name="Save"
+			searchtimeout="30000ms">
+				/form[@title~'^Edit\ Server\ Properties\ -\ ']//container[@type='HorizontalLayoutPanel']/?/?/button[@text='Save']
+			</item>
+			<basepath>
+				/form[@title~'^Edit\ Server\ Properties\ -\ ']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="2b8bd5d9-2f45-4a5e-b406-df70bd2b0256"
+		isrooted="True"
+		name="ConnectionProperties"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="table"
+			id="ec6db5c7-6d86-4f8b-8e34-2198b7cde524"
+			name="ConnectionTable"
+			searchtimeout="30000ms">
+				/form[@title='Connection Properties']//container[@name='propertyPane']/container[4]/table[@type='BaseTableScrollPaneTable']
+			</item>
+			<item
+			capname="button"
+			id="86d7a499-38b8-4f1a-8b73-71e48a000f02"
+			name="Close"
+			searchtimeout="30000ms">
+				/form[@title='Connection Properties']//container[@type='CPanel']/?/?/button[@text='Close']
+			</item>
+			<basepath>
+				/form[@title='Connection Properties']
+			</basepath>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="29705e48-7246-4038-bb44-28b4ec1cbc41"
+		isrooted="True"
+		name="QueryBuilderAmazonRedshiftQuery2"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="treeitem"
+			capname="treeitem"
+			id="aecf5577-b478-4b08-8538-9320d80ea124"
+			name="AdsTable"
+			refimgid="76cf62bb-40cc-4f1d-899c-f3745d2ed006"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio' and @class='SunAwtFrame' and @accessiblename~'^Query Builder ']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/?/?/container[@type='QBTableDataPane']//tree[@name='tree']/?/?/treeitem[@text='ads_table']
+			</item>
+			<item
+			addcaps="container,javaelement"
+			capname="container"
+			id="eb14245a-62e0-4990-b240-fed29bb8b7bc"
+			name="Panel"
+			refimgid="54130309-3ba4-4c4f-8d2d-b74cca8065af"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio' and @class='SunAwtFrame' and @accessiblename~'^Query Builder ']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']//container[@name='Select']//container[@name='panel']
+			</item>
+			<item
+			capname="button"
+			id="559b0b87-6234-469a-960b-0387172f8e7f"
+			name="CloseButton"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio' and @class='SunAwtFrame' and @accessiblename~'^Query Builder ']//button[@accessiblename='Close']
+			</item>
+			<basepath>
+				/form[@processname='datastudio' and @class='SunAwtFrame' and @accessiblename~'^Query Builder ']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAC7SURBVDhPzVHBEcIwDMuMdKH8swbs0QwADxgE
+FighwnLqtG6vd3zQnc6OE8l2G/4Dp/O1DJdbGb6ReY2trjnPyCkV4OL+egufU41TebRcYjtXrg26
+7nMnrUMwT+NMkFIqFuM4MhPknJkJ8J5SwdKgTeIQcA3QBZ1BnNs3MURd7ykVoGARY2TWQ+swoVSw
+Z+CtoaRcDOCqa1gD3G2tQ7k/gaUH1ClfG9jfdtjA43Idi85gD3i4RT75BSF8ACeCIhjSshVHAAAA
+AElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="fe67d342-1f7e-4b78-9e7b-f393a9eabcd4"
+		isrooted="True"
+		name="DataStudio1"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="menuitem"
+			id="f9c560ce-62b1-4cf6-b66f-3ec3568ba90e"
+			name="Open"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Open']
+			</item>
+			<basepath>
+				/form[@processname='datastudio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="2278a209-9e0e-4fc4-bd24-d71498104c27"
+		isrooted="True"
+		name="QueryBuilderAmazonRedshiftQuery1"
+		refpath="/form[@title='Query Builder - Amazon Redshift [Query1]*']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="aecdaf4a-eae9-4748-b7ee-bc9057d60b94"
+			name="ExecuteButton"
+			refimgid="35862aae-88a7-4580-9ede-f49bdb4db996"
+			refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBToolBar']/button[@name='executeButton']"
+			searchtimeout="30000ms">
+				/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/?/?/button[@name='executeButton']
+			</item>
+			<folder
+			addcaps="container,javaelement"
+			capname="container"
+			id="9b9c0a04-45a0-44ea-92c7-feb116037af5"
+			isrooted="True"
+			name="QBContainerPanel"
+			refpath="/form[@title='Query Builder - Amazon Redshift [Query1]*']/container[@type='QBContainerPanel']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="cell"
+				capname="cell"
+				id="a88720d6-60e7-46b1-a6cb-9bbc3f88d9ef"
+				name="CellId"
+				refimgid="8061f6c8-a72f-4fe8-af83-92f4ba4b8eb8"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']/container/container/container/container[@name='main']/container/container/container/element/container[@type='JScrollPane']/container[@name='viewport']/table/row[@index='1']/cell[@text='id']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']//container[@accessiblename='Main']/container[@type='QBWorksheetPanel']//container[@name='main']/?/?/container[@name='viewport']//container[@type='JScrollPane']/container[@name='viewport']/table[@name='entityTable']/row[@index='1']/cell[@text='id']
+				</item>
+				<item
+				addcaps="container,javaelement"
+				capname="container"
+				id="4e851610-5532-496f-8c5f-542a1b7a6263"
+				name="Panel1"
+				refimgid="191a58b8-d5df-4f4d-be69-d5f61e1b3218"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']/container/container/container/container[@name='Select']/container[@type='JPanel']/container/container/container/container[@name='panel']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']//container[@name='Select']//container[@name='panel']
+				</item>
+				<item
+				addcaps="container,javaelement"
+				capname="container"
+				id="20897efc-f5f2-4f9c-bc8e-d417748f4a5d"
+				name="Panel"
+				refimgid="74db8ee8-ffad-40de-a313-82fadae741f8"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']/container/container/container/container[@name='Where']/container[@type='JPanel']/container[@type='WhiteDropPanel']/container/container/container[@name='panel']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']//container[@name='Where']//container[@name='panel']
+				</item>
+				<item
+				addcaps="container,javaelement"
+				capname="container"
+				id="9da9ec1d-0b5e-4fea-81ea-668ded886c1b"
+				name="Panel2"
+				refimgid="d6748b88-b5c2-4292-9131-720bd235ad3f"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']/container/container/container/container[@name='Select']/container[@type='JPanel']/container/container/container/container[@name='panel']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']//container[@name='Select']//container[@name='panel']
+				</item>
+				<item
+				addcaps="text,javaelement"
+				capname="text"
+				id="8c05fcbd-298f-41df-b244-9de8d683a28b"
+				name="TextId1"
+				refimgid="e70d1b84-5284-403d-8afa-be640c7c8548"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']/container/container/container/container[@name='Select']/container[@type='JPanel']/container/container/container/container/text[@caption='id']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']//container[@name='Select']//container[@type='JViewport']/?/?/text[@caption='id']
+				</item>
+				<item
+				addcaps="container,javaelement"
+				capname="container"
+				id="de45fbf6-becc-40d9-b5a5-077b07d3c7c9"
+				name="OrderByPanel"
+				refimgid="f0b245df-130e-4785-9d65-edcc94bf6adc"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']/container/container/container/container[@name='OrderBy']/container[@type='JPanel']/container/container/container/container[@name='panel']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']//container[@name='OrderBy']//container[@name='panel']
+				</item>
+				<item
+				addcaps="container,javaelement"
+				capname="container"
+				id="bfb31d6b-4d39-4b1a-9711-82d9a4b1d286"
+				name="HavingPanel"
+				refimgid="a4772df0-ec26-45f5-9f2b-0e307e1c27e3"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']//container[@name='dataPaneAndSheetSplitPane']/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']//container[@name='Having']//container[@name='panel']
+				</item>
+				<item
+				addcaps="container,javaelement"
+				capname="container"
+				id="9dc0e74b-5885-42d3-a2dc-d668543fac1d"
+				name="HavingJDropHint1"
+				refimgid="1dd2fa9f-e78f-487c-8896-9560b6312983"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']/container/container/container/container[@name='Having']/container[@type='JPanel']/container[@type='WhiteDropPanel']/container/container/container/container[@type='JDropHint']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']//container[@name='Having']//container[@type='JViewport']/?/?/container[@type='JDropHint']
+				</item>
+				<item
+				addcaps="text,javaelement"
+				capname="text"
+				id="68f74854-4aa1-436a-b493-5d6966a4c5d5"
+				name="JLabel"
+				refimgid="666bcc08-9024-48cf-a66e-98c969a03744"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']/container/container/container/container[@name='main']/container/container/container/element/container[@name='titlePanel']/container/text[2]"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']//container[@accessiblename='Main']/container[@type='QBWorksheetPanel']//container[@name='main']/?/?/container[@name='viewport']//container[@name='titlePanel']/container[@name='buttonPanel']/text[2]
+				</item>
+				<item
+				addcaps="container,javaelement"
+				capname="container"
+				id="3b633286-cf66-430a-b2f1-a997404dde16"
+				name="GraphPane"
+				refimgid="169b0f44-d8dd-4b1b-9e6e-a4efe75d3457"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']/container/container/container/container[@name='main']/container/container/container[@name='graphPane']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']//container[@accessiblename='Main']/container[@type='QBWorksheetPanel']//container[@name='main']/?/?/container[@name='viewport']/container[@name='graphPane']
+				</item>
+				<item
+				addcaps="text,javaelement"
+				capname="text"
+				id="824b23dd-e385-41b6-86ae-a8a719c59e3a"
+				name="Worksheet"
+				refimgid="3c92386f-d7a6-4ddc-9228-9feaf9608f7b"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='StackPane']/container[@type='QBWorksheetDataPane']/container[@type='DataPane$3']/text[@caption='Worksheet']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']//container[@type='QBWorksheetDataPane']/?/?/text[@caption='Worksheet']
+				</item>
+				<item
+				addcaps="tree,javaelement"
+				capname="tree"
+				id="10a1cac3-c5f1-4275-8b33-98e3ef7e97a6"
+				name="Tree"
+				refimgid="4f70f56f-dbde-4f54-8f34-408f67028b83"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']//container[@name='dataPaneAndSheetSplitPane']/?/?/container[@type='QBTableDataPane']//tree[@name='tree']
+				</item>
+				<item
+				addcaps="tree,javaelement"
+				capname="tree"
+				id="ec90dea8-15d2-459c-99e2-10cfef39b24d"
+				name="Tree1"
+				refimgid="5810df2e-f0ea-4a1d-ae59-cbc1e07ecb36"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']//container[@name='dataPaneAndSheetSplitPane']/?/?/container[@type='QBViewDataPane']//tree[@name='tree']
+				</item>
+				<item
+				addcaps="text,javaelement"
+				capname="text"
+				id="7fe8107b-3c0e-4540-996a-ed9f02e343b0"
+				name="TextId"
+				refimgid="3074856c-2f48-4491-bfca-bbb35200f0dc"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']/container/container/container/container[@name='GroupBy']/container[@type='JPanel']/container/container/container/container/text[@caption='id']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']//container[@name='GroupBy']//container[@type='JViewport']/?/?/text[@caption='id']
+				</item>
+				<item
+				addcaps="text,javaelement"
+				capname="text"
+				id="d4c7a6fe-4868-4671-8d9b-b0069a7d201c"
+				name="Name1"
+				refimgid="9ede9991-2897-4246-b956-4c788b5ec155"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']/container/container/container/container[@name='GroupBy']/container[@type='JPanel']/container/container/container/container/text[@caption='name']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']//container[@name='GroupBy']//container[@type='JViewport']/?/?/text[@caption='name']
+				</item>
+				<item
+				addcaps="text,javaelement"
+				capname="text"
+				id="6989b289-634a-4716-900b-8681126a267c"
+				name="Text1IdEq45631"
+				refimgid="0daed0af-bcc6-4d51-b453-049ab5620968"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']/container/container/container/container[@name='Having']/container[@type='JPanel']/container[@type='WhiteDropPanel']/container/container/container/text[@caption='1. id = 4563']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']//container[@name='Having']//container[@type='JViewport']/?/?/text[@caption='1. id = 4563']
+				</item>
+				<item
+				addcaps="text,javaelement"
+				capname="text"
+				id="1df7740b-44f9-483a-bea0-6ec20753e22b"
+				name="Name2"
+				refimgid="f82abc40-63c2-437b-9661-c000c90efe63"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']/container/container/container/container[@name='OrderBy']/container[@type='JPanel']/container/container/container/container/text[@caption='name']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']//container[@name='OrderBy']//container[@type='JViewport']/?/?/text[@caption='name']
+				</item>
+				<item
+				addcaps="text,javaelement"
+				capname="text"
+				id="b422cc63-edd0-4585-9821-975b728976a5"
+				name="COUNTId"
+				refimgid="a3e33cbf-138d-4376-8f9f-a1571171d45b"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']/container/container/container/container[@name='Select']/container[@type='JPanel']/container/container/container/container/text[@caption='COUNT(id)']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']//container[@name='Select']//container[@type='JViewport']/?/?/text[@caption='COUNT(id)']
+				</item>
+				<item
+				addcaps="text,javaelement"
+				capname="text"
+				id="f642e4bf-c065-45ac-8a03-1807113990db"
+				name="Name"
+				refimgid="23f692a1-5505-434a-8e8d-0fab919d6a0e"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']/container/container/container/container[@name='Select']/container[@type='JPanel']/container/container/container/container/text[@caption='name']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']//container[@name='Select']//container[@type='JViewport']/?/?/text[@caption='name']
+				</item>
+				<item
+				addcaps="text,javaelement"
+				capname="text"
+				id="47ce4ac8-ff93-4b99-b0c5-c36cceb5d4d9"
+				name="Text1IdEq4563"
+				refimgid="2858cebe-92f2-494d-9840-608eeedc34f2"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']/container/container/container/container[@name='Where']/container[@type='JPanel']/container[@type='WhiteDropPanel']/container/container/container/text[@caption='1. id = 4563']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']//container[@name='Where']//container[@type='JViewport']/?/?/text[@caption='1. id = 4563']
+				</item>
+				<item
+				addcaps="container,javaelement"
+				capname="container"
+				id="c1ea33d7-8c3b-4d2a-83d4-1b748ef1cfd9"
+				name="UnionGraphPane1"
+				refimgid="2dae6534-1100-4e65-8cbc-004ca2322895"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Union_1']/container[4]/container/container/container/container[@name='main']/container/container/container[@name='graphPane']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']//container[@accessiblename='Union_1']/container[4]//container[@name='main']/?/?/container[@name='viewport']/container[@name='graphPane']
+				</item>
+				<item
+				addcaps="text,javaelement"
+				capname="text"
+				id="4fe6ee35-5863-44ae-9a83-cd3ad6a6d1c1"
+				name="UnionJLabel"
+				refimgid="76f5401e-f376-4aa9-8585-c72f2de9e902"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']/container/container/container/container[@name='Union']/container[@type='Shelf$TitlePanel']/container/text[@name='']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/?/?/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']//container[@name='Union']//text[@name='']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="78e28e08-13d8-41af-b125-6f212e9a4dd3"
+				name="AdsTable"
+				refimgid="4446895c-f259-4e46-b452-663fe3d4290e"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='StackPane']/container[@type='QBTableDataPane']/container[@type='JTreeScrollPane']/container/tree/treeitem/treeitem[@text='ads_table']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/?/?/container[@type='QBTableDataPane']//tree[@name='tree']/?/?/treeitem[@text='ads_table']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="2670f25b-f89f-4885-a3f5-30ed7e14c1eb"
+				name="IdInt4"
+				refimgid="316294f1-a351-43ef-9b6c-529dba71504c"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='StackPane']/container[@type='QBTableDataPane']/container[@type='JTreeScrollPane']/container/tree/treeitem/treeitem[@text='ads_table1']/treeitem[@text='Columns']/treeitem[@text='id : int4']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/container[@type='StackPane']/container[@type='QBTableDataPane']//tree[@name='tree']//treeitem[@text='id : int4']
+				</item>
+				<item
+				addcaps="container,javaelement"
+				capname="container"
+				id="792571b9-3c2e-45a1-90de-c68974416b7f"
+				name="JDropHint"
+				refimgid="0a2eff2e-4855-48fd-9003-3cccbb556894"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']/container/container/container/container[@name='Where']/container[@type='JPanel']/container[@type='WhiteDropPanel']/container/container/container/container[@type='JDropHint']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']//container[@name='Where']//container[@type='JViewport']/?/?/container[@type='JDropHint']
+				</item>
+				<item
+				addcaps="text,javaelement"
+				capname="text"
+				id="a4858b57-845a-4276-b42b-58da67296d58"
+				name="UnionJLabel1"
+				refimgid="2cab13e6-da27-4de1-857b-679847813634"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']//container[@name='dataPaneAndSheetSplitPane']/?/?/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']//container[@name='Union']//text[@name='']
+				</item>
+				<item
+				addcaps="container,javaelement"
+				capname="container"
+				id="754bd191-698f-477b-9d34-56acc267e080"
+				name="UnionGraphPane"
+				refimgid="0c232e26-48e2-4d99-9d71-556ff2d0b08f"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Union_1']/container[4]/container/container/container/container[@name='main']/container/container/container[@name='graphPane']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']//container[@accessiblename='Union_1']/container[4]//container[@name='main']/?/?/container[@name='viewport']/container[@name='graphPane']
+				</item>
+				<item
+				addcaps="tree,javaelement"
+				capname="tree"
+				id="55cb869d-fa55-4aa5-8182-9458da4c391f"
+				name="Tree2"
+				refimgid="f78cd2ca-1cb8-4adc-ab5b-dd35a7823cb9"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='StackPane']/container[@type='QBTableDataPane']/container[@type='JTreeScrollPane']/container/tree[@name='tree']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/?/?/container[@type='QBTableDataPane']//tree[@name='tree']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="738ec346-cc0d-466c-ba86-7812685229a6"
+				name="AdsTable1"
+				refimgid="9dc78592-c6fe-49a0-892d-871ae802eb58"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='StackPane']/container[@type='QBTableDataPane']/container[@type='JTreeScrollPane']/container/tree/treeitem/treeitem[@text='ads_table']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/?/?/container[@type='QBTableDataPane']//tree[@name='tree']/?/?/treeitem[@text='ads_table']
+				</item>
+				<item
+				addcaps="cell"
+				capname="cell"
+				id="2e179386-a3f2-4b1a-b121-a48a25615496"
+				name="SubQueryName"
+				refimgid="464e2484-e7cb-4b40-a96c-a6650083fe40"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Subquery_1']/container[4]/container/container/container/container[@name='main']/container/container/container/element/container[@type='JScrollPane']/container[@name='viewport']/table/row[@index='2']/cell[@text='name']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']//container[@accessiblename='Subquery_1']/container[4]//container[@name='main']/?/?/container[@name='viewport']//container[@type='JScrollPane']/container[@name='viewport']/table[@name='entityTable']/row[@index='2']/cell[@text='name']
+				</item>
+				<item
+				addcaps="container,javaelement"
+				capname="container"
+				id="c9f6b13b-dff1-4da9-8656-fff986487c00"
+				name="SubQueryGraphPane"
+				refimgid="631b212a-8793-42b6-95d9-95ad1f87a73e"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Subquery_1']/container[4]/container/container/container/container[@name='main']/container/container/container[@name='graphPane']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']//container[@accessiblename='Subquery_1']/container[4]//container[@name='main']/?/?/container[@name='viewport']/container[@name='graphPane']
+				</item>
+				<item
+				addcaps="container,javaelement"
+				capname="container"
+				id="7848572e-dfff-4a83-aa8c-fb374a00f733"
+				name="SubQueryPanel1"
+				refimgid="58049ff1-a113-49cd-9de6-6e8571d76ab5"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Subquery_1']/container[4]/container/container/container/container[@name='Select']/container[@type='JPanel']/container/container/container/container[@name='panel']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/container[@type='CSplitPane']/container[@accessiblename='Subquery_1']/container[4]//container[@name='Select']//container[@name='panel']
+				</item>
+				<item
+				addcaps="container,javaelement"
+				capname="container"
+				id="69fce7a2-cc42-45ed-8aa7-c33d50719c92"
+				name="SubQueryPanel"
+				refimgid="17f780fd-4f59-49ef-a0ec-b8bfb699c45c"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Subquery_1']/container[4]/container/container/container/container[@name='Where']/container[@type='JPanel']/container[@type='WhiteDropPanel']/container/container/container[@name='panel']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/container[@type='CSplitPane']/container[@accessiblename='Subquery_1']/container[4]//container[@name='Where']//container[@name='panel']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="32bf4f0b-4e0a-4f20-964f-107bea31aa8d"
+				name="NameVarchar256"
+				refimgid="76b57276-fa8b-4355-b346-d33d7aef7d1d"
+				refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='StackPane']/container[@type='QBTableDataPane']/container[@type='JTreeScrollPane']/container/tree/treeitem/treeitem[@text='ads_table1']/treeitem[@text='Columns']/treeitem[@text='name : varchar(256)']"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/container[@type='StackPane']/container[@type='QBTableDataPane']//tree[@name='tree']//treeitem[@text='name : varchar(256)']
+				</item>
+				<item
+				addcaps="menuitem,javaelement"
+				capname="menuitem"
+				id="bb460d8a-05a2-4306-aba7-a7e828992b0d"
+				name="gfdWorksheet"
+				refimgid="26b11d12-510c-499b-a550-98ddde0de6c2"
+				searchtimeout="30000ms">
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/?/?/menuitem[@name='menuWorksheet']
+				</item>
+				<basepath>
+					/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']
+				</basepath>
+			</folder>
+			<item
+			addcaps="container,javaelement"
+			capname="container"
+			id="e3db9b32-faa6-41a9-953d-957a9f318e2e"
+			name="Panel"
+			refimgid="ef9a18da-643a-418a-b5b0-6c54f2583bd8"
+			searchtimeout="30000ms">
+				/form[@title~'^Query\ Builder\ -\ Amazon\ Re']//container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']//container[@name='Select']//container[@name='panel']
+			</item>
+			<item
+			addcaps="cell"
+			capname="cell"
+			id="ef7b1931-67d2-488a-87d2-0e6e78617340"
+			name="CellId"
+			refimgid="59299735-e3b8-45c7-8475-98175d7466d2"
+			refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']/container/container/container/container[@name='main']/container/container/container/element/container[@type='JScrollPane']/container[@name='viewport']/table/row[@index='1']/cell[@text='id']"
+			searchtimeout="30000ms">
+				/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']//container[@accessiblename='Main']/container[@type='QBWorksheetPanel']//container[@name='main']/?/?/container[@name='viewport']//container[@type='JScrollPane']/container[@name='viewport']/table[@name='entityTable']/row[@index='1']/cell[@text='id']
+			</item>
+			<item
+			addcaps="text,javaelement"
+			capname="text"
+			id="ca23c27b-549f-417d-b8b0-5c58174ded2d"
+			name="TextId"
+			refimgid="bee8d7ea-8259-47c8-8650-a20cd0767581"
+			refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']/container/container/container/container[@name='Select']/container[@type='JPanel']/container/container/container/container/text[@caption='id']"
+			searchtimeout="30000ms">
+				/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']//container[@name='Select']//container[@type='JViewport']/?/?/text[@caption='id']
+			</item>
+			<item
+			addcaps="cell"
+			capname="cell"
+			id="0840328f-463d-46d2-8833-44319920259d"
+			name="Name"
+			refimgid="0b4f37b0-5552-464a-b5d5-8f8365296fe6"
+			searchtimeout="30000ms">
+				/form[@title~'^Query\ Builder\ -\ Amazon\ Re']//container[@type='QBContainerPanel']//container[@accessiblename='Main']/container[@type='QBWorksheetPanel']//container[@name='main']/?/?/container[@name='viewport']//container[@type='JScrollPane']/container[@name='viewport']/table[@name='entityTable']/row[@index='2']/cell[@text='name']
+			</item>
+			<item
+			addcaps="container,javaelement"
+			capname="container"
+			id="10c211f0-00fd-43ca-8d64-25e55960fcb3"
+			name="GroupJDropHint"
+			refimgid="48d8f8da-060b-4f2a-8457-6e36a537aefe"
+			searchtimeout="30000ms">
+				/form[@title~'^Query\ Builder\ -\ Amazon\ Re']//container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']//container[@name='GroupBy']//container[@type='JViewport']/?/?/container[@type='JDropHint']
+			</item>
+			<item
+			capname="cell"
+			id="b6bae356-45d3-4ef9-8737-d745e314c7c8"
+			name="CountTable"
+			searchtimeout="30000ms">
+				/form[@title~'^Query\ Builder\ -\ Amazon\ Re']//container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/?/?/container[@accessiblename='Grid   ']/container[@type='ResultSetTableView']//container[@type='CTableScrollPane']/container[5]/table[@type='BaseTableScrollPaneTable']/row[@index='0']/cell[@text='3']
+			</item>
+			<item
+			addcaps="container,javaelement"
+			capname="container"
+			id="2bba1437-7db6-4325-b72a-fe9bc1decbf9"
+			name="GroupPanel"
+			refimgid="84da8d7b-3feb-4bb5-90e3-6788a8a78d0f"
+			refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']/container/container/container/container[@name='GroupBy']/container[@type='JPanel']/container/container/container/container[@name='panel']"
+			searchtimeout="30000ms">
+				/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']//container[@name='GroupBy']//container[@name='panel']
+			</item>
+			<item
+			capname="text"
+			id="15b23a42-e081-49ac-8df7-b65fa834f8f4"
+			name="ClearPane"
+			searchtimeout="30000ms">
+				/form[@title~'^Query\ Builder\ -\ Amazon\ Re']//container[@type='QBContainerPanel']//container[@accessiblename='Main']/container[@type='QBWorksheetPanel']//container[@name='main']/?/?/container[@name='viewport']//container[@name='titlePanel']/container[@name='buttonPanel']/text[2]
+			</item>
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="aff56bab-d997-40c3-8952-371a6cfb60be"
+			name="AdsTable"
+			refimgid="225db041-b749-44b9-8566-ad162725ce10"
+			searchtimeout="30000ms">
+				/form[@title~'^Query\ Builder\ -\ Amazon\ Re']//container[@type='QBContainerPanel']//container[@type='QBFavoriteDataPane']/container[@name='favoritePanel']//list[@name='listComponent']/listitem[@text='ads_table']
+			</item>
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="5aecf670-28e9-43de-a3a1-5bcb000799f9"
+			name="JideButton"
+			refimgid="03dd8ad0-240f-4246-b3ae-2a7eb491c8be"
+			searchtimeout="30000ms">
+				/form[@title~'^Query\ Builder\ -\ Amazon\ Re']//container[@type='QBContainerPanel']/container[@name='dataPaneAndSheetSplitPane']/?/?/container[@type='QBTableDataPane']//button[@text='']
+			</item>
+			<item
+			capname="menuitem"
+			id="31630db7-eab7-48f4-a87a-3837b6571320"
+			name="Query"
+			searchtimeout="30000ms">
+				/form[@title~'^Query\ Builder\ -\ Amazon\ Re']//menuitem[@name='menuQuery']
+			</item>
+			<item
+			addcaps="text,javaelement"
+			capname="text"
+			id="33b0aed3-ee29-47fa-ab1c-6493a96afcee"
+			name="AdsJLabel"
+			refimgid="91578ff4-088d-4e27-85e6-d7684a0127d5"
+			refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']/container/container[@type='CSplitPane']/container[@accessiblename='Main']/container[@type='QBWorksheetPanel']/container/container/container/container[@name='main']/container/container/container/element/container[@name='titlePanel']/container/text[1]"
+			searchtimeout="30000ms">
+				/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/container[@type='QBContainerPanel']//container[@accessiblename='Main']/container[@type='QBWorksheetPanel']//container[@name='main']/?/?/container[@name='viewport']//container[@name='titlePanel']/container[@name='buttonPanel']/text[1]
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="5c80da31-2d34-4590-b841-8f97bb41f451"
+			name="Worksheet"
+			refimgid="52869da8-7b53-447c-967d-dd0a1f80efb8"
+			refpath="/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/menubar[@name='menuBar']/menuitem[@name='menuWorksheet']"
+			searchtimeout="30000ms">
+				/form[@title~'^Query\ Builder\ -\ Amazon\ Re']/?/?/menuitem[@name='menuWorksheet']
+			</item>
+			<item
+			capname="text"
+			id="c94e3fce-eaf1-4c4d-9ea0-66502f6817a8"
+			name="JPanel"
+			searchtimeout="30000ms">
+				/form[@title~'^Query\ Builder\ -\ Amazon\ Re']//container[@type='QBContainerPanel']//container[@accessiblename='Main']/container[@type='QBWorksheetPanel']//container[@name='main']/?/?/container[@name='viewport']//container[@name='titlePanel']/container[@name='buttonPanel']/text[2]
+			</item>
+			<basepath>
+				/form[@title~'^Query\ Builder\ -\ Amazon\ Re']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAC7SURBVDhPzVHBEcIwDMuMdKH8swbs0QwADxgE
+FighwnLqtG6vd3zQnc6OE8l2G/4Dp/O1DJdbGb6ReY2trjnPyCkV4OL+egufU41TebRcYjtXrg26
+7nMnrUMwT+NMkFIqFuM4MhPknJkJ8J5SwdKgTeIQcA3QBZ1BnNs3MURd7ykVoGARY2TWQ+swoVSw
+Z+CtoaRcDOCqa1gD3G2tQ7k/gaUH1ClfG9jfdtjA43Idi85gD3i4RT75BSF8ACeCIhjSshVHAAAA
+AElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="7d280ad4-fee2-4b0a-a428-44e4b7f385cd"
+		isrooted="True"
+		name="EditWhereCriteriaAdsDbPublicAdsTa"
+		refpath="/form[@title='Edit Where Criteria &quot;ads_db&quot;.&quot;public&quot;.&quot;ads_table&quot;.&quot;id&quot;']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="text,javaelement"
+			capname="text"
+			id="84881b92-d076-49c5-a412-dbc869c3102a"
+			name="ValueArea"
+			refimgid="eb4fc169-3340-4961-aafd-d7e660a83d02"
+			refpath="/form[@title~'^Edit\ Where\ Criteria\ &quot;ads_']/container/container[@type='CPanel']/container/container[@accessiblename=' Column Operator, Value &amp; Preview ']/container/container[@name='valueOverlay']/container/container/text[@name='valueArea']"
+			searchtimeout="30000ms">
+				/form[@title~'^Edit\ Where\ Criteria\ &quot;ads_']/container[@type='CPanel']//container[@name='valueOverlay']/container[@name='_actualComponent']/container[@name='viewport']/text[@name='valueArea']
+			</item>
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="8574420f-c776-4473-bc11-08065a678b72"
+			name="Save"
+			refimgid="5f953dd3-d3f2-4b81-bd53-e1958cf564f5"
+			searchtimeout="30000ms">
+				/form[@title~'^Edit\ Where\ Criteria\ &quot;ads_']//container[@type='CPanel']/?/?/button[@text='Save']
+			</item>
+			<folder
+			addcaps="container,javaelement"
+			capname="container"
+			id="53333a0f-d75e-4b4c-8dae-581242deb8ea"
+			isrooted="True"
+			name="CPanel"
+			refpath="/form[@title='Edit Where Criteria &quot;ads_db&quot;.&quot;public&quot;.&quot;ads_table1&quot;.&quot;name&quot;']/container[@type='CPanel']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="button,javaelement"
+				capname="button"
+				id="ec8622b0-05aa-47ea-ae92-05b8d921e866"
+				name="WindowsComboBoxUIDollarXPComboBoxButton"
+				refimgid="cc9fba76-b4b8-4be5-865b-c034a2cce8b3"
+				refpath="/form[@title~'^Edit\ Where\ Criteria\ &quot;ads_']/container/container[@type='CPanel']/container/container[@accessiblename=' Column Operator, Value &amp; Preview ']/container/combobox[@name='operatorField']/button[@text='']"
+				searchtimeout="30000ms">
+					/form[@title~'^Edit\ Where\ Criteria\ &quot;ads_']/container[@type='CPanel']//container[@accessiblename=' Column Operator, Value &amp; Preview ']/?/?/combobox[@name='operatorField']/button[@text='']
+				</item>
+				<item
+				addcaps="text,javaelement"
+				capname="text"
+				id="989ecc40-ca3e-4c07-9f2e-90411515c16d"
+				name="ValueArea"
+				refimgid="389c3be8-6607-4bfc-92c8-1cc0a8c55f89"
+				refpath="/form[@title~'^Edit\ Where\ Criteria\ &quot;ads_']/container/container[@type='CPanel']/container/container[@accessiblename=' Column Operator, Value &amp; Preview ']/container/container[@name='valueOverlay']/container/container/text[@name='valueArea']"
+				searchtimeout="30000ms">
+					/form[@title~'^Edit\ Where\ Criteria\ &quot;ads_']/container[@type='CPanel']//container[@name='valueOverlay']/container[@name='_actualComponent']/container[@name='viewport']/text[@name='valueArea']
+				</item>
+				<item
+				addcaps="button,javaelement"
+				capname="button"
+				id="348a30ee-3f88-422e-8600-d151380522a1"
+				name="Save"
+				refimgid="2d743a34-780c-4488-a255-a8ebc4836b4e"
+				searchtimeout="30000ms">
+					/form[@title~'^Edit\ Where\ Criteria\ &quot;ads_']/container[@type='CPanel']//button[@text='Save']
+				</item>
+				<basepath>
+					/form[@title~'^Edit\ Where\ Criteria\ &quot;ads_']/container[@type='CPanel']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title~'^Edit\ Where\ Criteria\ &quot;ads_']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAC7SURBVDhPzVHBEcIwDMuMdKH8swbs0QwADxgE
+FighwnLqtG6vd3zQnc6OE8l2G/4Dp/O1DJdbGb6ReY2trjnPyCkV4OL+egufU41TebRcYjtXrg26
+7nMnrUMwT+NMkFIqFuM4MhPknJkJ8J5SwdKgTeIQcA3QBZ1BnNs3MURd7ykVoGARY2TWQ+swoVSw
+Z+CtoaRcDOCqa1gD3G2tQ7k/gaUH1ClfG9jfdtjA43Idi85gD3i4RT75BSF8ACeCIhjSshVHAAAA
+AElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="89589ee8-6980-40b7-af44-6b61e1913e03"
+		isrooted="True"
+		name="Datastudio2"
+		refpath="/form[@processname='datastudio' and @class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='1']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="e74c1983-7dc3-4421-ac73-dbd7ab3f5db6"
+			name="COUNT"
+			refimgid="d5ff6dff-fa3f-4173-a9e9-0aa8b082acf2"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='1']/contextmenu/menuitem[@text='COUNT']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='1']/?/?/menuitem[@text='COUNT']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="14ee53be-c096-401e-b2e7-04dc2f71fdbd"
+			name="SubqueryInSelectDeck"
+			refimgid="ec018c04-a70d-4181-ad41-871fa1004e1f"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='1']/contextmenu/menuitem[@text='Subquery in Select Deck']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='1']/?/?/menuitem[@text='Subquery in Select Deck']
+			</item>
+			<basepath>
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='1']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIYSURBVDhPlZFJa5NRFIbvD3DnzrX0D7hxk4U7
+d+7EYqMIolkUqUULbW2poRojthSM7SI0VcEBLU2ERiWlCKXYRrIRkpCYoUmauZkgE5l4zXskwYAF
+u3j47hmec4dPrdmdOot937Vm38dJ+OM4dcr8adfl+RVGtVpFvV7/J5VKZSBmLx26ann9G/L5PNrt
+NjqdzgDMUS75d9FsNgfydOiqpXcO5HI5tFqtASiUy2Xkt54ht3hedv27ToeuMr6yI5PJoNFoDFAq
+lZD9asTRoyEUi0Uc/XTIkF6dDl2lN1uRSqVQq9X6cOf0tgmZ2TNSS2/qkZ0fknyvh3m6atr0HvF4
+XIo9uHtm6nT/21uTXg8duurewmtEo9F+A+H9Mk/PST59/5TE5PDwEMlkEoVCQWp01ajBjHA4LK/K
+e4VCIYG5uP4sIrY5WVOeWHoDo2UDsVgMwWAQdNXNOZME2WxWpg9PmaCdWYHu8SquTr+QmGvzuqNf
+f2Kxwufzga7STi7C7/fLo3AX8mXnBz7vOAXb9vcue/AFQiJdn13pnsIKj8cDuuryuAFer1cehUQi
+EdyeN+PK5HMMd+GXMfPXZpZhWN2QtdvtBl11afQhAoGAnODg4ECuwxMdRyKRkF46dNXFWw9ETKfT
++Li1B8PLTdxZeHssfCv+ETp01YUbE9EPNrsM4OT/gUPo0FUa7ZhOM3LXpRkZx8noOtox3W+2QEFu
+Et1VDAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="7373f23b-dfb1-44d5-aa46-6125b6fd805f"
+		isrooted="True"
+		name="Datastudio3"
+		refpath="/form[@processname='datastudio' and @class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='0']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="838a6064-a0d9-4f7d-ae65-0ea61a10372a"
+			name="Functions"
+			refimgid="bd295328-75ec-4361-9a99-21eb463aa38c"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='0']//menuitem[@text='Functions']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="46f125c5-6286-4d8b-9afb-0607d22dfba0"
+			name="MenuItemNew"
+			refimgid="b744f96a-8a7f-4545-aca1-902872a719a7"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='0']//menuitem[@text='New']
+			</item>
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="2c06b573-1915-4da3-ac7e-e9bc1824f32c"
+			name="LIKE"
+			refimgid="92fd0d91-e594-4caa-a59b-1af0c6427adc"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu/container/container/list/listitem[@text='LIKE']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='0']//container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='LIKE']
+			</item>
+			<basepath>
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='0']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIYSURBVDhPlZFJa5NRFIbvD3DnzrX0D7hxk4U7
+d+7EYqMIolkUqUULbW2poRojthSM7SI0VcEBLU2ERiWlCKXYRrIRkpCYoUmauZkgE5l4zXskwYAF
+u3j47hmec4dPrdmdOot937Vm38dJ+OM4dcr8adfl+RVGtVpFvV7/J5VKZSBmLx26ann9G/L5PNrt
+NjqdzgDMUS75d9FsNgfydOiqpXcO5HI5tFqtASiUy2Xkt54ht3hedv27ToeuMr6yI5PJoNFoDFAq
+lZD9asTRoyEUi0Uc/XTIkF6dDl2lN1uRSqVQq9X6cOf0tgmZ2TNSS2/qkZ0fknyvh3m6atr0HvF4
+XIo9uHtm6nT/21uTXg8duurewmtEo9F+A+H9Mk/PST59/5TE5PDwEMlkEoVCQWp01ajBjHA4LK/K
+e4VCIYG5uP4sIrY5WVOeWHoDo2UDsVgMwWAQdNXNOZME2WxWpg9PmaCdWYHu8SquTr+QmGvzuqNf
+f2Kxwufzga7STi7C7/fLo3AX8mXnBz7vOAXb9vcue/AFQiJdn13pnsIKj8cDuuryuAFer1cehUQi
+EdyeN+PK5HMMd+GXMfPXZpZhWN2QtdvtBl11afQhAoGAnODg4ECuwxMdRyKRkF46dNXFWw9ETKfT
++Li1B8PLTdxZeHssfCv+ETp01YUbE9EPNrsM4OT/gUPo0FUa7ZhOM3LXpRkZx8noOtox3W+2QEFu
+Et1VDAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="b7c70195-ba3e-473d-8ff1-dfe7f64aa134"
+		isrooted="True"
+		name="EditHavingCriteria"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="00ae98ef-393f-466e-a06f-0bc2d6c6da07"
+			name="Save"
+			searchtimeout="30000ms">
+				/form[@title~'^Edit\ Having\ Criteria\ &quot;ads']//container[@type='CPanel']/?/?/button[@text='Save']
+			</item>
+			<basepath>
+				/form[@title~'^Edit\ Having\ Criteria\ &quot;ads']
+			</basepath>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="15d7426f-09a4-4347-827b-7eb633ecb946"
+		isrooted="True"
+		name="Datastudio5"
+		refpath="/form[@processname='datastudio' and @class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='1']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="87691d52-0fac-4d2a-9c0f-f7953ef6351a"
+			name="DerivedTable"
+			refimgid="238b8180-ba6b-409e-beb4-59a74cfaba55"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='1']/contextmenu/menuitem[@text='Derived Table']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='1']/?/?/menuitem[@text='Derived Table']
+			</item>
+			<basepath>
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='1']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIYSURBVDhPlZFJa5NRFIbvD3DnzrX0D7hxk4U7
+d+7EYqMIolkUqUULbW2poRojthSM7SI0VcEBLU2ERiWlCKXYRrIRkpCYoUmauZkgE5l4zXskwYAF
+u3j47hmec4dPrdmdOot937Vm38dJ+OM4dcr8adfl+RVGtVpFvV7/J5VKZSBmLx26ann9G/L5PNrt
+NjqdzgDMUS75d9FsNgfydOiqpXcO5HI5tFqtASiUy2Xkt54ht3hedv27ToeuMr6yI5PJoNFoDFAq
+lZD9asTRoyEUi0Uc/XTIkF6dDl2lN1uRSqVQq9X6cOf0tgmZ2TNSS2/qkZ0fknyvh3m6atr0HvF4
+XIo9uHtm6nT/21uTXg8duurewmtEo9F+A+H9Mk/PST59/5TE5PDwEMlkEoVCQWp01ajBjHA4LK/K
+e4VCIYG5uP4sIrY5WVOeWHoDo2UDsVgMwWAQdNXNOZME2WxWpg9PmaCdWYHu8SquTr+QmGvzuqNf
+f2Kxwufzga7STi7C7/fLo3AX8mXnBz7vOAXb9vcue/AFQiJdn13pnsIKj8cDuuryuAFer1cehUQi
+EdyeN+PK5HMMd+GXMfPXZpZhWN2QtdvtBl11afQhAoGAnODg4ECuwxMdRyKRkF46dNXFWw9ETKfT
++Li1B8PLTdxZeHssfCv+ETp01YUbE9EPNrsM4OT/gUPo0FUa7ZhOM3LXpRkZx8noOtox3W+2QEFu
+Et1VDAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="b30ee2a3-f022-4cd4-acc9-ca58f7a31dca"
+		isrooted="True"
+		name="Datastudio4"
+		refpath="/form[@processname='datastudio' and @class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='0']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="41882c7e-991f-40a9-a7b1-ff5cf135e549"
+			name="MenuItemNew"
+			refimgid="628be947-9043-4958-832e-66b1055b954e"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='0']/contextmenu/menuitem[@text='New']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='0']/?/?/menuitem[@text='New']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="b1f0abf2-4284-4846-9900-3aeb124b3763"
+			name="AddToDiagram"
+			refimgid="0864439a-f685-4f4f-abc3-7a1cbad9df90"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu/menuitem[@text='Add to Diagram']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='0']/?/?/menuitem[@text='Add to Diagram']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="68585b5a-3d86-47ca-9b38-11e4b54b0dd5"
+			name="ClearTablesBeforeAdding"
+			refimgid="baf5907e-3a8f-46b6-ae7f-aac0bde54d24"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu/menuitem[@text~'^Clear\ Tables\ before\ Addin']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='0']/?/?/menuitem[@text~'^Clear\ Tables\ before\ Addin']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="6042e8de-8d07-44f1-9a57-6a6f8311f24a"
+			name="Properties"
+			refimgid="a842c6da-a9c2-4bf7-b203-f08f7759c31d"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu/menuitem[@text='Properties']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='0']/?/?/menuitem[@text='Properties']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="983735a5-2275-4ea0-a846-651e7edb46b5"
+			name="Remove"
+			refimgid="3005939e-931b-4bad-be3f-0d2e16f77473"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu/menuitem[@text='Remove']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='0']/?/?/menuitem[@text='Remove']
+			</item>
+			<basepath>
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='0']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIYSURBVDhPlZFJa5NRFIbvD3DnzrX0D7hxk4U7
+d+7EYqMIolkUqUULbW2poRojthSM7SI0VcEBLU2ERiWlCKXYRrIRkpCYoUmauZkgE5l4zXskwYAF
+u3j47hmec4dPrdmdOot937Vm38dJ+OM4dcr8adfl+RVGtVpFvV7/J5VKZSBmLx26ann9G/L5PNrt
+NjqdzgDMUS75d9FsNgfydOiqpXcO5HI5tFqtASiUy2Xkt54ht3hedv27ToeuMr6yI5PJoNFoDFAq
+lZD9asTRoyEUi0Uc/XTIkF6dDl2lN1uRSqVQq9X6cOf0tgmZ2TNSS2/qkZ0fknyvh3m6atr0HvF4
+XIo9uHtm6nT/21uTXg8duurewmtEo9F+A+H9Mk/PST59/5TE5PDwEMlkEoVCQWp01ajBjHA4LK/K
+e4VCIYG5uP4sIrY5WVOeWHoDo2UDsVgMwWAQdNXNOZME2WxWpg9PmaCdWYHu8SquTr+QmGvzuqNf
+f2Kxwufzga7STi7C7/fLo3AX8mXnBz7vOAXb9vcue/AFQiJdn13pnsIKj8cDuuryuAFer1cehUQi
+EdyeN+PK5HMMd+GXMfPXZpZhWN2QtdvtBl11afQhAoGAnODg4ECuwxMdRyKRkF46dNXFWw9ETKfT
++Li1B8PLTdxZeHssfCv+ETp01YUbE9EPNrsM4OT/gUPo0FUa7ZhOM3LXpRkZx8noOtox3W+2QEFu
+Et1VDAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="82d9fc7d-b3fa-4d58-988a-687ac021a7cb"
+		isrooted="True"
+		name="FavoritePropertiesAdsTable"
+		refpath="/form[@title='Favorite Properties - [ads_table]']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="26831119-f877-409f-9350-40c9d42d77b9"
+			name="Save"
+			refimgid="d207e672-885e-4d0a-b014-352bcebe7526"
+			refpath="/form[@title~'^Favorite\ Properties\ -\ \[ad']/container/container[@type='CButtonPanel']/button[@name='defaultButton']"
+			searchtimeout="30000ms">
+				/form[@title~'^Favorite\ Properties\ -\ \[ad']/container[@type='CPanel']/?/?/button[@name='defaultButton']
+			</item>
+			<basepath>
+				/form[@title~'^Favorite\ Properties\ -\ \[ad']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAC7SURBVDhPzVHBEcIwDMuMdKH8swbs0QwADxgE
+FighwnLqtG6vd3zQnc6OE8l2G/4Dp/O1DJdbGb6ReY2trjnPyCkV4OL+egufU41TebRcYjtXrg26
+7nMnrUMwT+NMkFIqFuM4MhPknJkJ8J5SwdKgTeIQcA3QBZ1BnNs3MURd7ykVoGARY2TWQ+swoVSw
+Z+CtoaRcDOCqa1gD3G2tQ7k/gaUH1ClfG9jfdtjA43Idi85gD3i4RT75BSF8ACeCIhjSshVHAAAA
+AElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="e0e413ca-de1d-4c48-b6c0-4d6b6687304d"
+		isrooted="True"
+		name="AmazonRedshiftEditingAdsDbPublic"
+		refpath="/form[@title='Amazon Redshift : Editing: ads_db.public.ads_table']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="cell"
+			capname="cell"
+			id="14b40bf0-f5ae-425a-b863-7523034d126c"
+			name="Triveni"
+			refimgid="c4af8382-b7fd-4810-9b4c-a1d6e43f3722"
+			searchtimeout="30000ms">
+				/form[@title~'^Amazon\ Redshift\ :\ Editing']//container[@name='contentPanel']//container[@name='_splitpane']//table[@name='_dataTable']/row[@index='0']/cell[2]
+			</item>
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="f58663b4-c58a-4148-8abf-5569d17f1c85"
+			name="SaveChangesRefreshButton"
+			refimgid="42251cbe-32f4-498a-ae00-6ae3f6e5d7f5"
+			searchtimeout="30000ms">
+				/form[@title~'^Amazon\ Redshift\ :\ Editing']//container[@name='contentPanel']//button[@name='saveChangesRefreshButton']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="36dd9031-13ec-482b-a12e-3ea9f13fa098"
+			name="Close"
+			refimgid="3f2a9066-ebbd-4e5d-afd6-21dcdfdeeb35"
+			searchtimeout="30000ms">
+				/form[@title~'^Amazon\ Redshift\ :\ Editing']//button[@accessiblename='Close']
+			</item>
+			<basepath>
+				/form[@title~'^Amazon\ Redshift\ :\ Editing']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAADKSURBVDhPpZAxDsIwDEVzJQYuAlMmFsQdOEMG
+tmxRlnIItmRFKqdhYQqxayOnOBUVX3pq4vj/ODV/y3tflqC2vkIIheG9rMN6rs1lWwDarhMYD+mE
+YEiMsSxBPpQ0fwJ4VGB/fVRG+tJ6GMuuopmhTtmTwHS+v77QzFDHADlue3ulc7PsaZ7gnCtSmlkK
++mn4STJAM6eU6HQSBsgnQCHnjI3P2xFhM9T5jMGA3hOstRggx1Yn6AWA5oafAtbSBGjQ/+1LM0mo
+rSNj3qoUGzHkO3vPAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="host,nativewindow"
+		capname="host"
+		id="fca1d9ca-e296-418b-b77c-f58a5fd04495"
+		isrooted="True"
+		name="DESKTOPH2V08UL"
+		refimgid="b42d7687-88e3-46f4-b000-0e358a711ce3"
+		refpath=""
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="host,nativewindow"
+			capname="host"
+			id="60387903-791b-4ab8-991e-8937e4c4c133"
+			name="DESKTOPH2V08UL"
+			refimgid="3555a7b9-7315-4060-9f20-74eae557a633"
+			refpath=""
+			searchtimeout="30000ms">
+			</item>
+			<basepath>
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACtUlEQVQ4T62S6zOUYRiH9w/qYzM1o5moMUyNShmHpISUNhIrHRxW
+DjmXpcah2Ky1TcsSa5ZQ0u62csxxMI4p6URGWFlXz6rGNPu1e+b98sx7Xc/v996v5L/N4OgcPYPT
+WPomaH8zSotpGENbP3UtvVQbutDUWVDVmCjVtlOsaeMPtjNd/VNcfwwyNVwuh4ulEFoMQfchQGHj
+5B0rPlkreN1eRKFsdBQYO8eIroAHz6GgCbLqQa6DqxoIV0JIoV20iU/mCndKDY6CFuMQ4WWgEHCG
+gBOrIKYSpOIsWMCn8n7inbHM0VvzZBfXOwr0rX2cL4H0OkjQQrSoIhU1zooK/nc38MpY4oj8Pe6x
+o6QXPnUUVBk6t1+OewJRKgh78Bu2d7f39kh8h/vVEVwiOki9p3MUqGvN2x2viA94QcCBBeCXu86J
+tG94xM/iFjOES7iFfeeaSVJoHQVlYj2+OWuEihpn8rfwzV7leOoXDsdN4yobwFlqxinkGXtP15KQ
++9hRUFT5HK/07wTk2/DJ/oFn8mcO3ZzENfqtgI04BTeyJ0DHbj8NN7IqHAUKZRNzn6xMza8zPrfG
+yMwqA5M/6B1bobXzI7UvJijWWgjtCkWWpvxXkJLz8KBG/3pTqXtJYWWz2HM9afe0xOeokKWUII0v
+IEiWjd+lFI4Fx+HmL9u8lFAU+QeXSDQNFv7Opm2LNauNpZWfzH+1MikS2dN0iySmwWVae5aoaZvl
+gHfkTgp1nXkbjjXFsm7d4oNhFwuLG8wsWGl8NUjFU6NIped6porYDBUlugH2n4jYEZTXGrGJm6sG
+9AxPLDA7VE579zRNpnFqWkdQN/RTUt2NQt1BziMzmWVG9nlKdwRFmma5eMhT6sVfVo38biXX0suI
+TCok7EYegVGZ+EqTt/u7+8fg7BVhF8glEonkF6m1M1/+IilrAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

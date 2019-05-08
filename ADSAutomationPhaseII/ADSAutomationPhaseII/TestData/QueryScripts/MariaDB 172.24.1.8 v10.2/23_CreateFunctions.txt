@@ -1,0 +1,6 @@
+CREATE FUNCTION ads_function ( starting_value INT )  
+RETURNS INT DETERMINISTIC  
+BEGIN  
+   DECLARE total_value INT;  
+   SET total_value = 0; label1: WHILE total_value <= 3000 DO  SET total_value = total_value + starting_value; END WHILE label1;  RETURN total_value;  
+END

@@ -1,0 +1,7 @@
+DROP DATABASE 'ads_db';
+
+
+CREATE DATABASE 'ads_db'
+	WITH OWNER = 'root';
+
+

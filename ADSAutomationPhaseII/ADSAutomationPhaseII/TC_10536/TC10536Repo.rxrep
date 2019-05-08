@@ -1,0 +1,574 @@
+﻿<repository
+id="8611f104-7f4f-410d-ad11-0b158792ffa9"
+name="TC10536Repo"
+rxversion="8.2">
+	<codegen
+	classname="TC10536Repo"
+	namespace="ADSAutomationPhaseII.TC_10536">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="cea12c05-a3b8-42c3-82c1-854256c58bc1"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		capname="form"
+		id="b062234d-34f9-41a1-a07a-d020ff7fb820"
+		isrooted="True"
+		name="Application"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="treeitem"
+			id="11dc2132-4563-4d6a-8ac8-b7ef01ec7bdb"
+			name="AmazonRedshift"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='fGy']//treeitem[@text='Amazon Redshift']
+			</item>
+			<item
+			capname="text"
+			id="8399235a-923b-408d-87f9-e37d7dfaeead"
+			name="CompareResultText"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']/container[@name='ToolWindowFrame.MainComponent']/?/?/container[@type='P&#5855;&#10290;&#41111;&#42004;implements']/container[@name='hhB']/container[@name='fvr']/container[@name='hoC']//text[@caption~'^differences']
+			</item>
+			<item
+			capname="cell"
+			id="5db732c4-cc3c-4aa4-98a4-685d5f16165f"
+			name="CompareTable"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SchemaDiffResultsPanel']//container[@name='_treeTableScrollPane']/container[1]/table[@name='a']/?/?/cell[@text='Table']
+			</item>
+			<item
+			capname="button"
+			id="8e5c4f56-6279-4f78-adc5-ffb7ce61439b"
+			name="ViewAsSpreadSheet"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@name='tb']/button[4]
+			</item>
+			<item
+			capname="menuitem"
+			id="ba6163e4-bf63-493e-801e-de41969e6f17"
+			name="Tools"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//menuitem[@text='Tools']
+			</item>
+			<item
+			capname="text"
+			id="cccc0e99-c4fb-430f-b6a1-c6907f36b0ea"
+			name="CompareResult1"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='ResultsDiffPanel']//container[@name='_titlePanel']/text[@name='_lblTitle1']
+			</item>
+			<item
+			capname="text"
+			id="06d3fcf5-0487-4901-b228-1a97bca6c85e"
+			name="CompareResult2"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='ResultsDiffPanel']//container[@name='_titlePanel']/text[@name='_lblTitle2']
+			</item>
+			<item
+			capname="button"
+			id="f984fc73-1812-401d-8788-003abe251b84"
+			name="RefreshButton"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='ResultsDiffPanel']/container[@type='JPanel']/container[1]/container[1]/button[1]
+			</item>
+			<item
+			capname="checkbox"
+			id="798245be-ac85-4d34-8d33-e61091027298"
+			name="EnableFilter"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='X&#41318;&#41538;&#41871;&#41087;']//checkbox[@name='hfD']
+			</item>
+			<basepath>
+				/form[@title~'^Aqua Data Studio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="324645e0-2b3b-48c6-a9b0-d63883df1ace"
+		isrooted="True"
+		name="ChooseServer"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="tree"
+			id="3254cf79-6c57-423b-8f13-cdd77e686332"
+			name="ServerList"
+			searchtimeout="30000ms">
+				/form[@title='Choose Server or Database']//container[@type='CPanel']/?/?/container[@type='JScrollPane']/?/?/tree[@name='tree']
+			</item>
+			<item
+			capname="button"
+			id="09400e4e-4dc2-46e9-963b-5c7b43ae19d5"
+			name="ChooseServer"
+			searchtimeout="30000ms">
+				/form[@title='Choose Server or Database']//container[@name='dkX']/container[@name='hhE']//container[@name='Target']/?/?/button[@name='button']
+			</item>
+			<item
+			capname="button"
+			id="5554042a-05d0-4707-ac3b-1fbeb4ae0025"
+			name="OkButton"
+			searchtimeout="30000ms">
+				/form[@title='Choose Server or Database']//button[@text='OK']
+			</item>
+			<basepath>
+				/form[@title='Choose Server or Database']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="de5f70d9-1502-4cd6-a43b-0af6a65cb1da"
+		isrooted="True"
+		name="QueryAnalyzerComboList"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="menuitem"
+			id="9b2343d8-890c-451a-aed2-1a90a36e23b4"
+			name="CompareTools"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Compare Tools']
+			</item>
+			<item
+			capname="menuitem"
+			id="df317f05-7e3c-412d-b032-51d2493bb677"
+			name="SchemaCompare"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Schema Compare']
+			</item>
+			<item
+			capname="menuitem"
+			id="86995127-a0cb-4c41-ad85-63035cf130c7"
+			name="ResultCompare"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Results Compare']
+			</item>
+			<basepath>
+				/form[@processname='datastudio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="20343412-4a6d-4da0-bd09-463ebfbb897e"
+		isrooted="True"
+		name="SchemaCompare"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="40f68b9a-d3cb-4a76-a4c2-9dffaa0c3815"
+			name="LeftChooseServer"
+			searchtimeout="30000ms">
+				/form[@title='Schema Compare Tool']//container[@name='_mainPanel']/container[@name='contentPanel']//container[@name='Source']/?/?/button[@name='button']
+			</item>
+			<item
+			capname="button"
+			id="a6e5cd5b-c339-4f0e-96fa-3a206af8d3b3"
+			name="RightChooseServer"
+			searchtimeout="30000ms">
+				/form[@title='Schema Compare Tool']//container[@name='_mainPanel']/container[@name='contentPanel']//container[@name='Target']/?/?/button[@name='button']
+			</item>
+			<folder
+			capname="unknown"
+			id="9a1e10bd-c143-4766-b4c2-7f92fed4d995"
+			isrooted="False"
+			name="LeftObjects"
+			searchtimeout="0ms">
+				<item
+				capname="button"
+				id="da3f3030-fe51-4c30-aadf-e0dad4dc0a27"
+				name="UnSelectSchemaObjects"
+				searchtimeout="30000ms">
+					/form[@title='Schema Compare Tool']//container[@name='_mainPanel']/container[@name='contentPanel']//container[@name='typePanel']/?/?/container[@name='buttonPanel']/button[@name='deselectButton']
+				</item>
+				<item
+				capname="button"
+				id="6dae2fd3-b074-4e29-8658-ed765cdd8d70"
+				name="UnSelectSourceObjects"
+				searchtimeout="30000ms">
+					/form[@title='Schema Compare Tool']//container[@name='_mainPanel']/container[@name='contentPanel']//container[@name='leftSelector']/?/?/button[@name='deselectButton']
+				</item>
+				<item
+				capname="cell"
+				id="ce87ff7c-2cbd-414e-952c-dd732aab6b0e"
+				name="SelectSchemaObjectsTable"
+				searchtimeout="30000ms">
+					/form[@title='Schema Compare Tool']//container[@name='_mainPanel']//container[@name='typePanel']/?/?/container[@name='scroll']/container[5]/table[@name='table']/row[@index='0']/cell[@text='false']
+				</item>
+				<item
+				capname="cell"
+				id="539bd47a-b361-4cbb-82fc-75cda884d645"
+				name="SelectLeftObjects"
+				searchtimeout="30000ms">
+					/form[@title='Schema Compare Tool']//container[@name='_mainPanel']//container[@name='leftSelector']/container[@name='scroll']/container[5]/table[@name='table']/row[@index='0']/cell[@text='false']
+				</item>
+				<item
+				capname="text"
+				id="3a576691-01bb-4326-a36b-53796bbb4729"
+				name="LeftSchemaCombobox"
+				searchtimeout="30000ms">
+					/form[@title='Schema Compare Tool']//container[@name='_mainPanel']/container[@name='contentPanel']//container[@name='Source']/container[@name='panel']//combobox[@name='schemaField']/text[@type='BasicComboBoxEditor$BorderlessTextField']
+				</item>
+				<item
+				capname="text"
+				id="a0ab4633-b253-4ddd-964a-38a0ff4d4330"
+				name="LeftDatabaseComboBox"
+				searchtimeout="30000ms">
+					/form[@title='Schema Compare Tool']//container[@name='_mainPanel']/container[@name='contentPanel']//container[@name='Source']/container[@name='panel']//combobox[@name='databaseField']/text[@type='BasicComboBoxEditor$BorderlessTextField']
+				</item>
+				<item
+				capname="table"
+				id="115b388a-dfcb-4e22-8ffc-d6f602414890"
+				name="LeftTable"
+				searchtimeout="30000ms">
+					/form[@title='Schema Compare Tool']//container[@name='_mainPanel']//container[@name='typePanel']/?/?/container[@name='scroll']/container[5]/table[@name='table']
+				</item>
+				<item
+				capname="table"
+				id="6c7a8bdb-c28d-440e-b73d-3e212eaaa630"
+				name="LeftadsTable"
+				searchtimeout="30000ms">
+					/form[@title='Schema Compare Tool']//container[@name='_mainPanel']//container[@name='leftSelector']/container[@name='scroll']/container[5]/table[@name='table']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="31478344-8d2b-4621-a8b7-06eeec7479d2"
+			isrooted="False"
+			name="RightObjects"
+			searchtimeout="0ms">
+				<item
+				capname="button"
+				id="ee40d753-0ee8-4233-ab2c-2028fdb3243f"
+				name="UnselectRightObjects"
+				searchtimeout="30000ms">
+					/form[@title='Schema Compare Tool']//container[@name='_mainPanel']/container[@name='contentPanel']//container[@name='rightSelector']/?/?/button[@name='deselectButton']
+				</item>
+				<item
+				capname="cell"
+				id="092602ba-b3cf-40ff-875c-44964d821d37"
+				name="SelectRightObjects"
+				searchtimeout="30000ms">
+					/form[@title='Schema Compare Tool']//container[@name='_mainPanel']//container[@name='rightSelector']/container[@name='scroll']/container[5]/table[@name='table']/row[@index='0']/cell[@text='false']
+				</item>
+				<item
+				capname="text"
+				id="26e8d502-3683-4f0b-8357-441f6a78319d"
+				name="RightSchemaCombobox"
+				searchtimeout="30000ms">
+					/form[@title='Schema Compare Tool']//container[@name='_mainPanel']/container[@name='contentPanel']//container[@name='Target']/container[@name='panel']//combobox[@name='schemaField']/text[@type='BasicComboBoxEditor$BorderlessTextField']
+				</item>
+				<item
+				capname="text"
+				id="0791bc12-c08f-4b81-9743-12c551c5de67"
+				name="RightDatabaseComboBox"
+				searchtimeout="30000ms">
+					/form[@title='Schema Compare Tool']//container[@name='_mainPanel']/container[@name='contentPanel']//container[@name='Target']/container[@name='panel']//combobox[@name='databaseField']/text[@type='BasicComboBoxEditor$BorderlessTextField']
+				</item>
+				<item
+				capname="table"
+				id="07c600ea-84f8-4885-84c2-9acb27bdd6e1"
+				name="RightadsTable"
+				searchtimeout="30000ms">
+					/form[@title='Schema Compare Tool']//container[@name='_mainPanel']//container[@name='rightSelector']/container[@name='scroll']/container[5]/table[@name='table']
+				</item>
+			</folder>
+			<item
+			capname="button"
+			id="6bef946e-8bc8-4822-9b26-7e9d70494f5f"
+			name="CompareButton"
+			searchtimeout="30000ms">
+				/form[@title='Schema Compare Tool']//container[@name='_mainPanel']/?/?/button[@name='defaultButton']
+			</item>
+			<basepath>
+				/form[@title='Schema Compare Tool']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="70487d2b-9749-46e7-bab2-8ffd4e920837"
+		isrooted="True"
+		name="Downloads"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="87fc9fec-3964-44a2-800e-a136e1a1eb4f"
+			name="CloseButton"
+			searchtimeout="30000ms">
+				/form[@title~'^View\ Downloads\ -\ Internet']//button[@accessiblename='Close']
+			</item>
+			<basepath>
+				/form[@title~'^View\ Downloads\ -\ Internet']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="309f4db5-715e-4e54-846c-0bb41c944574"
+		isrooted="True"
+		name="SelectResultSets"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="row"
+			id="a1c50b0b-2697-4933-95e6-f16c82eaffaa"
+			name="ResultSet1"
+			searchtimeout="30000ms">
+				/form[@title='Select Result Sets']//container[@name='tabbedPane']/container[@type='JPanel']//table[@name='table1']/row[@index='0']
+			</item>
+			<item
+			capname="row"
+			id="a54d8b45-a76d-4f3e-8e70-309f594d5d0b"
+			name="ResultSet2"
+			searchtimeout="30000ms">
+				/form[@title='Select Result Sets']//container[@name='tabbedPane']/container[@type='JPanel']//table[@name='table2']/row[@index='1']
+			</item>
+			<item
+			capname="tabpage"
+			id="a5a1fdb8-94bd-4ed3-bdf3-2e3729278a22"
+			name="ResultTab"
+			searchtimeout="30000ms">
+				/form[@title='Select Result Sets']//tabpage[@title='Results   ']
+			</item>
+			<item
+			capname="button"
+			id="fa6ea4f9-74cb-4ae9-960f-cccbdfe34239"
+			name="OkButton"
+			searchtimeout="30000ms">
+				/form[@title='Select Result Sets']//button[@text='OK']
+			</item>
+			<item
+			capname="row"
+			id="93a1551e-365e-4550-b369-99c90201d604"
+			name="ResultSetList1"
+			searchtimeout="30000ms">
+				/form[@title='Select Result Sets']//container[@name='tabbedPane']/container[@type='JPanel']//table[@name='table1']/row[@index='1']
+			</item>
+			<item
+			capname="row"
+			id="c02a374f-259d-46e7-9a5d-4257b5e18040"
+			name="ResultSetList2"
+			searchtimeout="30000ms">
+				/form[@title='Select Result Sets']//container[@name='tabbedPane']/container[@type='JPanel']//table[@name='table2']/row[@index='0']
+			</item>
+			<basepath>
+				/form[@title='Select Result Sets']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="158ecaf4-9aae-4554-9957-3baeef65c08c"
+		isrooted="True"
+		name="SaveHTML"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="974e2966-d6be-4269-98dc-22572dff9b46"
+			name="Browse"
+			searchtimeout="30000ms">
+				/form[@title='Save HTML']//button[@text='Browse']
+			</item>
+			<item
+			capname="button"
+			id="9ffb37cb-0bf6-4b7f-b24e-412bdb342ac5"
+			name="OkButton"
+			searchtimeout="30000ms">
+				/form[@title='Save HTML']//button[@text='OK']
+			</item>
+			<basepath>
+				/form[@title='Save HTML']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="b2aab167-7370-4047-801e-694f77a03a6b"
+		isrooted="True"
+		name="OpenWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="checkbox"
+			id="67e77d77-a14f-402e-a212-bf1ddd7d6c44"
+			name="Desktop"
+			searchtimeout="30000ms">
+				/form[@title='Open']//toolbar[@type='WindowsPlacesBar']/checkbox[@text='Desktop']
+			</item>
+			<item
+			capname="text"
+			id="833b194f-bd99-4e5d-ab25-8b4dad7d66c6"
+			name="FileName"
+			searchtimeout="30000ms">
+				/form[@title='Open']//element/container[@type='JPanel']/container[3]/container[2]/text[@accessiblename='File name:']
+			</item>
+			<item
+			capname="button"
+			id="58f7d437-8fce-43d7-9275-67aa72f0edcf"
+			name="OpenButton"
+			searchtimeout="30000ms">
+				/form[@title='Open']//element/container[@type='JPanel']/container[3]/container[3]/button[@name='defaultButton']
+			</item>
+			<item
+			capname="list"
+			id="fca6859d-7c28-4eeb-a5ae-329683b4812c"
+			name="List"
+			searchtimeout="30000ms">
+				/form[@title='Open']//element/container[@type='JPanel']/container[@type='FilePane']//container[@name='viewport']/list[@name='list']
+			</item>
+			<basepath>
+				/form[@title='Open']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="windowsapp"
+		id="de0be54c-44a6-43be-bb69-9f3a9b787335"
+		isrooted="True"
+		name="WinApp"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="204dd058-8592-47f1-b1ce-9b463084c8a5"
+			name="CloseButton"
+			searchtimeout="30000ms">
+				/winapp[@appid='MicrosoftEdge']/?/?/button[@automationid='Close']
+			</item>
+			<basepath>
+				/winapp[@appid='MicrosoftEdge']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="4b698e0b-48f8-4052-b68e-a6692d75650b"
+		isrooted="True"
+		name="ResultCompareFilters"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="bc73ba2c-7a6b-4c58-8624-4beb7bfd9470"
+			name="ReverseButton"
+			searchtimeout="30000ms">
+				/form[@title='Results Compare Filters']//container[@type='StandardDialog$DefaultStandardDialogPane']/container[@type='JPanel']//container[@type='HorizontalLayoutPanel']/button[3]
+			</item>
+			<item
+			capname="button"
+			id="b9a93b4f-12cb-45ed-9fcd-9e672e89b5ed"
+			name="SelectAllButton"
+			searchtimeout="30000ms">
+				/form[@title='Results Compare Filters']//container[@type='StandardDialog$DefaultStandardDialogPane']/container[@type='JPanel']//button[1]
+			</item>
+			<item
+			capname="button"
+			id="41099323-3e23-4b79-a20e-7ec84a7beab8"
+			name="UnSelectAllButton"
+			searchtimeout="30000ms">
+				/form[@title='Results Compare Filters']//container[@type='StandardDialog$DefaultStandardDialogPane']/container[@type='JPanel']//container[@type='HorizontalLayoutPanel']/button[2]
+			</item>
+			<item
+			capname="button"
+			id="83f73418-ac2d-48b8-ab3f-78611445d0d3"
+			name="CancelButton"
+			searchtimeout="30000ms">
+				/form[@title='Results Compare Filters']//container[@type='StandardDialog$DefaultStandardDialogPane']/?/?/button[@name='CANCEL']
+			</item>
+			<basepath>
+				/form[@title='Results Compare Filters']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="d9ba8e1f-529a-4d69-92b3-dac18c3f4e70"
+		isrooted="True"
+		name="AlreadyExisting"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="68cd347d-b8c7-40f1-bd69-e5e0066ec602"
+			name="YesButton"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio' and @class='SunAwtDialog' and @accessiblename='Save HTML' and @type='JDialog']//container[@name='OptionPane.buttonArea']/button[@text='Yes']
+			</item>
+			<item
+			capname="container"
+			id="41573f28-b391-479d-934d-1044d48fa9d6"
+			name="Popup"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio' and @class='SunAwtDialog' and @accessiblename='Save HTML' and @type='JDialog']//container[@type='Z&#41409;&#41713;&#41735;&#41139;8volatile$1']
+			</item>
+			<basepath>
+				/form[@processname='datastudio' and @class='SunAwtDialog' and @accessiblename='Save HTML' and @type='JDialog']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="aa460040-5f89-468a-b197-40c426a36b40"
+		isrooted="True"
+		name="SunAwtWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="menuitem"
+			id="0643667e-ba13-464d-b6d2-75b111544e57"
+			name="SchemaCompare"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @name='win0']//menuitem[@text='Schema Compare']
+			</item>
+			<basepath>
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @name='win0']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="0b31a00b-5e03-404d-a7ab-5a718977f6b7"
+		isrooted="True"
+		name="AquaDataStudio"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="f8bf57a5-5859-4ab3-afed-595dc6dd06cf"
+			name="ViewAsSpreadsheet"
+			searchtimeout="30000ms">
+				/form[@title='Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@name='tb']/button[4]
+			</item>
+			<basepath>
+				/form[@title='Aqua Data Studio ']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="d8808825-9a4e-456e-b54d-0645d9f24eb1"
+		isrooted="True"
+		name="ApplicationCompare"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="a4595070-e785-49b0-9cc6-a0368356303b"
+			name="FilterResults"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio\ \[Compare']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='ResultsDiffPanel']//button[@text='Filter Results ...']
+			</item>
+			<item
+			capname="button"
+			id="e920f9c7-c71f-45af-90eb-f1cac55dde96"
+			name="ViewAsSpreadsheet"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio\ \[Compare']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='ResultsDiffPanel']/container[@type='JPanel']/container[1]/container[1]/button[@accessibledescription='View as Spreadsheet']
+			</item>
+			<basepath>
+				/form[@title~'^Aqua\ Data\ Studio\ \[Compare']
+			</basepath>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

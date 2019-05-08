@@ -1,0 +1,3289 @@
+﻿<repository
+id="22af14a5-ba03-4477-a51d-90d1583fe4c6"
+name="TC10540"
+rxversion="8.2">
+	<codegen
+	classname="TC10540"
+	namespace="ADSAutomationPhaseII.TC_10540">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="7a3291cc-9c23-4c57-8a74-70b869dbbdee"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		capname="form"
+		id="7132c0d8-0854-48f6-9dfe-e17c84990883"
+		isrooted="True"
+		name="Application"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="menuitem"
+			id="c5599207-7034-484a-b71d-b91d8536f5d5"
+			name="ERModeler"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//menuitem[@text='ER Modeler']
+			</item>
+			<item
+			capname="menuitem"
+			id="3b54926a-91bd-4935-bcf3-549e06965a7e"
+			name="DBATools"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//menuitem[@text='DBA Tools']
+			</item>
+			<item
+			capname="tabpage"
+			id="388128ec-fb8e-4722-819a-c999a93facdf"
+			name="SummaryTab"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='RedShiftInstancePanel']/?/?/tabpage[@title='Summary   ']
+			</item>
+			<item
+			capname="tabpage"
+			id="fcf57dbc-c04c-4c59-8f80-d434c4fd9cb3"
+			name="QueryTab"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='RedShiftInstancePanel']/?/?/tabpage[@title='Query History   ']
+			</item>
+			<item
+			capname="container"
+			id="7ee40cfe-b85a-4fa6-8bdb-82f2c8b21731"
+			name="SortableColumns"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='RedShiftInstancePanel']/container[@accessiblename='Summary   ']/container[2]/container[@name='_componentContainer']/container[6]/container[@type='SortableTableHeader']
+			</item>
+			<item
+			capname="text"
+			id="67a6308b-3ad7-40d1-89c7-a95ac2542bff"
+			name="SearchTextBox"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='RedShiftInstancePanel']/?/?/container[@type='CToolBar']/container[@type='JPanel']//text[@name='_actualComponent']
+			</item>
+			<item
+			capname="table"
+			id="bf030c76-529d-4efd-a6cf-2bc8168f0b7e"
+			name="SearchTable"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='RedShiftInstancePanel']/container[@accessiblename='Summary   ']/container[2]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+			</item>
+			<item
+			capname="text"
+			id="e2d7a98b-27c0-49f0-8ccc-6f517dcfa71d"
+			name="QueryHistoryType"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='RedShiftInstancePanel']/container[@type='JPanel']/container[1]/container[5]/combobox[@type='CComboBox']/text[@type='BasicComboBoxEditor$BorderlessTextField']
+			</item>
+			<item
+			capname="text"
+			id="ce0cab7f-8b32-44a7-8ab4-d4bb9419481e"
+			name="SearchQuery"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='RedShiftInstancePanel']/container[@type='JPanel']/container[1]/container[@type='JPanel']//text[@name='_actualComponent']
+			</item>
+			<item
+			capname="table"
+			id="a9a7002b-0da0-4697-adfd-b26ce8ac8149"
+			name="SearchQueryTable"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='RedShiftInstancePanel']/container[@accessiblename='Query History   ']/container[3]//container[@name='leftComponent']/container/container[5]/table[@type='BaseTableScrollPaneTable']
+			</item>
+			<item
+			capname="table"
+			id="f4c4dff2-3f67-46c9-8add-de7fb6a23251"
+			name="StorageManagerTable"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='RedShiftStorageManagerPanel']/container[@accessiblename='Databases   ']/container[2]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+			</item>
+			<item
+			capname="tabpage"
+			id="53581fc1-a875-4f34-b888-f30e94218d7f"
+			name="Databases"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='RedShiftStorageManagerPanel']/?/?/tabpage[@title='Databases   ']
+			</item>
+			<item
+			capname="text"
+			id="75d9eb85-7131-4355-a661-ee32e277e675"
+			name="DatabaseSearch"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='RedShiftStorageManagerPanel']/container[@type='CToolBar']/container[@type='JPanel']//text[@name='_actualComponent']
+			</item>
+			<item
+			capname="table"
+			id="f7cb9111-8cab-4368-bfbf-938bc6f50f65"
+			name="DatabaseTable"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@accessiblename='Databases   ']/container[2]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+			</item>
+			<item
+			capname="tabpage"
+			id="3666d1e7-6b71-4ac4-a77f-1a66c1c83e07"
+			name="Objects"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='RedShiftStorageManagerPanel']/?/?/tabpage[@title='Objects   ']
+			</item>
+			<item
+			capname="cell"
+			id="23d3685b-98ce-45c3-8bfb-5fee87a89322"
+			name="Users"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?[1]/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='JSplitPane']//table[@type='SecurityTreeTable']/row[@index='1']/cell[@text='aaa']
+			</item>
+			<item
+			capname="container"
+			id="eba764e6-b443-4a41-bc8c-7008980a6e40"
+			name="NewWindow"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='RedShiftSecurityManagerPanel']/?/?/container[@type='JSplitPane']/container[@name='rightComponent']/?/?/container[@name='viewport']/?/?/container[@accessiblename='General   ']
+			</item>
+			<item
+			capname="text"
+			id="feaf1c58-8f13-4a09-9c6d-0cfe880ffa95"
+			name="SearchTree"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='RedShiftSecurityManagerPanel']/container[@type='CToolBar']/container[@type='JPanel']//text[@name='_actualComponent']
+			</item>
+			<item
+			capname="tabpage"
+			id="ccd32e21-261f-41b9-be13-1e49ae4ca5a0"
+			name="UsersTab"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='RedShiftSecurityManagerPanel']/?/?/tabpage[@title='Users   ']
+			</item>
+			<item
+			capname="text"
+			id="68549d89-f60d-4d04-8b51-b5b9c639f9e5"
+			name="SearchUser"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='RedShiftSecurityManagerPanel']/container[@type='CToolBar']/container[@type='JPanel']//text[@name='_actualComponent']
+			</item>
+			<item
+			capname="table"
+			id="7622dfa1-944c-4fbe-ae85-a73a9a9d7801"
+			name="SearchUserResult"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@accessiblename='Users   ']/container[3]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+			</item>
+			<item
+			capname="tabpage"
+			id="78314268-2471-4736-9493-0d52898a686d"
+			name="GroupView"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='RedShiftSecurityManagerPanel']/?/?/tabpage[@title='Groups   ']
+			</item>
+			<item
+			capname="text"
+			id="545fd873-3cd0-44a3-b068-7939a9c1f6e4"
+			name="SearchGroup"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='RedShiftSecurityManagerPanel']/container[@type='CToolBar']/container[@type='JPanel']//text[@name='_actualComponent']
+			</item>
+			<item
+			capname="table"
+			id="4a73d0fa-65f5-49df-b790-e778093d8832"
+			name="GroupTable"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='RedShiftSecurityManagerPanel']/container[@accessiblename='Groups   ']/container[4]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+			</item>
+			<item
+			capname="cell"
+			id="2ca82ac3-7527-4fbb-b6dd-3ba3ab1af60d"
+			name="SessionAuthIDCell"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='RedShiftSessionManagerPanel']/container[@accessiblename='Sessions   ']/container[2]//container[@name='leftComponent']/container/container[2]/table[@name='a']/row[@index='1']/cell[1]
+			</item>
+			<item
+			capname="tabpage"
+			id="764ef35d-1051-42ba-813d-b9df1a21ba01"
+			name="Sessions"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='RedShiftSessionManagerPanel']/?/?/tabpage[@title='Sessions   ']
+			</item>
+			<item
+			capname="text"
+			id="4a0f441d-e1ee-4ef7-a120-f012ec238885"
+			name="SearchProcessId"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='RedShiftSessionManagerPanel']/container[@type='CToolBar']/container[@type='JPanel']//text[@name='_actualComponent']
+			</item>
+			<item
+			capname="table"
+			id="41e8fe5b-1464-4f5c-92d2-585d85c0ac82"
+			name="SessionTable"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='RedShiftSessionManagerPanel']/container[@accessiblename='Sessions   ']/container[2]//container[@name='leftComponent']/container/container[2]/table[@name='a']
+			</item>
+			<item
+			capname="tabpage"
+			id="72523f78-6f04-4bcb-82b3-0940f6b3181a"
+			name="SessionStats"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='RedShiftSessionManagerPanel']/?/?/tabpage[@title='Session Stats   ']
+			</item>
+			<item
+			capname="text"
+			id="682d30da-1734-48ed-acb5-90ae862949d1"
+			name="SearchSessionStats"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='RedShiftSessionManagerPanel']/container[@type='CToolBar']/container[@type='JPanel']//text[@name='_actualComponent']
+			</item>
+			<item
+			capname="table"
+			id="5a5fccf3-0bd3-4690-ad0f-dbf68925c111"
+			name="SessionStatsTable"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@accessiblename='Session Stats   ']/container[3]/?/?/container[@type='CTableScrollPane']/container[5]/table[@type='BaseTableScrollPaneTable']
+			</item>
+			<item
+			capname="tabpage"
+			id="ebba07b8-2236-48db-92e6-9bbd168671f6"
+			name="Lock"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='RedShiftSessionManagerPanel']/?/?/tabpage[@title='Locks   ']
+			</item>
+			<item
+			capname="text"
+			id="6472ac9b-ac03-48e7-8756-9dce9a9119cd"
+			name="LockSearch"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='RedShiftSessionManagerPanel']/container[@type='CToolBar']/container[@type='JPanel']//text[@name='_actualComponent']
+			</item>
+			<item
+			capname="table"
+			id="55270b95-30ff-438e-9be8-3dd925b846dc"
+			name="LockTable"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@accessiblename='Locks   ']/container[4]/container[@name='_componentContainer']/container[@type='JPanel']/?/?/container[@type='SessionManagerPanel$9']/container[2]/table[@name='a']
+			</item>
+			<item
+			capname="container"
+			id="4f680d69-ae14-48a8-9b7e-bb35a789f0c9"
+			name="ObjectColumn"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='RedShiftStorageManagerPanel']/container[@accessiblename='Objects   ']/container[3]/container[@name='_componentContainer']/container[6]/container[@type='SortableTableHeader']
+			</item>
+			<item
+			capname="tabpage"
+			id="7c2b6ca7-509d-4453-be63-828318f73ee3"
+			name="RegistryParameters"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='DB2InstancePanel']/?/?/tabpage[@title='Registry Parameters   ']
+			</item>
+			<item
+			capname="tabpage"
+			id="aa2fe47f-bc90-4d25-98ff-ca423d5c2179"
+			name="DatabaseParameters"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='DB2InstancePanel']/?/?/tabpage[@title='Database Parameters   ']
+			</item>
+			<item
+			capname="tabpage"
+			id="4c720c7d-f488-4769-83cb-eaf29753b6f8"
+			name="DatabaseManagerProperties"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='DB2InstancePanel']/?/?/tabpage[@title~'^Database\ Manager\ Paramete']
+			</item>
+			<item
+			capname="tabpage"
+			id="5a643631-2808-4634-8233-1a202bfd5883"
+			name="SummaryTabDB2"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='DB2InstancePanel']/?/?/tabpage[@title='Summary   ']
+			</item>
+			<item
+			capname="text"
+			id="1c8621ff-e2da-4db1-a4f5-ede44fdf3ba3"
+			name="SearchDB2"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='DB2InstancePanel']/container[@name='_toolbar']/container[@type='JPanel']//text[@name='_actualComponent']
+			</item>
+			<item
+			capname="table"
+			id="73301236-9195-4a15-bb49-eed1571a3c68"
+			name="SearchDBTable"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@name='_scrollSummaryTable']/?/?/table[@name='_tblSummary']
+			</item>
+			<item
+			capname="table"
+			id="09888f3f-67e6-4795-8bf8-e5b1f4e7c184"
+			name="SearchRegistryTable"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@name='_scrollRegParameterTable']/?/?/table[@name='_tblRegParameter']
+			</item>
+			<item
+			capname="table"
+			id="8076b4bc-46fc-4e25-88b7-57c14ef5e3e4"
+			name="SearchDatabasePropertyTable"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@name='_scrollDatabaseParameterTable']/?/?/table[@name='_tblDatabaseParameter']
+			</item>
+			<item
+			capname="table"
+			id="e571fb3a-531d-425c-9dd7-135b32537dd4"
+			name="SearchManagerProperty"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@name='_scrollManagerParameterTable']/?/?/table[@name='_tblManagerParameter']
+			</item>
+			<item
+			capname="text"
+			id="4d6e36bb-37e1-4602-8310-b9ce024bff9b"
+			name="SearchStorageManagerDB2"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='Db2StorageManagerPanel']/container[@name='_toolbar']/container[@type='JPanel']//text[@name='_actualComponent']
+			</item>
+			<item
+			capname="tabpage"
+			id="f871863d-ae6a-4209-8acf-3c3b7b0555d3"
+			name="TreeDB2"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='Db2StorageManagerPanel']/?/?/tabpage[@title='Tree   ']
+			</item>
+			<item
+			capname="tabpage"
+			id="520afc30-bcda-48de-8aa3-562686eeda8d"
+			name="TablespacesDB2"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='Db2StorageManagerPanel']/?/?/tabpage[@title='Tablespaces   ']
+			</item>
+			<item
+			capname="tabpage"
+			id="e19f2f8a-cfba-425e-bee8-5490e5df878c"
+			name="BufferPoolsDB2"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']/?/?/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='Db2StorageManagerPanel']/?/?/tabpage[@title='Buffer Pools   ']
+			</item>
+			<item
+			capname="tabpage"
+			id="d7ce42ea-2bdb-4b38-bc7d-94596835575f"
+			name="ObjectStorageDB2"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']/?/?/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='Db2StorageManagerPanel']/?/?/tabpage[@title='Objects   ']
+			</item>
+			<item
+			capname="tabpage"
+			id="34855a65-4a48-4c56-8e69-4f042671c09f"
+			name="DataFilesDB2"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='Db2StorageManagerPanel']/?/?/tabpage[@title='Datafiles   ']
+			</item>
+			<item
+			capname="table"
+			id="b0680c3f-5bd1-473a-bd42-87f0e43d2d31"
+			name="DataFileTable"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@accessiblename='Datafiles   ']/container[6]/?/?/container[@name='_componentContainer']/container[5]/table[@name='_tblDatafile']
+			</item>
+			<item
+			capname="table"
+			id="b2dde7ab-ff12-4c03-ba8e-d8391be558ee"
+			name="BufferPoolTable"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@accessiblename='Buffer Pools   ']/container[4]/?/?/container[@name='_componentContainer']/container[5]/table[@name='_tblBufferPool']
+			</item>
+			<item
+			capname="table"
+			id="70698f44-0b1b-4948-9171-2408cba65bec"
+			name="TableSpaceTable"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@accessiblename='Tablespaces   ']/container[3]/?/?/container[@name='_componentContainer']/container[5]/table[@name='_tblTablespace']
+			</item>
+			<item
+			capname="table"
+			id="60560a9b-70d7-49fe-befb-02f8bccc035f"
+			name="TreeTable"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@accessiblename='Tree   ']/container[2]//container[@name='_jspStorage']/container[2]/table[@name='a']
+			</item>
+			<item
+			capname="tabpage"
+			id="9a95b5e3-a756-43cc-a019-38aecf45c433"
+			name="TreeTabDB2"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='Db2SecurityManagerPanel']/?/?/tabpage[@title='Tree   ']
+			</item>
+			<item
+			capname="cell"
+			id="45b6983d-02ea-401a-a902-8403d4bb39a1"
+			name="SelectUserDB2"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='JSplitPane']//table[@type='SecurityTreeTable']/row[@index='1']/cell[@text='TOM']
+			</item>
+			<item
+			capname="container"
+			id="1d713a43-9135-4620-9cd6-f2ec1fd729f3"
+			name="OpenNewPane"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='Db2SecurityManagerPanel']/?/?/container[@type='JSplitPane']/container[@name='rightComponent']/?/?/container[@name='viewport']//container[@type='CFlowDownPane']
+			</item>
+			<item
+			capname="text"
+			id="7adbb51f-8a5e-4288-9fef-539916b9798f"
+			name="SearchSecurityDB2"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='Db2SecurityManagerPanel']/container[@name='toolbar']/container[@type='JPanel']//text[@name='_actualComponent']
+			</item>
+			<item
+			capname="tabpage"
+			id="54e0e290-8830-4e30-8a8d-0abaf75dd09a"
+			name="UsersTabDB2"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='Db2SecurityManagerPanel']/?/?/tabpage[@title='Users   ']
+			</item>
+			<item
+			capname="table"
+			id="426c099b-b252-436d-9801-8ef8864bf486"
+			name="UserTableDB2"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@name='userScroll']/container[5]/table[@name='userTable']
+			</item>
+			<item
+			capname="tabpage"
+			id="bccaafc7-ef82-48f7-a203-c3cbc556da90"
+			name="RolesDB2"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='Db2SecurityManagerPanel']/?/?/tabpage[@title='Roles   ']
+			</item>
+			<item
+			capname="table"
+			id="4a7875cc-bd1c-4fd2-bdfb-83c2b6b04c93"
+			name="RolesTableDB2"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@name='roleScroll']/container[5]/table[@name='roleTable']
+			</item>
+			<item
+			capname="tabpage"
+			id="795c5261-b3c6-4596-af0b-f6bfd7407882"
+			name="GroupsDB2Tab"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='Db2SecurityManagerPanel']/?/?/tabpage[@title='Groups   ']
+			</item>
+			<item
+			capname="table"
+			id="76921685-fc45-4348-bb77-f8650bb09862"
+			name="GroupsDB2Table"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@name='groupScroll']/container[5]/table[@name='groupTable']
+			</item>
+			<folder
+			capname="form"
+			id="b8eb88f8-128b-4324-99c7-7c644e82711e"
+			isrooted="True"
+			name="DBLUW"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				capname="tabpage"
+				id="a899bece-8bb6-4b8c-bd23-4c3c20b650c5"
+				name="SessionTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='Db2SessionManagerPanel']/?/?/tabpage[@title='Sessions   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="900f8881-7aea-4d39-a482-43b2524d06e7"
+				name="SessionStatsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='Db2SessionManagerPanel']/?/?/tabpage[@title='Session Stats   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="2aea0486-2948-4708-a9bf-f14c166083e0"
+				name="LocksTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='Db2SessionManagerPanel']/?/?/tabpage[@title='Locks   ']
+				</item>
+				<item
+				capname="text"
+				id="4667d423-961a-4c5f-9331-385bd76b0997"
+				name="SearchSession"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='Db2SessionManagerPanel']/container[@type='CToolBar']/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<item
+				capname="table"
+				id="3787041f-e7f9-4b4e-90f7-fd3175cf5a7d"
+				name="SessionTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='Db2SessionManagerPanel']/container[@accessiblename='Sessions   ']/container[2]//container[@name='leftComponent']/container/container[2]/table[@name='a']
+				</item>
+				<item
+				capname="table"
+				id="38b69c47-f286-44a7-91d3-5098b2bd684b"
+				name="SessionStatsTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@accessiblename='Session Stats   ']/container[3]//container[@name='leftComponent']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<basepath>
+					/form[@title~'^Aqua Data Studio']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="978a6579-f597-48e2-9bdf-0c90136f1840"
+			isrooted="True"
+			name="GreenPlum"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				capname="tabpage"
+				id="957ce438-6a20-4aa6-99a1-5def29177f96"
+				name="SummaryTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='GreenplumInstancePanel']/?/?/tabpage[@title='Summary   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="bbd03fdf-53e2-4b5b-a886-80a771e46786"
+				name="SegmentsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='GreenplumInstancePanel']/?/?/tabpage[@title='Segments   ']
+				</item>
+				<item
+				capname="text"
+				id="43b7fb21-ddd2-4629-9296-c9eb5f8bc3d9"
+				name="SearchInstance"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='GreenplumInstancePanel']/container[@type='CToolBar']/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<item
+				capname="table"
+				id="d4e5c574-fd1e-43ec-b662-ea2a044760b0"
+				name="SummaryTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='GreenplumInstancePanel']/container[@accessiblename='Summary   ']/container[2]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="tabpage"
+				id="ea4db73e-b15f-4f3d-aa54-0a5a54fde64c"
+				name="TreeTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='GreenplumStorageManagerPanel']/?/?/tabpage[@title='Tree   ']
+				</item>
+				<item
+				capname="text"
+				id="74c75dc6-ec0b-4585-b0c3-a687442edaa6"
+				name="SearchStorage"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='GreenplumStorageManagerPanel']/container[@type='CToolBar']/container[@type='JPanel']//container[@caption='']/?/?/text[@name='_actualComponent']
+				</item>
+				<item
+				capname="tabpage"
+				id="d3f29d9d-cbaa-4fc8-9acc-7a4aba53d18f"
+				name="TablespacesTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='GreenplumStorageManagerPanel']/?/?/tabpage[@title='Tablespaces   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="b0247858-ab7b-44aa-b22c-c0177abe8411"
+				name="DatabaseTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='GreenplumStorageManagerPanel']/?/?/tabpage[@title='Databases   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="e737b30e-0e03-477c-998d-465d48ce8649"
+				name="ObjectsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='GreenplumStorageManagerPanel']/?/?/tabpage[@title='Objects   ']
+				</item>
+				<item
+				capname="table"
+				id="163b7c5b-c482-437d-827c-056fe2dc1dc0"
+				name="TreeTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='GreenplumStorageManagerPanel']/container[@accessiblename='Tree   ']/container[@type='JPanel']//table[@type='StorageTreeTable']
+				</item>
+				<item
+				capname="table"
+				id="899bc707-b057-4a40-9d92-b45bb281868f"
+				name="TablespaceTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='GreenplumStorageManagerPanel']/container[@accessiblename='Tablespaces   ']/container[3]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="table"
+				id="6a53aeff-fe44-4e93-b1f0-fae91df3816b"
+				name="DatabaseTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='GreenplumStorageManagerPanel']/container[@accessiblename='Databases   ']/container[4]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="tabpage"
+				id="988e1dc1-8433-4516-b0a1-8a97ca1f2537"
+				name="TreeSecTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='GreenplumSecurityManagerPanel']/?/?/tabpage[@title='Tree   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="a36ac05f-e732-466d-bd3d-204c60e7db1c"
+				name="UsersTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='GreenplumSecurityManagerPanel']/?/?/tabpage[@title='Users   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="590b4803-65dc-46e7-82f6-3e416254280a"
+				name="GroupsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='GreenplumSecurityManagerPanel']/?/?/tabpage[@title='Groups   ']
+				</item>
+				<item
+				capname="text"
+				id="4ab674c2-8455-44c1-ac27-7334a574614d"
+				name="SearchSecurity"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='GreenplumSecurityManagerPanel']/container[@type='CToolBar']/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<item
+				capname="cell"
+				id="86c0f7a2-4e05-4911-8692-5abd4d6c745f"
+				name="TreeSecTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='GreenplumSecurityManagerPanel']/?/?/container[@type='JSplitPane']/container[@name='leftComponent']//table[@type='SecurityTreeTable']/?/?/cell[2]
+				</item>
+				<item
+				capname="table"
+				id="d78a0817-4398-46ca-b26d-982532c6bcd6"
+				name="UserTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='GreenplumSecurityManagerPanel']/container[@accessiblename='Users   ']/container[3]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="container"
+				id="1c375329-e055-445f-bbf3-fdd3ee77c1c6"
+				name="NewPane"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='GreenplumSecurityManagerPanel']/?/?/container[@type='JSplitPane']/container[@name='rightComponent']/?/?/container[@name='viewport']/?/?/container[@accessiblename='General   ']/container[2]
+				</item>
+				<item
+				capname="tabpage"
+				id="1a94a1bd-2e4a-4656-b673-5cc5b35914d1"
+				name="SessionTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='GreenplumSessionManagerPanel']/?/?/tabpage[@title='Sessions   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="dcb43601-d1db-464f-836a-db48b0356b1b"
+				name="SessionStatsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='GreenplumSessionManagerPanel']/?/?/tabpage[@title='Sessions   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="b6051ace-34bb-451f-8c47-8d0d9a2cffb1"
+				name="LocksTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='GreenplumSessionManagerPanel']/?/?/tabpage[@title='Sessions   ']
+				</item>
+				<item
+				capname="text"
+				id="9c1ab986-4fa0-4864-88ac-407ea4714cd5"
+				name="SearchSession"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='GreenplumSessionManagerPanel']/container[@type='CToolBar']/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<item
+				capname="table"
+				id="21d7a92c-1000-4677-bbdc-7300057cf618"
+				name="SessionTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='GreenplumSessionManagerPanel']/container[@accessiblename='Sessions   ']/container[2]//container[@type='SessionManagerPanel$5']/container[2]/table[@name='a']
+				</item>
+				<item
+				capname="table"
+				id="d3da99f5-b036-4770-b75e-422ea74fcbd8"
+				name="SessionStatsTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='GreenplumSessionManagerPanel']/container[@accessiblename='Session Stats   ']/container[3]/?/?/container[@type='CTableScrollPane']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<basepath>
+					/form[@title~'^Aqua Data Studio']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="a028bdce-d388-4d98-b5cc-764db1f4de6b"
+			isrooted="True"
+			name="Informix"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				capname="tabpage"
+				id="343cde4d-5d02-45e6-a4de-5909722d7374"
+				name="ConfigurationTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='InformixInstancePanel']/?/?/tabpage[@title~'^Configuration\ Parameters\ ']
+				</item>
+				<item
+				capname="tabpage"
+				id="cc5cd5f8-5655-443f-9a72-0db3cbf85727"
+				name="ProfiledEventsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='InformixInstancePanel']/?/?/tabpage[@title='Profiled Events   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="d9703122-6b8e-4fbd-a4cd-2a120b7eb0c5"
+				name="StartUpEnvironmentSetting"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='InformixInstancePanel']/?/?/tabpage[@title~'^Startup\ Environment\ Setti']
+				</item>
+				<item
+				capname="text"
+				id="4185a460-7666-4631-9fe0-f7fa1f1b50e5"
+				name="SearchIntance"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='InformixInstancePanel']/container[@type='CToolBar']/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<item
+				capname="table"
+				id="1b8e5373-a32e-4d4c-84a3-bbdea3a44ac7"
+				name="ConfigurationTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='InformixInstancePanel']/container[@accessiblename='Configuration Parameters   ']/container[2]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="table"
+				id="b24fdb0f-6898-4bc8-a7bd-64997a6a0d75"
+				name="ProfiledEventsTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='InformixInstancePanel']/container[@accessiblename='Profiled Events   ']/container[3]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="table"
+				id="31b8f6f8-5833-443a-b8cd-f13c6c32dc50"
+				name="StartUpEnvironmentSettingTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='InformixInstancePanel']/container[@accessiblename='Startup Environment Settings   ']/container[4]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="tabpage"
+				id="a8ceffff-2c7a-4ff9-b066-f316076236a8"
+				name="TreeTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='InformixStorageManagerPanel']/?/?/tabpage[@title='Tree   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="29695626-d504-41bd-bd1e-90d75b9d1ac9"
+				name="DBSpacesTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='InformixStorageManagerPanel']/?/?/tabpage[@title='Dbspaces   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="96d847f0-0210-486f-8e81-d73b661604f4"
+				name="DatabasesTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='InformixStorageManagerPanel']/?/?/tabpage[@title='Databases   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="b256c883-bb31-41f7-9df0-5bb6bf2db611"
+				name="ChunksTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='InformixStorageManagerPanel']/?/?/tabpage[@title='Chunks   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="5d4eefd5-9235-48da-bb8e-22ee236e50af"
+				name="TablesTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='InformixStorageManagerPanel']/?/?/tabpage[@title='Tables   ']
+				</item>
+				<item
+				capname="text"
+				id="ce1cb3e1-5f19-4b60-bd8f-6d28443e65b9"
+				name="SearchStorage"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='InformixStorageManagerPanel']/container[@type='CToolBar']/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<item
+				capname="tabpage"
+				id="396ce489-3c8f-41c1-ad7c-6d9813bbf264"
+				name="TreeSecTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='InformixSecurityManagerPanel']/?/?/tabpage[@title='Tree   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="7ddae51e-51a2-4a70-8d1d-0e75651e910b"
+				name="GeneralTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='InformixSecurityManagerPanel']/?/?/container[@type='JSplitPane']/container[@name='rightComponent']/?/?/container[@name='viewport']//tabpage[@title='General   ']
+				</item>
+				<item
+				capname="cell"
+				id="a8c088a8-ddfa-49a1-b4af-5b68aa4c1fad"
+				name="TreeSecTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='InformixSecurityManagerPanel']/?/?/container[@type='JSplitPane']//table[@type='SecurityTreeTable']/?/?/cell[2]
+				</item>
+				<item
+				capname="tabpage"
+				id="9ae7d550-fd1b-422e-ae5a-74f4aa2c4611"
+				name="UsersTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='InformixSecurityManagerPanel']/?/?/tabpage[@title='Users   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="3bed5722-e21d-4517-a93e-be8fd99c2ded"
+				name="RolesTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='InformixSecurityManagerPanel']/?/?/tabpage[@title='Roles   ']
+				</item>
+				<item
+				capname="table"
+				id="da85f5b1-40f5-4763-a669-f646a02dbb1f"
+				name="UsersTables"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='InformixSecurityManagerPanel']/container[@accessiblename='Users   ']/container[3]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="tabpage"
+				id="4a2953a8-849f-4697-bb86-7c7acaff23c2"
+				name="SessionsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='InformixSessionManagerPanel']/?/?/tabpage[@title='Sessions   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="7c1cbc92-b9ae-4f97-a9f8-91c2ec64309f"
+				name="SessionsStatsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='InformixSessionManagerPanel']/?/?/tabpage[@title='Session Stats   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="c0018f8f-8e3f-478e-b1ab-2843d024dcbe"
+				name="LocksTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='InformixSessionManagerPanel']/?/?/tabpage[@title='Locks   ']
+				</item>
+				<item
+				capname="text"
+				id="346c3e42-a34d-4f3b-9352-6e95c5799d4d"
+				name="SearchSession"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='InformixSessionManagerPanel']/container[@type='CToolBar']/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<item
+				capname="table"
+				id="e926eb27-38e6-4896-84b5-838c838d69b1"
+				name="LockTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='InformixSessionManagerPanel']/container[@accessiblename='Locks   ']/container[4]//container[@type='SessionManagerPanel$9']/container[2]/table[@name='a']
+				</item>
+				<item
+				capname="table"
+				id="942d2ca2-e2fc-4232-9c31-dfd23c0959d2"
+				name="SessionStatsTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='InformixSessionManagerPanel']/container[@accessiblename='Session Stats   ']/container[3]//container[@name='leftComponent']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="table"
+				id="fd5f4486-f4f4-4758-a176-86060ae937c6"
+				name="SessionTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='InformixSessionManagerPanel']/container[@accessiblename='Sessions   ']/container[2]//container[@type='SessionManagerPanel$5']/container[2]/table[@name='a']
+				</item>
+				<item
+				capname="text"
+				id="06c3003b-9d6a-4c34-9eb2-588566e2b681"
+				name="SearchSecurity"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='InformixSecurityManagerPanel']/container[@type='CToolBar']/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<item
+				capname="table"
+				id="32a35a75-28ee-4284-a6f5-113678d237d7"
+				name="TreeTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='InformixStorageManagerPanel']/container[@accessiblename='Tree   ']/container[@type='JPanel']//container[@name='_jspStorage']/container[2]/table[@name='a']
+				</item>
+				<item
+				capname="table"
+				id="fe0170de-aec5-4e50-8780-7b4d2612404e"
+				name="DbspaceTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='InformixStorageManagerPanel']/container[@accessiblename='Dbspaces   ']/container[3]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="table"
+				id="5a9ebac1-5971-4df4-8574-a634637fbc9b"
+				name="DatabaseTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='InformixStorageManagerPanel']/container[@accessiblename='Databases   ']/container[4]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="table"
+				id="2f3340ac-9468-4045-ae0d-af29d20c8f00"
+				name="ChunksTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='InformixStorageManagerPanel']/container[@accessiblename='Chunks   ']/container[5]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<basepath>
+					/form[@title~'^Aqua Data Studio']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="23f95008-f0dc-4cf0-8188-e6c300d345ac"
+			isrooted="True"
+			name="MSSql"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				capname="tabpage"
+				id="6684db0b-1413-49ca-8bbd-fe8c62c15579"
+				name="SummaryTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MssqlInstancePanel']/?/?/tabpage[@title='Summary   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="0a3f7229-d539-4400-8e01-2e23952f8261"
+				name="ParametersTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MssqlInstancePanel']/?/?/tabpage[@title='Parameters   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="42ff2d9b-4ce2-4bb4-b08c-e8f3cde4349e"
+				name="ServerLogs"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MssqlInstancePanel']/?/?/tabpage[@title='Server Logs   ']
+				</item>
+				<item
+				capname="text"
+				id="41fbf9c6-947d-4cea-b4f1-15cea920b84e"
+				name="SearchInstance"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MssqlInstancePanel']/container[@name='_toolbar']/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<item
+				capname="table"
+				id="6deceb37-9302-4cff-ab19-1a7aaba7689b"
+				name="SummaryTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']//container[@type='PlatDockingContentPanel']//container[@type='MssqlInstancePanel']/?/?/container[@name='_scrollSummaryTable']/?/?/table[@name='_tblSummary']
+				</item>
+				<item
+				capname="table"
+				id="78c37ec7-2e05-42ba-920e-02beb4da3d82"
+				name="ParametersTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MssqlInstancePanel']/?/?/container[@name='_scrollParameterTable']/?/?/table[@name='_tblParameter']
+				</item>
+				<item
+				capname="table"
+				id="5f2cde66-c6c3-4c7f-9622-ae54d62bddaf"
+				name="ServerLogsTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MssqlInstancePanel']/?/?/container[@name='_scrollErrorTable']/?/?/table[@name='_tblError']
+				</item>
+				<item
+				capname="tabpage"
+				id="6efb0a19-d0c8-41a8-b67b-66b85f9a30aa"
+				name="TreeTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MssqlStorageManagerPanel']/?/?/tabpage[@title='Tree   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="e863f37d-8b19-46de-9590-ac7d0a0c2ef8"
+				name="DatabasesTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MssqlStorageManagerPanel']/?/?/tabpage[@title='Databases   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="500f6b33-f078-4f3b-80ac-030cd095a634"
+				name="DatafilesTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MssqlStorageManagerPanel']/?/?/tabpage[@title='Datafiles   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="c0f4bfc5-6821-48c9-82fc-ff8ca4c0ca33"
+				name="ObjectsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MssqlStorageManagerPanel']/?/?/tabpage[@title='Objects   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="409d317a-7e31-4447-a3c6-ee234f0feb07"
+				name="BackUpDevicesTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MssqlStorageManagerPanel']/?/?/tabpage[@title='Backup Devices   ']
+				</item>
+				<item
+				capname="text"
+				id="fdd7053d-a15b-4cc6-8b73-266a77b12b2b"
+				name="SearchStorage"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MssqlStorageManagerPanel']/container[@name='_toolbar']/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<item
+				capname="table"
+				id="2f08b007-813d-42ba-bd7d-2c19b6daa476"
+				name="TreeTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MssqlStorageManagerPanel']/?/?/container[@name='_treeOverlay']//table[@type='StorageTreeTable']
+				</item>
+				<item
+				capname="table"
+				id="8e2dbcd4-e1c7-4ea0-96ce-a6796b9f55e0"
+				name="DatabasesTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MssqlStorageManagerPanel']/?/?/container[@name='_databaseOverlay']//table[@name='_tblDatabase']
+				</item>
+				<item
+				capname="table"
+				id="985f59e9-e20a-495a-bd88-2f662eb93bae"
+				name="DatafilesTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MssqlStorageManagerPanel']/?/?/container[@name='_datafileOverlay']/?/?/container[@name='_scrollDatabaseFile']/container[5]/table[@name='_tblDatabaseFile']
+				</item>
+				<item
+				capname="tabpage"
+				id="46e578fe-c3c1-47af-9060-891ccc735c0f"
+				name="LoginTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MssqlSecurityManagerPanel']/?/?/tabpage[@title='Logins &amp; Server Roles   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="7458c10f-ef5c-4b08-94ab-56efa6e93881"
+				name="LoginsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MssqlSecurityManagerPanel']/?/?/tabpage[@title='Logins   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="4e9a0a7b-4c30-4f89-819d-e05e8fc75e79"
+				name="ServerRolesTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MssqlSecurityManagerPanel']/?/?/tabpage[@title='Server Roles   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="5f008b43-7213-4897-a456-ccc12c46fcee"
+				name="DatabaseUsersTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MssqlSecurityManagerPanel']/?/?/tabpage[@title='Database Users &amp; Roles   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="fe64257b-edb0-48d9-9a3c-296f27a5547f"
+				name="UsersTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MssqlSecurityManagerPanel']/?/?/tabpage[@title='Users   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="1c43debe-fb31-4ebc-882e-65fe0c128098"
+				name="RolesTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MssqlSecurityManagerPanel']/?/?/tabpage[@title='Roles   ']
+				</item>
+				<item
+				capname="cell"
+				id="87d40143-a510-4175-8d94-1b50ffea7cc6"
+				name="LoginRow"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']//container[@type='PlatDockingContentPanel']//container[@type='MssqlSecurityManagerPanel']/container[@accessiblename='Logins &amp; Server Roles   ']/container[@type='JSplitPane']//table[@type='SecurityTreeTable']/row[@index~'']/cell[@text='sa']
+				</item>
+				<item
+				capname="tabpage"
+				id="55143040-ddb1-4713-a5ad-b7bba9fb3adb"
+				name="GeneralTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MssqlSecurityManagerPanel']/container[@accessiblename='Logins &amp; Server Roles   ']/container[@type='JSplitPane']/container[@name='rightComponent']/?/?/container[@name='viewport']//tabpage[@title='General   ']
+				</item>
+				<item
+				capname="table"
+				id="edd7a20b-7925-48a8-baec-cbf792236178"
+				name="LoginsTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']//container[@type='PlatDockingContentPanel']//container[@type='MssqlSecurityManagerPanel']/?/?/container[@name='_scrollServerUser']/?/?/table[@name='_tblServerUser']
+				</item>
+				<item
+				capname="table"
+				id="fe2c8354-d74e-479d-889b-6935dc69fb1b"
+				name="ServerRolesTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MssqlSecurityManagerPanel']/?/?/container[@name='_scrollServerRole']/?/?/table[@name='_tblServerRole']
+				</item>
+				<item
+				capname="tabpage"
+				id="b7121ebd-285d-48f8-919f-e74049bd79fe"
+				name="SessionsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MssqlSessionManagerPanel']/?/?/tabpage[@title='Sessions   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="aef69840-a77d-4889-b4cd-0f1156495ac4"
+				name="SessionStatsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MssqlSessionManagerPanel']/?/?/tabpage[@title='Session Stats   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="a587f02d-8c03-4a95-a0d6-c347022bb07d"
+				name="LocksTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MssqlSessionManagerPanel']/?/?/tabpage[@title='Locks   ']
+				</item>
+				<item
+				capname="table"
+				id="f5f0f577-d813-4ca5-a6ff-8a80971772bc"
+				name="SessionsTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MssqlSessionManagerPanel']/container[@accessiblename='Sessions   ']/container[2]//container[@type='SessionManagerPanel$5']/container[2]/table[@name='a']
+				</item>
+				<item
+				capname="table"
+				id="e35667f5-e448-4367-92c5-a015f9544ee4"
+				name="SessionStatsTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MssqlSessionManagerPanel']/container[@accessiblename='Session Stats   ']/container[3]/?/?/container[@type='CTableScrollPane']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="table"
+				id="1d75a12c-84f6-4e82-ba3e-499fcaeb886b"
+				name="LockTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MssqlSessionManagerPanel']/container[@accessiblename='Locks   ']/container[4]//container[@type='SessionManagerPanel$9']/container[2]/table[@name='a']
+				</item>
+				<item
+				capname="text"
+				id="a2fb6e85-6733-49d9-9ced-57592c3d994f"
+				name="SearchSession"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='MssqlSessionManagerPanel']/container[@type='CToolBar']/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<item
+				capname="text"
+				id="6ab9aa90-aff9-4905-9e80-5530e3fd43fd"
+				name="SearchSecurity"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MssqlSecurityManagerPanel']/container[@name='_toolbar']/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<item
+				capname="tabpage"
+				id="7ff41c46-5302-4ac2-8996-caecec4bfdcb"
+				name="AlertTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SQLServerAgentPanel']/?/?/tabpage[@title='Alerts   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="26a3a3af-8230-48d2-9315-b0c215b626ff"
+				name="OperatorsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SQLServerAgentPanel']/?/?/tabpage[@title='Operators   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="229eedd4-931c-41ee-afcb-56938c55c8a4"
+				name="JobTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SQLServerAgentPanel']/?/?/tabpage[@title='Jobs   ']
+				</item>
+				<item
+				capname="text"
+				id="2736b0f5-2de4-4898-bb4e-bbffde647c4b"
+				name="SearchServerAgent"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SQLServerAgentPanel']/container[@name='_toolbar']/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<item
+				capname="table"
+				id="89ab6dd5-27dc-4b2d-86e1-006f253e24ae"
+				name="JobsTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']//container[@type='PlatDockingContentPanel']//container[@type='SQLServerAgentPanel']/?/?/container[@name='_scrollJob']/?/?/table[@name='_tblJob']
+				</item>
+				<basepath>
+					/form[@title~'^Aqua Data Studio']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="6087aba7-40d9-48d7-90d1-500e0a44e2a7"
+			isrooted="True"
+			name="CommonForMariaAndMySql"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				capname="tabpage"
+				id="aa03d04a-4fc3-40f1-8618-ee74fa4120c6"
+				name="VariablesTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MyInstancePanel']/?/?/tabpage[@title='Variables   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="f0659518-6ee9-46fe-a9d9-7665427a2d9c"
+				name="StatusTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MyInstancePanel']/?/?/tabpage[@title='Status   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="15aecfeb-4396-4446-8345-ffac9c133f2e"
+				name="CharsetsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MyInstancePanel']/?/?/tabpage[@title='Charsets   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="3738c110-c269-4c68-ac13-965da9813e6a"
+				name="CollationsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MyInstancePanel']/?/?/tabpage[@title='Collations   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="670ebc9a-7793-4fe9-88cc-d8f7884aa51b"
+				name="PluginsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MyInstancePanel']/?/?/tabpage[@title='Plugins   ']
+				</item>
+				<item
+				capname="text"
+				id="ea0cf318-55fd-45e5-bc0e-5fcc29d41728"
+				name="SearchInstance"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MyInstancePanel']/container[@name='_toolbar']/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<item
+				capname="table"
+				id="420c5845-c197-4410-a455-2d726db1ca75"
+				name="VariablesTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MyInstancePanel']/?/?/container[@name='_scrollVariable']/?/?/table[@name='_tblVariable']
+				</item>
+				<item
+				capname="table"
+				id="a8893c9c-f096-4575-9ee6-c84e22d109c0"
+				name="StatusTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MyInstancePanel']/?/?/container[@name='_scrollVariableStatus']/?/?/table[@name='_tblVariableStatus']
+				</item>
+				<item
+				capname="table"
+				id="f846fde4-97d0-4d00-bfa3-e3e46f8a6e9c"
+				name="CharsetsTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MyInstancePanel']/?/?/container[@name='_scrollCharset']/?/?/table[@name='_tblCharset']
+				</item>
+				<item
+				capname="table"
+				id="ea9b0b29-c816-4a89-843e-7d710cf2eddb"
+				name="CollationsTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MyInstancePanel']/?/?/container[@name='_scrollCollation']/?/?/table[@name='_tblCollation']
+				</item>
+				<item
+				capname="table"
+				id="491c58b6-6f5a-4e42-917b-7579040bf1a0"
+				name="PluginsTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MyInstancePanel']/?/?/container[@name='_scrollPlugin']/?/?/table[@name='_tblPlugin']
+				</item>
+				<item
+				capname="tabpage"
+				id="275360d0-0cd9-4d2b-a389-2a62f1ff0993"
+				name="DatabasesTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MyStorageManagerPanel']/?/?/tabpage[@title='Databases   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="4d4b071a-0c92-465e-8d03-c793a7d9231d"
+				name="EnginesTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MyStorageManagerPanel']/?/?/tabpage[@title='Engines   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="604bd312-f70b-4c4a-a0d9-348915b1e059"
+				name="ObjectsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MyStorageManagerPanel']/?/?/tabpage[@title='Engines   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="23a237da-367d-4829-a15a-0b2983d49df0"
+				name="OpenTablesTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MyStorageManagerPanel']/?/?/tabpage[@title='Open Tables   ']
+				</item>
+				<item
+				capname="text"
+				id="a03c4936-398a-4112-9131-483c58e69ad9"
+				name="SearchStorage"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MyStorageManagerPanel']/container[@name='_toolbar']/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<item
+				capname="table"
+				id="d1a2b253-9a8d-4de5-92e5-dbbfe0608574"
+				name="DatabasesTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MyStorageManagerPanel']/container[@accessiblename='Databases   ']/container[2]/?/?/container[@name='_componentContainer']/container[5]/table[@name='_tblDatabase']
+				</item>
+				<item
+				capname="table"
+				id="3fe340e6-18c4-49ec-94cf-2f5ee49cc1e2"
+				name="EnginesTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MyStorageManagerPanel']/container[@accessiblename='Engines   ']/container[3]//container[@name='leftComponent']/container[5]/table[@name='_tblEngine']
+				</item>
+				<item
+				capname="table"
+				id="7b7d75f6-6682-4f7c-ba2d-93938b211859"
+				name="OpenTablesTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MyStorageManagerPanel']/container[@accessiblename='Open Tables   ']/container[5]/?/?/container[@name='_componentContainer']/container[5]/table[@name='_tblOpenTable']
+				</item>
+				<item
+				capname="tabpage"
+				id="4daaf01e-f249-4684-af26-98807d3a5c06"
+				name="TreeTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MySecurityManagerPanel']/?/?/tabpage[@title='Tree   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="9db3bd01-b826-41a8-87d0-3eeabd64c79d"
+				name="SessionsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MySessionManagerPanel']/?/?/tabpage[@title='Sessions   ']
+				</item>
+				<item
+				capname="table"
+				id="9f76e8e3-ad39-4c3b-8d1d-9d7e9197efe2"
+				name="SessionsTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MySessionManagerPanel']/?/?/container[@type='DbaSearchOverlay']//container[@type='SessionManagerPanel$5']/container[2]/table[@name='a']
+				</item>
+				<item
+				capname="text"
+				id="4c76dd8f-2857-48ff-9cc1-b0ed7d969b12"
+				name="SearchSession"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='MySessionManagerPanel']/container[@type='CToolBar']/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<item
+				capname="cell"
+				id="52eb992a-8541-4a05-859d-40d0ab649828"
+				name="TreeCell"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MySecurityManagerPanel']//table[@type='SecurityTreeTable']/row[@index='2']/cell[2]
+				</item>
+				<item
+				capname="tabpage"
+				id="663fcca6-92f1-45c6-83ea-5f8a1e32f7d3"
+				name="GeneralTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='MySecurityManagerPanel']/?/?/container[@type='JSplitPane']/container[@name='rightComponent']/?/?/container[@name='viewport']//tabpage[@title='General   ']
+				</item>
+				<basepath>
+					/form[@title~'^Aqua Data Studio']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="c1e07897-6582-4534-9eb6-4440d17a0828"
+			isrooted="True"
+			name="Teradata"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				capname="tabpage"
+				id="48c65bec-dbf0-4cd3-b3fb-65a3fc39d064"
+				name="CharsetsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='TeradataInstancePanel']/?/?/tabpage[@title='Charsets   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="f7f4c55d-89ee-4657-900f-19e483d4aa37"
+				name="CollationsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='TeradataInstancePanel']/?/?/tabpage[@title='Collations   ']
+				</item>
+				<item
+				capname="table"
+				id="efb1cd6c-bfc1-4ae7-8309-8fa07e64e7b2"
+				name="CharsetsTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']/?/?/container[@accessiblename='DBC@Teradata 10.90.1.175 v15.0 [Instance Manager]']/container[6]/container[@accessiblename='Charsets   ']/container[2]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="table"
+				id="cb55e5ee-59b7-4d93-bcb6-beb2f95f5db3"
+				name="CollationsTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']/?/?/container[@accessiblename='DBC@Teradata 10.90.1.175 v15.0 [Instance Manager]']/container[6]/container[@accessiblename='Collations   ']/container[3]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="text"
+				id="f8ad9e0e-eb53-4174-9269-63601856c9ec"
+				name="SearchInstance"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']/?/?/container[@accessiblename='DBC@Teradata 10.90.1.175 v15.0 [Instance Manager]']/container[6]/container[@type='CToolBar']/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<item
+				capname="tabpage"
+				id="890ee618-303d-4946-9987-a513d484a6c7"
+				name="DatabasesTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='TDStorageManagerPanel']/?/?/tabpage[@title='Databases   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="23e61452-042b-4b1a-9ad7-275a9a5b8f0a"
+				name="ObjectsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='TDStorageManagerPanel']/?/?/tabpage[@title='Objects   ']
+				</item>
+				<item
+				capname="table"
+				id="c48a6874-092d-4b8b-9c74-e4780fa2f860"
+				name="DatabaseTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='TDStorageManagerPanel']/container[@accessiblename='Databases   ']/container[2]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="text"
+				id="c3784ad1-37de-486c-af59-9e2587cf3900"
+				name="SearchStorage"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='TDSessionManagerPanel']/container[@type='CToolBar']/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<item
+				capname="tabpage"
+				id="06409155-dc61-41dd-b021-6d9427eee438"
+				name="TreeSecTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='TDSecurityManagerPanel']/?/?/tabpage[@title='Tree   ']
+				</item>
+				<item
+				capname="cell"
+				id="84074d5a-08ee-43b5-9205-2f300ea1522b"
+				name="TreeSecTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']//container[@type='PlatDockingContentPanel']//container[@type='TDSecurityManagerPanel']/?/?/container[@type='JSplitPane']//table[@type='SecurityTreeTable']/row[@index='1']/cell[2]
+				</item>
+				<item
+				capname="tabpage"
+				id="be81da18-4be0-42a6-98a2-33343338371f"
+				name="UsersTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='TDSecurityManagerPanel']/?/?/tabpage[@title='Users   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="8154e317-6c52-46d2-8a72-0697493368ce"
+				name="RolesTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='TDSecurityManagerPanel']/?/?/tabpage[@title='Roles   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="7778167a-158f-4c01-b28b-b6fec3e400d0"
+				name="ProfilesTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='TDSecurityManagerPanel']/?/?/tabpage[@title='Profiles   ']
+				</item>
+				<item
+				capname="table"
+				id="3fbf2e2d-5a1e-4f21-a155-6dcb230fdc10"
+				name="UsersTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='TDSecurityManagerPanel']/container[@accessiblename='Users   ']/container[3]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="table"
+				id="d6391035-e4dc-4f0d-af60-d2189cabb3d7"
+				name="RolesTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='TDSecurityManagerPanel']/container[@accessiblename='Roles   ']/container[4]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="table"
+				id="988dbd70-a6b1-42ee-b3b3-4f83b426990e"
+				name="ProfilesTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']/?/?/container[@accessiblename='DBC@Teradata 10.90.1.175 v15.0 [Security Manager]']/container[6]/container[@accessiblename='Profiles   ']/container[5]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="text"
+				id="aa45df0a-d424-42f8-8389-935def7c5675"
+				name="SearchSecurity"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']/?/?/container[@accessiblename='DBC@Teradata 10.90.1.175 v15.0 [Security Manager]']/container[6]/container[@type='CToolBar']/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<item
+				capname="tabpage"
+				id="598dd9b5-899a-4984-a917-1f6c9aded9d9"
+				name="SessionsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='TDSessionManagerPanel']/?/?/tabpage[@title='Sessions   ']
+				</item>
+				<item
+				capname="table"
+				id="717689f2-d7d3-4474-b827-1edcce9c200c"
+				name="SessionsTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='TDSessionManagerPanel']/?/?/container[@type='DbaSearchOverlay']//container[@name='leftComponent']/container/container[2]/table[@name='a']
+				</item>
+				<item
+				capname="text"
+				id="03a56145-37bc-450b-97f0-351bbc039b5c"
+				name="SearchSession"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='TDSessionManagerPanel']/container[@type='CToolBar']/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<item
+				capname="tabpage"
+				id="d9abc6a4-c2ff-442b-9fa5-9ee97ff4eab9"
+				name="GeneralTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='TDSecurityManagerPanel']/?/?/container[@type='JSplitPane']/container[@name='rightComponent']/?/?/container[@name='viewport']//tabpage[@title='General   ']
+				</item>
+				<basepath>
+					/form[@title~'^Aqua Data Studio']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="84520835-079a-4116-8d0f-b22bb9f88f63"
+			isrooted="True"
+			name="Vertica"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				capname="tabpage"
+				id="41e53e05-aafb-467b-8b55-80fab5319c84"
+				name="SummaryTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='VerticaInstancePanel']/?/?/tabpage[@title='Summary   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="a02c158f-a3ec-40b4-9202-8799fc6583c6"
+				name="ConfigurationsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='VerticaInstancePanel']/?/?/tabpage[@title~'^Configuration\ Parameters\ ']
+				</item>
+				<item
+				capname="tabpage"
+				id="96562420-9cb5-4e86-a314-0c92204b51be"
+				name="SessionParameters"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='VerticaInstancePanel']/?/?/tabpage[@title='Session Parameters   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="285cc14a-feae-4398-81c4-a2105ef991bb"
+				name="NodesTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='VerticaInstancePanel']/?/?/tabpage[@title='Nodes   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="64b84381-488d-4887-b376-97ad69014cf0"
+				name="QueryHistoryTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='VerticaInstancePanel']/?/?/tabpage[@title='Query History   ']
+				</item>
+				<item
+				capname="table"
+				id="9c74a0ed-5b33-435b-a56d-9f58826ee706"
+				name="SummaryTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='VerticaInstancePanel']/container[@accessiblename='Summary   ']/container[2]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="table"
+				id="697309cc-9b77-46f1-b40b-016ea834b8da"
+				name="ConfigurationTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='VerticaInstancePanel']/container[@accessiblename='Configuration Parameters   ']/container[3]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="table"
+				id="46a34b12-eee8-4868-ba1c-eeadce1ddef0"
+				name="SessionParametersTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='VerticaInstancePanel']/container[@accessiblename='Session Parameters   ']/container[4]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="table"
+				id="968a295a-1827-40ea-8b7f-7369a818a948"
+				name="NodesTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='VerticaInstancePanel']/container[@accessiblename='Nodes   ']/container[5]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="table"
+				id="bd041468-d05b-436e-8b4e-60d086c348a9"
+				name="QueryHistoryTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='VerticaInstancePanel']/container[@accessiblename='Query History   ']/container[6]//container[@name='leftComponent']/?/?/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="text"
+				id="f3ab89a0-71f8-40b4-af69-2dd9c83bcd7f"
+				name="SearchInstance"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='VerticaInstancePanel']/container[@type='JPanel']/container[1]/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<item
+				capname="tabpage"
+				id="5b71cf2e-1e9b-4f71-93fc-eb982355a022"
+				name="LicenseTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='VerticaStorageManagerPanel']/?/?/tabpage[@title='License Audit   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="7938d74a-6db8-4adc-a489-c8be8bbe70f8"
+				name="NodeStorageTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='VerticaStorageManagerPanel']/?/?/tabpage[@title='Nodes   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="4558ba15-b055-49be-8000-f65d82e0bdb8"
+				name="ObjectsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='VerticaStorageManagerPanel']/?/?/tabpage[@title='Objects   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="232a08c5-f313-45d8-9fdb-c98ac9589fa4"
+				name="FileSystemTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='VerticaStorageManagerPanel']/?/?/tabpage[@title='File Systems   ']
+				</item>
+				<item
+				capname="text"
+				id="0056bfdc-8381-46c6-9428-a5e7a19c35be"
+				name="SearchStorage"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='VerticaStorageManagerPanel']/container[@type='CToolBar']/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<item
+				capname="table"
+				id="15f095f4-e9f6-4d07-b948-108cbc234238"
+				name="LicenseTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='VerticaStorageManagerPanel']/container[@accessiblename='License Audit   ']/container[2]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="table"
+				id="55c4fad7-b09d-477b-8d1d-affb52a9c744"
+				name="NodesStorageTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='VerticaStorageManagerPanel']/container[@accessiblename='Nodes   ']/container[3]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="table"
+				id="841f0cb8-d95e-4f80-92d4-b2acb24b514c"
+				name="FileSystemTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='VerticaStorageManagerPanel']/container[@accessiblename='File Systems   ']/container[5]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="tabpage"
+				id="0477059c-32a5-412c-8c03-598cde9efcb2"
+				name="TreeTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='VerticaSecurityManagerPanel']/?/?/tabpage[@title='Tree   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="f12ddb74-0c16-4d0a-ab2f-36ce9d26bbf2"
+				name="UsersTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='VerticaSecurityManagerPanel']/?/?/tabpage[@title='Users   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="7b700dc0-1127-4dc7-95bc-efeb18b21a61"
+				name="RolesTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='VerticaSecurityManagerPanel']/?/?/tabpage[@title='Roles   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="13829491-f33a-4801-b20d-5e8d047bdf4a"
+				name="ProfilesTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='VerticaSecurityManagerPanel']/?/?/tabpage[@title='Profiles   ']
+				</item>
+				<item
+				capname="text"
+				id="6716c341-a7bd-49e2-9da9-ee2a8553d485"
+				name="SearchSecurity"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='VerticaSecurityManagerPanel']/container[@type='CToolBar']/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<item
+				capname="tabpage"
+				id="c78a523a-9e84-46ce-86b2-e3a5dcff1748"
+				name="GeneralTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='VerticaSecurityManagerPanel']/?/?/container[@type='JSplitPane']/container[@name='rightComponent']/?/?/container[@name='viewport']//tabpage[@title='General   ']
+				</item>
+				<item
+				capname="cell"
+				id="48fc4495-c05a-4360-b8f1-1039ef39c63d"
+				name="TreeSecTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']//container[@type='PlatDockingContentPanel']//container[@type='VerticaSecurityManagerPanel']/?/?/container[@type='JSplitPane']//table[@type='SecurityTreeTable']/row[@index='1']/cell[2]
+				</item>
+				<item
+				capname="table"
+				id="200e879e-c2f0-4b00-8f04-4395997ead0f"
+				name="UsersTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='VerticaSecurityManagerPanel']/container[@accessiblename='Users   ']/container[3]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="table"
+				id="84788b8b-06c7-4d79-8613-d771cd323101"
+				name="RolesTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='VerticaSecurityManagerPanel']/container[@accessiblename='Roles   ']/container[4]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="table"
+				id="7380cf3e-0fcc-4c29-8d56-f996e68c5600"
+				name="ProfilesTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='VerticaSecurityManagerPanel']/container[@accessiblename='Profiles   ']/container[5]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="tabpage"
+				id="dd951ad1-6a6d-4645-b9b7-c00be050caad"
+				name="SessionTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='VerticaSessionManagerPanel']/?/?/tabpage[@title='Sessions   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="b338f946-f650-40b9-8549-d20d177364da"
+				name="SessionStatsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='VerticaSessionManagerPanel']/?/?/tabpage[@title='Session Stats   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="a750fb7c-d117-4a70-812f-471f6a8563a4"
+				name="LockTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='VerticaSessionManagerPanel']/?/?/tabpage[@title='Locks   ']
+				</item>
+				<item
+				capname="table"
+				id="ea71c8ff-76f9-41dd-925a-becbfc8062db"
+				name="SessionsTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='VerticaSessionManagerPanel']/container[@accessiblename='Sessions   ']/container[2]//container[@name='leftComponent']/container/container[2]/table[@name='a']
+				</item>
+				<item
+				capname="table"
+				id="a6938952-9923-4cd5-8f65-28570e9d7de8"
+				name="SessionStatsTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='VerticaSessionManagerPanel']/container[@accessiblename='Session Stats   ']/container[3]/?/?/container[@type='CTableScrollPane']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="text"
+				id="4395a237-dc56-4446-9a80-db0cb5eb4c82"
+				name="SearchSession"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='VerticaSessionManagerPanel']/container[@type='CToolBar']/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<basepath>
+					/form[@title~'^Aqua Data Studio']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="3e25bac7-5316-4dbe-975f-0dc16d8882ea"
+			isrooted="True"
+			name="PostgreSql"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				capname="tabpage"
+				id="37e3f579-c5e0-415a-bc94-171be51a32d3"
+				name="SummaryTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='PostgresInstancePanel']/?/?/tabpage[@title='Summary   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="47aa6dbe-7bed-43bb-9836-1b367e22a301"
+				name="CharsetsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='PostgresInstancePanel']/?/?/tabpage[@title='Charsets   ']
+				</item>
+				<item
+				capname="table"
+				id="6c82b3f5-d4a6-49ed-a50f-f6e37dc4f380"
+				name="SummaryTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='PostgresInstancePanel']/container[@accessiblename='Summary   ']/container[2]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="tabpage"
+				id="631e5899-f19e-4b4b-bd95-7051c48ac24a"
+				name="CollationsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='PostgresInstancePanel']/?/?/tabpage[@title='Collations   ']
+				</item>
+				<item
+				capname="text"
+				id="cba6ce85-f42d-4c62-be52-c84c53e63c65"
+				name="SearchInstance"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='PostgresInstancePanel']/container[@type='CToolBar']/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<item
+				capname="table"
+				id="2a3db73a-0854-4184-91ad-cb4e318aed29"
+				name="CharsetsTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='PostgresInstancePanel']/container[@accessiblename='Charsets   ']/container[3]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="table"
+				id="954c12c1-a842-4e6d-839f-4d7286a5c5b6"
+				name="CollationsTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='PostgresInstancePanel']/container[@accessiblename='Collations   ']/container[4]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="tabpage"
+				id="d977ae2f-3ee4-4388-8661-40f3bc8ca647"
+				name="TreeTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='PostgresStorageManagerPanel']/?/?/tabpage[@title='Tree   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="33c492cd-bb6f-4270-8b53-53221f7e1f85"
+				name="TablespacesTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='PostgresStorageManagerPanel']/?/?/tabpage[@title='Tablespaces   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="3a1da904-c021-433a-9cc5-22edca9302cf"
+				name="DatabasesTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='PostgresStorageManagerPanel']/?/?/tabpage[@title='Databases   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="ae73235b-dea7-457a-a9a9-1743dd6079bc"
+				name="ObjectsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='PostgresStorageManagerPanel']/?/?/tabpage[@title='Objects   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="041f186c-166c-44e5-a9a8-c9b2b3da09fc"
+				name="TreeSecTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='PostgresSecurityManagerPanel']/?/?/tabpage[@title='Tree   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="dac060a0-500d-4e36-94d2-637177ea447a"
+				name="UsersTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='PostgresSecurityManagerPanel']/?/?/tabpage[@title='Users   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="13f83141-f9a2-4064-94d0-eaa6b878f6c1"
+				name="GroupsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='PostgresSecurityManagerPanel']/?/?/tabpage[@title='Groups   ']
+				</item>
+				<item
+				capname="cell"
+				id="220881fc-d09e-45df-8b50-526e7cd956b5"
+				name="TreeSecTableRow"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='PostgresSecurityManagerPanel']/?/?/container[@type='JSplitPane']//table[@type='SecurityTreeTable']/row[@index='1']/cell[2]
+				</item>
+				<item
+				capname="table"
+				id="a5a8452f-d460-4f41-8164-1f1ab380dbe5"
+				name="UsersTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='PostgresSecurityManagerPanel']/container[@accessiblename='Users   ']/container[3]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="table"
+				id="75ada43c-0e4c-44cc-a331-ca90da53fac3"
+				name="GroupsTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='PostgresSecurityManagerPanel']/container[@accessiblename='Groups   ']/container[4]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="text"
+				id="1960a64a-2843-43fe-bfe2-c671f875c922"
+				name="SearchSecurity"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='PostgresSecurityManagerPanel']/container[@type='CToolBar']/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<item
+				capname="text"
+				id="8e08861d-7ed7-4e6f-baf7-9d6b20042c44"
+				name="SearchStorage"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='PostgresStorageManagerPanel']/container[@type='CToolBar']/container[@type='JPanel']//container[@caption='']/?/?/text[@name='_actualComponent']
+				</item>
+				<item
+				capname="tabpage"
+				id="d99acdfc-7aa8-48f0-87ac-361c168f7fa5"
+				name="SessionsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='PostgresSessionManagerPanel']/?/?/tabpage[@title='Sessions   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="534bcfb9-37ba-4f40-b160-71127f35c66f"
+				name="SessionStatsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='PostgresSessionManagerPanel']/?/?/tabpage[@title='Session Stats   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="ae5c95c4-f54e-408b-bae1-e647526f7a78"
+				name="LockTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='PostgresSessionManagerPanel']/?/?/tabpage[@title='Locks   ']
+				</item>
+				<item
+				capname="text"
+				id="9f9d9842-3866-4e0a-8eaf-08f316059a90"
+				name="SearchSession"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='PostgresSessionManagerPanel']/container[@type='CToolBar']/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<item
+				capname="table"
+				id="ddeeca74-7e5d-4545-81f6-df704a66cd8c"
+				name="SessionTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='PostgresSessionManagerPanel']/container[@accessiblename='Sessions   ']/container[2]//container[@name='leftComponent']/container/container[2]/table[@name='a']
+				</item>
+				<item
+				capname="table"
+				id="489067f5-0aa8-4da3-a33d-c8674faacfc8"
+				name="SessionStatsTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='PostgresSessionManagerPanel']/container[@accessiblename='Session Stats   ']/container[3]/?/?/container[@type='CTableScrollPane']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="table"
+				id="431b85ec-954c-4a5c-89d9-60e24305eb3f"
+				name="LockTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='PostgresSessionManagerPanel']/container[@accessiblename='Locks   ']/container[4]/container[@name='_componentContainer']/container[@type='JPanel']/?/?/container[@type='SessionManagerPanel$9']/container[2]/table[@name='a']
+				</item>
+				<item
+				capname="table"
+				id="69cd9b9d-bc3c-45f5-9ea1-2897f6dd225d"
+				name="TreeTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='PostgresStorageManagerPanel']/container[@accessiblename='Tree   ']/container[@type='JPanel']//container[@name='_jspStorage']/container[2]/table[@name='a']
+				</item>
+				<item
+				capname="table"
+				id="0579b4ea-aadb-4d44-9e4a-1a07aeb9383f"
+				name="TablespacesTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='PostgresStorageManagerPanel']/container[@accessiblename='Tablespaces   ']/container[3]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="table"
+				id="0bb2bda9-d1c4-47a3-b781-4e2a638f9e17"
+				name="DatabasesTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='PostgresStorageManagerPanel']/container[@accessiblename='Databases   ']/container[4]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="tabpage"
+				id="0cdc5862-bd85-46dd-a574-e7b490c6f6e6"
+				name="GeneralTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='PostgresSecurityManagerPanel']/?/?/container[@type='JSplitPane']/container[@name='rightComponent']/?/?/container[@name='viewport']//tabpage[@title='General   ']
+				</item>
+				<basepath>
+					/form[@title~'^Aqua Data Studio']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="bb9f8c7e-fbd0-4828-8c2a-8c13b1788c32"
+			isrooted="True"
+			name="Netezza"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				capname="tabpage"
+				id="a04b5f1b-853c-48b7-ad1a-615698b02099"
+				name="ParametersTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='NetezzaInstancePanel']/?/?/tabpage[@title='Parameters   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="0b4aa96d-4c11-47ae-965a-b59c36e67c99"
+				name="SystemDefaultsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='NetezzaInstancePanel']/?/?/tabpage[@title='System Defaults   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="a5df750f-44be-4145-ba81-216050541137"
+				name="QueryHistoryTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='NetezzaInstancePanel']/?/?/tabpage[@title='Query History   ']
+				</item>
+				<item
+				capname="table"
+				id="f58f21c9-4264-45cc-bfe4-2b5134ea3987"
+				name="ParametersTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='NetezzaInstancePanel']/container[@accessiblename='Parameters   ']/container[2]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="table"
+				id="3158793c-a976-46c5-911f-11a00ca3d118"
+				name="SystemDefaultsTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='NetezzaInstancePanel']/container[@accessiblename='System Defaults   ']/container[3]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="text"
+				id="b4e46fa0-c124-4dab-a163-b1f6115b56d0"
+				name="SearchInstance"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='NetezzaInstancePanel']/container[@type='JPanel']/container[1]/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<item
+				capname="tabpage"
+				id="c16b5035-3a79-4d21-abb9-71af4d641458"
+				name="TreeTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='NetezzaSecurityManagerPanel']/?/?/tabpage[@title='Tree   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="0ca8241b-3f6c-461a-b9b0-56d29a53c21b"
+				name="UsersTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='NetezzaSecurityManagerPanel']/?/?/tabpage[@title='Users   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="0aa5c518-d03a-4343-bf75-6907feeb3805"
+				name="GroupsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='NetezzaSecurityManagerPanel']/?/?/tabpage[@title='Groups   ']
+				</item>
+				<item
+				capname="table"
+				id="841af01f-76dd-491d-b744-d7db1ffb7709"
+				name="UsersTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='NetezzaSecurityManagerPanel']/container[@accessiblename='Users   ']/container[3]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="table"
+				id="10511d75-6a0f-49d1-8e39-6899cb588a08"
+				name="GroupsTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='NetezzaSecurityManagerPanel']/container[@accessiblename='Groups   ']/container[4]/container[@name='_componentContainer']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="cell"
+				id="2ef2cf8f-9a65-4164-9699-f69145a7648a"
+				name="TreeTableRow"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='NetezzaSecurityManagerPanel']/?/?/container[@type='JSplitPane']/container[@name='leftComponent']//table[@type='SecurityTreeTable']/?/?/cell[2]
+				</item>
+				<item
+				capname="tabpage"
+				id="eb596d8e-a424-46b6-bbaa-3ab1a008c998"
+				name="GeneralTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='NetezzaSecurityManagerPanel']/?/?/container[@type='JSplitPane']/container[@name='rightComponent']/?/?/container[@name='viewport']//tabpage[@title='General   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="fdb6e58c-ed05-42ce-b4c6-0b438b3459f4"
+				name="SessionsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='NetezzaSessionManagerPanel']/?/?/tabpage[@title='Sessions   ']
+				</item>
+				<item
+				capname="table"
+				id="a39ca674-1877-482b-b83b-43046feb1a64"
+				name="SessionTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='DbaSearchOverlay']//container[@name='leftComponent']/container/container[2]/table[@name='a']
+				</item>
+				<item
+				capname="text"
+				id="002b4e2c-f601-4347-897c-283cbb9cf50d"
+				name="SearchSession"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='NetezzaSessionManagerPanel']/container[@type='CToolBar']/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<item
+				capname="text"
+				id="f4d8335b-9217-409f-aa20-7ca542490816"
+				name="SearchSecurity"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='NetezzaSecurityManagerPanel']/container[@type='CToolBar']/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<basepath>
+					/form[@title~'^Aqua Data Studio']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="01eda1d6-4475-4b91-b560-49badb88e8f6"
+			isrooted="True"
+			name="SybaseASE"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				capname="text"
+				id="fbed4419-7547-4cb0-8fad-319ded4c232c"
+				name="SearchSession"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']/?/?/container[@accessiblename='sa@Sybase ASE 172.24.1.145 v16 [Session Manager]']/container[8]/container[@type='CToolBar']/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<item
+				capname="table"
+				id="39e84964-54da-4fbe-a324-df44b7e9d6c1"
+				name="LockTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']/?/?/container[@accessiblename='sa@Sybase ASE 172.24.1.145 v16 [Session Manager]']/container[8]/container[@accessiblename='Locks   ']/container[4]//container[@type='SessionManagerPanel$9']/container[2]/table[@name='a']
+				</item>
+				<item
+				capname="table"
+				id="7207348b-8664-4095-b74f-d40bf42adb27"
+				name="SessionStatsTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']/?/?/container[@accessiblename='sa@Sybase ASE 172.24.1.145 v16 [Session Manager]']/container[8]/container[@accessiblename='Session Stats   ']/container[3]/?/?/container[@type='CTableScrollPane']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="table"
+				id="100767aa-fe9d-49fc-94ac-d585ef03221d"
+				name="SessionsTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']/?/?/container[@accessiblename='sa@Sybase ASE 172.24.1.145 v16 [Session Manager]']/container[8]/container[@accessiblename='Sessions   ']/container[2]//container[@name='leftComponent']/container/container[2]/table[@name='a']
+				</item>
+				<item
+				capname="tabpage"
+				id="65a688c1-6406-4797-91ed-b9baadb2594b"
+				name="GeneralTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SybaseInstancePanel']/?/?/tabpage[@title='General   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="b69f8a08-dd90-4a9c-b4e7-08e155d54427"
+				name="ParametersTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SybaseInstancePanel']/?/?/tabpage[@title='Parameters   ']
+				</item>
+				<item
+				capname="text"
+				id="57c3f271-f1c5-421b-a4cf-cb2eedb3cd19"
+				name="SearchInstance"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SybaseInstancePanel']/container[@name='_toolbar']/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<item
+				capname="table"
+				id="aa79de0a-89f9-4164-9034-1009763274ef"
+				name="GeneralTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SybaseInstancePanel']/?/?/container[@name='_scrollSummaryTable']/?/?/table[@name='_tblSummary']
+				</item>
+				<item
+				capname="table"
+				id="cf4c50d6-f075-41f6-9d82-1528502d51c6"
+				name="ParametersTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SybaseInstancePanel']/?/?/container[@name='_scrollParameterTable']/?/?/table[@name='_tblParameter']
+				</item>
+				<item
+				capname="tabpage"
+				id="7a72b3e3-09b8-4553-ac08-be039388414f"
+				name="TreeTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SybaseStorageManagerPanel']/?/?/tabpage[@title='Tree   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="79aa382c-9ad2-48f6-b2a4-28d1c628f84b"
+				name="DatabaseTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SybaseStorageManagerPanel']/?/?/tabpage[@title='Databases   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="53bd99cc-7cd0-42b3-aed7-fb1445fe2bf1"
+				name="DeviceUsageTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SybaseStorageManagerPanel']/?/?/tabpage[@title='Device Usages   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="fb232880-056d-4852-8348-d6a6cc9d3cd3"
+				name="ObjectsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SybaseStorageManagerPanel']/?/?/tabpage[@title='Objects   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="5779bed7-9eb8-48b9-82a6-a09c2b0429bb"
+				name="DatabaseDeviceTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SybaseStorageManagerPanel']/?/?/tabpage[@title='Database Devices   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="f1ea9b3f-b879-483a-91b5-93d6444f412a"
+				name="DumpDevicesTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SybaseStorageManagerPanel']/?/?/tabpage[@title='Dump Devices   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="ec36e0f6-cf15-453d-8344-eeb0b227df8b"
+				name="CachesTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SybaseStorageManagerPanel']/?/?/tabpage[@title='Caches   ']
+				</item>
+				<item
+				capname="table"
+				id="3d74c98c-244d-4ac3-ae00-6b061d9d2555"
+				name="TreeTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SybaseStorageManagerPanel']/?/?/container[@name='_treeOverlay']/?/?/container[@name='_jspStorage']/container[2]/table[@name='a']
+				</item>
+				<item
+				capname="table"
+				id="775a5222-3980-40c9-8181-f952c24e1c9c"
+				name="DatabaseTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SybaseStorageManagerPanel']/?/?/container[@name='_databaseOverlay']/container[@name='_componentContainer']/container[5]/table[@name='_tblDatabase']
+				</item>
+				<item
+				capname="table"
+				id="864d71dd-5df9-4a18-8987-5929a9bb4e21"
+				name="DeviceUsageTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SybaseStorageManagerPanel']/?/?/container[@name='_datafileOverlay']/container[@name='_componentContainer']/container[5]/table[@name='_tblDatabaseFile']
+				</item>
+				<item
+				capname="table"
+				id="8bc2f316-4115-40a5-988b-eb1dcfd62fa7"
+				name="DatabaseDeviceTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SybaseStorageManagerPanel']/?/?/container[@name='_dataDeviceOverlay']/container[@name='_componentContainer']/container[5]/table[@name='_tblDatabaseDevice']
+				</item>
+				<item
+				capname="table"
+				id="462c21cb-168b-40ca-a5d3-912a28ba4db2"
+				name="DumpDeviceTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SybaseStorageManagerPanel']/?/?/container[@name='_dumpDeviceOverlay']/container[@name='_componentContainer']/container[5]/table[@name='_tblDumpDevice']
+				</item>
+				<item
+				capname="table"
+				id="bfab4a6c-0099-46ed-9915-00ab386c72d8"
+				name="CacheTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SybaseStorageManagerPanel']/?/?/container[@name='_cacheOverlay']/container[@name='_componentContainer']/container[5]/table[@name='_tblCache']
+				</item>
+				<item
+				capname="text"
+				id="aa54690d-d94e-4c4a-b72e-d40a0f09a542"
+				name="SearchStorage"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SybaseStorageManagerPanel']/container[@name='_toolbar']/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<item
+				capname="tabpage"
+				id="7ad03972-0e02-446b-bf0b-74a467abb706"
+				name="LoginsAndRolesTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SybaseSecurityManagerPanel']/?/?/tabpage[@title='Logins &amp; Server Roles   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="8702651b-8773-4955-be2c-dcca1a730666"
+				name="LoginsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SybaseSecurityManagerPanel']/?/?/tabpage[@title='Logins   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="2c1ea9b7-6be8-43bc-a9f0-a3d881144b45"
+				name="ServerRolesTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SybaseSecurityManagerPanel']/?/?/tabpage[@title='Server Roles   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="1ca15bab-5097-48e4-a377-536bf7fb10b1"
+				name="DatabaseUsersTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SybaseSecurityManagerPanel']/?/?/tabpage[@title~'^Database\ Users\ &amp;\ Groups\ \ ']
+				</item>
+				<item
+				capname="tabpage"
+				id="1c0bbd99-f270-457c-a44a-830de63314ef"
+				name="UsersTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SybaseSecurityManagerPanel']/?/?/tabpage[@title='Users   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="edb693ad-2256-4150-976c-dee101a55829"
+				name="GroupsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SybaseSecurityManagerPanel']/?/?/tabpage[@title='Groups   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="f1af3ba4-8ac5-44bc-bc3d-d0ff9dbaef0e"
+				name="RolesTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SybaseSecurityManagerPanel']/?/?/tabpage[@title='Roles   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="168851f9-f044-45bf-b494-cfd02d0e1021"
+				name="GeneralSecTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SybaseSecurityManagerPanel']/container[@accessiblename='Logins &amp; Server Roles   ']/container[2]/container[@name='rightComponent']/?/?/container[@name='viewport']//tabpage[@title='General   ']
+				</item>
+				<item
+				capname="table"
+				id="45d16dcb-b0ca-431b-8202-354a381a548a"
+				name="LoginsTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SybaseSecurityManagerPanel']/?/?/container[@name='_scrollServerUser']/?/?/table[@name='_tblServerUser']
+				</item>
+				<item
+				capname="table"
+				id="043a6e11-4c63-45be-9fb0-a30572a90187"
+				name="ServersRoleTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SybaseSecurityManagerPanel']/?/?/container[@name='_scrollServerRole']/?/?/table[@name='_tblServerRole']
+				</item>
+				<item
+				capname="tabpage"
+				id="b3630632-3423-4664-8e2e-c3db457594b5"
+				name="SessionsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SybaseSessionManagerPanel']/?/?/tabpage[@title='Sessions   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="27a26f4b-94af-4e0b-a631-7b16ed5ac550"
+				name="SessionsStatsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SybaseSessionManagerPanel']/?/?/tabpage[@title='Session Stats   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="08e3667b-b0c4-485f-861a-579e1d489f30"
+				name="LocksTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SybaseSessionManagerPanel']/?/?/tabpage[@title='Locks   ']
+				</item>
+				<item
+				capname="text"
+				id="4dfd8943-754d-4974-821b-66b95e8fdb97"
+				name="SearchSecurity"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SybaseSecurityManagerPanel']/container[@name='_toolbar']/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<item
+				capname="cell"
+				id="f8c0d5e6-a5aa-47dd-81f9-f096c3db4357"
+				name="LoginAndServerCell"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SybaseSecurityManagerPanel']/container[@accessiblename='Logins &amp; Server Roles   ']/container[2]//table[@type='SecurityTreeTable']/row[@index='1']/cell[2]
+				</item>
+				<basepath>
+					/form[@title~'^Aqua Data Studio']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="4896590f-a17f-4b50-b052-30686f322886"
+			isrooted="True"
+			name="Oracle"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				capname="tabpage"
+				id="4a5e9551-f744-4f47-9459-926724a2cd78"
+				name="GeneralTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraInstancePanel']/?/?/tabpage[@title='General   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="5c191577-397c-4e70-9aac-84b2b5b95692"
+				name="ControlFileTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraInstancePanel']/?/?/tabpage[@title='Controlfile   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="092b7224-ae6a-4498-b98e-bbe8b637ac42"
+				name="OracleParametersTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraInstancePanel']/?/?/tabpage[@title='Oracle Parameters   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="774c5f90-0e26-4ddf-a327-0ff536faa869"
+				name="HiddenParametersTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraInstancePanel']/?/?/tabpage[@title='Hidden Parameters   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="a31aa876-3372-48c2-bbda-c9e804ace0a6"
+				name="NLSParametersTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraInstancePanel']/?/?/tabpage[@title='NLS Parameters   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="feb6bc1f-d40c-48b4-9b59-3799d2db22e4"
+				name="JobsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraInstancePanel']/?/?/tabpage[@title='Jobs   ']
+				</item>
+				<item
+				capname="text"
+				id="3e89f178-145a-4596-95cb-ddf6691ceba0"
+				name="SearchInstance"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraInstancePanel']/container[@name='_toolbar']/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<item
+				capname="table"
+				id="64d1c3c0-6e37-4892-bb17-1c465d1ca7f9"
+				name="GeneralTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@name='_scrollInstGeneral']/container[5]/table[@name='_tblInstGeneral']
+				</item>
+				<item
+				capname="table"
+				id="03100330-3440-4f7c-ac5f-517dfd3b2430"
+				name="ControlFileTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraInstancePanel']/container[@accessiblename='Controlfile   ']/container[3]/?/?/container[@name='rightComponent' and @type='JPanel']/container/container[5]/table[@name='_tblControlFileStats']
+				</item>
+				<item
+				capname="table"
+				id="92a653ba-eb2f-48e2-8ab0-6cebb8c818b1"
+				name="OracleParameterTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraInstancePanel']/container[@accessiblename='Oracle Parameters   ']/container[4]/container/container[5]/table[@name='_tblOraInitParameters']
+				</item>
+				<item
+				capname="table"
+				id="dbf1b7fe-51c2-4dbb-b776-89a2dad86bca"
+				name="HiddenParametersTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraInstancePanel']/?/?/container[@name='_hiddenPanel']/?/?/container[@name='_scrollOraHiddenParameters']/container[5]/table[@name='_tblOraHiddenParameters']
+				</item>
+				<item
+				capname="table"
+				id="bbf7826a-6528-41b0-bea1-445d4da2c4ae"
+				name="NLSParametersTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraInstancePanel']/container[@accessiblename='NLS Parameters   ']/container[6]/container/container[5]/table[@name='_tblNLSParameters']
+				</item>
+				<item
+				capname="table"
+				id="bfcebe11-6049-40a3-96b9-929faf79a742"
+				name="JobsTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@name='_scrollJob']/container[5]/table[@name='_tblJob']
+				</item>
+				<item
+				capname="tabpage"
+				id="02222ba3-2a10-4540-90ac-8b9b61886b01"
+				name="TreeTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraStorageManagerPanel']/?/?/tabpage[@title='Tree   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="8bc38e01-e2a1-4b71-9eb1-d79e03968190"
+				name="TableSpacesTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraStorageManagerPanel']/?/?/tabpage[@title='Tablespaces   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="a085c581-8c40-44a1-95dc-bb51dfa0117e"
+				name="DatafilesTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraStorageManagerPanel']/?/?/tabpage[@title='Datafiles   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="3c89f3e3-479c-407e-9c97-eb67bbcf3583"
+				name="ObjectsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraStorageManagerPanel']/?/?/tabpage[@title='Objects   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="f78e0b86-a4c0-4e5f-bbe7-92a723c86a84"
+				name="FragmentationTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraStorageManagerPanel']/?/?/tabpage[@title='Fragmentation   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="e4336541-4b32-455f-9b53-cafe963a1693"
+				name="FileIOStatsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraStorageManagerPanel']/?/?/tabpage[@title='File IO Stats   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="099caa9f-321f-45c1-a9e0-0dff9f6fd69f"
+				name="ObjectsIOStatsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraStorageManagerPanel']/?/?/tabpage[@title='Object IO Stats   ']
+				</item>
+				<item
+				capname="table"
+				id="e006d663-8317-4e8d-938b-16409a232315"
+				name="TreeTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraStorageManagerPanel']/?/?/container[@name='_treeOverlay']/?/?/container[@name='_jspStorage']/container[2]/table[@name='a']
+				</item>
+				<item
+				capname="table"
+				id="18deffce-fcd6-4685-937e-b0b039800853"
+				name="TablespacesTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraStorageManagerPanel']/?/?/container[@name='_tablespaceOverlay']/container[@name='_componentContainer']/container[5]/table[@name='_tblTablespace']
+				</item>
+				<item
+				capname="table"
+				id="385a4ea6-b5ee-4835-90ce-f0c37ae31f0e"
+				name="DatafilesTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraStorageManagerPanel']/?/?/container[@name='_datafileOverlay']/container[@name='_componentContainer']/container[5]/table[@name='_tblDatafile']
+				</item>
+				<item
+				capname="table"
+				id="edcb0531-f523-448f-b1f6-02728f827a19"
+				name="FileIOStatsTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraStorageManagerPanel']/?/?/container[@name='_fileStatsOverlay']/container[@name='_componentContainer']/container[5]/table[@name='_tblFileStats']
+				</item>
+				<item
+				capname="table"
+				id="982670c9-e5f9-4910-94d1-5bd8e25de96c"
+				name="ObjectsIOStatsTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraStorageManagerPanel']/?/?/container[@name='_fileStatsOverlay']/container[@name='_componentContainer']/container[5]/table[@name='_tblFileStats']
+				</item>
+				<item
+				capname="text"
+				id="441bacb5-a37b-4e7a-92b4-f8d78db17551"
+				name="SearchStorage"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraStorageManagerPanel']/container[@name='_toolbar']/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<item
+				capname="text"
+				id="252384a5-0f6e-4693-afec-fdd893e89d81"
+				name="SearchRollBack"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='RollbackPanel']/container[@name='_toolbar']/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<item
+				capname="table"
+				id="0a5b281e-4597-4c6c-898b-2cce9df8fe75"
+				name="RollBackTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@name='leftComponent']/container[5]/table[@name='_tblRollback']
+				</item>
+				<item
+				capname="tabpage"
+				id="23fb1f3c-904c-4999-b9d0-4619497814ba"
+				name="RedoLogsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='LogManagerPanel']/?/?/tabpage[@title='Redo Logs   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="0dac2670-f875-40a6-aa9e-5c3863d7363e"
+				name="ArchiveTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='LogManagerPanel']/?/?/tabpage[@title='Archive Logs   ']
+				</item>
+				<item
+				capname="text"
+				id="83c14dfc-790d-480b-851e-2875f3b42453"
+				name="SearchLogManager"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='LogManagerPanel']/container[@name='_toolbar']/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<item
+				capname="table"
+				id="42182c7d-d8ca-484b-a25a-f6dd2f893d29"
+				name="RedoTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@name='_scrollRedoLog']/container[5]/table[@name='_tblRedoLog']
+				</item>
+				<item
+				capname="tabpage"
+				id="c4edcb43-a285-4738-8939-a740d0374ddf"
+				name="TreeSecTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraSecurityManagerPanel']/?/?/tabpage[@title='Tree   ']
+				</item>
+				<item
+				capname="cell"
+				id="f8b046e3-89de-486a-98f5-310cbef422b2"
+				name="TreeCell"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraSecurityManagerPanel']/?/?/container[@type='JSplitPane']//table[@type='SecurityTreeTable']/row[@index='1']/cell[2]
+				</item>
+				<item
+				capname="tabpage"
+				id="67cb1b6f-f196-4a90-ae44-aee15251338f"
+				name="GeneralSecTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraSecurityManagerPanel']/?/?/container[@type='JSplitPane']/container[@name='rightComponent']/?/?/container[@name='viewport']//tabpage[@title='General   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="094b2ab9-8c6e-4382-af0e-d9d60aa0c569"
+				name="UsersSecTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraSecurityManagerPanel']/?/?/tabpage[@title='Users   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="125cf100-9da7-4ccb-9bdf-5dceed8203c5"
+				name="RolesSecTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraSecurityManagerPanel']/?/?/tabpage[@title='Roles   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="fcff3297-9ba4-43d2-bf8e-fe319d7bcc6a"
+				name="ProfilesTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraSecurityManagerPanel']/?/?/tabpage[@title='Profiles   ']
+				</item>
+				<item
+				capname="table"
+				id="b5e74407-0198-4132-86a7-673a9edf9208"
+				name="UsersTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraSecurityManagerPanel']/?/?/container[@name='_scrollUser']/?/?/table[@name='_tblUser']
+				</item>
+				<item
+				capname="table"
+				id="04e820f7-30ee-402b-b3c4-5c0a851b5820"
+				name="RolesTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraSecurityManagerPanel']/?/?/container[@name='_scrollRole']/?/?/table[@name='_tblRole']
+				</item>
+				<item
+				capname="table"
+				id="74422311-9641-4f17-b02d-f873cf2bef64"
+				name="ProfileTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraSecurityManagerPanel']/?/?/container[@name='_scrollProfile']/?/?/table[@name='_tblProfile']
+				</item>
+				<item
+				capname="text"
+				id="7da7e48e-d616-41eb-9a69-d085805b275b"
+				name="SearchSecurity"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraSecurityManagerPanel']/container[@name='_toolbar']/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<item
+				capname="tabpage"
+				id="c93fc6bf-1232-45c1-9f49-34bff5fce065"
+				name="SessionTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraSessionManagerPanel']/?/?/tabpage[@title='Sessions   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="08c5ec73-f03a-4dff-a2b2-3f14d2d7935d"
+				name="SessionStatsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraSessionManagerPanel']/?/?/tabpage[@title='Session Stats   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="0040d3f6-54e1-4731-adea-f91800438f6a"
+				name="LocksTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraSessionManagerPanel']/?/?/tabpage[@title='Locks   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="cd136084-3437-4014-be10-efa9f4e9e4c3"
+				name="LongOpsTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraSessionManagerPanel']/?/?/tabpage[@title='Long Ops   ']
+				</item>
+				<item
+				capname="text"
+				id="a2f61d51-270f-41fb-a2c8-fea183b43daa"
+				name="SearchSession"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='OraSessionManagerPanel']/container[@type='CToolBar']/container[@type='JPanel']//text[@name='_actualComponent']
+				</item>
+				<item
+				capname="table"
+				id="c5cfbb35-f783-4c43-88d5-1c584b9c2b9e"
+				name="SessionsTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraSessionManagerPanel']/container[@accessiblename='Sessions   ']/container[2]//container[@name='leftComponent']/container/container[2]/table[@name='a']
+				</item>
+				<item
+				capname="table"
+				id="b7c1ef92-47a6-4b43-aeda-9ee5730a136b"
+				name="SessionsStatsTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraSessionManagerPanel']/container[@accessiblename='Session Stats   ']/container[3]//container[@name='leftComponent']/container[5]/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<item
+				capname="table"
+				id="80d0acbf-9c42-40fd-a712-5c9b5e69c7a0"
+				name="LongOpsTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='OraSessionManagerPanel']/container[@accessiblename='Long Ops   ']/container[5]/container[@name='_componentContainer']/container[@type='JScrollPane']/container[@name='viewport']/table[@type='BaseTableScrollPaneTable']
+				</item>
+				<basepath>
+					/form[@title~'^Aqua Data Studio']
+				</basepath>
+			</folder>
+			<item
+			capname="cell"
+			id="fdb3121c-0e1c-466b-aa01-b2599a02406b"
+			name="TableNameColumn"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='RedShiftStorageManagerPanel']/container[@accessiblename='Objects   ']/container[3]/container[@name='_componentContainer']/container[6]/?/?/cell[@text='Table Name']
+			</item>
+			<basepath>
+				/form[@title~'^Aqua Data Studio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="157007c6-5e60-4550-aedb-7ec2459a2d35"
+		isrooted="True"
+		name="DataStudio"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="menuitem"
+			id="1048aa37-bb7d-4b9b-a2e3-2c845915b89d"
+			name="Generate"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Generate']
+			</item>
+			<item
+			capname="menuitem"
+			id="57bded46-df05-4161-b990-1afa37a3929b"
+			name="Amazon"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Amazon Redshift']
+			</item>
+			<item
+			capname="menuitem"
+			id="a49ef895-78da-445c-a0ca-cf110162b4fb"
+			name="InstanceManager"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Instance Manager']
+			</item>
+			<item
+			capname="menuitem"
+			id="3aed467b-325f-4398-841c-de050f0de298"
+			name="SecurityManager"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Security Manager']
+			</item>
+			<item
+			capname="menuitem"
+			id="b4906f4f-3059-426e-97e3-4cbc93abc067"
+			name="SessionManager"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Session Manager']
+			</item>
+			<item
+			capname="menuitem"
+			id="9f2652da-9b5c-40ec-a230-bc2d9678c55f"
+			name="StorageManager"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Storage Manager']
+			</item>
+			<item
+			capname="menuitem"
+			id="f6307047-a18c-4d05-a423-7c8c18ee2ff9"
+			name="KillSession"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Kill Session']
+			</item>
+			<item
+			capname="menuitem"
+			id="28df0ffa-3fa7-498d-9494-40e7f17c696e"
+			name="DBLUW"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='DB2 - LUW']
+			</item>
+			<item
+			capname="menuitem"
+			id="de639134-b998-466f-8451-a61b8673a64d"
+			name="GreenPlum"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Greenplum']
+			</item>
+			<item
+			capname="menuitem"
+			id="2026ad1e-f61c-4d83-97c5-e518812f12d8"
+			name="Informix"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Informix']
+			</item>
+			<item
+			capname="menuitem"
+			id="1b493342-870e-4527-adbb-5f172ce2605f"
+			name="MSSQLServer"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='MS SQL Server']
+			</item>
+			<item
+			capname="menuitem"
+			id="ab6ea003-d0ac-4c85-b009-4a99a372a113"
+			name="MariaDB"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='MariaDB 10.x']
+			</item>
+			<item
+			capname="menuitem"
+			id="e14f5366-296d-4f4f-bbb1-a0dfc12d0b13"
+			name="PostgreSQL"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='PostgreSQL']
+			</item>
+			<item
+			capname="menuitem"
+			id="0da8fc30-c2d5-4716-af56-0c494ad076d9"
+			name="SybaseASE"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Sybase ASE']
+			</item>
+			<item
+			capname="menuitem"
+			id="8f7916ad-1ecf-441f-b15e-25706e895059"
+			name="Teradata"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Teradata Database']
+			</item>
+			<item
+			capname="menuitem"
+			id="b854ac4e-e3c7-45ab-a5ac-b2df37ece3ba"
+			name="Vertica"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Vertica']
+			</item>
+			<item
+			capname="menuitem"
+			id="eeaf5f5c-5714-498e-aa03-72a5f97863bb"
+			name="MySql"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='MySQL']
+			</item>
+			<item
+			capname="menuitem"
+			id="81cc84db-b479-4729-909c-47e49e3f8c66"
+			name="Netezza"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Netezza']
+			</item>
+			<item
+			capname="menuitem"
+			id="f6504ba8-3d3a-435f-85ec-0f97615092b7"
+			name="Oracle"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Oracle']
+			</item>
+			<item
+			capname="menuitem"
+			id="877a7fac-f48b-4367-b23f-3e9b630e083c"
+			name="CreateUser"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Create User']
+			</item>
+			<item
+			capname="menuitem"
+			id="f84850ae-6250-4b0f-ae9d-c1a6ea1c4db9"
+			name="AlterUser"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Alter User']
+			</item>
+			<item
+			capname="menuitem"
+			id="f0d5f074-b5e5-4057-9f80-8877655a0587"
+			name="DropUser"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Drop User']
+			</item>
+			<item
+			capname="menuitem"
+			id="c21503fa-2a8b-433a-aba0-a233754ba5b8"
+			name="UserProperties"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='User Properties']
+			</item>
+			<item
+			capname="menuitem"
+			id="b6f1220b-4839-41a4-a0a1-f40cbad917c9"
+			name="SqlServerAgent"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='SQL Server Agent']
+			</item>
+			<item
+			capname="menuitem"
+			id="4413fb1c-1829-41fc-9d26-e3d4b7a56767"
+			name="RollBackManager"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Rollback Segment Manager']
+			</item>
+			<item
+			capname="menuitem"
+			id="6f3c51da-5ada-4371-bc47-12e178fe9ba8"
+			name="LogManager"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Log Manager']
+			</item>
+			<basepath>
+				/form[@processname='datastudio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="d543fcee-600c-4134-a66a-54660490cd5a"
+		isrooted="True"
+		name="ChooseServer"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="7c442a8b-6d18-425e-9a0e-d23f7f2825e0"
+			name="OkButton"
+			searchtimeout="30000ms">
+				/form[@title='Choose Server or Database']//button[@text='OK']
+			</item>
+			<item
+			capname="button"
+			id="ecbbdd7e-d84c-4cae-9301-3c3e0e6e5da5"
+			name="NextButton"
+			searchtimeout="30000ms">
+				/form[@title='Choose Server or Database']//button[@name='nextButton']
+			</item>
+			<item
+			capname="tree"
+			id="447916ab-1ee4-44f0-ab85-e2fcd6afc64a"
+			name="ServerList"
+			searchtimeout="30000ms">
+				/form[@title='Choose Server or Database']//container[@type='JScrollPane']/container[@name='viewport']/tree[@name='tree']
+			</item>
+			<basepath>
+				/form[@title='Choose Server or Database']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="935e7982-67b6-47e3-98bb-87f7388ee28f"
+		isrooted="True"
+		name="ERGenerator"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="24aa085e-a61e-4242-abf7-abc16aecd7a6"
+			name="UnSelectObjectTypes"
+			searchtimeout="30000ms">
+				/form[@title~'^ER\ Diagram\ Generator\ ']//container[@type='CPanel']//container[@name='typeSelector']/container[@name='buttonPanel']/button[@name='deselectButton']
+			</item>
+			<item
+			capname="button"
+			id="d874f44a-e67f-4c6d-88c1-48c56d187596"
+			name="NextButton"
+			searchtimeout="30000ms">
+				/form[@title~'^ER\ Diagram\ Generator\ ']//button[@name='nextButton']
+			</item>
+			<item
+			capname="table"
+			id="c0e440f2-bd59-4bb2-b8fb-165161cc976d"
+			name="SelectObjectTypes"
+			searchtimeout="30000ms">
+				/form[@title~'^ER\ Diagram\ Generator\ ']//container[@type='CPanel']//container[@name='typeSelector']/container[@name='scroll']/container[5]/table[@name='table']
+			</item>
+			<item
+			capname="table"
+			id="41478f3c-31b1-4a47-82d9-2443f679d655"
+			name="ObjectTable"
+			searchtimeout="30000ms">
+				/form[@title~'^ER\ Diagram\ Generator\ ']//container[@type='CPanel']/?/?/container[@name='objectSelector']/container[@name='scroll']/container[5]/table[@name='table']
+			</item>
+			<item
+			capname="button"
+			id="13565c39-fa0f-415e-8c61-f91e6f611ce7"
+			name="UnselectObjectType"
+			searchtimeout="30000ms">
+				/form[@title~'^ER\ Diagram\ Generator\ ']//container[@type='CPanel']/?/?/container[@name='objectSelector']/container[@name='buttonPanel']/button[@name='deselectButton']
+			</item>
+			<basepath>
+				/form[@title~'^ER\ Diagram\ Generator\ ']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="9bfd5e12-0ca1-465d-b3f3-3fab35b4f927"
+		isrooted="True"
+		name="EntityRelationshipDiagram"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="unknown"
+			id="0662b8cf-f79b-4c75-9f71-004bcfa62213"
+			name="ERDiagram"
+			searchtimeout="30000ms">
+				/form[@title~'^Entity\ Relationship\ Diagr']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='JPanel']/?/?/container[@name='viewport']/element[@type='ERGraphAndy']
+			</item>
+			<item
+			capname="button"
+			id="3721ca5f-5dde-429b-a733-15de85619181"
+			name="CloseButton"
+			searchtimeout="30000ms">
+				/form[@title~'^Entity\ Relationship\ Diagr']//button[@text='Close']
+			</item>
+			<basepath>
+				/form[@title~'^Entity\ Relationship\ Diagr']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="e30af339-732d-4e5a-9b6d-9bc07e8bbac7"
+		isrooted="True"
+		name="FileModified"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="3f855e37-3fd8-4d91-b048-d8ef9ea8e742"
+			name="Discard"
+			searchtimeout="30000ms">
+				/form[@title='File Modified']//container[@name='OptionPane.buttonArea']/button[@text='Discard']
+			</item>
+			<basepath>
+				/form[@title='File Modified']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="2f88f74e-554e-4dc5-8324-f0801a76a5ac"
+		isrooted="True"
+		name="KillSession"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="5c1bde07-a9d8-4af9-8e33-d81f588e9dcb"
+			name="CancelButton"
+			searchtimeout="30000ms">
+				/form[@title='Kill Session']//button[@text='Cancel']
+			</item>
+			<basepath>
+				/form[@title='Kill Session']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="b1674f4c-7524-44ad-be41-6adb386e332c"
+		isrooted="True"
+		name="Discard"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="ae2d226a-9303-477b-90a1-633581b53539"
+			name="Discard"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio' and @class='SunAwtDialog' and @accessiblename='Kill Session' and @type='JDialog']//container[@name='OptionPane.buttonArea']/button[@text='Discard']
+			</item>
+			<basepath>
+				/form[@processname='datastudio' and @class='SunAwtDialog' and @accessiblename='Kill Session' and @type='JDialog']
+			</basepath>
+		</appfolder>
+		<appfolder
+		addcaps="menubar,nativewindow"
+		capname="menubar"
+		id="8655d996-67c0-43d3-a1ea-0d966224d54a"
+		isrooted="True"
+		name="Explorer"
+		refpath="/menubar[@processname='explorer']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="8bc1cb3a-1b17-443d-9001-c6200d63ae27"
+			name="AquaDataStudio19564bit1Runnin"
+			refimgid="5374c7d0-65f8-4b6d-ad73-399938e25bdc"
+			refpath="/menubar[@processname='explorer']/container[@controlid='40965']/container[@caption='Running applications']/element[@class='MSTaskListWClass']/toolbar[@accessiblename='Running applications']/button[@accessiblename='Aqua Data Studio 19.5 - 64bit - 1 running window']"
+			searchtimeout="30000ms">
+				/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename~'^Aqua\ Data\ Studio\ 19\.5\ -\ 6']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="c0613def-ca83-4c97-ace1-dd14507375c9"
+			name="RanorexStudio2RunningWindows"
+			refimgid="e00ddbff-c2ab-4542-8f60-628e89672b8c"
+			refpath="/menubar[@processname='explorer']/container[@controlid='40965']/container[@caption='Running applications']/element[@class='MSTaskListWClass']/toolbar[@accessiblename='Running applications']/button[@accessiblename='RanorexStudio - 2 running windows']"
+			searchtimeout="30000ms">
+				/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename~'^RanorexStudio\ -\ 2\ running']
+			</item>
+			<basepath>
+				/menubar[@processname='explorer']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGOfPtRkwAAACBjSFJN
+AACHDwAAjA8AAP1SAACBQAAAfXkAAOmLAAA85QAAGcxzPIV3AAAKOWlDQ1BQaG90b3Nob3AgSUND
+IHByb2ZpbGUAAEjHnZZ3VFTXFofPvXd6oc0wAlKG3rvAANJ7k15FYZgZYCgDDjM0sSGiAhFFRJoi
+SFDEgNFQJFZEsRAUVLAHJAgoMRhFVCxvRtaLrqy89/Ly++Osb+2z97n77L3PWhcAkqcvl5cGSwGQ
+yhPwgzyc6RGRUXTsAIABHmCAKQBMVka6X7B7CBDJy82FniFyAl8EAfB6WLwCcNPQM4BOB/+fpFnp
+fIHomAARm7M5GSwRF4g4JUuQLrbPipgalyxmGCVmvihBEcuJOWGRDT77LLKjmNmpPLaIxTmns1PZ
+Yu4V8bZMIUfEiK+ICzO5nCwR3xKxRoowlSviN+LYVA4zAwAUSWwXcFiJIjYRMYkfEuQi4uUA4EgJ
+X3HcVyzgZAvEl3JJS8/hcxMSBXQdli7d1NqaQffkZKVwBALDACYrmcln013SUtOZvBwAFu/8WTLi
+2tJFRbY0tba0NDQzMv2qUP91829K3NtFehn4uWcQrf+L7a/80hoAYMyJarPziy2uCoDOLQDI3fti
+0zgAgKSobx3Xv7oPTTwviQJBuo2xcVZWlhGXwzISF/QP/U+Hv6GvvmckPu6P8tBdOfFMYYqALq4b
+Ky0lTcinZ6QzWRy64Z+H+B8H/nUeBkGceA6fwxNFhImmjMtLELWbx+YKuGk8Opf3n5r4D8P+pMW5
+FonS+BFQY4yA1HUqQH7tBygKESDR+8Vd/6NvvvgwIH554SqTi3P/7zf9Z8Gl4iWDm/A5ziUohM4S
+8jMX98TPEqABAUgCKpAHykAd6ABDYAasgC1wBG7AG/iDEBAJVgMWSASpgA+yQB7YBApBMdgJ9oBq
+UAcaQTNoBcdBJzgFzoNL4Bq4AW6D+2AUTIBnYBa8BgsQBGEhMkSB5CEVSBPSh8wgBmQPuUG+UBAU
+CcVCCRAPEkJ50GaoGCqDqqF6qBn6HjoJnYeuQIPQXWgMmoZ+h97BCEyCqbASrAUbwwzYCfaBQ+BV
+cAK8Bs6FC+AdcCXcAB+FO+Dz8DX4NjwKP4PnEIAQERqiihgiDMQF8UeikHiEj6xHipAKpAFpRbqR
+PuQmMorMIG9RGBQFRUcZomxRnqhQFAu1BrUeVYKqRh1GdaB6UTdRY6hZ1Ec0Ga2I1kfboL3QEegE
+dBa6EF2BbkK3oy+ib6Mn0K8xGAwNo42xwnhiIjFJmLWYEsw+TBvmHGYQM46Zw2Kx8lh9rB3WH8vE
+CrCF2CrsUexZ7BB2AvsGR8Sp4Mxw7rgoHA+Xj6vAHcGdwQ3hJnELeCm8Jt4G749n43PwpfhGfDf+
+On4Cv0CQJmgT7AghhCTCJkIloZVwkfCA8JJIJKoRrYmBRC5xI7GSeIx4mThGfEuSIemRXEjRJCFp
+B+kQ6RzpLuklmUzWIjuSo8gC8g5yM/kC+RH5jQRFwkjCS4ItsUGiRqJDYkjiuSReUlPSSXK1ZK5k
+heQJyeuSM1J4KS0pFymm1HqpGqmTUiNSc9IUaVNpf+lU6RLpI9JXpKdksDJaMm4ybJkCmYMyF2TG
+KQhFneJCYVE2UxopFykTVAxVm+pFTaIWU7+jDlBnZWVkl8mGyWbL1sielh2lITQtmhcthVZKO04b
+pr1borTEaQlnyfYlrUuGlszLLZVzlOPIFcm1yd2WeydPl3eTT5bfJd8p/1ABpaCnEKiQpbBf4aLC
+zFLqUtulrKVFS48vvacIK+opBimuVTyo2K84p6Ss5KGUrlSldEFpRpmm7KicpFyufEZ5WoWiYq/C
+VSlXOavylC5Ld6Kn0CvpvfRZVUVVT1Whar3qgOqCmrZaqFq+WpvaQ3WCOkM9Xr1cvUd9VkNFw08j
+T6NF454mXpOhmai5V7NPc15LWytca6tWp9aUtpy2l3audov2Ax2yjoPOGp0GnVu6GF2GbrLuPt0b
+erCehV6iXo3edX1Y31Kfq79Pf9AAbWBtwDNoMBgxJBk6GWYathiOGdGMfI3yjTqNnhtrGEcZ7zLu
+M/5oYmGSYtJoct9UxtTbNN+02/R3Mz0zllmN2S1zsrm7+QbzLvMXy/SXcZbtX3bHgmLhZ7HVosfi
+g6WVJd+y1XLaSsMq1qrWaoRBZQQwShiXrdHWztYbrE9Zv7WxtBHYHLf5zdbQNtn2iO3Ucu3lnOWN
+y8ft1OyYdvV2o/Z0+1j7A/ajDqoOTIcGh8eO6o5sxybHSSddpySno07PnU2c+c7tzvMuNi7rXM65
+Iq4erkWuA24ybqFu1W6P3NXcE9xb3Gc9LDzWepzzRHv6eO7yHPFS8mJ5NXvNelt5r/Pu9SH5BPtU
++zz21fPl+3b7wX7efrv9HqzQXMFb0ekP/L38d/s/DNAOWBPwYyAmMCCwJvBJkGlQXlBfMCU4JvhI
+8OsQ55DSkPuhOqHC0J4wybDosOaw+XDX8LLw0QjjiHUR1yIVIrmRXVHYqLCopqi5lW4r96yciLaI
+LoweXqW9KnvVldUKq1NWn46RjGHGnIhFx4bHHol9z/RnNjDn4rziauNmWS6svaxnbEd2OXuaY8cp
+40zG28WXxU8l2CXsTphOdEisSJzhunCruS+SPJPqkuaT/ZMPJX9KCU9pS8Wlxqae5Mnwknm9acpp
+2WmD6frphemja2zW7Fkzy/fhN2VAGasyugRU0c9Uv1BHuEU4lmmfWZP5Jiss60S2dDYvuz9HL2d7
+zmSue+63a1FrWWt78lTzNuWNrXNaV78eWh+3vmeD+oaCDRMbPTYe3kTYlLzpp3yT/LL8V5vDN3cX
+KBVsLBjf4rGlpVCikF84stV2a9021DbutoHt5turtn8sYhddLTYprih+X8IqufqN6TeV33zaEb9j
+oNSydP9OzE7ezuFdDrsOl0mX5ZaN7/bb3VFOLy8qf7UnZs+VimUVdXsJe4V7Ryt9K7uqNKp2Vr2v
+Tqy+XeNc01arWLu9dn4fe9/Qfsf9rXVKdcV17w5wD9yp96jvaNBqqDiIOZh58EljWGPft4xvm5sU
+moqbPhziHRo9HHS4t9mqufmI4pHSFrhF2DJ9NProje9cv+tqNWytb6O1FR8Dx4THnn4f+/3wcZ/j
+PScYJ1p/0Pyhtp3SXtQBdeR0zHYmdo52RXYNnvQ+2dNt293+o9GPh06pnqo5LXu69AzhTMGZT2dz
+z86dSz83cz7h/HhPTM/9CxEXbvUG9g5c9Ll4+ZL7pQt9Tn1nL9tdPnXF5srJq4yrndcsr3X0W/S3
+/2TxU/uA5UDHdavrXTesb3QPLh88M+QwdP6m681Lt7xuXbu94vbgcOjwnZHokdE77DtTd1PuvriX
+eW/h/sYH6AdFD6UeVjxSfNTws+7PbaOWo6fHXMf6Hwc/vj/OGn/2S8Yv7ycKnpCfVEyqTDZPmU2d
+mnafvvF05dOJZ+nPFmYKf5X+tfa5zvMffnP8rX82YnbiBf/Fp99LXsq/PPRq2aueuYC5R69TXy/M
+F72Rf3P4LeNt37vwd5MLWe+x7ys/6H7o/ujz8cGn1E+f/gUDmPP8usTo0wAAAAlwSFlzAAAOxAAA
+DsQBlSsOGwAAAKdJREFUOE9j+P//P0UYqyApGKsgKZhh/eq5/ynBDCeObv3/5dMzgvjNyxsYGCQO
+dkFdVTZWBU8fX8EqDsOvX96HuAAmMHVCA9gwMK7M/t/TUYldDohXLJkCFkdxQUtDEYqihuqc/y+f
+QVyBLgcznOHMyZ1gBrkY7oKP7x+AMbqCt6/vYIjBMDgMQC5AD3FSMNwF5GKsqYsUjFWQFIxVkBSM
+VZB4/J8BADyZI3kwAy98AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="9871a842-1a76-495d-9533-b1de1d3a32a4"
+		isrooted="True"
+		name="ConnectionMonitorMenus"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="menuitem"
+			id="84e6e774-ccb7-400e-a4cf-143f8aece25d"
+			name="StorageManager"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @name='win0']//menuitem[@text='Storage Manager']
+			</item>
+			<basepath>
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @name='win0']
+			</basepath>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

@@ -1,0 +1,10 @@
+CREATE 
+PROCEDURE ads_procedure
+ ( City VARCHAR2 50
+, supplier_id IN NUMBER
+, firstname VARCHAR50
+,lastname VARCHAR20
+) AS
+BEGIN
+  NULL;
+END ads_procedure;

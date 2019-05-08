@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<VisualAnalytics productName="Aqua Data Studio" productVersion="20.0.0-RC-no-obsf2" buildNumber="56853" fileVersion="1.4.0">
+    <workbook>
+        <dataSources autoRefresh="false">
+            <dataSource name="Sales Data" useExtract="false" autoRefresh="false" type="ResultSet" id="0dba5e0b-4d2b-443a-9368-27e420b90c9d">
+                <connection path="MSExcel" pathname="C:\Users\Admin\.datastudio\connections\MSExcel.conn" username="" schema="bistudio_example" database="MSExcel" host="C:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\ADSAutomationPhaseII\ADSAutomationPhaseII\TestData\MSExcel\bistudio_example.xlsx" version="" driver="EXCEL" server="MS Excel"/>
+                <query>
+                    <statement>select * from bistudio_example</statement>
+                </query>
+                <dataSet truncated="0">
+                    <columns count="20">
+                        <column className="java.lang.String" dataType="STRING" isNumeric="false" index="0" name="Sales Reason"/>
+                        <column className="java.lang.String" dataType="STRING" isNumeric="false" index="1" name="Customer Name"/>
+                        <column className="java.lang.String" dataType="STRING" isNumeric="false" index="2" name="Territory"/>
+                        <column className="java.lang.String" dataType="STRING" isNumeric="false" index="3" name="Ship Method"/>
+                        <column className="java.lang.String" dataType="STRING" isNumeric="false" index="4" name="Currency Code"/>
+                        <column className="java.lang.String" dataType="STRING" isNumeric="false" index="5" name="Card Type"/>
+                        <column className="java.lang.String" dataType="STRING" isNumeric="false" index="6" name="City"/>
+                        <column className="java.lang.String" dataType="STRING" isNumeric="false" index="7" name="State"/>
+                        <column className="java.lang.String" dataType="STRING" isNumeric="false" index="8" name="PostalCode"/>
+                        <column className="java.sql.Timestamp" dataType="TIMESTAMP" isNumeric="false" index="9" name="OrderDate"/>
+                        <column className="java.sql.Timestamp" dataType="TIMESTAMP" isNumeric="false" index="10" name="DueDate"/>
+                        <column className="java.sql.Timestamp" dataType="TIMESTAMP" isNumeric="false" index="11" name="ShipDate"/>
+                        <column className="java.lang.Boolean" dataType="BOOLEAN" isNumeric="false" index="12" name="Online Order Flag"/>
+                        <column className="java.lang.Double" dataType="NUMBER" isNumeric="true" index="13" name="Sub Total"/>
+                        <column className="java.lang.Double" dataType="NUMBER" isNumeric="true" index="14" name="Tax Amount"/>
+                        <column className="java.lang.Double" dataType="NUMBER" isNumeric="true" index="15" name="Freight"/>
+                        <column className="java.lang.Double" dataType="NUMBER" isNumeric="true" index="16" name="Total Due"/>
+                        <column className="java.lang.Double" dataType="NUMBER" isNumeric="true" index="17" name="Sales Order ID"/>
+                        <column className="java.lang.String" dataType="STRING" isNumeric="false" index="18" name="Product Category"/>
+                        <column className="java.lang.Double" dataType="NUMBER" isNumeric="true" index="19" name="Profit"/>
+                    </columns>
+                </dataSet>
+                <dimensions>
+                    <field role="Dimension" mode="Discrete" aggregation="0" converted="false" columnClassName="java.lang.String" columnClassDefaultName="java.lang.String" originalDataSourceFieldName="Card Type" columnIndex="5" sortOrder="1" sortBy="100" sortByType="ByAlphabet" sortByOrder="1" sortByValueIndex="-1" subtotalEnabled="false" domainCompletionEnabled="false" showMissingValues="false" geoRole="None" sortByFieldColumnIndex="-1" sortByFieldAggregationType="-1" isCombineField="false" isLinked="false" valid="true" name="Card Type"/>
+                    <field role="Dimension" mode="Discrete" aggregation="0" converted="false" columnClassName="java.lang.String" columnClassDefaultName="java.lang.String" originalDataSourceFieldName="City" columnIndex="6" sortOrder="1" sortBy="100" sortByType="ByAlphabet" sortByOrder="1" sortByValueIndex="-1" subtotalEnabled="false" domainCompletionEnabled="false" showMissingValues="false" geoRole="City" sortByFieldColumnIndex="-1" sortByFieldAggregationType="-1" isCombineField="false" isLinked="false" valid="true" name="City"/>
+                    <field role="Dimension" mode="Discrete" aggregation="0" converted="false" columnClassName="java.lang.String" columnClassDefaultName="java.lang.String" originalDataSourceFieldName="Currency Code" columnIndex="4" sortOrder="1" sortBy="100" sortByType="ByAlphabet" sortByOrder="1" sortByValueIndex="-1" subtotalEnabled="false" domainCompletionEnabled="false" showMissingValues="false" geoRole="None" sortByFieldColumnIndex="-1" sortByFieldAggregationType="-1" isCombineField="false" isLinked="false" valid="true" name="Currency Code"/>
+                    <field role="Dimension" mode="Discrete" aggregation="0" converted="false" columnClassName="java.lang.String" columnClassDefaultName="java.lang.String" originalDataSourceFieldName="Customer Name" columnIndex="1" sortOrder="1" sortBy="100" sortByType="ByAlphabet" sortByOrder="1" sortByValueIndex="-1" subtotalEnabled="false" domainCompletionEnabled="false" showMissingValues="false" geoRole="None" sortByFieldColumnIndex="-1" sortByFieldAggregationType="-1" isCombineField="false" isLinked="false" valid="true" name="Customer Name"/>
+                    <field role="Dimension" mode="Discrete" aggregation="0" converted="false" columnClassName="java.sql.Timestamp" columnClassDefaultName="java.sql.Timestamp" originalDataSourceFieldName="DueDate" columnIndex="10" sortOrder="1" sortBy="100" sortByType="ByAlphabet" sortByOrder="1" sortByValueIndex="-1" subtotalEnabled="false" domainCompletionEnabled="false" showMissingValues="false" sortByFieldColumnIndex="-1" sortByFieldAggregationType="-1" isCombineField="false" isLinked="false" valid="true" name="DueDate">
+                        <format formatOption="DateFormatOption" option="Automatic" autoOption="Automatic"/>
+                    </field>
+                    <field role="Dimension" mode="Discrete" aggregation="0" converted="false" columnClassName="java.lang.Boolean" columnClassDefaultName="java.lang.Boolean" originalDataSourceFieldName="Online Order Flag" columnIndex="12" sortOrder="1" sortBy="100" sortByType="ByAlphabet" sortByOrder="1" sortByValueIndex="-1" subtotalEnabled="false" domainCompletionEnabled="false" showMissingValues="false" geoRole="None" sortByFieldColumnIndex="-1" sortByFieldAggregationType="-1" isCombineField="false" isLinked="false" valid="true" name="Online Order Flag"/>
+                    <field role="Dimension" mode="Discrete" aggregation="0" converted="false" columnClassName="java.sql.Timestamp" columnClassDefaultName="java.sql.Timestamp" originalDataSourceFieldName="OrderDate" columnIndex="9" sortOrder="1" sortBy="100" sortByType="ByAlphabet" sortByOrder="1" sortByValueIndex="-1" subtotalEnabled="false" domainCompletionEnabled="false" showMissingValues="false" sortByFieldColumnIndex="-1" sortByFieldAggregationType="-1" isCombineField="false" isLinked="false" valid="true" name="OrderDate">
+                        <format formatOption="DateFormatOption" option="Automatic" autoOption="Automatic"/>
+                    </field>
+                    <field role="Dimension" mode="Discrete" aggregation="0" converted="false" columnClassName="java.lang.String" columnClassDefaultName="java.lang.String" originalDataSourceFieldName="PostalCode" columnIndex="8" sortOrder="1" sortBy="100" sortByType="ByAlphabet" sortByOrder="1" sortByValueIndex="-1" subtotalEnabled="false" domainCompletionEnabled="false" showMissingValues="false" geoRole="None" sortByFieldColumnIndex="-1" sortByFieldAggregationType="-1" isCombineField="false" isLinked="false" valid="true" name="PostalCode"/>
+                    <field role="Dimension" mode="Discrete" aggregation="0" converted="false" columnClassName="java.lang.String" columnClassDefaultName="java.lang.String" originalDataSourceFieldName="Product Category" columnIndex="18" sortOrder="1" sortBy="100" sortByType="ByAlphabet" sortByOrder="1" sortByValueIndex="-1" subtotalEnabled="false" domainCompletionEnabled="false" showMissingValues="false" geoRole="None" sortByFieldColumnIndex="-1" sortByFieldAggregationType="-1" isCombineField="false" isLinked="false" valid="true" name="Product Category"/>
+                    <field role="Dimension" mode="Discrete" aggregation="0" converted="false" columnClassName="java.lang.String" columnClassDefaultName="java.lang.String" originalDataSourceFieldName="Sales Reason" columnIndex="0" sortOrder="1" sortBy="100" sortByType="ByAlphabet" sortByOrder="1" sortByValueIndex="-1" subtotalEnabled="false" domainCompletionEnabled="false" showMissingValues="false" geoRole="None" sortByFieldColumnIndex="-1" sortByFieldAggregationType="-1" isCombineField="false" isLinked="false" valid="true" name="Sales Reason"/>
+                    <field role="Dimension" mode="Discrete" aggregation="0" converted="false" columnClassName="java.lang.String" columnClassDefaultName="java.lang.String" originalDataSourceFieldName="Ship Method" columnIndex="3" sortOrder="1" sortBy="100" sortByType="ByAlphabet" sortByOrder="1" sortByValueIndex="-1" subtotalEnabled="false" domainCompletionEnabled="false" showMissingValues="false" geoRole="None" sortByFieldColumnIndex="-1" sortByFieldAggregationType="-1" isCombineField="false" isLinked="false" valid="true" name="Ship Method"/>
+                    <field role="Dimension" mode="Discrete" aggregation="0" converted="false" columnClassName="java.sql.Timestamp" columnClassDefaultName="java.sql.Timestamp" originalDataSourceFieldName="ShipDate" columnIndex="11" sortOrder="1" sortBy="100" sortByType="ByAlphabet" sortByOrder="1" sortByValueIndex="-1" subtotalEnabled="false" domainCompletionEnabled="false" showMissingValues="false" sortByFieldColumnIndex="-1" sortByFieldAggregationType="-1" isCombineField="false" isLinked="false" valid="true" name="ShipDate">
+                        <format formatOption="DateFormatOption" option="Automatic" autoOption="Automatic"/>
+                    </field>
+                    <field role="Dimension" mode="Discrete" aggregation="0" converted="false" columnClassName="java.lang.String" columnClassDefaultName="java.lang.String" originalDataSourceFieldName="State" columnIndex="7" sortOrder="1" sortBy="100" sortByType="ByAlphabet" sortByOrder="1" sortByValueIndex="-1" subtotalEnabled="false" domainCompletionEnabled="false" showMissingValues="false" geoRole="StateProvince" sortByFieldColumnIndex="-1" sortByFieldAggregationType="-1" isCombineField="false" isLinked="false" valid="true" name="State"/>
+                    <field role="Dimension" mode="Discrete" aggregation="0" converted="false" columnClassName="java.lang.String" columnClassDefaultName="java.lang.String" originalDataSourceFieldName="Territory" columnIndex="2" sortOrder="1" sortBy="100" sortByType="ByAlphabet" sortByOrder="1" sortByValueIndex="-1" subtotalEnabled="false" domainCompletionEnabled="false" showMissingValues="false" geoRole="None" sortByFieldColumnIndex="-1" sortByFieldAggregationType="-1" isCombineField="false" isLinked="false" valid="true" name="Territory"/>
+                </dimensions>
+                <measures>
+                    <field role="Measure" mode="Continuous" aggregation="11" converted="false" columnClassName="java.lang.Double" columnClassDefaultName="java.lang.Double" originalDataSourceFieldName="Freight" columnIndex="15" sortOrder="1" sortBy="100" sortByType="ByAlphabet" sortByOrder="1" sortByValueIndex="-1" subtotalEnabled="false" domainCompletionEnabled="false" showMissingValues="false" geoRole="None" sortByFieldColumnIndex="-1" sortByFieldAggregationType="-1" isCombineField="false" isLinked="false" valid="true" name="Freight">
+                        <format formatOption="NumberFormatOption" option="Automatic" autoOption="Automatic" formatter="AutomaticNumberFormat"/>
+                    </field>
+                    <field role="Measure" mode="Continuous" aggregation="11" converted="false" columnClassName="java.lang.Integer" columnClassDefaultName="java.lang.Integer" originalDataSourceFieldName="Number of Records" columnIndex="20" sortOrder="1" sortBy="100" sortByType="ByAlphabet" sortByOrder="1" sortByValueIndex="-1" subtotalEnabled="false" validName="true" domainCompletionEnabled="false" showMissingValues="false" geoRole="None" sortByFieldColumnIndex="-1" sortByFieldAggregationType="-1" isCombineField="false" isLinked="false" valid="true" name="Number of Records">
+                        <expression>1</expression>
+                        <comment>A generated field that counts the number of rows</comment>
+                        <format formatOption="NumberFormatOption" option="Automatic" autoOption="Automatic" formatter="AutomaticNumberFormat"/>
+                    </field>
+                    <field role="Measure" mode="Continuous" aggregation="11" converted="false" columnClassName="java.lang.Double" columnClassDefaultName="java.lang.Double" originalDataSourceFieldName="Profit" columnIndex="19" sortOrder="1" sortBy="100" sortByType="ByAlphabet" sortByOrder="1" sortByValueIndex="-1" subtotalEnabled="false" domainCompletionEnabled="false" showMissingValues="false" geoRole="None" sortByFieldColumnIndex="-1" sortByFieldAggregationType="-1" isCombineField="false" isLinked="false" valid="true" name="Profit">
+                        <format formatOption="NumberFormatOption" option="Automatic" autoOption="Automatic" formatter="AutomaticNumberFormat"/>
+                    </field>
+                    <field role="Measure" mode="Continuous" aggregation="11" converted="false" columnClassName="java.lang.Double" columnClassDefaultName="java.lang.Double" originalDataSourceFieldName="Sales Order ID" columnIndex="17" sortOrder="1" sortBy="100" sortByType="ByAlphabet" sortByOrder="1" sortByValueIndex="-1" subtotalEnabled="false" domainCompletionEnabled="false" showMissingValues="false" geoRole="None" sortByFieldColumnIndex="-1" sortByFieldAggregationType="-1" isCombineField="false" isLinked="false" valid="true" name="Sales Order ID">
+                        <format formatOption="NumberFormatOption" option="Automatic" autoOption="Automatic" formatter="AutomaticNumberFormat"/>
+                    </field>
+                    <field role="Measure" mode="Continuous" aggregation="11" converted="false" columnClassName="java.lang.Double" columnClassDefaultName="java.lang.Double" originalDataSourceFieldName="Sub Total" columnIndex="13" sortOrder="1" sortBy="100" sortByType="ByAlphabet" sortByOrder="1" sortByValueIndex="-1" subtotalEnabled="false" domainCompletionEnabled="false" showMissingValues="false" geoRole="None" sortByFieldColumnIndex="-1" sortByFieldAggregationType="-1" isCombineField="false" isLinked="false" valid="true" name="Sub Total">
+                        <format formatOption="NumberFormatOption" option="Automatic" autoOption="Automatic" formatter="AutomaticNumberFormat"/>
+                    </field>
+                    <field role="Measure" mode="Continuous" aggregation="11" converted="false" columnClassName="java.lang.Double" columnClassDefaultName="java.lang.Double" originalDataSourceFieldName="Tax Amount" columnIndex="14" sortOrder="1" sortBy="100" sortByType="ByAlphabet" sortByOrder="1" sortByValueIndex="-1" subtotalEnabled="false" domainCompletionEnabled="false" showMissingValues="false" geoRole="None" sortByFieldColumnIndex="-1" sortByFieldAggregationType="-1" isCombineField="false" isLinked="false" valid="true" name="Tax Amount">
+                        <format formatOption="NumberFormatOption" option="Automatic" autoOption="Automatic" formatter="AutomaticNumberFormat"/>
+                    </field>
+                    <field role="Measure" mode="Continuous" aggregation="11" converted="false" columnClassName="java.lang.Double" columnClassDefaultName="java.lang.Double" originalDataSourceFieldName="Total Due" columnIndex="16" sortOrder="1" sortBy="100" sortByType="ByAlphabet" sortByOrder="1" sortByValueIndex="-1" subtotalEnabled="false" domainCompletionEnabled="false" showMissingValues="false" geoRole="None" sortByFieldColumnIndex="-1" sortByFieldAggregationType="-1" isCombineField="false" isLinked="false" valid="true" name="Total Due">
+                        <format formatOption="NumberFormatOption" option="Automatic" autoOption="Automatic" formatter="AutomaticNumberFormat"/>
+                    </field>
+                </measures>
+                <parameters/>
+                <hiddenFields/>
+            </dataSource>
+        </dataSources>
+        <window dataPaneVisible="true" selectedDataSource="Sales Data" divider="250" height="744" width="1382" y="-8" x="-8">
+            <dataPaneHeights>
+                <height>47</height>
+                <height>201</height>
+                <height>199</height>
+                <height>183</height>
+            </dataPaneHeights>
+            <sheets selected="Worksheet 1">
+                <sheet tabColor="-1447447" type="Worksheet" title="Worksheet 1" name="Worksheet 1" hiddenHash="">
+                    <worksheet chartType="Automatic" axesType="Individual" axisRange="Uniform" startRangeType="Uniform" endRangeType="Uniform" axisTitle="Value" tickType="Automatic" reversedAxis="false" shape="hollowCircle" renderingType="Default" opacity="1.0" minSizeMultiplier="0.3" sizeMultiplier="1.5" sizeMultiplierCenterHole="0.0" multiRing="false" showEmptyCategories="false" autoUpdate="true" showRowsGrandTotal="false" showColumnsGrandTotal="false" showDataLabels="false" allowLabelsToOverlap="false" showCategory="false" showPercentage="false" showValue="false" showColumnTotal="false" showColumnPercentage="false" showTrendLine="false" trendPerColor="false" forceYIntercept="false" showRecalculateTrend="true" showConfidenceBands="false" fitType="Linear" factorFields="" useEpochZero="false" fitOrder="2" includeZero="true" ignoreNegativeValues="true" gridStyle="web_grid" radarDisplayStyle="Line" uniformHeightFunnel="false" proportionalHeightFunnel="true" invertedFunnel="false" band="1" positiveColor="-14714956" negativeColor="-5767168" horizonThemeName="Automatic" tableDisplayStyle="Table" dataSource="Sales Data" aggregateMeasures="true" color1="-3793378" color2="-1776580" color3="-10833062" colorOpacity1="1.0" colorOpacity2="1.0" colorOpacity3="1.0" defaultBarSize="30.0" theme="default" color="-14714956" tableColor="-16777216" usingCustomColor="false" defaultTotalsUsingAutomatic="true" geoNameResolutionType="None" showStateBorders="true" valueSortType="Default" markerType="Automatic" titleVisible="true" isLabelForegroundMatchMark="false" isLabelBackgroundMatchMark="false" fitWidth="false" fitHeight="false">
+                        <format formatOption="NumberFormatOption" option="Automatic" autoOption="Automatic" formatter="AutomaticNumberFormat"/>
+                        <dataLabels/>
+                        <columns>
+                            <column index="0" name="YEAR(ShipDate)">
+                                <field role="Dimension" mode="Discrete" aggregation="0" converted="false" columnClassName="java.sql.Timestamp" columnClassDefaultName="java.sql.Timestamp" originalDataSourceFieldName="ShipDate" columnIndex="11" sortOrder="1" sortBy="100" sortByType="ByAlphabet" sortByOrder="1" sortByValueIndex="-1" dateGrouping="Year" subtotalEnabled="false" domainCompletionEnabled="false" showMissingValues="false" sortByFieldColumnIndex="-1" sortByFieldAggregationType="-1" isCombineField="false" isLinked="false" valid="true" name="ShipDate">
+                                    <format formatOption="DateGroupFormatOption" option="Automatic" autoOption="Automatic"/>
+                                </field>
+                            </column>
+                        </columns>
+                        <rows>
+                            <row index="0" name="Card Type">
+                                <field role="Dimension" mode="Discrete" aggregation="0" converted="false" columnClassName="java.lang.String" columnClassDefaultName="java.lang.String" originalDataSourceFieldName="Card Type" columnIndex="5" sortOrder="1" sortBy="100" sortByType="ByAlphabet" sortByOrder="1" sortByValueIndex="-1" subtotalEnabled="false" domainCompletionEnabled="false" showMissingValues="false" geoRole="None" sortByFieldColumnIndex="-1" sortByFieldAggregationType="-1" isCombineField="false" isLinked="false" valid="true" name="Card Type"/>
+                            </row>
+                            <row index="1" name="SUM(Profit)">
+                                <field role="Measure" mode="Continuous" aggregation="11" converted="false" columnClassName="java.lang.Double" columnClassDefaultName="java.lang.Double" originalDataSourceFieldName="Profit" columnIndex="19" sortOrder="1" sortBy="100" sortByType="ByAlphabet" sortByOrder="1" sortByValueIndex="-1" subtotalEnabled="false" domainCompletionEnabled="false" showMissingValues="false" sortByFieldColumnIndex="-1" sortByFieldAggregationType="-1" isCombineField="false" isLinked="false" valid="true" name="Profit">
+                                    <format formatOption="NumberFormatOption" option="Automatic" autoOption="Automatic" formatter="AutomaticNumberFormat"/>
+                                </field>
+                                <fieldParameters renderingType="Default" showDataLabels="false" includeZero="true" reversedAxis="false" tickType="Automatic" markerType="Automatic" isLabelForegroundMatchMark="false" isLabelBackgroundMatchMark="false"/>
+                            </row>
+                        </rows>
+                        <decks>
+                            <deck id="rows" show="true" bounds="159,40,945,30"/>
+                            <deck id="cols" show="true" bounds="159,5,945,30"/>
+                            <deck id="filter" show="true" bounds="5,5,149,59"/>
+                            <deck id="marks" show="true" bounds="5,69,149,205"/>
+                        </decks>
+                        <rowHeaderPreferredColumnWidths/>
+                        <layout>
+                            <item type="row">
+                                <children>
+                                    <item type="column">
+                                        <children>
+                                            <item type="widget" key="filter"/>
+                                            <item type="widget" key="marks"/>
+                                        </children>
+                                    </item>
+                                    <item type="column">
+                                        <children>
+                                            <item type="widget" key="cols"/>
+                                            <item type="widget" key="rows"/>
+                                            <item type="widget" key="main"/>
+                                        </children>
+                                    </item>
+                                </children>
+                            </item>
+                        </layout>
+                        <hiddenLegendDecks/>
+                        <referenceOptions/>
+                    </worksheet>
+                </sheet>
+            </sheets>
+            <linkedParameterMap/>
+        </window>
+    </workbook>
+</VisualAnalytics>

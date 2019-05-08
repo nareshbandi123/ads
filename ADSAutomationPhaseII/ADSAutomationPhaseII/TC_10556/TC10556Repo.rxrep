@@ -1,0 +1,557 @@
+﻿<repository
+id="f8a15023-030e-44f0-bbac-1382af29c8ba"
+name="TC10556Repo"
+rxversion="8.2">
+	<codegen
+	classname="TC10556Repo"
+	namespace="ADSAutomationPhaseII.TC_10556">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="910be72a-12c6-434a-9f87-fb9813848c6e"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		capname="form"
+		id="8b6063a6-5ce2-4d73-ba5e-f2f1d2297ccc"
+		isrooted="True"
+		name="RegisterServer"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="listitem"
+			id="bd06ed0f-9ba0-4f35-91f9-ba855eff2d0b"
+			name="MSExcel"
+			searchtimeout="30000ms">
+				/form[@title~'^Register\ Server\ -\ \[Amazon']//container[@name='generalTab']/?/?/container[@name='_rdbmsScrollPane']/?/?/list[@name='_rdbmsList']/listitem[@text='MS Excel']
+			</item>
+			<basepath>
+				/form[@title~'^Register\ Server\ -\ \[Amazon']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="f5b2f176-088e-4cdf-8992-676f4632fc22"
+		isrooted="True"
+		name="RegServerExcel"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="text"
+			id="4c20ec5f-e3da-4640-b4be-21f530e42169"
+			name="NameTextbox"
+			searchtimeout="30000ms">
+				/form[@title~'^Register\ Server\ -\ \[MS\ Exc']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='sizePreference']/?/?/text[@name='_txtName']
+			</item>
+			<item
+			capname="text"
+			id="69f61912-34b5-4f91-ab46-88efc99f156b"
+			name="DirectoryTextbox"
+			searchtimeout="30000ms">
+				/form[@title~'^Register\ Server\ -\ \[MS\ Exc']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='ExcelLocationPanel']/?/?/container[@name='_scrollTxtFolder']/?/?/text[@name='_txtFolder']
+			</item>
+			<item
+			capname="button"
+			id="3cdb4815-8f92-490c-9fab-74bd74314de5"
+			name="TestConnectionButton"
+			searchtimeout="30000ms">
+				/form[@title~'^Register\ Server\ -\ \[MS\ Exc']//container[@type='HorizontalLayoutPanel']/?/?/button[@text='Test Connection']
+			</item>
+			<item
+			capname="button"
+			id="7a6a6e01-6009-4427-99c4-418978e4cbb5"
+			name="SaveButton"
+			searchtimeout="30000ms">
+				/form[@title~'^Register\ Server\ -\ \[MS\ Exc']//container[@type='HorizontalLayoutPanel']/?/?/button[@text='Save']
+			</item>
+			<basepath>
+				/form[@title~'^Register\ Server\ -\ \[MS\ Exc']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="b80108b4-901a-4605-a7f1-dd8bb673c6d3"
+		isrooted="True"
+		name="ConnectionStatus"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="80b295f6-0ead-4ed8-82ab-03f6523c3f8f"
+			name="CloseButton"
+			searchtimeout="30000ms">
+				/form[@title='Connection Test - SUCCESS']//container[@type='JPanel']/container[@type='HorizontalLayoutPanel']//button[@text='Close']
+			</item>
+			<item
+			capname="text"
+			id="d742931b-67dd-4759-9ddc-a5ca51be1612"
+			name="ConnectionStatusText"
+			searchtimeout="30000ms">
+				/form[@title='Connection Test - SUCCESS']//container[@type='JPanel']//text[@text='Successfully Connected to Database']
+			</item>
+			<basepath>
+				/form[@title='Connection Test - SUCCESS']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="21f2cc24-0138-40c1-ad00-85cfc867d70f"
+		isrooted="True"
+		name="QuaryAnalyzerWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="unknown"
+			id="953a742b-3728-4080-b6f9-3b7ff87b5364"
+			name="QueryBox"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='QueryPanel']/container[@name='panel']/?/?/container[@name='splitPane']//container[@type='EditorImpl$MyScrollPane']/container[6]/element[@type='EditorComponentImpl']
+			</item>
+			<item
+			capname="tabpage"
+			id="91a5afb5-a619-4ec1-84e6-5fa047abd0fd"
+			name="Grid"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='QueryPanel']//container[@name='splitPane']//tabpage[@title='Grid   ']
+			</item>
+			<item
+			capname="menuitem"
+			id="09def949-7530-4e58-bc88-d46981ca0e93"
+			name="NewVA"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='QueryPanel']/container[@name='panel']/?/?/container[@name='splitPane']/?/?/container[@name='tabbedPane']/container[@name='_gridResultsView']//container[@type='ResultSetTableView$ResultGridsSplitPane']//container[@type='HorizontalLayoutPanel']/container[1]/menuitem[1]
+			</item>
+			<basepath>
+				/form[@title~'^Aqua\ Data\ Studio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="28ef3ff7-5142-4c80-9fe2-5119aa3572c6"
+		isrooted="True"
+		name="VAWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="listitem"
+			id="2d90bad0-89b8-44c3-95eb-7d99d42a4d72"
+			name="MsExcell"
+			searchtimeout="30000ms">
+				/form[@title~'^Visual\ Analytics']//container[@name='_mainPanel']//container[@name='_leftPanel']//container[@type='BIDataSourceDataPane']/container[@name='dataSourceScroll']/?/?/list[@name='listComponent']/listitem[@text='@MSExcel [Untitled]']
+			</item>
+			<item
+			capname="button"
+			id="45fafb1e-f073-4a85-815b-5c996a4187bd"
+			name="Save"
+			searchtimeout="30000ms">
+				/form[@title~'^Visual\ Analytics']//container[@name='_toolBar']/button[5]
+			</item>
+			<item
+			capname="listitem"
+			id="4e22daef-43fa-41eb-8eda-cba35528d89b"
+			name="ShipDate"
+			searchtimeout="30000ms">
+				/form[@title~'^Visual\ Analytics']//container[@name='_mainPanel']/container[@name='_contentPanel']/?/?/container[@name='_leftPanel']//container[@type='BIDimensionDataPane']//container[@name='viewport']/list[@type='BIDraggableList']/listitem[@text='ShipDate']
+			</item>
+			<item
+			capname="listitem"
+			id="9b8b479d-58a7-4940-9409-0c9cfbc9f8a0"
+			name="Profits"
+			searchtimeout="30000ms">
+				/form[@title~'^Visual\ Analytics']//container[@name='_mainPanel']/container[@name='_contentPanel']/?/?/container[@name='_leftPanel']//container[@type='BIMeasureDataPane']//container[@name='viewport']/list[@type='BIDraggableList']/listitem[@text='SUM(Profit)']
+			</item>
+			<item
+			capname="list"
+			id="1f415013-c4ae-4d18-9dbd-c93fe85d1f04"
+			name="RenameData"
+			searchtimeout="30000ms">
+				/form[@title~'^Visual\ Analytics']//container[@name='_mainPanel']//container[@name='_leftPanel']//container[@type='BIDataSourceDataPane']/container[@name='dataSourceScroll']/?/?/list[@name='listComponent']
+			</item>
+			<item
+			capname="container"
+			id="30b5c102-e23f-4876-b1fe-d43126f5aba7"
+			name="ColumnContainer"
+			searchtimeout="30000ms">
+				/form[@title~'^Visual\ Analytics']//container[@name='_mainPanel']/container[@name='_contentPanel']/container[@name='_splitPane']/container[@name='_sheetsPane']/container[@name='Worksheet 1']/container[@name='_worksheetPanel']//container[@name='cols']//container[@name='panel']
+			</item>
+			<item
+			capname="container"
+			id="6dbc236e-a75e-4d7b-a7f3-564ef84439f5"
+			name="RowContainer"
+			searchtimeout="30000ms">
+				/form[@title~'^Visual\ Analytics']//container[@name='_mainPanel']/container[@name='_contentPanel']/container[@name='_splitPane']/container[@name='_sheetsPane']/container[@name='Worksheet 1']/container[@name='_worksheetPanel']//container[@name='rows']//container[@name='panel']
+			</item>
+			<item
+			capname="button"
+			id="eb7f4e53-1ab2-4471-9058-e4ab8e63fccd"
+			name="CloseWindow"
+			searchtimeout="30000ms">
+				/form[@title~'^Visual\ Analytics']//button[@accessiblename='Close']
+			</item>
+			<item
+			capname="button"
+			id="3494240f-fe11-4167-8787-897899520e03"
+			name="SaveIcon"
+			searchtimeout="30000ms">
+				/form[@title~'^Visual\ Analytics']//container[@name='_toolBar']/button[5]
+			</item>
+			<item
+			capname="container"
+			id="e8ee7e32-59e4-4ad5-b3ba-f4b1318a5579"
+			name="ChartContainer"
+			searchtimeout="30000ms">
+				/form[@title~'^Visual\ Analytics']//container[@name='_mainPanel']//container[@name='_sheetsPane']/container[@name='Worksheet 1']//container[@name='main']/container[@name='_cardPanel']/container[@name='_chartPanel']/container[@name='_canvas']
+			</item>
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="ffbb3bf3-09c3-47de-ba5e-e57a1bc2d76c"
+			name="CardType"
+			refimgid="7e665c2d-66cd-448d-9078-96ece187cf55"
+			searchtimeout="30000ms">
+				/form[@title~'^Visual\ Analytics']/container[@name='_mainPanel']/container[@name='_contentPanel']/?/?/container[@name='_leftPanel']//container[@type='BIDimensionDataPane']//container[@name='viewport']/list[@type='BIDraggableList']/listitem[@text='Card Type']
+			</item>
+			<basepath>
+				/form[@title~'^Visual\ Analytics']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="caedc35b-4769-4809-8627-ef0f934d43c0"
+		isrooted="True"
+		name="SunAwtWindow"
+		refimgid="723708d1-ef98-48fb-bfc4-474508355c81"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="menuitem"
+			id="b369f1bc-4db9-4b16-9873-f0d5cc0e4ea4"
+			name="Rename"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//contextmenu/menuitem[@text='Rename...']
+			</item>
+			<item
+			capname="menuitem"
+			id="d946b8a4-bfd4-47b8-a9ad-fa907bcd42ed"
+			name="ExportWorkBook"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[6]
+			</item>
+			<item
+			capname="menuitem"
+			id="e989cf64-1e5d-4e21-9d11-ce8daa1c51ae"
+			name="ExtractData"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='Extract Data']
+			</item>
+			<basepath>
+				/form[@class='SunAwtWindow']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="07f97ea6-7b9d-4b93-8be6-78f67063eab8"
+		isrooted="True"
+		name="RenameWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="text"
+			id="0b6f6e9a-966f-4974-adb8-8684336054ce"
+			name="TextBox"
+			searchtimeout="30000ms">
+				/form[@title='Rename Data Source']//container[@type='CPanel']/?/?/text[@name='_nameField']
+			</item>
+			<item
+			capname="button"
+			id="32732238-aa4f-47a5-b580-7141a09c2ce0"
+			name="ClickRename"
+			searchtimeout="30000ms">
+				/form[@title='Rename Data Source']//container[@type='CPanel']/?/?/button[@text='Rename']
+			</item>
+			<basepath>
+				/form[@title='Rename Data Source']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="26ee0939-8f44-49cf-95d7-d2ba317fe442"
+		isrooted="True"
+		name="SaveFolderWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="text"
+			id="0c128d0a-73df-442c-9911-8d122f201bea"
+			name="WorkBookName"
+			searchtimeout="30000ms">
+				/form[@title='Save']/element/container[@type='JPanel']/container[3]/container[2]/text[@accessiblename='File name:']
+			</item>
+			<item
+			capname="button"
+			id="a88a6c53-f94e-4d4c-bc5a-d9c729ed923b"
+			name="Save"
+			searchtimeout="30000ms">
+				/form[@title='Save']/element/container[@type='JPanel']/container[3]/container[3]/button[@text='Save']
+			</item>
+			<basepath>
+				/form[@title='Save']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="e023f516-9d72-4d93-987f-b52734da129a"
+		isrooted="True"
+		name="SaveChanges"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="2f6a6708-f14b-4f61-b831-60b96d7c607d"
+			name="DiscardButton"
+			searchtimeout="30000ms">
+				/form[@title='Save Changes']//container[@name='OptionPane.buttonArea']/button[@text='Discard']
+			</item>
+			<basepath>
+				/form[@title='Save Changes']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="a66150ea-a144-4767-9eff-a1d33c7fc492"
+		isrooted="True"
+		name="FileModified"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="14e7e197-6d2a-4936-9248-61015d9060fc"
+			name="DiscardButton"
+			searchtimeout="30000ms">
+				/form[@title='File Modified']//container[@name='OptionPane.buttonArea']/button[@text='Discard']
+			</item>
+			<basepath>
+				/form[@title='File Modified']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="d54a3fac-3b92-4b4a-9c2b-770fb3053792"
+		isrooted="True"
+		name="Application"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="menuitem"
+			id="da992c0f-dfcc-4c8a-a60b-60218253b432"
+			name="FileMenu"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio']//menuitem[@text='File']
+			</item>
+			<basepath>
+				/form[@title~'^Aqua\ Data\ Studio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="bd2e48e4-5445-4ec3-a9b7-23d20f08afdb"
+		isrooted="True"
+		name="DataStudio"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="menuitem"
+			id="4f2dba1a-2292-46cf-a03d-955d59d8f39c"
+			name="OpenFile"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Open']
+			</item>
+			<basepath>
+				/form[@processname='datastudio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="951fcb26-33b8-49e9-9d15-b9683c621e3f"
+		isrooted="True"
+		name="OpenWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="text"
+			id="5d62603f-d3ac-4200-9d2a-4347326a6699"
+			name="FilePathTextbox"
+			searchtimeout="30000ms">
+				/form[@title='Open']//element/container[@type='JPanel']/container[3]/container[2]/text[@accessiblename='File name:']
+			</item>
+			<item
+			capname="button"
+			id="89dcbd3d-2d03-4a6b-ad50-32f672ff7e54"
+			name="OpenButton"
+			searchtimeout="30000ms">
+				/form[@title='Open']//element/container[@type='JPanel']/container[3]/container[3]/button[@text='Open']
+			</item>
+			<basepath>
+				/form[@title='Open']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="b975255a-958b-4549-8c91-abdea82f27e3"
+		isrooted="True"
+		name="DataPaneWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="listitem"
+			id="3414ccf4-aa07-4211-8c0c-a9bab4a865ba"
+			name="Salesdata"
+			searchtimeout="30000ms">
+				/form[@title~'^Visual\ Analytics\ -\ \[VA-te']//container[@name='_mainPanel']//container[@name='_leftPanel']//container[@type='BIDataSourceDataPane']/container[@name='dataSourceScroll']/?/?/list[@name='listComponent']/listitem[@text='Sales Data']
+			</item>
+			<item
+			capname="menuitem"
+			id="fd39011b-4bdb-4686-9c69-47259a8add13"
+			name="FileMenu"
+			searchtimeout="30000ms">
+				/form[@title~'^Visual\ Analytics\ -\ \[VA-te']//menuitem[@name='_menuFile']
+			</item>
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="17edf97c-7320-46b8-85fc-730ab14e29f4"
+			name="CardType"
+			refimgid="86889fe5-cc52-4235-b3e4-b6268e9202d0"
+			refpath="/form[@title~'^Visual\ Analytics\ -\ \[VA-te']/container[@name='_mainPanel']/container/container/container[@name='_leftPanel']/container/container/container/container[@type='BIDimensionDataPane']/container/container[@type='JScrollPane']/container/list/listitem[@text='Card Type']"
+			searchtimeout="30000ms">
+				/form[@title~'^Visual\ Analytics\ -\ \[VA-te']/container[@name='_mainPanel']/container[@name='_contentPanel']/?/?/container[@name='_leftPanel']//container[@type='BIDimensionDataPane']//container[@name='viewport']/list[@type='BIDraggableList']/listitem[@text='Card Type']
+			</item>
+			<item
+			addcaps="container,javaelement"
+			capname="container"
+			id="6d2bed51-1bed-47eb-a0f3-f56cac2dd38b"
+			name="Panel"
+			refimgid="6724d9f9-f74e-4eb0-9702-2b5dae3f5083"
+			refpath="/form[@title~'^Visual\ Analytics\ -\ \[VA-te']/container[@name='_mainPanel']/container/container/container[@name='_sheetsPane']/container[@name='Worksheet 1']/container/container/container/container/container[@name='rows']/container[@type='JPanel']/container/container/container/container[@name='panel']"
+			searchtimeout="30000ms">
+				/form[@title~'^Visual\ Analytics\ -\ \[VA-te']/container[@name='_mainPanel']/container[@name='_contentPanel']/container[@name='_splitPane']/container[@name='_sheetsPane']/container[@name='Worksheet 1']/container[@name='_worksheetPanel']//container[@name='rows']//container[@name='panel']
+			</item>
+			<basepath>
+				/form[@title~'^Visual\ Analytics\ -\ \[VA-te']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="2ff25c47-4ae1-4ec3-8a68-c89454ddb659"
+		isrooted="True"
+		name="ExportConfirmWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="57edca17-88ca-4d60-96d3-a6426a672308"
+			name="Continue"
+			searchtimeout="30000ms">
+				/form[@title='Export Packaged Workbook']//container[@name='OptionPane.buttonArea']/button[@text='Continue']
+			</item>
+			<item
+			capname="text"
+			id="2b3640b4-d8fe-4117-a285-383753fd84c8"
+			name="FileNameText"
+			searchtimeout="30000ms">
+				/form[@title='Export Packaged Workbook']/element/container[@type='JPanel']/container[3]/container[2]/text[@accessiblename='File name:']
+			</item>
+			<item
+			capname="button"
+			id="639e771b-73c9-4812-85ce-d34fd09e6cb3"
+			name="Save"
+			searchtimeout="30000ms">
+				/form[@title='Export Packaged Workbook']/element/container[@type='JPanel']/container[3]/container[3]/button[@text='Save']
+			</item>
+			<basepath>
+				/form[@title='Export Packaged Workbook']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="f5591615-86f7-461f-b037-96d25f3aa9fc"
+		isrooted="True"
+		name="ExtractDataWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="045365ae-4d8c-4d4d-afba-8115fb9798e0"
+			name="Save"
+			searchtimeout="30000ms">
+				/form[@title='Extract Data']//element/container[@type='JPanel']/container[3]/container[3]/button[@text='Save']
+			</item>
+			<item
+			capname="button"
+			id="64816f4e-4168-4038-a2e5-5f171037aecb"
+			name="Ok"
+			searchtimeout="30000ms">
+				/form[@title='Extract Data']//container[@name='OptionPane.buttonArea']/button[@text='OK']
+			</item>
+			<item
+			capname="text"
+			id="5aca6311-8d21-40f1-9afd-8c0afbe9331a"
+			name="FilePathTextBox"
+			searchtimeout="30000ms">
+				/form[@title='Extract Data']//element/container[@type='JPanel']/container[3]/container[2]/text[@accessiblename='File name:']
+			</item>
+			<basepath>
+				/form[@title='Extract Data']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="8620c257-61c1-46bd-92f0-784d5b2274e2"
+		isrooted="True"
+		name="OverrideWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="994b9f7a-9e50-47f1-94c3-6b99f7d21902"
+			name="Yes"
+			searchtimeout="30000ms">
+				/form[@title='Overwrite']//container[@name='OptionPane.buttonArea']/button[@text='Yes']
+			</item>
+			<item
+			capname="button"
+			id="6517f4a7-9044-4e0b-995a-6a18eb233946"
+			name="No"
+			searchtimeout="30000ms">
+				/form[@title='Overwrite']//container[@name='OptionPane.buttonArea']/button[@text='No']
+			</item>
+			<basepath>
+				/form[@title='Overwrite']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="7ceca2c7-c3ab-4168-be3b-cb0ea5886d24"
+		isrooted="True"
+		name="Form"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="menuitem"
+			id="a3b6e668-935b-40a0-b1a9-02ac44fa7a2f"
+			name="AddToRowDeck"
+			searchtimeout="30000ms">
+				/form//menuitem[@text='Add To Rows Deck']
+			</item>
+			<basepath>
+				/form
+			</basepath>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

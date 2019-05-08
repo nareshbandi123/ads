@@ -1,0 +1,4 @@
+CREATE PROCEDURE ads_procedure (OUT param1 INT)
+ BEGIN
+  SELECT COUNT(*) INTO param1 FROM t;
+ END;

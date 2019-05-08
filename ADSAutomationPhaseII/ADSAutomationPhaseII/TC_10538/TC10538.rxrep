@@ -1,0 +1,275 @@
+﻿<repository
+id="ed4266f9-c3ae-4169-81ae-c081d6dfccdf"
+name="TC10538"
+rxversion="8.2">
+	<codegen
+	classname="TC10538"
+	namespace="ADSAutomationPhaseII.TC_10538">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="1379b5bb-7100-4454-94f6-b3f20ce0eb5d"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		capname="form"
+		id="9ba3ad9e-808b-4e5b-a84a-406a73972e2c"
+		isrooted="True"
+		name="Application"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="checkbox"
+			id="9e703875-3aae-4b72-b840-8d7fbe500787"
+			name="F1Server"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLeftStripe']/checkbox[@text='F1: Servers']
+			</item>
+			<item
+			capname="menuitem"
+			id="89bf332c-b387-47a4-81fb-da27844009c8"
+			name="Tools"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//menuitem[@text='Tools']
+			</item>
+			<item
+			capname="text"
+			id="04102c82-4ce2-4adc-8313-ef9549e678d9"
+			name="ServerTab"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myFirstComponent']//text[@caption='Servers']
+			</item>
+			<item
+			capname="menuitem"
+			id="f0378b11-3a7f-4295-88d0-b2529c41edbf"
+			name="Automate"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//menuitem[@text='Automate']
+			</item>
+			<item
+			capname="unknown"
+			id="8d960002-32ba-426d-a4dc-c5903bbd44f8"
+			name="QATextEditor"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='QueryPanel']/container[@name='panel']/?/?/container[@name='splitPane']//container[@type='EditorImpl$MyScrollPane']/container[6]/element[@type='EditorComponentImpl']
+			</item>
+			<basepath>
+				/form[@title~'^Aqua Data Studio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="2607c31b-f8f1-48cc-8f87-2dda63583cf6"
+		isrooted="True"
+		name="EditServerProperties"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="38c3e964-73d1-46c2-99ac-bdeb4c1d0370"
+			name="YesButton"
+			searchtimeout="30000ms">
+				/form[@title~'^Edit Server Properties']/?/?/container[@name='OptionPane.buttonArea']/button[@text='Yes']
+			</item>
+			<basepath>
+				/form[@title~'^Edit Server Properties']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="0fecfac7-f80a-41d2-8f50-22c46151e4ba"
+		isrooted="True"
+		name="DataStudio"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="menuitem"
+			id="5c9392c1-786e-4a7b-a982-9005f54c368f"
+			name="ConnectionMonitor"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Connection Monitor']
+			</item>
+			<folder
+			capname="container"
+			id="8d44a2c3-97c1-4667-a65c-d555ae5340ce"
+			isrooted="True"
+			name="MyLayeredPane"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				capname="container"
+				id="19aa2897-6ef5-403c-9689-3f28940d7572"
+				name="Editor"
+				searchtimeout="30000ms">
+					/form[@processname='datastudio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='QueryPanel']/container[@name='panel']/?/?/container[@name='splitPane']//container[@type='EditorImpl$MyScrollPane']/container[6]
+				</item>
+				<basepath>
+					/form[@processname='datastudio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@processname='datastudio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="91949ac4-7164-419b-b2a1-b2c4795b33fe"
+		isrooted="True"
+		name="ConnectionMonitor"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="table"
+			id="4765b20e-2af5-4da7-94ee-29f7417307ef"
+			name="PingWindow"
+			searchtimeout="30000ms">
+				/form[@title='Connection Monitor']//container[@name='viewport']/table[@name='Program']
+			</item>
+			<item
+			capname="button"
+			id="88ec787c-91ed-4678-aa3f-1056ed2b7c93"
+			name="Close"
+			searchtimeout="30000ms">
+				/form[@title='Connection Monitor']//container[@type='JPanel']/?/?/button[@text='Close']
+			</item>
+			<basepath>
+				/form[@title='Connection Monitor']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="a1076eef-1e57-4b38-a17b-54b3aaae6a9b"
+		isrooted="True"
+		name="UntitledApplication"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="unknown"
+			id="a174dbe0-75ed-4f67-ba22-0a8bc69bd889"
+			name="QATextEditor"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='QueryPanel']/container[@name='panel']/?/?/container[@name='splitPane']//container[@type='EditorImpl$MyScrollPane']/container[6]/element[@type='EditorComponentImpl']
+			</item>
+			<item
+			capname="button"
+			id="248316fe-215b-4533-a001-159788c40cf2"
+			name="Execute"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='QueryPanel']//container[@name='toolBar']/button[@name='executeButton']
+			</item>
+			<basepath>
+				/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="e9472f1b-17ec-4741-9ab0-8f45783d7add"
+		isrooted="True"
+		name="FileModifier"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="ac0e04fb-a145-4e74-b677-a83b875ba725"
+			name="Discard"
+			searchtimeout="30000ms">
+				/form[@title='File Modified']//container[@name='OptionPane.buttonArea']/button[@text='Discard']
+			</item>
+			<basepath>
+				/form[@title='File Modified']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="b778b3d4-80a4-4f65-8585-0aab6607f45a"
+		isrooted="True"
+		name="SeparatedList"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="278729ef-3a09-4863-ab60-b3e9de28addc"
+			name="OkButton"
+			searchtimeout="30000ms">
+				/form[@title='Separated List']//button[@name='defaultButton']
+			</item>
+			<item
+			capname="text"
+			id="d0769dac-5c39-4e04-af3c-a88ffbc7cd79"
+			name="Delimited"
+			searchtimeout="30000ms">
+				/form[@title='Separated List']//container[@type='JPanel']//combobox[@name='quotedIdentifierCombo']/text[@type='BasicComboBoxEditor$BorderlessTextField']
+			</item>
+			<basepath>
+				/form[@title='Separated List']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="5ddae881-57c2-4807-b5ab-5c79041adfea"
+		isrooted="True"
+		name="BeautifyOptions"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="199dcc29-cfee-46b1-a31f-b8e208b4a70d"
+			name="OkButton"
+			searchtimeout="30000ms">
+				/form[@title='Beautify Options']//button[@text='OK']
+			</item>
+			<basepath>
+				/form[@title='Beautify Options']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="1ebc3769-a8be-4385-a3e5-957658eed87d"
+		isrooted="True"
+		name="EditServerProp"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="tabpage"
+			id="2410c502-37ff-4a8e-9dd7-8dc8f4e4df1a"
+			name="ConnectionMonitor"
+			searchtimeout="30000ms">
+				/form[@title~'^Edit\ Server\ Properties\ -\ ']//tabpage[@title='Connection Monitor   ']
+			</item>
+			<item
+			capname="button"
+			id="3a14b874-fe6d-48a5-9b7b-c33bc294cc2b"
+			name="Save"
+			searchtimeout="30000ms">
+				/form[@title~'^Edit\ Server\ Properties\ -\ ']//container[@type='HorizontalLayoutPanel']/?/?/button[@text='Save']
+			</item>
+			<item
+			capname="cell"
+			id="2af028e0-f094-4697-9916-aa71a3e62a7a"
+			name="PingIdleConnection"
+			searchtimeout="30000ms">
+				/form[@title~'^Edit\ Server\ Properties\ -\ ']//container[@name='tabbedPane']/container[@name='monitorPanel']//table[@name='propertyTable']/row[@index='1']/cell[2]
+			</item>
+			<basepath>
+				/form[@title~'^Edit\ Server\ Properties\ -\ ']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="85119228-a8e3-471a-b624-677b07b03c2c"
+		isrooted="True"
+		name="AquaDataStudio"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@title='Aqua Data Studio']
+			</basepath>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

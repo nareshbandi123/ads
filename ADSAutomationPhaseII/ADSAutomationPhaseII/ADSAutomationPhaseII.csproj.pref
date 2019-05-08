@@ -1,0 +1,16 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="ADSAutomationV2Phase1.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="ADSAutomationV2Phase1.rxtst" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <fileNames value="" />
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>

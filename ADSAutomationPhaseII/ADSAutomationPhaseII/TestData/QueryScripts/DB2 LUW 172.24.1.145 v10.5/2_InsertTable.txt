@@ -1,0 +1,5 @@
+INSERT INTO ads_table (id, name, jobrole, JOINDATE, salary, firstname, lastname) values (10, 'JIM', 'Manager', CURRENT TIMESTAMP, 10.0, 'Tom', 'John')
+Go
+INSERT INTO ads_table (id, name, jobrole, JOINDATE, salary, firstname, lastname) values (10, 'JIM', 'Manager', CURRENT TIMESTAMP, 10.0,'VOS','Marianne')
+Go
+INSERT INTO ads_table (id, name, jobrole, JOINDATE, salary, firstname, lastname) values (10, 'JIM', 'Manager', CURRENT TIMESTAMP, 10.0, 'Sam', 'Mule')

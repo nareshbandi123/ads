@@ -1,0 +1,2 @@
+"DepartmentID","DepartmentName","DepartmentHeadID","firstname","lastname"
+600,"Eastern Sales",500,"V","M"

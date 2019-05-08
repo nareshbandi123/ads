@@ -1,0 +1,8 @@
+CREATE FUNCTION dbo.ads_function (@MyValueIn int)  
+RETURNS decimal(10,2)  
+AS  
+BEGIN  
+    DECLARE @MyValueOut int;  
+    SET @MyValueOut= CAST( @MyValueIn AS decimal(10,2));  RETURN(@MyValueOut);  
+END;  
+GO

@@ -1,0 +1,269 @@
+﻿<repository
+id="86d39a62-d188-4e17-9e7a-cdecec884bd2"
+name="TC10545Repo"
+rxversion="8.2">
+	<codegen
+	classname="TC10545Repo"
+	namespace="ADSAutomationPhaseII.TC_10545">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="c75c9345-eb1e-4692-b276-f15e73d181ed"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		capname="form"
+		id="81f5c248-281c-4a70-ba4d-dd5b54fe6124"
+		isrooted="True"
+		name="Application"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="menuitem"
+			id="fc172adf-dc7e-4e80-89fd-ca1e732d0ec9"
+			name="Tools"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//menuitem[@text='Tools']
+			</item>
+			<item
+			capname="button"
+			id="c1142bc6-c054-414d-9fe7-df74071b2d09"
+			name="NextButton"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='ImportExcelDialog$34']//button[@name='nextButton']
+			</item>
+			<item
+			capname="combobox"
+			id="b58b50a2-97b1-4b27-9c12-33ab114815e7"
+			name="DestinationCombobox"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='ImportExcelDialog$34']/?/?/container[@name='tabbedPane']/container[4]/?/?/combobox[@name='destinationCombo']
+			</item>
+			<item
+			capname="text"
+			id="0b186d9b-e3bd-47e4-8281-375c4e32ccbf"
+			name="FileNameTextbox"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='ImportExcelDialog$34']/?/?/container[@name='tabbedPane']/container[4]/?/?/text[@name='insertFileField']
+			</item>
+			<item
+			capname="text"
+			id="50aa7f2e-cdf1-4b4d-8875-867f8ea3470e"
+			name="ImportStatusText"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='ImportExcelDialog$34']/?/?/container[@name='tabbedPane']/container[6]/text[@text~'^Completed: Inserted']
+			</item>
+			<item
+			capname="button"
+			id="967a2e44-eab7-4cc9-9c5e-9778fd14336f"
+			name="CloseButton"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='ImportExcelDialog$34']//button[@name='cancelButton']
+			</item>
+			<item
+			capname="text"
+			id="4fc0a332-7bcb-44c0-a263-12d229c69779"
+			name="SchemaTextbox"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='ExportDialog$23']/?/?/container[@name='tabbedPane']/container[@type='CPanel']/?/?/container[@name='configPanel']//combobox[@name='schemaField']/text[@type='BasicComboBoxEditor$BorderlessTextField']
+			</item>
+			<item
+			capname="button"
+			id="e803ea64-14de-4e71-80c4-b60e3ec7bd7d"
+			name="UnSelectLeft"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='ExportDialog$23']/?/?/container[@name='tabbedPane']/container[@type='CPanel']/?/?/container[@name='configPanel']//container[@name='typeSelector']/?/?/button[@name='deselectButton']
+			</item>
+			<item
+			capname="button"
+			id="e868399b-9355-47c2-94c8-8a3cb6020a5e"
+			name="UnSelectRight"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='ExportDialog$23']/?/?/container[@name='tabbedPane']/container[@type='CPanel']/?/?/container[@name='configPanel']//container[@name='objectSelector']/?/?/button[@name='deselectButton']
+			</item>
+			<item
+			capname="table"
+			id="b1edcf6a-cb7c-49a6-badf-3a9e6ad59ec2"
+			name="LeftTable"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='ExportDialog$23']/?/?/container[@name='tabbedPane']/container[@type='CPanel']/?/?/container[@name='configPanel']//container[@name='typeSelector']/container[@name='scroll']/container[5]/table[@name='table']
+			</item>
+			<item
+			capname="table"
+			id="f39c4daf-4fbf-43ca-a6e6-c09788f0b404"
+			name="RightTable"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='ExportDialog$23']/?/?/container[@name='tabbedPane']/container[@type='CPanel']/?/?/container[@name='configPanel']//container[@name='objectSelector']/container[@name='scroll']/container[5]/table[@name='table']
+			</item>
+			<item
+			capname="button"
+			id="178b6aac-3cc8-41e5-a8c2-bb5bc9d7193f"
+			name="ExportNextButton"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='ExportDialog$23']//button[@text='Next &gt;&gt;']
+			</item>
+			<item
+			capname="combobox"
+			id="4b204a0e-bf50-4734-95a0-4efc58e5d844"
+			name="ExportDestinationCombobox"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='ExportDialog$23']/?/?/container[@name='tabbedPane']/container[@type='VerticalLayoutPanel']/?/?/combobox[@name='destinationCombo']
+			</item>
+			<item
+			capname="text"
+			id="3fd78033-af14-4304-a9e4-08af6fc3b698"
+			name="ExportFilePathTextbox"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='ExportDialog$23']/?/?/container[@name='tabbedPane']/container[@type='VerticalLayoutPanel']/?/?/text[@name='filenameField']
+			</item>
+			<item
+			capname="text"
+			id="9179228a-b14b-4503-8391-61e966a36335"
+			name="ExportStatusText"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='ExportDialog$23']//container[@type='EasyPanel']/text[@text~'^Completed: Exported']
+			</item>
+			<item
+			capname="button"
+			id="1d18f24a-2cac-4689-bb9d-ebcbaa22a55b"
+			name="ExportCloseButton"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='ExportDialog$23']//button[@text='Close']
+			</item>
+			<item
+			capname="menuitem"
+			id="ce520598-8934-4eee-96cf-5c9cf1656a61"
+			name="File"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//menuitem[@text='File']
+			</item>
+			<basepath>
+				/form[@title~'^Aqua Data Studio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="0ba8d225-e079-4bc1-b968-c02091687e5c"
+		isrooted="True"
+		name="DataStudio"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="menuitem"
+			id="6d9ebc32-62a0-4dd0-9f29-dfdbe69c4aa4"
+			name="Import"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Import Data']
+			</item>
+			<item
+			capname="menuitem"
+			id="de61285c-2214-4a56-a127-d4bfcacf0d14"
+			name="Export"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Export Data']
+			</item>
+			<basepath>
+				/form[@processname='datastudio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="8ff9850a-e768-4d05-89b5-b926c94e15a7"
+		isrooted="True"
+		name="ChooseFromServers"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="treeitem"
+			id="90b0fe60-5f31-44eb-8b22-5b68827c53c3"
+			name="LocalServers"
+			searchtimeout="30000ms">
+				/form[@title~'^Choose Server or Database']//container[@type='JScrollPane']/container[@name='viewport']/tree[@name='tree']/?/?/treeitem[@text='Local Database Servers']
+			</item>
+			<item
+			capname="button"
+			id="0e74af42-835f-47c2-84d4-a1443eb480f5"
+			name="OkButton"
+			searchtimeout="30000ms">
+				/form[@title~'^Choose Server or Database']//button[@text='OK']
+			</item>
+			<basepath>
+				/form[@title~'^Choose Server or Database']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="cd478ea3-fd49-4235-baaf-0fd20f95230c"
+		isrooted="True"
+		name="SelectFile"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="text"
+			id="cecb1c14-9c82-4a1b-8e21-ae830a5bb0ad"
+			name="FilePathTextbox"
+			searchtimeout="30000ms">
+				/form[@title='Select']//element/container[@type='JPanel']/container[3]/container[2]/text[@accessiblename='File name:']
+			</item>
+			<item
+			capname="button"
+			id="29fa304a-af71-447a-8d75-6e520b517d28"
+			name="SelectButton"
+			searchtimeout="30000ms">
+				/form[@title='Select']//element/container[@type='JPanel']/container[3]/container[3]/button[@text='Select']
+			</item>
+			<basepath>
+				/form[@title='Select']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="292e33aa-7af9-4365-9f7b-0203f4f1a2be"
+		isrooted="True"
+		name="OpenWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="text"
+			id="9c84245d-cb45-4648-ab3e-2d6bfa8e3da0"
+			name="FilePathTextbox"
+			searchtimeout="30000ms">
+				/form[@title='Open']//element/container[@type='JPanel']/container[3]/container[2]/text[@accessiblename='File name:']
+			</item>
+			<item
+			capname="button"
+			id="514adc68-0bac-4bbf-920c-4451768003d3"
+			name="OpenButton"
+			searchtimeout="30000ms">
+				/form[@title='Open']//element/container[@type='JPanel']/container[3]/container[3]/button[@name='defaultButton']
+			</item>
+			<basepath>
+				/form[@title='Open']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="2585e65a-c421-4a66-a56c-17eb8ccbd121"
+		isrooted="True"
+		name="SunSwtWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="menuitem"
+			id="716747d1-78dc-484c-820e-23a30f0d4446"
+			name="Open"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='Open']
+			</item>
+			<basepath>
+				/form[@class='SunAwtWindow']
+			</basepath>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

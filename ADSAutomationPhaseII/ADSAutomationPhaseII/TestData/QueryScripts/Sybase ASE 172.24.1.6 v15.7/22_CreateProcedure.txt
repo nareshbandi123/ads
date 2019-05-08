@@ -1,0 +1,6 @@
+create procedure ads_procedure @tabname varchar (30) 
+as 
+  select sysobjects.name, sysindexes.name, indid 
+  from sysindexes, sysobjects 
+  where sysobjects.name = @tabname 
+  and sysobjects.id = sysindexes.id

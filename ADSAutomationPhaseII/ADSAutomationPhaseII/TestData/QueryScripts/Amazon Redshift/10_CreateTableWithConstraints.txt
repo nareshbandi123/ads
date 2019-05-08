@@ -1,0 +1,9 @@
+Create table IF NOT EXISTS ads_table (id int, name varchar, project varchar, firstname varchar, lastname varchar, PRIMARY KEY (ID));
+
+/*
+CREATE TABLE ads_table (
+ID int NOT NULL,
+ lastname varchar(255) NOT NULL, firstname varchar(255), Age int,
+ PRIMARY KEY (ID)
+)*/
+

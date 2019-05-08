@@ -1,0 +1,5 @@
+INSERT INTO ads_table VALUES( 10,'foobar','VOS','Marianne')
+Go
+INSERT INTO ads_table VALUES( 10,'foobar','Tom','Val')
+Go
+INSERT INTO ads_table VALUES( 10,'foobar','VOS1','Marianne2')

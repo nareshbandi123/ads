@@ -1,0 +1,247 @@
+﻿<repository
+id="597c40b4-e3dd-4467-9842-6b597d4c93ee"
+name="TC10546Repo"
+rxversion="8.2">
+	<codegen
+	classname="TC10546Repo"
+	namespace="ADSAutomationPhaseII.TC_10546">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="2583ae54-2abd-49c6-b6ed-ce27661d31e0"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		capname="form"
+		id="6329e560-0ad9-401f-a640-2cf940b48e2e"
+		isrooted="True"
+		name="Application"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="menuitem"
+			id="79c38260-bedf-448b-8231-2bcf7ff98268"
+			name="Tools"
+			searchtimeout="30000ms">
+				/form[@title='Aqua Data Studio']//menuitem[@text='Tools']
+			</item>
+			<item
+			capname="button"
+			id="d4f474ee-2cb7-45b3-b694-d281e77af944"
+			name="SchemaSynchronize"
+			searchtimeout="30000ms">
+				/form[@title='Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//button[@text='Synchronize Schema']
+			</item>
+			<item
+			capname="table"
+			id="a39f04a4-9651-4898-bc0b-ea4302df597f"
+			name="Table"
+			searchtimeout="30000ms">
+				/form[@title='Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@name='_treeTableScrollPane']/container[1]/table[@name='a']
+			</item>
+			<item
+			capname="button"
+			id="fbbcc980-de27-4806-992f-b109047a5d5e"
+			name="NextButton"
+			searchtimeout="30000ms">
+				/form[@title='Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SchemaSyncWizard$5']//button[@name='_nextButton']
+			</item>
+			<item
+			capname="tabpage"
+			id="2ae098ce-c7dd-44e8-a708-57f0e77407a8"
+			name="MapMissingColumnTab"
+			searchtimeout="30000ms">
+				/form[@title='Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SchemaSyncWizard$5']//container[@name='_tabbedPane']/tabpage[@title='Map Missing Columns   ']
+			</item>
+			<item
+			capname="tabpage"
+			id="e4aee398-8e9c-4f1c-91d7-bbe0d3f6155d"
+			name="ConfigureScriptTab"
+			searchtimeout="30000ms">
+				/form[@title='Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SchemaSyncWizard$5']//container[@name='_tabbedPane']/tabpage[@title='Configure Script   ']
+			</item>
+			<item
+			capname="tabpage"
+			id="d63db6ae-5900-4104-99fb-3fd4e325499f"
+			name="OptionsTab"
+			searchtimeout="30000ms">
+				/form[@title='Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SchemaSyncWizard$5']//container[@name='_tabbedPane']/tabpage[@title='Options   ']
+			</item>
+			<item
+			capname="tabpage"
+			id="0cc7eb9f-0e6d-4faf-b833-39a7e0d48cb6"
+			name="ReviewTab"
+			searchtimeout="30000ms">
+				/form[@title='Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SchemaSyncWizard$5']//container[@name='_tabbedPane']/tabpage[@title='Review   ']
+			</item>
+			<item
+			capname="tabpage"
+			id="62e09665-0db9-4ccc-b5c6-23cdcc4ac37e"
+			name="ReviewDependencyTab"
+			searchtimeout="30000ms">
+				/form[@title='Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SchemaSyncWizard$5']//container[@name='_tabbedPane']/tabpage[@title='Review Dependencies   ']
+			</item>
+			<item
+			capname="cell"
+			id="171b9aa5-851c-4dfa-98cf-b71168357cd9"
+			name="SyncCheckbox"
+			searchtimeout="30000ms">
+				/form[@title='Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@name='_treeTableScrollPane']/container[5]/table[@type='CJideSortableTable']/row[@index='1']/cell[3]
+			</item>
+			<item
+			capname="button"
+			id="21ecf66c-16aa-4674-ae32-e4906aebbf57"
+			name="PreviousButton"
+			searchtimeout="30000ms">
+				/form[@title='Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='SchemaSyncWizard$5']//button[@name='_prevButton']
+			</item>
+			<basepath>
+				/form[@title='Aqua Data Studio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="410638e4-bd48-4c9c-b9cd-aa828e1bf7ad"
+		isrooted="True"
+		name="Datastudio"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="menuitem"
+			id="e5777ca3-d77e-4173-9f53-a3ff9554588b"
+			name="CompareTools"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Compare Tools']
+			</item>
+			<item
+			capname="menuitem"
+			id="5589d930-9de4-419a-883b-b33634a46478"
+			name="SchemaSynchonization"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Schema Synchronization']
+			</item>
+			<basepath>
+				/form[@processname='datastudio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="e41a53dc-f3c2-4cea-8aa6-21b67da9fb3f"
+		isrooted="True"
+		name="SchemaSynchronization"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="6e06d339-700b-4741-be98-6dda447b1ba4"
+			name="ChooseSourceServer"
+			searchtimeout="30000ms">
+				/form[@title~'^Schema\ Synchronization\ To']//container[@type='JPanel']/container[@type='JPanel']//container[@name='Source']/?/?/button[@name='button']
+			</item>
+			<item
+			capname="button"
+			id="9290b869-44f7-4d0d-a977-ffe4f436e8f9"
+			name="ChooseTargetServer"
+			searchtimeout="30000ms">
+				/form[@title~'^Schema\ Synchronization\ To']//container[@type='JPanel']/container[@type='JPanel']//container[@name='Target']/?/?/button[@name='button']
+			</item>
+			<item
+			capname="text"
+			id="db652b00-efb4-4e50-b89c-ef8ae91ec59b"
+			name="SourceSchemaComboBox"
+			searchtimeout="30000ms">
+				/form[@title~'^Schema\ Synchronization\ To']//container[@type='JPanel']//container[@name='Source']/container[@name='panel']/?/?/container[@name='_objectHeaderPane']/combobox[@name='schemaField']/text[@type='BasicComboBoxEditor$BorderlessTextField']
+			</item>
+			<item
+			capname="text"
+			id="52977c04-0727-4e92-a628-f3905686c09f"
+			name="TargetSchemaComboBox"
+			searchtimeout="30000ms">
+				/form[@title~'^Schema\ Synchronization\ To']//container[@type='JPanel']/container[2]//container[@name='Target']/container[@name='panel']//combobox[@name='schemaField']/text[@type='BasicComboBoxEditor$BorderlessTextField']
+			</item>
+			<item
+			capname="table"
+			id="3006e38a-0507-4d36-83a0-bf6e4be0ab28"
+			name="SchemaObjectsTable"
+			searchtimeout="30000ms">
+				/form[@title~'^Schema\ Synchronization\ To']//container[@name='typePanel']/?/?/container[@name='scroll']/container[5]/table[@name='table']
+			</item>
+			<item
+			capname="button"
+			id="fccd9add-ccd5-4b1c-a431-6571ec596f38"
+			name="UnselectSchemaObject"
+			searchtimeout="30000ms">
+				/form[@title~'^Schema\ Synchronization\ To']//container[3]//container[@name='typePanel']/container[@name='typeSelector']/container[@name='buttonPanel']/button[@name='deselectButton']
+			</item>
+			<item
+			capname="button"
+			id="f9c20b1b-0710-41a9-918b-8b81c91ca7ac"
+			name="UnselectLeftObjects"
+			searchtimeout="30000ms">
+				/form[@title~'^Schema\ Synchronization\ To']//container[@type='JPanel']//container[@name='leftSelector']/container[@name='buttonPanel']/button[@name='deselectButton']
+			</item>
+			<item
+			capname="button"
+			id="2b63da80-4fd3-4a21-8f82-81d35de96137"
+			name="UnselectRightObjects"
+			searchtimeout="30000ms">
+				/form[@title~'^Schema\ Synchronization\ To']//container[@type='JPanel']//container[@name='rightSelector']/container[@name='buttonPanel']/button[@name='deselectButton']
+			</item>
+			<item
+			capname="button"
+			id="c4dfffe0-6a87-4173-8eaa-da6695b3446c"
+			name="CompareButton"
+			searchtimeout="30000ms">
+				/form[@title~'^Schema\ Synchronization\ To']//container[@type='JPanel']/?/?/button[@text='Compare']
+			</item>
+			<item
+			capname="button"
+			id="4b714c3c-e2d0-4490-a8d9-ed3ba2619e1f"
+			name="SelectLeftObjects"
+			searchtimeout="30000ms">
+				/form[@title~'^Schema\ Synchronization\ To']//container[@type='JPanel']//container[@name='leftSelector']/container[@name='buttonPanel']/button[@name='selectButton']
+			</item>
+			<item
+			capname="button"
+			id="aaab43bd-fc04-4368-b6e8-432b7cd529a3"
+			name="SelectRightObjects"
+			searchtimeout="30000ms">
+				/form[@title~'^Schema\ Synchronization\ To']//container[@type='JPanel']//container[@name='rightSelector']/container[@name='buttonPanel']/button[@name='selectButton']
+			</item>
+			<basepath>
+				/form[@title~'^Schema\ Synchronization\ To']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="bc082b9e-32e6-4741-a754-c25659504eb0"
+		isrooted="True"
+		name="ChooseServer"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="7043b459-9408-4f08-b27b-f75e7b8ad03b"
+			name="OkButton"
+			searchtimeout="30000ms">
+				/form[@title='Choose Server or Database']//button[@text='OK']
+			</item>
+			<item
+			capname="tree"
+			id="0b74e676-b868-4952-a009-1067b73240e6"
+			name="SelectServer"
+			searchtimeout="30000ms">
+				/form[@title='Choose Server or Database']//container[@type='JScrollPane']/container[@name='viewport']/tree[@name='tree']
+			</item>
+			<basepath>
+				/form[@title='Choose Server or Database']
+			</basepath>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

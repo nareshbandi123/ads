@@ -1,0 +1,1451 @@
+﻿<repository
+id="1c3b07e1-b3c0-4806-b95c-0ddcae44d36d"
+name="TC10537Repo"
+rxversion="8.2">
+	<codegen
+	classname="TC10537Repo"
+	namespace="ADSAutomationPhaseII.TC_10537">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="3d47a378-e13a-42bf-b535-dbea43b928ef"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		capname="form"
+		id="2277cf9f-873c-4957-96d7-84db7b072e54"
+		isrooted="True"
+		name="SaveWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="text"
+			id="ad0f1270-d8e8-45f3-a43c-a4c1eb052200"
+			name="FilePathTextbox"
+			searchtimeout="30000ms">
+				/form[@title='Save']/element/container[@type='JPanel']/container[3]/container[2]/text[@accessiblename='File name:']
+			</item>
+			<item
+			capname="button"
+			id="708d4c92-4b95-4f62-b82e-a27c2adf83fc"
+			name="SaveButton"
+			searchtimeout="30000ms">
+				/form[@title='Save']/element/container[@type='JPanel']/container[3]/container[3]/button[@text='Save']
+			</item>
+			<basepath>
+				/form[@title='Save']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="f62e8b7d-a55c-464b-a5e1-449c9a8e1ee0"
+		isrooted="True"
+		name="Application"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="menuitem"
+			id="5197ec03-6df4-49fb-8fb1-25cbd8264cb7"
+			name="FileMenu"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//menuitem[@text='File']
+			</item>
+			<item
+			capname="menuitem"
+			id="4eced522-152b-4444-8287-403241d94e18"
+			name="Tools"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//menuitem[@text='Tools']
+			</item>
+			<folder
+			capname="unknown"
+			id="e7a268c8-1b3e-47a0-b1a1-992bf002429c"
+			isrooted="False"
+			name="ImportTab"
+			searchtimeout="0ms">
+				<item
+				capname="button"
+				id="f0c2a79e-8c8f-4aae-9b28-4145a93ed9f6"
+				name="NextButton"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='ImportDialog$23']//button[@name='nextButton']
+				</item>
+				<item
+				capname="text"
+				id="95db8bbf-20fc-4ad7-a635-ece06a74fae1"
+				name="TableComboboxText"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='ImportDialog$23']/?/?/container[@name='tabbedPane']/container[@type='JPanel']//combobox[@name='tableNameField']/text[@type='BasicComboBoxEditor$BorderlessTextField']
+				</item>
+				<item
+				capname="text"
+				id="c1c32e80-aea8-4f75-a211-2303f242247f"
+				name="SchemaTableComboboxText"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='ImportDialog$23']/?/?/container[@name='tabbedPane']/container[@type='JPanel']//combobox[@name='schemaField']/text[@type='BasicComboBoxEditor$BorderlessTextField']
+				</item>
+				<item
+				capname="text"
+				id="0aefe623-3772-43b5-be4d-4f214b0ebd81"
+				name="ImportStatus"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='ImportDialog$23']/?/?/container[@name='tabbedPane']/container[6]/text[@text~'Completed: Inserted']
+				</item>
+				<item
+				capname="button"
+				id="de740a34-16d9-40bb-b8bf-774c0edcc01a"
+				name="CloseButton"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='ImportDialog$23']//button[@text='Close']
+				</item>
+				<item
+				capname="text"
+				id="3c7e4a8c-e170-4369-b32b-60cb9104b76c"
+				name="ImportStatusCassandra"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='ImportDialog$23']/?/?/container[@name='tabbedPane']/container[5]/text[@text='Completed: Inserted']
+				</item>
+				<item
+				capname="text"
+				id="6b507cb6-8a82-4f51-899f-3bef8960a2fa"
+				name="ImportStatusCassandra1"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='ImportDialog$23']/?/?/container[@name='tabbedPane']/container[5]/text[@text~'^Completed: Inserted']
+				</item>
+			</folder>
+			<item
+			capname="menuitem"
+			id="03332039-d307-4de5-bc25-c5003335e4b7"
+			name="ServerMenu"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//menuitem[@text='Server']
+			</item>
+			<basepath>
+				/form[@title~'^Aqua Data Studio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="9f347474-ef55-4503-a884-93940b1b4135"
+		isrooted="True"
+		name="DataStudio"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="menuitem"
+			id="6d060623-614e-4478-ba36-e764b16832b7"
+			name="OpenMenu"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Open']
+			</item>
+			<item
+			capname="menuitem"
+			id="c6b1b006-554c-49d1-bc98-7067753d0fb3"
+			name="ImportDataMenu"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Import Data']
+			</item>
+			<item
+			capname="menuitem"
+			id="375717ab-704c-494e-8ea6-959e685ed304"
+			name="RegisterServer"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Register Server']
+			</item>
+			<basepath>
+				/form[@processname='datastudio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="8c1994cf-b02e-448a-a9de-c6dc36b10051"
+		isrooted="True"
+		name="OpenWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="text"
+			id="9f56cec1-579f-4ab2-b236-9860066ca0bd"
+			name="FilePathTextbox"
+			searchtimeout="30000ms">
+				/form[@title='Open']//element/container[@type='JPanel']/container[3]/container[2]/text[@accessiblename='File name:']
+			</item>
+			<item
+			capname="button"
+			id="8c77981a-b5df-465d-a63f-2c76577aff23"
+			name="OpenButton"
+			searchtimeout="30000ms">
+				/form[@title='Open']//element/container[@type='JPanel']/container[3]/container[3]/button[@text='Open']
+			</item>
+			<basepath>
+				/form[@title='Open']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="b2477859-223b-44ec-b255-f3c21506c353"
+		isrooted="True"
+		name="ChooseFromServer"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="b3fda3d1-ee05-4dc8-82c5-5e5efd298259"
+			name="OpenInQAButton"
+			searchtimeout="30000ms">
+				/form[@title='Choose Server or Database']//button[@text='Open in Query Analyzer']
+			</item>
+			<item
+			capname="tree"
+			id="ca7771c4-6627-4782-a5a0-3bdc5dd227a8"
+			name="ServerList"
+			searchtimeout="30000ms">
+				/form[@title='Choose Server or Database']//container[@type='JScrollPane']/container[@name='viewport']/tree[@name='tree']
+			</item>
+			<basepath>
+				/form[@title='Choose Server or Database']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="73c1efac-c27b-4019-ba44-11e3eb223acb"
+		isrooted="True"
+		name="SelectWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="text"
+			id="4287cbb9-8a56-4433-9647-391b75def838"
+			name="FilePathTextbox"
+			searchtimeout="30000ms">
+				/form[@title='Select']//element/container[@type='JPanel']/container[3]/container[2]/text[@accessiblename='File name:']
+			</item>
+			<item
+			capname="button"
+			id="c1db59d1-a8aa-4935-9b98-83fba2acaf14"
+			name="SelectButton"
+			searchtimeout="30000ms">
+				/form[@title='Select']//element/container[@type='JPanel']/container[3]/container[3]/button[@text='Select']
+			</item>
+			<item
+			capname="list"
+			id="16c7c32f-c0be-4c5b-ac5a-b9a2e75f0b28"
+			name="TestdataList"
+			searchtimeout="30000ms">
+				/form[@title='Select']//element/container[@type='JPanel']/container[@type='FilePane']//container[@name='viewport']/list[@name='list']
+			</item>
+			<basepath>
+				/form[@title='Select']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="8d1ccc45-11df-4d41-b4e6-353e8d8746f3"
+		isrooted="True"
+		name="F5DetailsTab"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="checkbox"
+			id="8c65af4e-330f-44e6-ab81-6a68ed6bab97"
+			name="F5Details"
+			searchtimeout="30000ms">
+				/form[@title='Aqua Data Studio']//container[@name='myBottomStripe']/checkbox[@text='F5: Detail']
+			</item>
+			<item
+			capname="table"
+			id="c7d5f203-278b-45eb-a593-b1f2f85bbaea"
+			name="DetailTable"
+			searchtimeout="30000ms">
+				/form[@title='Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myLastComponent']/?/?/container[@type='NonOpaquePanel']//container[@type='CTableScrollPane']/container[5]/table[@type='BaseTableScrollPaneTable']
+			</item>
+			<item
+			capname="cell"
+			id="3ac1a394-1a90-48d9-ae57-40fb90e050da"
+			name="TableCell1"
+			searchtimeout="30000ms">
+				/form[@title='Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myLastComponent']/?/?/container[@type='NonOpaquePanel']//container[@type='CTableScrollPane']/container[1]/table[@name='a']/row[@index='0']/cell[@text='1']
+			</item>
+			<item
+			capname="cell"
+			id="5ad2529c-fe95-4cce-9208-6c407a3cb051"
+			name="TableCell2"
+			searchtimeout="30000ms">
+				/form[@title='Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myLastComponent']/?/?/container[@type='NonOpaquePanel']//container[@type='CTableScrollPane']/container[1]/table[@name='a']/row[@index='1']/cell[@text='2']
+			</item>
+			<item
+			capname="cell"
+			id="f5532f51-c76a-4fc8-97e8-423894553164"
+			name="NameHeaderCell"
+			searchtimeout="30000ms">
+				/form[@title='Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myLastComponent']/?/?/container[@type='NonOpaquePanel']//container[@type='ContentManagerImpl$MyContentComponent']//container[@type='CTableScrollPane']/container[6]/?/?/cell[@text='Name']
+			</item>
+			<item
+			capname="cell"
+			id="02f74443-dc2e-4356-a1e5-4a44d6f3c58a"
+			name="StatusHeaderCell"
+			searchtimeout="30000ms">
+				/form[@title='Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myLastComponent']/?/?/container[@type='NonOpaquePanel']//container[@type='ContentManagerImpl$MyContentComponent']//container[@type='CTableScrollPane']/container[6]/?/?/cell[@text='Status']
+			</item>
+			<item
+			capname="cell"
+			id="6430573c-5320-4842-bbc2-44fbfec3c41c"
+			name="CreatedHeaderCell"
+			searchtimeout="30000ms">
+				/form[@title='Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myLastComponent']/?/?/container[@type='NonOpaquePanel']//container[@type='ContentManagerImpl$MyContentComponent']//container[@type='CTableScrollPane']/container[6]/?/?/cell[@text='Created']
+			</item>
+			<item
+			capname="cell"
+			id="88820296-f570-4b33-b75e-f0ce4eb65658"
+			name="NameColumnCell1"
+			searchtimeout="30000ms">
+				/form[@title='Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myLastComponent']/?/?/container[@type='NonOpaquePanel']//container[@type='CTableScrollPane']/container[5]/table[@type='BaseTableScrollPaneTable']/row[@index='0']/cell[@columnindex='1']
+			</item>
+			<item
+			capname="cell"
+			id="0c857127-8c54-4051-8e01-5892d410fc86"
+			name="NameColumnCell2"
+			searchtimeout="30000ms">
+				/form[@title='Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myLastComponent']/?/?/container[@type='NonOpaquePanel']//container[@type='CTableScrollPane']/container[5]/table[@type='BaseTableScrollPaneTable']/row[@index='1']/cell[@columnindex='1']
+			</item>
+			<item
+			capname="cell"
+			id="52db5089-b21e-42b4-88db-d66b5fa6e411"
+			name="StatusColumnCell1"
+			searchtimeout="30000ms">
+				/form[@title='Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myLastComponent']/?/?/container[@type='NonOpaquePanel']//container[@type='CTableScrollPane']/container[5]/table[@type='BaseTableScrollPaneTable']/row[@index='0']/cell[@columnindex='2']
+			</item>
+			<item
+			capname="cell"
+			id="4ea000da-bdc5-48f2-8087-401336fe1d70"
+			name="StatusColumnCell2"
+			searchtimeout="30000ms">
+				/form[@title='Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myLastComponent']/?/?/container[@type='NonOpaquePanel']//container[@type='CTableScrollPane']/container[5]/table[@type='BaseTableScrollPaneTable']/row[@index='1']/cell[@columnindex='2']
+			</item>
+			<item
+			capname="cell"
+			id="b241a9ec-212e-4d86-87b3-f8a6149f3581"
+			name="CreatedColumnCell1"
+			searchtimeout="30000ms">
+				/form[@title='Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myLastComponent']/?/?/container[@type='NonOpaquePanel']//container[@type='CTableScrollPane']/container[5]/table[@type='BaseTableScrollPaneTable']/row[@index='0']/cell[@columnindex='3']
+			</item>
+			<item
+			capname="cell"
+			id="51cccd39-429b-423f-92db-7327d35a6d38"
+			name="CreatedColumnCell2"
+			searchtimeout="30000ms">
+				/form[@title='Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myLastComponent']/?/?/container[@type='NonOpaquePanel']//container[@type='CTableScrollPane']/container[5]/table[@type='BaseTableScrollPaneTable']/row[@index='1']/cell[@columnindex='3']
+			</item>
+			<basepath>
+				/form[@title='Aqua Data Studio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="40f8ba50-4a13-4372-8b57-50a8814636e0"
+		isrooted="True"
+		name="RegisterNewServerTabs"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="tabpage"
+			id="48792149-e9ec-45f2-9d5f-579ee85c4464"
+			name="GeneralTab"
+			searchtimeout="30000ms">
+				/form[@title~'^Register\ Server\ ']//tabpage[1]
+			</item>
+			<item
+			capname="tabpage"
+			id="b79ff7bf-0b62-4150-b705-1a0e9c54e9e4"
+			name="FilterTab"
+			searchtimeout="30000ms">
+				/form[@title~'^Register\ Server\ ']//tabpage[2]
+			</item>
+			<item
+			capname="tabpage"
+			id="daf8ff79-0534-4b60-9e58-00791e238ef0"
+			name="AdvancedTab"
+			searchtimeout="30000ms">
+				/form[@title~'^Register\ Server\ ']//tabpage[3]
+			</item>
+			<item
+			capname="tabpage"
+			id="53c08e67-f76c-4bed-b779-69055a633e23"
+			name="DriverTab"
+			searchtimeout="30000ms">
+				/form[@title~'^Register\ Server\ ']//tabpage[4]
+			</item>
+			<item
+			capname="tabpage"
+			id="299e6277-f512-4447-902c-64aa1219ac0e"
+			name="PermissonsTab"
+			searchtimeout="30000ms">
+				/form[@title~'^Register\ Server\ ']//tabpage[5]
+			</item>
+			<item
+			capname="tabpage"
+			id="63951873-bc4b-47be-9ae9-36a920add5d8"
+			name="ScriptTab"
+			searchtimeout="30000ms">
+				/form[@title~'^Register\ Server\ ']//tabpage[6]
+			</item>
+			<item
+			capname="tabpage"
+			id="1d577540-23b4-4eac-8712-6246122549fa"
+			name="FluidShellTab"
+			searchtimeout="30000ms">
+				/form[@title~'^Register\ Server\ ']//tabpage[7]
+			</item>
+			<item
+			capname="tabpage"
+			id="fd5b2b8a-671b-413d-b619-924d61b93be2"
+			name="ConnectionMonitorTab"
+			searchtimeout="30000ms">
+				/form[@title~'^Register\ Server\ ']//tabpage[8]
+			</item>
+			<item
+			capname="button"
+			id="c19cbddf-d72a-4f65-891b-3be97cc5fa10"
+			name="CloseButton"
+			searchtimeout="30000ms">
+				/form[@title~'^Register\ Server\ ']//button[@text='Close']
+			</item>
+			<folder
+			capname="unknown"
+			id="c6406731-c79d-4f00-bf1a-5ae33ea443ab"
+			isrooted="False"
+			name="AmazonRedshift"
+			searchtimeout="0ms">
+				<item
+				capname="text"
+				id="8ae43e18-86f7-4a37-a4a4-3ed5375dd1f6"
+				name="NameTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='connectionNameConfigComponent']/?/?/text[@name='_txtName']
+				</item>
+				<item
+				capname="text"
+				id="058a6328-a829-4da7-8705-17d49f07eae7"
+				name="LoginTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='authenticationConfigComponent']/?/?/text[@name='_txtLoginName']
+				</item>
+				<item
+				capname="text"
+				id="e85daa55-eed3-4680-af10-c5583ebfad8a"
+				name="PasswordTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='authenticationConfigComponent']/?/?/text[@name='_txtPassword']
+				</item>
+				<item
+				capname="text"
+				id="522e9c86-6058-499a-b323-e135281c1fdf"
+				name="HostTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='locationConfigComponent']/container/text[2]
+				</item>
+				<item
+				capname="text"
+				id="073dfcf1-9d2a-4095-a53a-26f24f0b7f27"
+				name="PortTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='locationConfigComponent']/container/text[4]
+				</item>
+				<item
+				capname="text"
+				id="353440df-b0a4-425b-b50f-33a42093791b"
+				name="DatabaseTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='locationConfigComponent']/?/?/text[@name='_txtSID']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="dd7b21b0-bbe5-4c48-87c3-6589540a4805"
+			isrooted="False"
+			name="Cassandra"
+			searchtimeout="0ms">
+				<item
+				capname="text"
+				id="7d24bc31-6918-4152-ae42-9eec8fc80871"
+				name="NameTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='sizePreference']/?/?/text[@name='_txtName']
+				</item>
+				<item
+				capname="text"
+				id="5dd1aa86-0acf-499b-b65e-51b38190dccd"
+				name="LoginTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='CassandraAuthenticationPanel']/?/?/text[@type='JTextField']
+				</item>
+				<item
+				capname="text"
+				id="e69ed64d-ad63-4ca5-bc24-4962485299ef"
+				name="PasswordTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='CassandraAuthenticationPanel']/?/?/text[@type='JPasswordField']
+				</item>
+				<item
+				capname="text"
+				id="d7fce255-286d-4011-85c2-3206301242db"
+				name="HostTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='CassandraLocationPanel']/container/text[2]
+				</item>
+				<item
+				capname="text"
+				id="a2220b3b-db16-419e-bbf8-e959abea56dc"
+				name="PortTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='CassandraLocationPanel']/container/text[4]
+				</item>
+				<item
+				capname="text"
+				id="870fa130-5ba6-4241-a3a4-aaa6d12d7f7a"
+				name="DatabaseTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='CassandraLocationPanel']/container/text[6]
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="460c8b7b-e7ef-4adc-8a1b-40ea92f7828e"
+			isrooted="False"
+			name="Derby"
+			searchtimeout="0ms">
+				<item
+				capname="text"
+				id="7cb70af8-53f9-4716-bbb1-2b4fdacd64b5"
+				name="NameTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='sizePreference']/?/?/text[@name='_txtName']
+				</item>
+				<item
+				capname="text"
+				id="9743e52a-9b09-47ae-979a-cace8dd271c6"
+				name="LoginTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='UserAuthenticationPanel']/?/?/text[@name='_txtLoginName']
+				</item>
+				<item
+				capname="text"
+				id="99fdf0d3-f34c-4102-b5a8-7d506ea66121"
+				name="PasswordTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='UserAuthenticationPanel']/?/?/text[@name='_txtPassword']
+				</item>
+				<item
+				capname="text"
+				id="6be186d5-0688-4572-87a8-3d7eacb873ed"
+				name="HostTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='DerbyLocationPanel']/container[@name='currentLocationPanel']/?/?/container/text[2]
+				</item>
+				<item
+				capname="text"
+				id="4b2f080c-b33f-4d31-92ce-f29b57d64c99"
+				name="PortTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='DerbyLocationPanel']/container[@name='currentLocationPanel']/?/?/container/text[4]
+				</item>
+				<item
+				capname="text"
+				id="635128e4-099b-49e3-aee3-297d5a457494"
+				name="DatabaseTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='DerbyLocationPanel']/container[@name='currentLocationPanel']//text[@name='_txtSID']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="c010ade6-de6b-4524-8d16-0803b7011fdf"
+			isrooted="False"
+			name="DB2"
+			searchtimeout="0ms">
+				<item
+				capname="text"
+				id="5a46e7f8-9cd1-4070-a60e-db960188c183"
+				name="NameTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='connectionNameConfigComponent']/?/?/text[@name='_txtName']
+				</item>
+				<item
+				capname="text"
+				id="52f50fab-cedb-4f7a-a07e-80bf3ad4a11f"
+				name="LoginTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='authenticationConfigComponent']/?/?/text[@name='_txtLoginName']
+				</item>
+				<item
+				capname="text"
+				id="16e57714-9f92-447b-a280-a98b461c200c"
+				name="PasswordTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='authenticationConfigComponent']/?/?/text[@name='_txtPassword']
+				</item>
+				<item
+				capname="text"
+				id="ecce6213-219c-4c5b-9ba0-3d7a5d78bd46"
+				name="HostTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='locationConfigComponent']/container/text[2]
+				</item>
+				<item
+				capname="text"
+				id="d5707bff-241c-4ee5-a06b-f83340ed0e89"
+				name="PortTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='locationConfigComponent']/container/text[4]
+				</item>
+				<item
+				capname="text"
+				id="8deb126d-bb55-41b4-8644-d86fb6d076c0"
+				name="DatabaseTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='locationConfigComponent']/?/?/text[@name='_txtSID']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="7f1db060-9205-4a8f-9bd7-150c61ea3808"
+			isrooted="False"
+			name="Greenplum"
+			searchtimeout="0ms">
+				<item
+				capname="text"
+				id="875aa8aa-f481-4641-be16-d274191af580"
+				name="NameTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='connectionNameConfigComponent']/?/?/text[@name='_txtName']
+				</item>
+				<item
+				capname="text"
+				id="c5e718d4-b5c5-4162-9537-e6def4d34339"
+				name="LoginTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='authenticationConfigComponent']/?/?/text[@name='_txtLoginName']
+				</item>
+				<item
+				capname="text"
+				id="c8f5a3c3-f925-4bf7-a122-b47a6e3b20d4"
+				name="PasswordTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='authenticationConfigComponent']/?/?/text[@name='_txtPassword']
+				</item>
+				<item
+				capname="text"
+				id="d16e53e0-5a45-45a8-afbb-4659929b4091"
+				name="HostTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='locationConfigComponent']/container/text[2]
+				</item>
+				<item
+				capname="text"
+				id="1fafcb43-ec67-4bd9-873d-d5ff2249aa35"
+				name="PortTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='locationConfigComponent']/container/text[4]
+				</item>
+				<item
+				capname="text"
+				id="902e6e4a-26f8-4fe0-8b5c-f4c51ebe544b"
+				name="DatabaseTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='locationConfigComponent']/?/?/text[@name='_txtSID']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="f87f3eea-6434-44b4-96e6-aedea66d8c82"
+			isrooted="False"
+			name="Informix"
+			searchtimeout="0ms">
+				<item
+				capname="text"
+				id="2381a9cc-c42a-43ab-b7a4-592951b643e5"
+				name="NameTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='sizePreference']/?/?/text[@name='_txtName']
+				</item>
+				<item
+				capname="text"
+				id="8f7489ec-3ab9-41e4-ac94-efc32ecf8622"
+				name="LoginTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='UserAuthenticationPanel']/?/?/text[@name='_txtLoginName']
+				</item>
+				<item
+				capname="text"
+				id="731f7afb-a582-4b87-bfda-46340c44cbf3"
+				name="PasswordTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='UserAuthenticationPanel']/?/?/text[@name='_txtPassword']
+				</item>
+				<item
+				capname="text"
+				id="2bbe19f6-20fa-4e47-b683-b839fbe081a6"
+				name="HostTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='InformixLocationPanel']/container/text[2]
+				</item>
+				<item
+				capname="text"
+				id="fcd075a3-fad0-430d-86ae-b351228dcc3e"
+				name="PortTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='InformixLocationPanel']/container/text[4]
+				</item>
+				<item
+				capname="text"
+				id="d7c03543-545a-4bf1-9832-b3271fdfede8"
+				name="DatabaseTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='InformixLocationPanel']/container/text[6]
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="a79c779e-4ecb-4be3-8b15-ebdf08d45218"
+			isrooted="False"
+			name="MongoDB"
+			searchtimeout="0ms">
+				<item
+				capname="text"
+				id="9ab0ce22-d3b1-4c68-946f-00bd4c43ea4a"
+				name="NameTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='BaseConnectionNamePanel']/?/?/text[@name='_txtName']
+				</item>
+				<item
+				capname="text"
+				id="c332d0d0-3a95-414f-b041-025e2d32b29e"
+				name="HostTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='MongoDBLocationPanel']/container[@name='currentLocationPanel']//container[@type='JPanel']/text[2]
+				</item>
+				<item
+				capname="text"
+				id="612d2cdc-86cd-4e99-ab73-791d1228841d"
+				name="PortTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='MongoDBLocationPanel']/container[@name='currentLocationPanel']//container[@type='JPanel']/text[4]
+				</item>
+				<item
+				capname="text"
+				id="d5f0d8dc-e0f6-4e20-b2e9-bfb5f72c8aa1"
+				name="DatabaseTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='MongoDBLocationPanel']/container[@name='currentLocationPanel']//container[@name='_overlaySID']/text[@name='_actualComponent']
+				</item>
+				<item
+				capname="combobox"
+				id="fb8a6a1d-584f-4dd3-936b-2874ff1ff0a8"
+				name="ConnectAsCombo"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='MongoDBAuthenticationPanel']//combobox[@name='connectAsCombo']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="c67509ed-6ad6-4336-ba43-853a2d064a4d"
+			isrooted="False"
+			name="MariaDB"
+			searchtimeout="0ms">
+				<item
+				capname="text"
+				id="22e4438b-007e-43d9-82d8-8f28f21afba4"
+				name="NameTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='connectionNameConfigComponent']/?/?/text[@name='_txtName']
+				</item>
+				<item
+				capname="text"
+				id="35def88f-eddf-4ea3-b3ac-4f59a94fee40"
+				name="LoginTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='authenticationConfigComponent']/?/?/text[@name='_txtLoginName']
+				</item>
+				<item
+				capname="text"
+				id="5a957410-298e-4747-a30d-25fb673923b9"
+				name="PasswordTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='authenticationConfigComponent']/?/?/text[@name='_txtPassword']
+				</item>
+				<item
+				capname="text"
+				id="1a5f1b0b-cef4-4881-adaf-08502123209c"
+				name="HostTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='locationConfigComponent']/container/text[2]
+				</item>
+				<item
+				capname="text"
+				id="7200f7e7-8ce9-4e3f-8553-da6d35adf1d1"
+				name="PortTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='locationConfigComponent']/container/text[4]
+				</item>
+				<item
+				capname="text"
+				id="aae02491-6bda-472f-b173-ed6ce61b93c5"
+				name="DatabaseTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='locationConfigComponent']/?/?/text[@name='_txtSID']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="f4e77622-dd85-4560-b916-dd7ecb4156e5"
+			isrooted="False"
+			name="MySQL"
+			searchtimeout="0ms">
+				<item
+				capname="text"
+				id="d74bfb53-0a61-46db-894b-43a98d5c04d3"
+				name="NameTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='sizePreference']/?/?/text[@name='_txtName']
+				</item>
+				<item
+				capname="text"
+				id="06d18d93-d529-4ac8-93de-1e09b0472854"
+				name="LoginTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='MySqlAuthenticationPanel']/?/?/text[@type='JTextField']
+				</item>
+				<item
+				capname="text"
+				id="4bf1ae40-55f5-4aa5-ae0f-c0ad744248a8"
+				name="PasswordTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='MySqlAuthenticationPanel']/?/?/text[@type='JPasswordField']
+				</item>
+				<item
+				capname="text"
+				id="64384a4c-a6f2-4517-af9e-f8eb6dbf44bb"
+				name="HostTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='RemoteDBLocationPanel']/container/text[2]
+				</item>
+				<item
+				capname="text"
+				id="b99121c6-8166-4611-a13b-559baf428aa0"
+				name="PortTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='RemoteDBLocationPanel']/container/text[4]
+				</item>
+				<item
+				capname="text"
+				id="f3e992a0-da59-4cef-bc32-34cea1ffc0d7"
+				name="DatabaseTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='RemoteDBLocationPanel']/?/?/text[@name='_txtSID']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="f3353de5-feb2-42b6-8303-befeeb5badbb"
+			isrooted="False"
+			name="Azure"
+			searchtimeout="0ms">
+				<item
+				capname="text"
+				id="5e4cff11-bbab-4f82-9591-09f7e5c73e61"
+				name="NameTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='sizePreference']/?/?/text[@name='_txtName']
+				</item>
+				<item
+				capname="text"
+				id="afc549bd-75f1-46d1-b6cc-8e29160a3f6b"
+				name="LoginTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='AzureAuthenticationPanel']/?/?/text[@type='JTextField']
+				</item>
+				<item
+				capname="text"
+				id="b06b2b43-0e31-44d6-b42e-98ab063318aa"
+				name="PasswordTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='AzureAuthenticationPanel']/?/?/text[@type='JPasswordField']
+				</item>
+				<item
+				capname="text"
+				id="0cef4979-296b-4abb-a615-d768f836fa34"
+				name="HostTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='AzureLocationPanel']/container/text[2]
+				</item>
+				<item
+				capname="text"
+				id="ccb3e8fc-6b12-415e-9a7d-05e8034b6335"
+				name="PortTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='AzureLocationPanel']/container/text[4]
+				</item>
+				<item
+				capname="text"
+				id="9befe9aa-bcaa-4b98-8d9a-17eb93b6c400"
+				name="DatabaseTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='AzureLocationPanel']/?/?/text[@name='_txtDatabase']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="75937af2-6efc-43a8-b593-51079cbfa9c7"
+			isrooted="False"
+			name="Excel"
+			searchtimeout="0ms">
+				<item
+				capname="text"
+				id="ab4615a3-8144-4b32-a733-0285e359aa62"
+				name="NameTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='sizePreference']/?/?/text[@name='_txtName']
+				</item>
+				<item
+				capname="text"
+				id="6db222ac-3be8-4b3a-b318-0d8092b6d7b5"
+				name="DirectoryTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='ExcelLocationPanel']/?/?/container[@name='_scrollTxtFolder']/?/?/text[@name='_txtFolder']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="c557f6b4-9993-419c-9ad7-4b180c6843cd"
+			isrooted="False"
+			name="Netezza"
+			searchtimeout="0ms">
+				<item
+				capname="text"
+				id="a7b0349f-1a99-4460-b1ff-aad7e747e649"
+				name="NameTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='connectionNameConfigComponent']/?/?/text[@name='_txtName']
+				</item>
+				<item
+				capname="text"
+				id="9e3e6b0b-e14f-4734-8df8-76f6e8d6b6ad"
+				name="LoginTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='authenticationConfigComponent']/?/?/text[@name='_txtLoginName']
+				</item>
+				<item
+				capname="text"
+				id="f6ac16c3-1413-4183-b092-0edae97c1877"
+				name="PasswordTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='authenticationConfigComponent']/?/?/text[@name='_txtPassword']
+				</item>
+				<item
+				capname="text"
+				id="584b0b9d-afd0-4dc7-9681-4c914257b0ac"
+				name="HostTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='locationConfigComponent']/container/text[2]
+				</item>
+				<item
+				capname="text"
+				id="57dcaddf-abcd-41b4-b247-13b6bbb6954b"
+				name="PortTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='locationConfigComponent']/container/text[4]
+				</item>
+				<item
+				capname="text"
+				id="80e22269-2c8e-4ded-a8dc-68ba81cf39c4"
+				name="DatabaseTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='locationConfigComponent']/?/?/text[@name='_txtSID']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="9455baf8-09c6-45db-97d7-abcb2ee1f32e"
+			isrooted="False"
+			name="Oracle"
+			searchtimeout="0ms">
+				<item
+				capname="text"
+				id="d485d2f3-2b9e-4a53-a4b3-1a2ef9dde11c"
+				name="NameTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='sizePreference']/?/?/text[@name='_txtName']
+				</item>
+				<item
+				capname="combobox"
+				id="799b9729-5197-495e-8b7c-94f38ed3ea13"
+				name="ConnectAsCombo"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='OracleAuthenticationPanel']/?/?/combobox[@name='connectAsCombo']
+				</item>
+				<item
+				capname="text"
+				id="b7223d7c-f2c4-4d22-8570-a5c23eb5c9b9"
+				name="LoginTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='OracleAuthenticationPanel']/?/?/text[@type='JTextField']
+				</item>
+				<item
+				capname="text"
+				id="47cc9163-68eb-43e7-8225-9f66a7724f1b"
+				name="PasswordTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='OracleAuthenticationPanel']/?/?/text[@type='JPasswordField']
+				</item>
+				<item
+				capname="text"
+				id="94785189-4dd6-4dfc-91d2-5652dbd8acbf"
+				name="HostTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='OracleLocationPanel']/container[@name='currentLocationPanel']/?/?/container/text[2]
+				</item>
+				<item
+				capname="text"
+				id="be4f9dbb-2cb9-4734-931d-f8d373e4356d"
+				name="PortTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='OracleLocationPanel']/container[@name='currentLocationPanel']/?/?/container/text[4]
+				</item>
+				<item
+				capname="text"
+				id="b57b5a95-4afa-4879-a97e-765162df5834"
+				name="SIDTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='OracleLocationPanel']/container[@name='currentLocationPanel']//text[@name='_txtSidName']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="8d21b689-889b-49e7-8a56-27fa08f60f03"
+			isrooted="False"
+			name="PostgreSQL"
+			searchtimeout="0ms">
+				<item
+				capname="text"
+				id="7d411a59-76c3-429f-ad0c-0c3ba78d6d65"
+				name="NameTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='connectionNameConfigComponent']/?/?/text[@name='_txtName']
+				</item>
+				<item
+				capname="text"
+				id="7b610667-cfcd-4162-a07a-10438c988683"
+				name="LoginTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='authenticationConfigComponent']/?/?/text[@name='_txtLoginName']
+				</item>
+				<item
+				capname="text"
+				id="63ad7ad9-6ddb-4640-8eaa-593b9502b69c"
+				name="PasswordTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='authenticationConfigComponent']/?/?/text[@name='_txtPassword']
+				</item>
+				<item
+				capname="text"
+				id="69faf999-e287-4b03-a4dc-517aff6bcbcb"
+				name="HostTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='locationConfigComponent']/container/text[2]
+				</item>
+				<item
+				capname="text"
+				id="cee0023f-6fae-402f-90bf-72aa9bb41a20"
+				name="PortTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='locationConfigComponent']/container/text[4]
+				</item>
+				<item
+				capname="text"
+				id="76164dec-06f1-47dc-9b06-01cf2c052da8"
+				name="DatabaseTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='locationConfigComponent']/?/?/text[@name='_txtSID']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="d5f8d437-59fe-438d-835f-fd329335ca78"
+			isrooted="False"
+			name="SQLServer"
+			searchtimeout="0ms">
+				<item
+				capname="text"
+				id="5db81ea2-fa67-40e6-b8ca-58abf56b96e0"
+				name="NameTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='sizePreference']/?/?/text[@name='_txtName']
+				</item>
+				<item
+				capname="text"
+				id="1c95ad94-2a69-43ba-befd-40ed4a8d9436"
+				name="LoginTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='MSSQLServerAuthenticationPanel']/?/?/text[@type='JTextField']
+				</item>
+				<item
+				capname="text"
+				id="ed143fd3-a050-4931-81aa-bd2aac326478"
+				name="PasswordTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='MSSQLServerAuthenticationPanel']/?/?/text[@type='JPasswordField']
+				</item>
+				<item
+				capname="text"
+				id="eb2f094c-53c1-477b-8bc6-ba6c4be1d35b"
+				name="HostTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='hostOverlay']/text[@name='_actualComponent']
+				</item>
+				<item
+				capname="text"
+				id="019ac727-b645-44b7-b988-9517cdbea683"
+				name="PortTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='MSSQLServerLocationPanel']/?/?/text[@type='JTextField']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="115042f5-4cdf-41a8-915c-907c692b791c"
+			isrooted="False"
+			name="SybaseASE"
+			searchtimeout="0ms">
+				<item
+				capname="text"
+				id="c3791439-00a5-47e9-ae5e-07ea884e0c02"
+				name="NameTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='sizePreference']/?/?/text[@name='_txtName']
+				</item>
+				<item
+				capname="text"
+				id="819e279f-d7de-4f64-a4f7-9512afd72492"
+				name="LoginTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='SybaseASEAuthenticationPanel']/?/?/text[@type='JTextField']
+				</item>
+				<item
+				capname="text"
+				id="5db533a5-1aea-40c2-9c9f-c4554cc88120"
+				name="PasswordTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='SybaseASEAuthenticationPanel']/?/?/text[@type='JPasswordField']
+				</item>
+				<item
+				capname="text"
+				id="44e11947-a6cb-4821-b8cd-70419201ef3f"
+				name="HostTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='SybaseASELocationPanel']/container/text[2]
+				</item>
+				<item
+				capname="text"
+				id="439eecc6-e46a-490d-aa02-23425cb608c3"
+				name="PortTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@type='SybaseASELocationPanel']/container/text[4]
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="b70b5ec0-d208-42d7-b992-98a5d5a5acec"
+			isrooted="False"
+			name="SybaseANY"
+			searchtimeout="0ms">
+				<item
+				capname="text"
+				id="78c9d928-e12a-4c0b-9bbe-6b1c51456816"
+				name="NameTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='connectionNameConfigComponent']/?/?/text[@name='_txtName']
+				</item>
+				<item
+				capname="text"
+				id="a6e79057-603b-48b7-af32-787f8c6dae24"
+				name="LoginTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='authenticationConfigComponent']/?/?/text[@name='_txtLoginName']
+				</item>
+				<item
+				capname="text"
+				id="9b0af0d4-b0e3-4d70-9881-074f4365f17a"
+				name="PasswordTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='authenticationConfigComponent']/?/?/text[@name='_txtPassword']
+				</item>
+				<item
+				capname="text"
+				id="543f08ee-2d64-454b-ab34-6c0733ff4af0"
+				name="HostTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='locationConfigComponent']/container/text[2]
+				</item>
+				<item
+				capname="text"
+				id="14246f31-8878-4e8c-9ab6-3701cfee8f63"
+				name="PortTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='locationConfigComponent']/container/text[4]
+				</item>
+				<item
+				capname="text"
+				id="3fea0e44-924f-47f7-87d2-c48d4b31cc22"
+				name="DatabaseTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='locationConfigComponent']/?/?/text[@name='_txtSID']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="62eda4bf-4422-48f4-a545-4f41e591691a"
+			isrooted="False"
+			name="SybaseIQ"
+			searchtimeout="0ms">
+				<item
+				capname="text"
+				id="a5e64ea1-91ec-47ae-9966-f2ff5ef77fb2"
+				name="NameTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='connectionNameConfigComponent']/?/?/text[@name='_txtName']
+				</item>
+				<item
+				capname="text"
+				id="234ffa98-2e31-4daa-a663-830f9315c685"
+				name="LoginTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='authenticationConfigComponent']/?/?/text[@name='_txtLoginName']
+				</item>
+				<item
+				capname="text"
+				id="f6905aea-73b4-468c-87ff-13bb44b4c3cf"
+				name="PasswordTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='authenticationConfigComponent']/?/?/text[@name='_txtPassword']
+				</item>
+				<item
+				capname="text"
+				id="729c5904-a1c4-4182-92b2-b513533fa38c"
+				name="HostTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='locationConfigComponent']/container/text[2]
+				</item>
+				<item
+				capname="text"
+				id="91d13a4c-ea05-4393-ad13-6c7e4f76d621"
+				name="PortTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='locationConfigComponent']/container/text[4]
+				</item>
+				<item
+				capname="text"
+				id="33f0e9c9-a820-4663-b55a-44bb4b6ca1d4"
+				name="DatabaseTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='locationConfigComponent']/?/?/text[@name='_txtSID']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="4d9840d6-5d9a-4615-be29-58e5fa46ac54"
+			isrooted="False"
+			name="Teradata"
+			searchtimeout="0ms">
+				<item
+				capname="text"
+				id="85317377-f1b3-4dcc-beb7-18abf71da2cf"
+				name="NameTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='connectionNameConfigComponent']/?/?/text[@name='_txtName']
+				</item>
+				<item
+				capname="text"
+				id="bfe749a6-539a-41ee-bb9b-291a8231ccbf"
+				name="LoginTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='authenticationConfigComponent']/?/?/text[@name='_txtLoginName']
+				</item>
+				<item
+				capname="text"
+				id="997ac815-f3a8-4119-b924-d73b128503f0"
+				name="PasswordTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='authenticationConfigComponent']/?/?/text[@name='_txtPassword']
+				</item>
+				<item
+				capname="text"
+				id="5cc9b337-aa45-4331-a2fb-39af20cc93b6"
+				name="HostTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='locationConfigComponent']/container/text[2]
+				</item>
+				<item
+				capname="text"
+				id="c9ce8880-1bc5-446b-afea-4e838e0c876f"
+				name="PortTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='locationConfigComponent']/container/text[4]
+				</item>
+				<item
+				capname="text"
+				id="e7fa1942-1f04-41c0-b838-f8a07303b927"
+				name="DatabaseTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='locationConfigComponent']/?/?/text[@name='_txtSID']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="8532ddb3-1e54-49be-9c40-1fad7baf45ec"
+			isrooted="False"
+			name="Vertica"
+			searchtimeout="0ms">
+				<item
+				capname="text"
+				id="1b44b72a-b3c8-42c3-981e-bac39d5d2c36"
+				name="NameTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='connectionNameConfigComponent']/?/?/text[@name='_txtName']
+				</item>
+				<item
+				capname="text"
+				id="f4319041-a607-4b74-8e49-1ad2cf70b2cc"
+				name="LoginTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='authenticationConfigComponent']/?/?/text[@name='_txtLoginName']
+				</item>
+				<item
+				capname="text"
+				id="833878c2-8072-4ffa-b17a-d501c610320b"
+				name="PasswordTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='authenticationConfigComponent']/?/?/text[@name='_txtPassword']
+				</item>
+				<item
+				capname="text"
+				id="1f3932c5-e918-4d01-92c2-f7d4a635d3f5"
+				name="HostTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='locationConfigComponent']/container/text[2]
+				</item>
+				<item
+				capname="text"
+				id="ae166e4b-09f2-467e-bc6d-2343a2391270"
+				name="PortTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='locationConfigComponent']/container/text[4]
+				</item>
+				<item
+				capname="text"
+				id="d5fa5dc6-090c-45d4-ba77-98720009efa0"
+				name="DatabaseTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Register\ Server\ ']//container[@name='tabbedPane']/container[@name='generalTab']/?/?/container[@name='generalContentPanel']//container[@name='locationConfigComponent']/?/?/text[@name='_txtSID']
+				</item>
+			</folder>
+			<item
+			capname="button"
+			id="073da170-ec05-4ccd-a7b0-11dde0df4c35"
+			name="SaveButton"
+			searchtimeout="30000ms">
+				/form[@title~'^Register\ Server\ ']//container[@type='HorizontalLayoutPanel']/?/?/button[@text='Save']
+			</item>
+			<item
+			capname="button"
+			id="26e4fa3d-e21a-4231-a3a9-3feba6a51779"
+			name="CancelButton"
+			searchtimeout="30000ms">
+				/form[@title~'^Register\ Server\ ']//container/?/?/button[@text='Cancel']
+			</item>
+			<item
+			capname="button"
+			id="c10d652f-8d8d-4acd-a9d3-5afdb0f6eb61"
+			name="TestConnectionButton"
+			searchtimeout="30000ms">
+				/form[@title~'^Register\ Server\ ']//container[@type='HorizontalLayoutPanel']/?/?/button[@text='Test Connection']
+			</item>
+			<item
+			capname="list"
+			id="06fb11fd-7739-41da-903f-e7052a0377ee"
+			name="ServerList"
+			searchtimeout="30000ms">
+				/form[@title~'^Register\ Server\ ']//container[@name='generalTab']/?/?/container[@name='_rdbmsScrollPane']/?/?/list[@name='_rdbmsList']
+			</item>
+			<basepath>
+				/form[@title~'^Register\ Server\ ']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="bd440343-440f-4b91-ac81-9f9a0fa19dbb"
+		isrooted="True"
+		name="TestConnectionSuccess"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="4f85e6fc-04b3-499e-bfbe-fe960c345055"
+			name="CloseButton"
+			searchtimeout="30000ms">
+				/form[@title='Connection Test - SUCCESS']//button[@text='Close']
+			</item>
+			<basepath>
+				/form[@title='Connection Test - SUCCESS']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="1b2a971b-ab88-453b-8cd2-995089990f1a"
+		isrooted="True"
+		name="TestConnectionFailed"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="51963fae-2612-4adc-9ba6-ec1efc264a0a"
+			name="CloseButton"
+			searchtimeout="30000ms">
+				/form[@title='Connection Test - FAILED']//button[@text='Close']
+			</item>
+			<basepath>
+				/form[@title='Connection Test - FAILED']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="b87f3ddb-682a-481b-aed8-1b482317725c"
+		isrooted="True"
+		name="ConnectionTest"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="text"
+			id="ed908b71-c74a-450c-88cd-97f3f1dc7c2d"
+			name="TestConnectionText"
+			searchtimeout="30000ms">
+				/form[@title='Connection Test']//container[@type='JPanel']//text[@caption~'^Testing\ Connection\ to\ Ser']
+			</item>
+			<item
+			capname="button"
+			id="fd5673de-5c79-423f-9e60-700d39ca0bbb"
+			name="CloseButton"
+			searchtimeout="30000ms">
+				/form[@title='Connection Test']//container[@type='JPanel']/container[@type='HorizontalLayoutPanel']//button[@name='defaultButton']
+			</item>
+			<basepath>
+				/form[@title='Connection Test']
+			</basepath>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

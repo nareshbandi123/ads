@@ -1,0 +1,1141 @@
+﻿<repository
+id="7f1a610b-b913-45ee-bfa3-a8c0f6421b40"
+name="TC10547Repo"
+rxversion="8.2">
+	<codegen
+	classname="TC10547Repo"
+	namespace="ADSAutomationPhaseII.TC_10547">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="2b409ab3-3a79-49fb-89c9-144b07226657"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		capname="form"
+		id="40b86e79-637e-4176-92b8-6a7b592b0ec8"
+		isrooted="True"
+		name="SunAwtWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="menuitem"
+			id="2978c6d4-579b-40b5-b7ee-dbdc098be093"
+			name="CreateDBMenu"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='Create Database']
+			</item>
+			<item
+			capname="menuitem"
+			id="af45794a-62f0-42ae-acb1-ff0d2a4d8003"
+			name="AlterDBMenu"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='Alter Database']
+			</item>
+			<item
+			capname="menuitem"
+			id="39eb5022-ad8a-49a6-9da8-984aa1060a9c"
+			name="DropDBMenu"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='Drop Database']
+			</item>
+			<item
+			capname="menuitem"
+			id="40fa01cd-0f4f-4926-aade-81c90466cc28"
+			name="DropSchema"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='Drop Schema']
+			</item>
+			<item
+			capname="menuitem"
+			id="09516037-7e74-4066-8a2a-81f47e857aae"
+			name="CreateMenu"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='CREATE']
+			</item>
+			<item
+			capname="menuitem"
+			id="4e36ba72-87c2-4ccf-aec2-dad0cd6c021f"
+			name="DropMenu"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='DROP']
+			</item>
+			<basepath>
+				/form[@class='SunAwtWindow']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="ee230e5c-2316-46fd-952a-bc23da9828d6"
+		isrooted="True"
+		name="Application"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="ef00a202-d2ec-4d9e-9abd-ca07e2f6e62b"
+			name="CreateButton"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']//button[@text='Create']
+			</item>
+			<item
+			capname="button"
+			id="ecacdc28-4ced-461e-964b-30b9b12da17b"
+			name="CancelButton"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']//button[@text='Close']
+			</item>
+			<item
+			capname="text"
+			id="a251d46c-5189-495e-8f55-e7a22416d1b3"
+			name="DBNameText"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']/?/?/container[@accessiblename='General   ']/container[2]/?/?/text[@name='nameField']
+			</item>
+			<item
+			capname="button"
+			id="5b58ca62-55d5-4b7c-a89a-cebf3ce063e5"
+			name="ExecuteButton"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='QueryPanel']//container[@name='toolBar']/button[@name='executeButton']
+			</item>
+			<item
+			capname="unknown"
+			id="8d960002-32ba-426d-a4dc-c5903bbd44f8"
+			name="QATextEditor"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='QueryPanel']/container[@name='panel']/?/?/container[@name='splitPane']//container[@type='EditorImpl$MyScrollPane']/container[6]/element[@type='EditorComponentImpl']
+			</item>
+			<folder
+			capname="unknown"
+			id="f08b278d-5113-44f2-a817-47746fe40010"
+			isrooted="False"
+			name="CreateNewTable"
+			searchtimeout="0ms">
+				<item
+				capname="text"
+				id="15da5b12-c676-448d-aa10-5c7dd0947ae5"
+				name="TableNameTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']/?/?/container[@accessiblename='General   ']/container[2]//text[@name='_txtName']
+				</item>
+				<item
+				capname="cell"
+				id="d9793a51-7ce9-485e-a016-7dec33de81b4"
+				name="Column1"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']/?/?/container[@accessiblename='General   ']/container[2]//container[@name='_scrollColumn']/container[5]/table[@name='_tblColumn']/row[@index='0']/cell[@columnindex='0']
+				</item>
+				<item
+				capname="button"
+				id="86a1964e-7665-452a-a510-a0e5c2d4c733"
+				name="CreateButton"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']//button[@text='Create']
+				</item>
+				<item
+				capname="button"
+				id="52a1e061-919d-48ec-8ac7-b08fa816d19a"
+				name="AlterButton"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']//button[@text='Alter']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="921caa9c-5b24-4a84-b587-459cc532b831"
+			isrooted="False"
+			name="CreateView"
+			searchtimeout="0ms">
+				<item
+				capname="text"
+				id="d2044b65-fe19-4912-b4d7-4b9bfbb283a9"
+				name="ViewNameTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']/?/?/container[@accessiblename='General   ']/container[2]//text[@name='_txtName']
+				</item>
+				<item
+				capname="unknown"
+				id="dba0f5c2-13ed-47fa-b68f-0f776865a524"
+				name="SourceTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']/container[@name='ToolWindowFrame.MainComponent']/?/?/container[@type='CommonSchemaTab$8']/container[@name='this$0']/container[@accessiblename='General   ']/container[2]//container[@type='EditorImpl$MyScrollPane']/container[6]/element[@type='EditorComponentImpl']
+				</item>
+				<item
+				capname="button"
+				id="d8fa8d55-4ebd-4955-8fb5-5bf33aa8601e"
+				name="CreateButton"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']//button[@text='Create']
+				</item>
+				<item
+				capname="button"
+				id="3f00f3e7-e213-4d20-bc5a-9c82aec13643"
+				name="CreateCancel"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']//button[@text='Close']
+				</item>
+				<item
+				capname="button"
+				id="a2f7c6f1-3806-4509-a6bf-f651937f0bb2"
+				name="AlterButton"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']//button[@text='Alter']
+				</item>
+				<item
+				capname="button"
+				id="b79120fe-ac00-4b28-bb81-fc925c323bf6"
+				name="AlterCancelButton"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']//button[@text='Close']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="0821382d-b4e9-4711-b66f-10d3303dd151"
+			isrooted="False"
+			name="Triggers"
+			searchtimeout="0ms">
+				<item
+				capname="text"
+				id="6b97a659-625f-47be-8e68-8571ff2ba30e"
+				name="TriggerNameTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']/?/?/container[@accessiblename='General   ']/container[2]//text[@name='_txtName']
+				</item>
+				<item
+				capname="unknown"
+				id="630cb806-afe3-4626-971c-e74c4810df23"
+				name="SourceTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']/container[@name='ToolWindowFrame.MainComponent']/?/?/container[@type='CommonSchemaTab$8']/container[@name='this$0']/container[@accessiblename='General   ']/container[2]//container[@type='EditorImpl$MyScrollPane']/container[6]/element[@type='EditorComponentImpl']
+				</item>
+				<item
+				capname="button"
+				id="8add0998-2b78-4d0d-8f8f-a8419e5ebd87"
+				name="CreateButton"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']//button[@text='Create']
+				</item>
+				<item
+				capname="button"
+				id="0fa230f2-16c4-45fd-8b98-36ea38256713"
+				name="CancelButton"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']//button[@text='Close']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="9fb4acfb-3c00-4516-b119-8e16ac342003"
+			isrooted="False"
+			name="Procedures"
+			searchtimeout="0ms">
+				<item
+				capname="text"
+				id="48927763-7bcd-4a74-8feb-f9634e1b56c5"
+				name="ProcNameTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']/?/?/container[@accessiblename='General   ']/container[2]//text[@name='_txtName']
+				</item>
+				<item
+				capname="unknown"
+				id="50551a77-3af8-41ac-a600-b637d5daac27"
+				name="SourceTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']/container[@name='ToolWindowFrame.MainComponent']/?/?/container[@type='CommonSchemaTab$8']/container[@name='this$0']/container[@accessiblename='General   ']/container[2]//container[@type='EditorImpl$MyScrollPane']/container[6]/element[@type='EditorComponentImpl']
+				</item>
+				<item
+				capname="button"
+				id="f369eef0-b2db-4850-9b6d-cacd1bd22739"
+				name="CreateButton"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']//button[@text='Create']
+				</item>
+				<item
+				capname="button"
+				id="42caaafb-ab34-4f5b-a0e3-9444fd3161ee"
+				name="CancelButton"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']//button[@text='Close']
+				</item>
+				<item
+				capname="button"
+				id="ecd843b9-62cb-4bc1-b7ea-bb19db33ac7b"
+				name="AlterButton"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']//button[@text='Alter']
+				</item>
+				<item
+				capname="button"
+				id="ae5964f9-d44d-4acd-a113-24745814df2e"
+				name="AlterCloseButton"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']//button[@text='Close']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="b9adcf86-52d4-42a7-b60e-b3337ba75aeb"
+			isrooted="False"
+			name="Functions"
+			searchtimeout="0ms">
+				<item
+				capname="text"
+				id="ffe1f7ae-a145-4ada-bdd8-e3fd055d7bfc"
+				name="FuncNameTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']/?/?/container[@accessiblename='General   ']/container[2]//text[@name='_txtName']
+				</item>
+				<item
+				capname="unknown"
+				id="7f68021b-8366-4375-b99f-2097f1fec445"
+				name="SourceTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']/container[@name='ToolWindowFrame.MainComponent']/?/?/container[@type='CommonSchemaTab$8']/container[@name='this$0']/container[@accessiblename='General   ']/container[2]//container[@type='EditorImpl$MyScrollPane']/container[6]/element[@type='EditorComponentImpl']
+				</item>
+				<item
+				capname="button"
+				id="1d974a1c-e9db-4222-baa3-31d28a16e139"
+				name="CreateButton"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']//button[@text='Create']
+				</item>
+				<item
+				capname="button"
+				id="2d5e75aa-bc34-4d75-ab9b-f602a1650cb7"
+				name="CloseButton"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']//button[@text='Close']
+				</item>
+				<item
+				capname="button"
+				id="cffde167-4fd6-4f7c-b521-0fa669f6ab03"
+				name="AlterButton"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']//button[@text='Alter']
+				</item>
+				<item
+				capname="button"
+				id="d522cef1-6fc5-419b-96fd-7ce8e6aef605"
+				name="AlterCloseButton"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']//button[@text='Close']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="71197b8a-a42d-4df5-9488-4dae98d71ab2"
+			isrooted="False"
+			name="Roles"
+			searchtimeout="0ms">
+				<item
+				capname="text"
+				id="bb0cd122-76b8-4fa9-913b-5c9fc72e98c3"
+				name="NewRoleTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']/?/?/container[@accessiblename='General   ']/container[2]//text[@name='roleNameField']
+				</item>
+				<item
+				capname="text"
+				id="6e9ce778-c37a-4e7c-9ff7-57e31aa022bd"
+				name="HostTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']/?/?/container[@accessiblename='General   ']/container[2]//text[@name='hostField']
+				</item>
+				<item
+				capname="button"
+				id="7a2b5b5e-ebed-4e2c-a998-6b4928b6629a"
+				name="CreateButton"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']//button[@text='Create']
+				</item>
+				<item
+				capname="tabpage"
+				id="067dae48-1082-4c0e-babb-408db8debf04"
+				name="GeneralTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']//tabpage[@title='General   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="73d8bc1a-37e4-4c9e-844a-9c7e6fd651e6"
+				name="RoleTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']//tabpage[@title='Roles   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="5f3ff0dd-9a99-4dd3-86b6-55c180132028"
+				name="DatabaseAccessTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']//tabpage[@title='Database Access   ']
+				</item>
+				<item
+				capname="tabpage"
+				id="e4eb7039-fd8b-4990-87f0-563ef53425eb"
+				name="PreviewSqlTab"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']//tabpage[@title='Preview SQL   ']
+				</item>
+				<item
+				capname="table"
+				id="2628fbc1-c26d-46e5-a1df-43a83f33be51"
+				name="RolesTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@name='roleTab']/container[@name='roleScroll']/container[5]/table[@name='roleTable']
+				</item>
+				<item
+				capname="table"
+				id="790a4587-f9c6-45e1-8434-917c5dabfaed"
+				name="PrivilagesTable"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@accessiblename='Database Access   ']/container[4]//container[@name='scroll']/container[5]/table[@name='table']
+				</item>
+				<item
+				capname="unknown"
+				id="e2748234-7e6b-4cb7-bb43-303cfd097fc3"
+				name="PreviewEditor"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']/container[@name='ToolWindowFrame.MainComponent']/?/?/container[@type='CommonSchemaTab$8']//container[@type='CPanel']//container[@type='EditorImpl$MyScrollPane']/container[6]/element[@type='EditorComponentImpl']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="7746559e-5efa-440e-9679-e24df6230337"
+			isrooted="False"
+			name="Users"
+			searchtimeout="0ms">
+				<item
+				capname="text"
+				id="588eea84-75d4-4474-9d1c-967c99de1c94"
+				name="NewUserTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']/?/?/container[@accessiblename='General   ']/container[2]//text[@name='userField']
+				</item>
+				<item
+				capname="text"
+				id="55c79d2f-e6cb-4bb5-9a57-8887df0e6bc0"
+				name="PasswordTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']/?/?/container[@accessiblename='General   ']/container[2]//text[@name='passwordField']
+				</item>
+				<item
+				capname="text"
+				id="453b4460-ec17-4a85-a34e-a704a2c4a799"
+				name="ConfirmPasswordTextbox"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']/?/?/container[@accessiblename='General   ']/container[2]//text[@name='passwordConfirmField']
+				</item>
+				<item
+				capname="button"
+				id="0f3a7244-c2cc-4399-84c9-6acb8f0e1c1c"
+				name="CreateButton"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']//button[@text='Create']
+				</item>
+			</folder>
+			<basepath>
+				/form[@title~'^Aqua Data Studio ']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="a221602c-53eb-4d93-82f8-621b8e095ffc"
+		isrooted="True"
+		name="DBCreationFailed"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="d4a3b1f6-3756-47a3-9d43-93665a8d1545"
+			name="OkButton"
+			searchtimeout="30000ms">
+				/form[@title~'^An\ SQL\ statement\ failed\ t']//container[@name='OptionPane.buttonArea']/button[@name='OptionPane.button']
+			</item>
+			<item
+			capname="text"
+			id="59a58eab-0351-45e8-b0df-060ab0c0dd94"
+			name="FailedText"
+			searchtimeout="30000ms">
+				/form[@title~'^An\ SQL\ statement\ failed\ t']//container[@name='OptionPane.realBody']/container[@name='OptionPane.body']//container[@name='viewport']/text[@type='JTextArea']
+			</item>
+			<basepath>
+				/form[@title~'^An\ SQL\ statement\ failed\ t']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="3ccbb668-2ffa-4cbc-8ba2-90597fb64b5d"
+		isrooted="True"
+		name="CancelCreate"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="a0776e9b-6c78-4642-8c43-3aba6bb2fe28"
+			name="DiscardButton"
+			searchtimeout="30000ms">
+				/form[@title='Create: Database']//container[@name='OptionPane.buttonArea']/button[@text='Discard']
+			</item>
+			<item
+			capname="button"
+			id="a380efb7-1bbd-4cca-a5e1-a950c8888930"
+			name="CancelButton"
+			searchtimeout="30000ms">
+				/form[@title='Create: Database']//container[@name='OptionPane.buttonArea']/button[@text='Cancel']
+			</item>
+			<basepath>
+				/form[@title='Create: Database']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="112efb62-c3a6-4a00-b068-18a8076b9630"
+		isrooted="True"
+		name="DataStudio"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="menuitem"
+			id="5a68b8a5-1740-45ea-b689-8ee0af068351"
+			name="DropKeyspace"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Alter Keyspace']
+			</item>
+			<item
+			capname="menuitem"
+			id="931f89c4-0866-48d7-b1c0-d4b34b1ffd53"
+			name="AlterKeyspace"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Alter Keyspace']
+			</item>
+			<item
+			capname="menuitem"
+			id="75178b2c-0952-44d7-b344-ec6a99a8c0fb"
+			name="ScriptObjectToWindow"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text~'^Script\ Object\ to\ Window\ A']
+			</item>
+			<item
+			capname="menuitem"
+			id="69225602-ad18-414e-94fd-11fca59314b2"
+			name="ScriptObjectToNewWindow"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text~'^Script\ Object\ to\ New\ Wind']
+			</item>
+			<item
+			capname="menuitem"
+			id="3b89d110-d489-4164-89e0-13b6ae995a45"
+			name="ScriptObjectToFile"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Script Object to File As']
+			</item>
+			<item
+			capname="menuitem"
+			id="3c2d6a92-b43b-43f9-aedf-73812e9bec7c"
+			name="CreateTable"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Create Table']
+			</item>
+			<item
+			capname="menuitem"
+			id="d79d9536-7151-48a9-be27-69d95bafc311"
+			name="DropTable"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Drop Table']
+			</item>
+			<item
+			capname="menuitem"
+			id="473a1308-1bdf-4afd-ba16-c2ae523f9eb4"
+			name="AlterTable"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Alter Table']
+			</item>
+			<item
+			capname="menuitem"
+			id="02ad60aa-b181-46a1-ad85-d6612b200f17"
+			name="CreateView"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Create View']
+			</item>
+			<item
+			capname="menuitem"
+			id="6c590ed1-4e42-4250-b064-8b2412804b9c"
+			name="AlterView"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Alter View']
+			</item>
+			<item
+			capname="menuitem"
+			id="5bf2379d-4469-4c96-b6f2-de1a217c2e1c"
+			name="DropView"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Drop View']
+			</item>
+			<item
+			capname="menuitem"
+			id="45731c67-a625-4147-8a70-a3743ee2c4df"
+			name="CreateTrigger"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Create Trigger']
+			</item>
+			<item
+			capname="menuitem"
+			id="13f8ac3f-5a1e-4a6b-a7d9-f16c83bce667"
+			name="DropTrigger"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Drop Trigger']
+			</item>
+			<item
+			capname="menuitem"
+			id="636362b2-c842-45fe-8629-124d0fe301f3"
+			name="CreateProcedure"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Create Procedure']
+			</item>
+			<item
+			capname="menuitem"
+			id="6a84f7e9-9f2e-4404-8681-b611c260fa4d"
+			name="AlterProcedure"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Alter Procedure']
+			</item>
+			<item
+			capname="menuitem"
+			id="50ed4319-2876-4256-88e4-04368ad9f8dd"
+			name="DropProcedure"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Drop Procedure']
+			</item>
+			<item
+			capname="menuitem"
+			id="a0c170f0-1380-46c7-a511-f9484d0ec871"
+			name="CreateFunction"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Create Function']
+			</item>
+			<item
+			capname="menuitem"
+			id="3769e1bd-30f9-4b80-87b5-7955e64a07e1"
+			name="AlterFunction"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Alter Function']
+			</item>
+			<item
+			capname="menuitem"
+			id="290c08eb-fdc3-4eef-94b6-4f3165dfcf3a"
+			name="DropFunction"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Drop Function']
+			</item>
+			<item
+			capname="menuitem"
+			id="dfc98d59-2683-48a0-8366-a8959ddeddc8"
+			name="ScriptWin1"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text~'^Script\ Object\ to\ Window\ A']
+			</item>
+			<item
+			capname="menuitem"
+			id="15c4fc47-50e8-44c0-9482-cea5341f08e8"
+			name="ScriptWin2"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text~'^Script\ Object\ to\ New\ Wind']
+			</item>
+			<item
+			capname="menuitem"
+			id="b42b6daf-dfcb-4c61-85d7-c1d1e7599cae"
+			name="ScriptWin3"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Script Object to File As']
+			</item>
+			<item
+			capname="menuitem"
+			id="a5407fc7-cd90-48b3-b2d7-ef3de79948f2"
+			name="Insert"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='INSERT']
+			</item>
+			<item
+			capname="menuitem"
+			id="3c9782b4-8c2a-491a-84f1-08f6ac3e9f3d"
+			name="Update"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='UPDATE']
+			</item>
+			<item
+			capname="menuitem"
+			id="1ca54f3f-3457-469d-9295-298af398524e"
+			name="CreateFull"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='CREATE (Full)']
+			</item>
+			<item
+			capname="menuitem"
+			id="82d40abf-e570-439d-b9b3-f5cf40f88c36"
+			name="Refresh"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Refresh']
+			</item>
+			<item
+			capname="menuitem"
+			id="9dcea1fd-8c88-48e3-bf39-888cef777ff2"
+			name="Select"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='SELECT']
+			</item>
+			<item
+			capname="menuitem"
+			id="cc76c686-60df-4bd8-9571-dea335277bb8"
+			name="Alter"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='ALTER']
+			</item>
+			<item
+			capname="menuitem"
+			id="f688a0e8-3749-4923-b7a8-246567af8fc5"
+			name="Drop"
+			searchtimeout="60000ms">
+				/form[@processname='datastudio']//menuitem[@text='DROP']
+			</item>
+			<item
+			capname="menuitem"
+			id="7d6f8f22-007a-4d8c-8b33-683a3e2f40d1"
+			name="CreateRole"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Create Role']
+			</item>
+			<item
+			capname="menuitem"
+			id="44e308f0-b245-4a23-8fde-783e1365e724"
+			name="AlterRole"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Alter Role']
+			</item>
+			<item
+			capname="menuitem"
+			id="83e7f4c5-beac-42da-a88b-c6d3c12cad7a"
+			name="DropRole"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Drop Role']
+			</item>
+			<item
+			capname="menuitem"
+			id="ac050c42-54fc-4246-a990-77ee0b53f4a3"
+			name="RoleProperties"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Role Properties']
+			</item>
+			<item
+			capname="menuitem"
+			id="59442aaa-73ec-4e49-985c-6feb31e8fa53"
+			name="CreateUser"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Create User']
+			</item>
+			<item
+			capname="menuitem"
+			id="2ac77e36-40b6-4c08-915d-227afd7953c2"
+			name="Grant"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='GRANT']
+			</item>
+			<item
+			capname="menuitem"
+			id="16318e6b-7967-4b1f-a610-419a187a06d1"
+			name="Revoke"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='REVOKE']
+			</item>
+			<basepath>
+				/form[@processname='datastudio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="644153de-f868-4941-9409-62e0620651c7"
+		isrooted="True"
+		name="FileModified"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="591da83d-6f54-498b-ba26-021145638927"
+			name="DiscardButton"
+			searchtimeout="30000ms">
+				/form[@title='File Modified']//container[@name='OptionPane.buttonArea']/button[@text='Discard']
+			</item>
+			<basepath>
+				/form[@title='File Modified']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="8c5544f8-c067-4e49-b2b1-2365a39cd750"
+		isrooted="True"
+		name="SaveFile"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="text"
+			id="0a96f262-7859-4f0d-96b0-d08ee8abf917"
+			name="FilePathTextbox"
+			searchtimeout="30000ms">
+				/form[@title='Save']/element/container[@type='JPanel']/container[3]/container[2]/text[@accessiblename='File name:']
+			</item>
+			<item
+			capname="button"
+			id="e6ccadd3-3826-4065-98a0-fc2432293db7"
+			name="SaveButton"
+			searchtimeout="30000ms">
+				/form[@title='Save']/element/container[@type='JPanel']/container[3]/container[3]/button[@text='Save']
+			</item>
+			<basepath>
+				/form[@title='Save']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="ddf3f100-0fc8-4d87-9bab-cda1bc879976"
+		isrooted="True"
+		name="DropTable"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="041560ff-b24c-4dc4-9acd-e1564438b569"
+			name="YesButton"
+			searchtimeout="30000ms">
+				/form[@title='Drop Table']//container[@name='OptionPane.buttonArea']/button[@text='Yes']
+			</item>
+			<basepath>
+				/form[@title='Drop Table']
+			</basepath>
+		</appfolder>
+		<appfolder
+		addcaps="menubar,nativewindow"
+		capname="menubar"
+		id="0d928df7-9e6f-45b0-99bf-378c3187d79c"
+		isrooted="True"
+		name="Explorer"
+		refpath="/menubar[@processname='explorer']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="b91196ce-d7f5-4e00-a896-212cdf0f9da7"
+			name="RanorexStudio2RunningWindows"
+			refimgid="25012e87-f0ff-4274-b56f-bda27d6e8b04"
+			refpath="/menubar[@processname='explorer']/container[@controlid='40965']/container[@caption='Running applications']/element[@class='MSTaskListWClass']/toolbar[@accessiblename='Running applications']/button[@accessiblename='RanorexStudio - 2 running windows']"
+			searchtimeout="30000ms">
+				/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename~'^RanorexStudio\ -\ 2\ running']
+			</item>
+			<basepath>
+				/menubar[@processname='explorer']
+			</basepath>
+			<icon>
+				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
+VZB4/J8BADyZI3kwAy98AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="4c45d74b-f939-4c2d-a140-e6ea94dd2ae7"
+		isrooted="True"
+		name="NoSave"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="f53319e2-3e6f-4c7f-89a4-d717d0207bea"
+			name="OkButton"
+			searchtimeout="30000ms">
+				/form[@title='No Save']//container[@name='OptionPane.buttonArea']/button[@name='OptionPane.button']
+			</item>
+			<basepath>
+				/form[@title='No Save']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="9a8068d1-b508-4558-a164-a98c2ee94a92"
+		isrooted="True"
+		name="DropView"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="b17d476e-ab76-4c7b-b5f0-1c47ef84dcca"
+			name="YesButton"
+			searchtimeout="30000ms">
+				/form[@title='Drop View']//container[@name='OptionPane.buttonArea']/button[@text='Yes']
+			</item>
+			<basepath>
+				/form[@title='Drop View']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="7a6fc323-94ef-4033-aba1-c727ef37e91f"
+		isrooted="True"
+		name="DropTrigger"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="68740d04-63a8-4195-8146-7e2e460ae14f"
+			name="YesButton"
+			searchtimeout="30000ms">
+				/form[@title='Drop Trigger']//container[@name='OptionPane.buttonArea']/button[@text='Yes']
+			</item>
+			<basepath>
+				/form[@title='Drop Trigger']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="4856e289-55b4-4ee0-8e28-3314327e68d0"
+		isrooted="True"
+		name="SQLFailed"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="ca5541e5-2db4-47d8-9c97-b0287b706d25"
+			name="OkButton"
+			searchtimeout="30000ms">
+				/form[@title~'^An\ SQL\ statement\ failed\ t']//container[@name='OptionPane.buttonArea']/button[@name='OptionPane.button']
+			</item>
+			<basepath>
+				/form[@title~'^An\ SQL\ statement\ failed\ t']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="c7a71358-ce65-46f0-8355-4dfcc9920f34"
+		isrooted="True"
+		name="DiscardTrigger"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="528607bd-e8e3-4428-92f8-f6a7428501e4"
+			name="DiscardButton"
+			searchtimeout="30000ms">
+				/form[@title='Create: Trigger']//container[@name='OptionPane.buttonArea']/button[@text='Discard']
+			</item>
+			<basepath>
+				/form[@title='Create: Trigger']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="07d8377a-492c-4bfb-a49c-545336b0f441"
+		isrooted="True"
+		name="DiscardProcedure"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="9eb63285-2032-432b-b392-62071cdd3acc"
+			name="DiscardButton"
+			searchtimeout="30000ms">
+				/form[@title='Alter: Procedure']//container[@name='OptionPane.buttonArea']/button[@text='Discard']
+			</item>
+			<basepath>
+				/form[@title='Alter: Procedure']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="7f2e6180-10aa-48aa-bf3d-f1b839013b7a"
+		isrooted="True"
+		name="DropProcedure"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="2c797e0d-f99c-4ef5-9148-f51c94847615"
+			name="YesButton"
+			searchtimeout="30000ms">
+				/form[@title='Drop Procedure']//container[@name='OptionPane.buttonArea']/button[@text='Yes']
+			</item>
+			<basepath>
+				/form[@title='Drop Procedure']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="f4597028-8bbc-4af0-94f5-5a5e84bfb2d8"
+		isrooted="True"
+		name="DiscardFunction"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="42b96a72-4a0f-4454-85ae-ba8684ff1d71"
+			name="DiscardButton"
+			searchtimeout="30000ms">
+				/form[@title='Alter: Function']//container[@name='OptionPane.buttonArea']/button[@text='Discard']
+			</item>
+			<basepath>
+				/form[@title='Alter: Function']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="08dcbe6c-2ceb-4a3b-ad01-c573c96399d3"
+		isrooted="True"
+		name="DropFunction"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="be90e792-8ed6-4b95-87d7-02d579843e9b"
+			name="YesButton"
+			searchtimeout="30000ms">
+				/form[@title='Drop Function']//container[@name='OptionPane.buttonArea']/button[@text='Yes']
+			</item>
+			<basepath>
+				/form[@title='Drop Function']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="17f8752b-3931-45ad-ac7c-83959ba39caf"
+		isrooted="True"
+		name="DiscardRole"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="dbbe4242-bb54-4fc0-905d-5a49fecebac3"
+			name="DiscardButton"
+			searchtimeout="30000ms">
+				/form[@title='Create: Role']//container[@name='OptionPane.buttonArea']/button[@text='Discard']
+			</item>
+			<basepath>
+				/form[@title='Create: Role']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="446d95e3-de05-4a66-a049-8afa44c2a055"
+		isrooted="True"
+		name="DropRole"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="f1fd648b-cf9a-4325-8bb7-58a67fee789a"
+			name="NoButton"
+			searchtimeout="30000ms">
+				/form[@title='Drop Role']//container[@name='OptionPane.buttonArea']/button[@text='No']
+			</item>
+			<item
+			capname="button"
+			id="281c8572-b93d-4925-b307-461960c4ba6b"
+			name="YesButton"
+			searchtimeout="30000ms">
+				/form[@title='Drop Role']//container[@name='OptionPane.buttonArea']/button[@text='Yes']
+			</item>
+			<basepath>
+				/form[@title='Drop Role']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="b1d27b87-e417-49ba-a434-eb2b14c8f2d2"
+		isrooted="True"
+		name="DiscardView"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="ef6df4cf-7078-4757-86e1-7d8262791bbb"
+			name="Discard"
+			searchtimeout="30000ms">
+				/form[@title='Create: View']//container[@name='OptionPane.buttonArea']/button[@text='Discard']
+			</item>
+			<basepath>
+				/form[@title='Create: View']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="bf5bf48a-b639-4067-8682-552bcb4ea5c8"
+		isrooted="True"
+		name="DiscardAlterView"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="25af1538-21b7-4c4f-b8a0-c710efd00996"
+			name="Discard"
+			searchtimeout="30000ms">
+				/form[@title='Alter: View']//container[@name='OptionPane.buttonArea']/button[@text='Discard']
+			</item>
+			<basepath>
+				/form[@title='Alter: View']
+			</basepath>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

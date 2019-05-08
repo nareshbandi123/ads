@@ -18,10 +18,10 @@
     <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
     <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
     <WarningLevel>4</WarningLevel>
+    <StartAction>Project</StartAction>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <Prefer32Bit>True</Prefer32Bit>
+    <PlatformTarget>x86</PlatformTarget>
     <BaseAddress>4194304</BaseAddress>
     <RegisterForComInterop>False</RegisterForComInterop>
     <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
@@ -1468,7 +1468,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ADSAutomationV2Phase1.rxtst">
+    <Content Include="ADSAutomationPhaseII.rxtst">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>8fb33e32-222e-4277-9f67-52967130dc3e</id>
     </Content>

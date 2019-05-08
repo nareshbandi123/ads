@@ -1,10 +1,10 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="ADSAutomationV2Phase1.rxtst" />
+    <Element value="ADSAutomationPhaseII.rxtst" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="ADSAutomationV2Phase1.rxtst" />
+    <Element value="ADSAutomationPhaseII.rxtst" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

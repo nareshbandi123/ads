@@ -1,7 +1,7 @@
 [
   {
     "Enabled": "True",
-    "TestSuite": "ADSAutomationV2Phase1",
+    "TestSuite": "ADSAutomationPhaseII",
     "RunConfig": "Default"
   }
 ]

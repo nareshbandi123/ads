@@ -13035,7 +13035,7 @@ rxversion="8.2">
 	<datasources>
 	</datasources>
 	<testconfigurations
-	default="checksome">
+	default="Default">
 		<testconfiguration
 		name="checkmore">
 			<testcontainer
@@ -13080,6 +13080,18 @@ rxversion="8.2">
 		</testconfiguration>
 		<testconfiguration
 		name="Default">
+			<testcontainer
+			id="03f3647d-bb41-4d58-b84f-a48b2b171d33">
+			</testcontainer>
+			<testcontainer
+			id="3ff6138b-e044-4903-8e8c-70cb4eee2c79">
+			</testcontainer>
+			<testcontainer
+			id="76c9cd42-520e-42f5-83b3-96b29d707493">
+			</testcontainer>
+			<testcontainer
+			id="a187dc85-257d-4dc2-a660-4b22eda6d4cd">
+			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
 	<references>

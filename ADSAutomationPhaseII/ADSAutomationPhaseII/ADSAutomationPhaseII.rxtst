@@ -13035,7 +13035,7 @@ rxversion="8.2">
 	<datasources>
 	</datasources>
 	<testconfigurations
-	default="Default">
+	default="TC_10535">
 		<testconfiguration
 		name="Default">
 			<testcontainer
